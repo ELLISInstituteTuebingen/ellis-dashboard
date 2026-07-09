@@ -42,12 +42,31 @@ function renderVenues(data) {
   const row = document.getElementById('venue-stat-row');
   const venues = data.venue_counts || {};
   const order = ['NeurIPS', 'ICML', 'ICLR'];
-  row.innerHTML = order.map(name => `
+  const cards = order.map(name => `
     <div class="stat">
       <div class="num">${(venues[name] || 0).toLocaleString()}</div>
       <div class="label">${name}</div>
     </div>
   `).join('');
+
+  const broaderTotal = data.top_tier_total_count || 0;
+  const broaderCard = `
+    <div class="stat">
+      <div class="num">${broaderTotal.toLocaleString()}</div>
+      <div class="label">All top-tier venues combined</div>
+    </div>
+  `;
+
+  row.innerHTML = cards + broaderCard;
+
+  const breakdown = data.broader_venue_counts || {};
+  const breakdownEntries = Object.entries(breakdown);
+  const breakdownEl = document.getElementById('venue-breakdown');
+  if (breakdownEl) {
+    breakdownEl.innerHTML = breakdownEntries.length
+      ? 'Also includes: ' + breakdownEntries.map(([name, count]) => `${name} (${count})`).join(', ')
+      : '';
+  }
 }
 
 function renderTrendChart(data) {

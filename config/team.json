@@ -49,8 +49,14 @@
     {
       "name": "T. Konstantin Rusch",
       "role": "TBD",
-      "openalex_id": "A5102790508",
-      "joined_date": "2025-06-01"
+      "joined_date": "2025-06-01",
+      "openalex_ids": [
+        "A5102790508",
+        "A5127827003",
+        "A5125180674",
+        "A5137671225",
+        "A5137875950"
+      ]
     },
     {
       "name": "Shiwei Liu",
@@ -61,8 +67,11 @@
     {
       "name": "Maksym Andriushchenko",
       "role": "TBD",
-      "openalex_id": "A5057136518",
-      "joined_date": "2025-08-01"
+      "joined_date": "2025-08-01",
+      "openalex_ids": [
+        "A5057136518",
+        "A5120034502"
+      ]
     },
     {
       "name": "Maximilian Dax",

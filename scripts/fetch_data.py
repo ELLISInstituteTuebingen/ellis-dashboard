@@ -71,11 +71,32 @@ def author_affiliation_matches_keywords(work, author_id, keywords):
     return False
 
 
-VENUE_PATTERNS = {
+CORE_VENUE_PATTERNS = {
     "ICML": ["international conference on machine learning", "icml"],
     "NeurIPS": ["neural information processing systems", "neurips", "nips.cc"],
     "ICLR": ["international conference on learning representations", "iclr"],
 }
+
+# Broader set of other widely-recognized top-tier AI/ML/CV/NLP/Robotics venues,
+# tracked separately from the core three so we don't blur that specific stat.
+BROADER_VENUE_PATTERNS = {
+    "AAAI": ["aaai conference on artificial intelligence"],
+    "IJCAI": ["international joint conference on artificial intelligence", "ijcai"],
+    "UAI": ["uncertainty in artificial intelligence"],
+    "AISTATS": ["artificial intelligence and statistics"],
+    "CVPR": ["computer vision and pattern recognition", "cvpr"],
+    "ICCV": ["international conference on computer vision", "iccv"],
+    "ECCV": ["european conference on computer vision", "eccv"],
+    "ACL": ["association for computational linguistics"],
+    "EMNLP": ["empirical methods in natural language processing", "emnlp"],
+    "NAACL": ["north american chapter of the association for computational linguistics", "naacl"],
+    "KDD": ["knowledge discovery and data mining", "kdd"],
+    "RSS": ["robotics: science and systems"],
+    "CoRL": ["conference on robot learning", "corl"],
+    "ICRA": ["international conference on robotics and automation", "icra"],
+}
+
+ALL_VENUE_PATTERNS = {**CORE_VENUE_PATTERNS, **BROADER_VENUE_PATTERNS}
 
 SEMANTIC_SCHOLAR_BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 
@@ -83,10 +104,10 @@ SEMANTIC_SCHOLAR_BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/bat
 def classify_venue(work):
     """Check every location linked to this paper (not just primary_location,
     since conference papers are often indexed with an arXiv preprint as the
-    primary listing) for a known top ML venue name. This is a fallback —
-    Semantic Scholar (checked separately, see fetch_semantic_scholar_venues)
-    is far more reliable for ML conference tagging, since OpenAlex frequently
-    has NO location record beyond arXiv for these papers at all."""
+    primary listing) for a known top ML/AI venue name (core 3 + broader set).
+    This is a fallback — Semantic Scholar (checked separately, see
+    fetch_semantic_scholar_venues) is far more reliable for ML conference
+    tagging, since OpenAlex frequently has NO location record beyond arXiv."""
     all_locations = work.get("locations") or []
     names = []
     for loc in all_locations:
@@ -94,7 +115,7 @@ def classify_venue(work):
         if source.get("display_name"):
             names.append(source["display_name"].lower())
     combined = " ".join(names)
-    for venue_label, patterns in VENUE_PATTERNS.items():
+    for venue_label, patterns in ALL_VENUE_PATTERNS.items():
         if any(p in combined for p in patterns):
             return venue_label
     return None
@@ -102,11 +123,11 @@ def classify_venue(work):
 
 def classify_venue_string(venue_str):
     """Classify a raw venue string (e.g. from Semantic Scholar) against our
-    known top-venue patterns."""
+    known top-venue patterns (core 3 + broader set)."""
     if not venue_str:
         return None
     v = venue_str.lower()
-    for venue_label, patterns in VENUE_PATTERNS.items():
+    for venue_label, patterns in ALL_VENUE_PATTERNS.items():
         if any(p in v for p in patterns):
             return venue_label
     return None
@@ -234,28 +255,31 @@ def main():
     per_scientist_counts = defaultdict(int)
     year_counts = defaultdict(int)
     unit_collab_counts = defaultdict(int)  # unit name -> number of joint papers
-    venue_counts = defaultdict(int)  # ICML/NeurIPS/ICLR -> count
 
     # Make sure every tracked scientist shows up even with zero matched papers.
     for scientist in team["scientists"]:
         per_scientist_counts[scientist["name"]] = 0
 
     for scientist in team["scientists"]:
-        author_id = scientist["openalex_id"]
-        if author_id.startswith("A5000000"):
+        author_ids = scientist.get("openalex_ids") or [scientist["openalex_id"]]
+        if any(aid.startswith("A5000000") for aid in author_ids):
             print(f"[skip] {scientist['name']} still has a placeholder OpenAlex ID — "
                   f"look it up at https://api.openalex.org/authors?search={scientist['name'].replace(' ', '+')}",
                   file=sys.stderr)
             continue
 
-        print(f"Fetching works for {scientist['name']} ({author_id})...")
-        works = fetch_all_works_for_author(author_id)
-        before_count = len(works)
-        joined_date = scientist.get("joined_date")
-        works = [w for w in works if work_is_after_join_date(w, joined_date)]
-        print(f"    kept {len(works)} of {before_count} after join-date filter (since {joined_date})")
+        print(f"Fetching works for {scientist['name']} ({', '.join(author_ids)})...")
+        combined = []  # list of (work, source_author_id)
+        for aid in author_ids:
+            for w in fetch_all_works_for_author(aid):
+                combined.append((w, aid))
+        before_count = len(combined)
 
-        for w in works:
+        joined_date = scientist.get("joined_date")
+        combined = [(w, aid) for w, aid in combined if work_is_after_join_date(w, joined_date)]
+        print(f"    kept {len(combined)} of {before_count} after join-date filter (since {joined_date})")
+
+        for w, author_id in combined:
             confirmed = author_affiliation_matches_keywords(w, author_id, keywords)
             simplified = simplify_work(w, scientist["name"], confirmed)
             wid = simplified["id"]
@@ -295,11 +319,16 @@ def main():
             upgraded += 1
     print(f"    Semantic Scholar identified {len(s2_venues)} venue matches ({upgraded} not already caught by OpenAlex)")
 
-    # Recompute venue_counts from final (possibly-upgraded) categories.
-    venue_counts = defaultdict(int)
+    # Recompute venue tallies from final (possibly Semantic-Scholar-upgraded) categories.
+    all_venue_counts = defaultdict(int)
     for pub in all_publications.values():
         if pub["venue_category"]:
-            venue_counts[pub["venue_category"]] += 1
+            all_venue_counts[pub["venue_category"]] += 1
+
+    broader_only_counts = {
+        k: v for k, v in all_venue_counts.items() if k in BROADER_VENUE_PATTERNS
+    }
+    top_tier_total = sum(all_venue_counts.values())  # core 3 + broader set combined
 
     output = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
@@ -316,7 +345,11 @@ def main():
         "ellis_site_collaborations": dict(
             sorted(unit_collab_counts.items(), key=lambda kv: kv[1], reverse=True)
         ),
-        "venue_counts": {v: venue_counts.get(v, 0) for v in VENUE_PATTERNS},
+        "venue_counts": {v: all_venue_counts.get(v, 0) for v in CORE_VENUE_PATTERNS},
+        "broader_venue_counts": dict(
+            sorted(broader_only_counts.items(), key=lambda kv: kv[1], reverse=True)
+        ),
+        "top_tier_total_count": top_tier_total,
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
