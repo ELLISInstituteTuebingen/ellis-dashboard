@@ -14,6 +14,8 @@ import json
 import time
 import sys
 import html
+import re
+import os
 from pathlib import Path
 from collections import defaultdict
 
@@ -27,11 +29,25 @@ OPENALEX_BASE = "https://api.openalex.org"
 # OpenAlex asks for a contact email in the User-Agent as a courtesy (polite pool = faster, more reliable).
 HEADERS = {"User-Agent": "ellis-tuebingen-dashboard (mailto:contact@example.org)"}
 
+# Semantic Scholar: use an API key if available (much higher rate limits,
+# no more 429s). Falls back to unauthenticated (slow, easily rate-limited)
+# if the env var isn't set — set SEMANTIC_SCHOLAR_API_KEY locally or as a
+# GitHub Actions repository secret.
+_S2_API_KEY = os.environ.get("SEMANTIC_SCHOLAR_API_KEY")
+S2_HEADERS = dict(HEADERS)
+if _S2_API_KEY:
+    S2_HEADERS["x-api-key"] = _S2_API_KEY
+else:
+    print("[warn] SEMANTIC_SCHOLAR_API_KEY not set — using unauthenticated Semantic "
+          "Scholar requests, which are slow and easily rate-limited.", file=sys.stderr)
+
 
 def load_config():
     team = json.loads((CONFIG_DIR / "team.json").read_text())
     sites = json.loads((CONFIG_DIR / "ellis_units.json").read_text())
-    return team, sites
+    known_venues_path = CONFIG_DIR / "known_venues.json"
+    known_venues = json.loads(known_venues_path.read_text()) if known_venues_path.exists() else {"papers": []}
+    return team, sites, known_venues
 
 
 def fetch_all_works_for_author(author_id, per_page=200):
@@ -133,42 +149,78 @@ def classify_venue_string(venue_str):
     return None
 
 
-def fetch_semantic_scholar_venues(dois):
+ARXIV_DOI_PATTERN = re.compile(r"10\.48550/arxiv\.(.+)", re.IGNORECASE)
+
+
+def fetch_semantic_scholar_venues(publications_by_id):
     """Batch-look-up venue info from Semantic Scholar, which tags ML
-    conference papers (NeurIPS/ICML/ICLR) far more reliably than OpenAlex,
-    even when a paper's only OpenAlex location is an arXiv preprint.
-    Returns {doi: venue_label_or_None}. Skips silently on any failure —
+    conference papers (NeurIPS/ICML/ICLR/etc.) far more reliably than
+    OpenAlex, even when a paper's only OpenAlex location is an arXiv preprint.
+
+    For each publication we try BOTH its DOI and (if the DOI is an
+    arXiv-style DOI like 10.48550/arXiv.XXXX) its raw arXiv ID, since
+    Semantic Scholar frequently indexes a paper's canonical record under the
+    arXiv ID rather than that DOI — looking up by DOI alone silently misses
+    a lot of real matches.
+
+    publications_by_id: {work_id: publication_dict}
+    Returns {work_id: venue_label_or_None}. Skips silently on any failure —
     this is a bonus enrichment, not something that should crash the whole
     pipeline if Semantic Scholar is down or rate-limits us."""
+    id_entries = []  # (external_id_string, work_id)
+    for wid, pub in publications_by_id.items():
+        doi = pub.get("doi")
+        if not doi:
+            continue
+        stripped = doi.replace("https://doi.org/", "")
+        id_entries.append((f"DOI:{stripped}", wid))
+        m = ARXIV_DOI_PATTERN.match(stripped)
+        if m:
+            id_entries.append((f"ARXIV:{m.group(1)}", wid))
+
     results = {}
-    doi_list = [d for d in dois if d]
     batch_size = 500
-    for i in range(0, len(doi_list), batch_size):
-        chunk = doi_list[i:i + batch_size]
-        ids = [f"DOI:{d.replace('https://doi.org/', '')}" for d in chunk]
-        try:
-            resp = requests.post(
-                SEMANTIC_SCHOLAR_BATCH_URL,
-                params={"fields": "venue,publicationVenue,externalIds"},
-                json={"ids": ids},
-                headers=HEADERS,
-                timeout=30,
-            )
-            resp.raise_for_status()
-            papers = resp.json()
-        except requests.RequestException as e:
-            print(f"[warn] Semantic Scholar lookup failed for a batch, skipping: {e}", file=sys.stderr)
+    for i in range(0, len(id_entries), batch_size):
+        chunk = id_entries[i:i + batch_size]
+        ids = [e[0] for e in chunk]
+        papers = None
+        max_retries = 4
+        for attempt in range(max_retries):
+            try:
+                resp = requests.post(
+                    SEMANTIC_SCHOLAR_BATCH_URL,
+                    params={"fields": "venue,publicationVenue,externalIds"},
+                    json={"ids": ids},
+                    headers=S2_HEADERS,
+                    timeout=30,
+                )
+                if resp.status_code == 429:
+                    wait_s = int(resp.headers.get("Retry-After", 10 * (attempt + 1)))
+                    print(f"[warn] Semantic Scholar rate-limited, waiting {wait_s}s before retry "
+                          f"({attempt + 1}/{max_retries})...", file=sys.stderr)
+                    time.sleep(wait_s)
+                    continue
+                resp.raise_for_status()
+                papers = resp.json()
+                break
+            except requests.RequestException as e:
+                print(f"[warn] Semantic Scholar lookup error: {e}", file=sys.stderr)
+                time.sleep(5)
+
+        if papers is None:
+            print(f"[warn] Semantic Scholar batch failed after {max_retries} retries, skipping "
+                  f"{len(chunk)} lookups.", file=sys.stderr)
             continue
 
-        for original_doi, paper in zip(chunk, papers):
-            if not paper:
-                continue
+        for (_, wid), paper in zip(chunk, papers):
+            if not paper or wid in results:
+                continue  # already have a result for this paper from another id
             venue_str = paper.get("venue") or ""
             pub_venue = (paper.get("publicationVenue") or {}).get("name") or ""
             label = classify_venue_string(venue_str) or classify_venue_string(pub_venue)
             if label:
-                results[original_doi] = label
-        time.sleep(0.5)  # be polite between batches
+                results[wid] = label
+        time.sleep(1.5)  # be politer between batches to avoid tripping the rate limit
     return results
 
 
@@ -232,8 +284,35 @@ def simplify_work(work, scientist_name, confirmed_affiliation):
     }
 
 
+def _normalize_title(s):
+    s = s.lower()
+    s = re.sub(r"[^a-z0-9 ]", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def apply_known_venue_overrides(all_publications, known_papers):
+    """Manually-curated venue tags ALWAYS win over OpenAlex/Semantic Scholar,
+    since conference program pages are more authoritative than automated
+    indexing (which frequently never catches up for ML conferences that
+    don't publish traditional indexed proceedings). Uses fuzzy title matching
+    since pasted program titles are sometimes truncated or lightly reworded."""
+    if not known_papers:
+        return 0
+    norm_known = [(entry["title"], _normalize_title(entry["title"]), entry["venue"]) for entry in known_papers]
+    overrides = 0
+    for pub in all_publications.values():
+        norm_pub_title = _normalize_title(pub["title"] or "")
+        for orig_title, norm_known_title, venue in norm_known:
+            if norm_pub_title in norm_known_title or norm_known_title in norm_pub_title:
+                if pub["venue_category"] != venue:
+                    pub["venue_category"] = venue
+                    overrides += 1
+                break
+    return overrides
+
+
 def main():
-    team, sites_cfg = load_config()
+    team, sites_cfg, known_venues = load_config()
     unit_id_to_name = {
         s["openalex_institution_id"]: s["name"]
         for s in sites_cfg["sites"]
@@ -309,15 +388,17 @@ def main():
                 unit_collab_counts[site_name] += 1
 
     print("Cross-checking venues against Semantic Scholar (more reliable for ML conferences)...")
-    all_dois = [p.get("doi") for p in all_publications.values()]
-    s2_venues = fetch_semantic_scholar_venues(all_dois)
+    s2_venues = fetch_semantic_scholar_venues(all_publications)
     upgraded = 0
-    for pub in all_publications.values():
-        s2_label = s2_venues.get(pub.get("doi"))
+    for wid, pub in all_publications.items():
+        s2_label = s2_venues.get(wid)
         if s2_label and pub["venue_category"] != s2_label:
             pub["venue_category"] = s2_label
             upgraded += 1
     print(f"    Semantic Scholar identified {len(s2_venues)} venue matches ({upgraded} not already caught by OpenAlex)")
+
+    override_count = apply_known_venue_overrides(all_publications, known_venues.get("papers", []))
+    print(f"    Applied {override_count} manual venue overrides from config/known_venues.json")
 
     # Recompute venue tallies from final (possibly Semantic-Scholar-upgraded) categories.
     all_venue_counts = defaultdict(int)
