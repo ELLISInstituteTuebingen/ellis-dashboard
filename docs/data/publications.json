@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:16:59Z",
+  "generated_at": "2026-07-09T10:42:44Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 422,
   "confirmed_affiliation_count": 28,
@@ -2436,7 +2436,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4414421775",
@@ -2514,7 +2514,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4416102687",
@@ -2575,7 +2575,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4417104319",
@@ -3209,7 +3209,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4415037448",
@@ -3633,7 +3633,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4417439860",
@@ -3920,7 +3920,7 @@
       "institution_ids": [],
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4415654117",
@@ -3969,7 +3969,7 @@
       ],
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4415654280",
@@ -4043,7 +4043,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4407574915",
@@ -4175,7 +4175,7 @@
         "Bernhard Sch\u00f6lkopf"
       ],
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4416506220",
@@ -5004,7 +5004,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4407247288",
@@ -5341,7 +5341,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4414951773",
@@ -5488,7 +5488,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4416329855",
@@ -5891,7 +5891,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4403443959",
@@ -5933,7 +5933,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4390784401",
@@ -5953,7 +5953,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4399911706",
@@ -5975,7 +5975,7 @@
         "Bernhard Sch\u00f6lkopf"
       ],
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4402946598",
@@ -6053,7 +6053,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4404821172",
@@ -6206,7 +6206,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4392118239",
@@ -6251,7 +6251,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4392539600",
@@ -6312,7 +6312,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4393213232",
@@ -6441,7 +6441,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4415796767",
@@ -6666,7 +6666,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4401580935",
@@ -6809,7 +6809,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4392340482",
@@ -6829,7 +6829,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4395687037",
@@ -6850,7 +6850,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4400481137",
@@ -6908,7 +6908,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4395687469",
@@ -6928,7 +6928,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4402427190",
@@ -7008,7 +7008,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4404573957",
@@ -7028,7 +7028,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4392488790",
@@ -7069,7 +7069,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4400141404",
@@ -7435,7 +7435,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4392492373",
@@ -7454,7 +7454,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4399061506",
@@ -7473,7 +7473,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4404344645",
@@ -7612,7 +7612,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4403578682",
@@ -7630,7 +7630,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4404986981",
@@ -7668,7 +7668,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4401415287",
@@ -8019,7 +8019,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4402353990",
@@ -8142,7 +8142,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4402670003",
@@ -8209,7 +8209,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4404356212",
@@ -8325,7 +8325,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4390897804",
@@ -8346,7 +8346,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4391556118",
@@ -8520,7 +8520,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4392576153",
@@ -8623,7 +8623,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4393119110",
@@ -8716,7 +8716,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4398881448",
@@ -8777,7 +8777,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4399270639",
@@ -8877,7 +8877,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4399795301",
@@ -8896,7 +8896,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4400023716",
@@ -8934,7 +8934,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4400142000",
@@ -8971,7 +8971,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4400377933",
@@ -9076,7 +9076,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4403851999",
@@ -9093,7 +9093,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4404340722",
@@ -9190,7 +9190,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICML"
     },
     {
       "id": "W4404781194",
@@ -9232,7 +9232,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4415796859",
@@ -9294,7 +9294,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4389260677",
@@ -9332,7 +9332,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4387560543",
@@ -9363,7 +9363,7 @@
       ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4388650833",
@@ -9385,7 +9385,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4387946978",
@@ -9736,7 +9736,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4389760925",
@@ -9817,7 +9817,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
+      "venue_category": "ICLR"
     },
     {
       "id": "W4386554551",
@@ -10067,13 +10067,13 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit Berlin": 1,
     "ELLIS Unit Copenhagen": 1,
-    "ELLIS Unit Genoa": 1,
     "ELLIS Unit Darmstadt": 1,
+    "ELLIS Unit Genoa": 1,
     "ELLIS Unit UCL London": 1
   },
   "venue_counts": {
-    "ICML": 0,
-    "NeurIPS": 0,
-    "ICLR": 0
+    "ICML": 18,
+    "NeurIPS": 20,
+    "ICLR": 21
   }
 }

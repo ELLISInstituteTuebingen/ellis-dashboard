@@ -72,16 +72,21 @@ def author_affiliation_matches_keywords(work, author_id, keywords):
 
 
 VENUE_PATTERNS = {
-    "ICML": ["international conference on machine learning"],
-    "NeurIPS": ["neural information processing systems"],
-    "ICLR": ["international conference on learning representations"],
+    "ICML": ["international conference on machine learning", "icml"],
+    "NeurIPS": ["neural information processing systems", "neurips", "nips.cc"],
+    "ICLR": ["international conference on learning representations", "iclr"],
 }
+
+SEMANTIC_SCHOLAR_BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 
 
 def classify_venue(work):
     """Check every location linked to this paper (not just primary_location,
     since conference papers are often indexed with an arXiv preprint as the
-    primary listing) for a known top ML venue name."""
+    primary listing) for a known top ML venue name. This is a fallback —
+    Semantic Scholar (checked separately, see fetch_semantic_scholar_venues)
+    is far more reliable for ML conference tagging, since OpenAlex frequently
+    has NO location record beyond arXiv for these papers at all."""
     all_locations = work.get("locations") or []
     names = []
     for loc in all_locations:
@@ -93,6 +98,57 @@ def classify_venue(work):
         if any(p in combined for p in patterns):
             return venue_label
     return None
+
+
+def classify_venue_string(venue_str):
+    """Classify a raw venue string (e.g. from Semantic Scholar) against our
+    known top-venue patterns."""
+    if not venue_str:
+        return None
+    v = venue_str.lower()
+    for venue_label, patterns in VENUE_PATTERNS.items():
+        if any(p in v for p in patterns):
+            return venue_label
+    return None
+
+
+def fetch_semantic_scholar_venues(dois):
+    """Batch-look-up venue info from Semantic Scholar, which tags ML
+    conference papers (NeurIPS/ICML/ICLR) far more reliably than OpenAlex,
+    even when a paper's only OpenAlex location is an arXiv preprint.
+    Returns {doi: venue_label_or_None}. Skips silently on any failure —
+    this is a bonus enrichment, not something that should crash the whole
+    pipeline if Semantic Scholar is down or rate-limits us."""
+    results = {}
+    doi_list = [d for d in dois if d]
+    batch_size = 500
+    for i in range(0, len(doi_list), batch_size):
+        chunk = doi_list[i:i + batch_size]
+        ids = [f"DOI:{d.replace('https://doi.org/', '')}" for d in chunk]
+        try:
+            resp = requests.post(
+                SEMANTIC_SCHOLAR_BATCH_URL,
+                params={"fields": "venue,publicationVenue,externalIds"},
+                json={"ids": ids},
+                headers=HEADERS,
+                timeout=30,
+            )
+            resp.raise_for_status()
+            papers = resp.json()
+        except requests.RequestException as e:
+            print(f"[warn] Semantic Scholar lookup failed for a batch, skipping: {e}", file=sys.stderr)
+            continue
+
+        for original_doi, paper in zip(chunk, papers):
+            if not paper:
+                continue
+            venue_str = paper.get("venue") or ""
+            pub_venue = (paper.get("publicationVenue") or {}).get("name") or ""
+            label = classify_venue_string(venue_str) or classify_venue_string(pub_venue)
+            if label:
+                results[original_doi] = label
+        time.sleep(0.5)  # be polite between batches
+    return results
 
 
 def institution_ids_in_work(work):
@@ -208,8 +264,6 @@ def main():
                 all_publications[wid] = simplified
                 if simplified["year"]:
                     year_counts[simplified["year"]] += 1
-                if simplified["venue_category"]:
-                    venue_counts[simplified["venue_category"]] += 1
             else:
                 # already seen via another scientist -> track as internal collaboration
                 existing = all_publications[wid]["scientist"]
@@ -229,6 +283,23 @@ def main():
             hit_sites |= keyword_site_hits_in_work(w, keyword_sites)
             for site_name in hit_sites:
                 unit_collab_counts[site_name] += 1
+
+    print("Cross-checking venues against Semantic Scholar (more reliable for ML conferences)...")
+    all_dois = [p.get("doi") for p in all_publications.values()]
+    s2_venues = fetch_semantic_scholar_venues(all_dois)
+    upgraded = 0
+    for pub in all_publications.values():
+        s2_label = s2_venues.get(pub.get("doi"))
+        if s2_label and pub["venue_category"] != s2_label:
+            pub["venue_category"] = s2_label
+            upgraded += 1
+    print(f"    Semantic Scholar identified {len(s2_venues)} venue matches ({upgraded} not already caught by OpenAlex)")
+
+    # Recompute venue_counts from final (possibly-upgraded) categories.
+    venue_counts = defaultdict(int)
+    for pub in all_publications.values():
+        if pub["venue_category"]:
+            venue_counts[pub["venue_category"]] += 1
 
     output = {
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
