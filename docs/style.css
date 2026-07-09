@@ -10,8 +10,8 @@
   --network: #5FA8D3;
   --network-dim: #3d6d8a;
 
-  --font-display: 'Fraunces', serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: 'Roboto', sans-serif;
+  --font-body: 'Roboto', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
 }
 
@@ -46,6 +46,12 @@ a { color: var(--network); }
   border-bottom: 1px solid var(--line);
 }
 
+.hero-logo {
+  height: 40px;
+  margin-bottom: 28px;
+  display: block;
+}
+
 .hero-eyebrow {
   font-family: var(--font-mono);
   font-size: 12px;
@@ -57,7 +63,7 @@ a { color: var(--network); }
 
 .hero h1 {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 700;
   font-size: clamp(2.4rem, 5vw, 3.6rem);
   line-height: 1.05;
   margin: 0 0 14px;
@@ -128,7 +134,7 @@ section.block {
 
 .block-head h2 {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.7rem;
   margin: 0;
 }
