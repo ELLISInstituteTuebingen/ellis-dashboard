@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T09:48:24Z",
+  "generated_at": "2026-07-09T10:16:59Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 422,
   "confirmed_affiliation_count": 28,
@@ -22,7 +22,8 @@
         "I8087733"
       ],
       "scientist": "Celestine Mendler-D\u00fcnner",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W7128513298",
@@ -38,7 +39,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7128556314",
@@ -54,7 +56,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7130347242",
@@ -75,7 +78,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7130482151",
@@ -96,7 +100,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7131319303",
@@ -113,7 +118,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7131420072",
@@ -130,7 +136,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7140099432",
@@ -146,7 +153,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7155383124",
@@ -165,7 +173,8 @@
         "I33256026"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161002464",
@@ -186,7 +195,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161204329",
@@ -207,7 +217,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161547260",
@@ -227,7 +238,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161701013",
@@ -242,7 +254,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161915475",
@@ -262,7 +275,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161916510",
@@ -279,7 +293,8 @@
         "I24603500"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7162140198",
@@ -296,7 +311,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7162218151",
@@ -313,7 +329,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7162339950",
@@ -332,7 +349,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7162475259",
@@ -351,7 +369,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7162628876",
@@ -368,7 +387,8 @@
       ],
       "institution_ids": [],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7162817543",
@@ -388,7 +408,8 @@
         "I4210165766"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W7165632540",
@@ -411,7 +432,8 @@
         "I4210128801"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165672078",
@@ -434,7 +456,8 @@
         "I4210128801"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165729801",
@@ -454,7 +477,8 @@
         "I4210128801"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165732913",
@@ -476,7 +500,8 @@
         "I4210128801"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165737448",
@@ -498,7 +523,8 @@
         "I4210128801"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165790837",
@@ -518,7 +544,8 @@
         "I4210128801"
       ],
       "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403160382",
@@ -542,7 +569,8 @@
         "I8087733"
       ],
       "scientist": "Jakob Macke",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7167015088",
@@ -580,7 +608,8 @@
         "I8087733"
       ],
       "scientist": "Jakob Macke",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7167484943",
@@ -622,7 +651,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7167486602",
@@ -664,7 +694,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7167489252",
@@ -706,7 +737,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7130173586",
@@ -727,7 +759,8 @@
         "I8087733"
       ],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W7127437222",
@@ -749,7 +782,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7127542149",
@@ -771,7 +805,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7129540883",
@@ -789,7 +824,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7130236315",
@@ -807,7 +843,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7130538568",
@@ -826,7 +863,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7130617931",
@@ -845,7 +883,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7133197095",
@@ -864,7 +903,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7133267764",
@@ -883,7 +923,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7148394493",
@@ -899,7 +940,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7166728111",
@@ -917,7 +959,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7166900447",
@@ -935,7 +978,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7164490748",
@@ -966,7 +1010,8 @@
         "Jonas Geiping",
         "Antonio Orvieto"
       ],
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W7160981103",
@@ -990,7 +1035,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161191432",
@@ -1010,7 +1056,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161204681",
@@ -1034,7 +1081,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161354656",
@@ -1054,7 +1102,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7163340300",
@@ -1070,7 +1119,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7163525597",
@@ -1087,7 +1137,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7163592188",
@@ -1108,7 +1159,8 @@
         "I2801240073"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7163595778",
@@ -1124,7 +1176,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7163719750",
@@ -1141,7 +1194,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7163719917",
@@ -1158,7 +1212,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7163913029",
@@ -1178,7 +1233,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7164090280",
@@ -1198,7 +1254,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165629663",
@@ -1213,7 +1270,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165815947",
@@ -1228,7 +1286,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7166886890",
@@ -1247,7 +1306,8 @@
         "I219193219"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165031142",
@@ -1271,7 +1331,8 @@
         "T. Konstantin Rusch",
         "Antonio Orvieto"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165218758",
@@ -1295,7 +1356,8 @@
         "T. Konstantin Rusch",
         "Antonio Orvieto"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415312077",
@@ -1323,7 +1385,8 @@
         "I86519309"
       ],
       "scientist": "Shiwei Liu",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417011601",
@@ -1356,7 +1419,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W7147014794",
@@ -1386,7 +1450,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7148177986",
@@ -1416,7 +1481,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7151964860",
@@ -1436,7 +1502,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161026419",
@@ -1455,7 +1522,8 @@
       ],
       "institution_ids": [],
       "scientist": "Maximilian Dax",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7161204806",
@@ -1474,7 +1542,8 @@
       ],
       "institution_ids": [],
       "scientist": "Maximilian Dax",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7153997186",
@@ -1498,7 +1567,8 @@
         "I95457486"
       ],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7135177739",
@@ -1514,7 +1584,8 @@
       ],
       "institution_ids": [],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7135429269",
@@ -1530,7 +1601,8 @@
       ],
       "institution_ids": [],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7154370629",
@@ -1548,7 +1620,8 @@
       ],
       "institution_ids": [],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414384564",
@@ -1573,7 +1646,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7128404404",
@@ -1589,7 +1663,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7128408861",
@@ -1605,7 +1680,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414968375",
@@ -1629,7 +1705,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7131077537",
@@ -1649,7 +1726,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7154180725",
@@ -1669,7 +1747,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7154427156",
@@ -1689,7 +1768,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7155056857",
@@ -1710,7 +1790,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7155245558",
@@ -1733,7 +1814,8 @@
         "I35440088"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7164387260",
@@ -1749,7 +1831,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7164488865",
@@ -1770,7 +1853,8 @@
         "I8087733"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165117457",
@@ -1913,7 +1997,8 @@
         "I98677209"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165118710",
@@ -2056,7 +2141,8 @@
         "I98677209"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165403894",
@@ -2072,7 +2158,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165424102",
@@ -2088,7 +2175,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165790128",
@@ -2198,7 +2286,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W7165973405",
@@ -2308,7 +2397,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4409884259",
@@ -2326,7 +2416,8 @@
         "I4210135521"
       ],
       "scientist": "Celestine Mendler-D\u00fcnner",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4407759068",
@@ -2344,7 +2435,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414421775",
@@ -2361,7 +2453,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415188896",
@@ -2379,7 +2472,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415194981",
@@ -2401,7 +2495,8 @@
         "I62916508"
       ],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415202861",
@@ -2418,7 +2513,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416102687",
@@ -2436,7 +2532,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416838970",
@@ -2458,7 +2555,8 @@
         "Wieland Brendel",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417095602",
@@ -2476,7 +2574,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417104319",
@@ -2493,7 +2592,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417253829",
@@ -2512,7 +2612,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417529360",
@@ -2533,7 +2634,8 @@
         "Wieland Brendel",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4411119908",
@@ -2551,7 +2653,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407310640",
@@ -2573,7 +2676,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414197592",
@@ -2595,7 +2699,8 @@
         "I4210105785"
       ],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4414891844",
@@ -2612,7 +2717,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414980941",
@@ -2629,7 +2735,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414982525",
@@ -2645,7 +2752,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414989458",
@@ -2664,7 +2772,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415111888",
@@ -2683,7 +2792,8 @@
         "Jonas Geiping",
         "Antonio Orvieto"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416257390",
@@ -2708,7 +2818,8 @@
         "Jonas Geiping",
         "Maksym Andriushchenko"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417133140",
@@ -2728,7 +2839,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417314774",
@@ -2753,7 +2865,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4406170795",
@@ -2781,7 +2894,8 @@
         "I8087733"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4411275639",
@@ -2801,7 +2915,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4407687152",
@@ -2819,7 +2934,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4406123282",
@@ -2836,7 +2952,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416234289",
@@ -2878,7 +2995,8 @@
         "Frank Hutter",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414987631",
@@ -2905,7 +3023,8 @@
         "I4210134004"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407004708",
@@ -2921,7 +3040,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407184130",
@@ -2942,7 +3062,8 @@
         "I8087733"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4407208823",
@@ -2964,7 +3085,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407244625",
@@ -2981,7 +3103,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407359501",
@@ -2997,7 +3120,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407632869",
@@ -3016,7 +3140,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4411628101",
@@ -3046,7 +3171,8 @@
         "I62916508"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414563227",
@@ -3063,7 +3189,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414855639",
@@ -3081,7 +3208,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415037448",
@@ -3101,7 +3229,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415101792",
@@ -3120,7 +3249,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415110298",
@@ -3141,7 +3271,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415183328",
@@ -3157,7 +3288,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415272737",
@@ -3173,7 +3305,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415318184",
@@ -3194,7 +3327,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415345588",
@@ -3213,7 +3347,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416020133",
@@ -3230,7 +3365,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416047752",
@@ -3249,7 +3385,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416082369",
@@ -3269,7 +3406,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4416118043",
@@ -3286,7 +3424,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416182883",
@@ -3306,7 +3445,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416184938",
@@ -3322,7 +3462,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416237452",
@@ -3342,7 +3483,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416287538",
@@ -3360,7 +3502,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416598188",
@@ -3379,7 +3522,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416967356",
@@ -3400,7 +3544,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417088961",
@@ -3417,7 +3562,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417097617",
@@ -3447,7 +3593,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417097682",
@@ -3466,7 +3613,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417126524",
@@ -3484,7 +3632,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417439860",
@@ -3502,7 +3651,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414942761",
@@ -3523,7 +3673,8 @@
       ],
       "institution_ids": [],
       "scientist": "T. Konstantin Rusch",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414969780",
@@ -3541,7 +3692,8 @@
       ],
       "institution_ids": [],
       "scientist": "T. Konstantin Rusch",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415981675",
@@ -3558,7 +3710,8 @@
       ],
       "institution_ids": [],
       "scientist": "T. Konstantin Rusch",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416352768",
@@ -3595,7 +3748,8 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416082990",
@@ -3632,7 +3786,8 @@
         "I8087733"
       ],
       "scientist": "Maximilian Dax",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4410034595",
@@ -3666,7 +3821,8 @@
         "I4210114501"
       ],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4411550415",
@@ -3690,7 +3846,8 @@
         "I95457486"
       ],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4411669733",
@@ -3724,7 +3881,8 @@
         "I4210114501"
       ],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414839083",
@@ -3743,7 +3901,8 @@
       ],
       "institution_ids": [],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415082887",
@@ -3760,7 +3919,8 @@
       ],
       "institution_ids": [],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415654117",
@@ -3786,7 +3946,8 @@
         "I95457486"
       ],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415654270",
@@ -3807,7 +3968,8 @@
         "I95457486"
       ],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415654280",
@@ -3828,7 +3990,8 @@
         "I4210165766"
       ],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W7126025165",
@@ -3844,7 +4007,8 @@
       ],
       "institution_ids": [],
       "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416036495",
@@ -3861,7 +4025,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407359552",
@@ -3877,7 +4042,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407574915",
@@ -3893,7 +4059,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414888715",
@@ -3912,7 +4079,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414946063",
@@ -3929,7 +4097,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414972154",
@@ -3948,7 +4117,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415280671",
@@ -3963,7 +4133,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416050532",
@@ -3980,7 +4151,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416113503",
@@ -4002,7 +4174,8 @@
         "Antonio Orvieto",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416506220",
@@ -4021,7 +4194,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416776614",
@@ -4036,7 +4210,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417129454",
@@ -4053,7 +4228,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417241804",
@@ -4070,7 +4246,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417262081",
@@ -4087,7 +4264,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417297081",
@@ -4109,7 +4287,8 @@
         "Antonio Orvieto",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407722258",
@@ -4194,7 +4373,8 @@
         "I95457486"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4408503131",
@@ -4242,7 +4422,8 @@
         "I86987016"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4408218745",
@@ -4276,7 +4457,8 @@
         "I8087733"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4408198303",
@@ -4312,7 +4494,8 @@
         "I99464096"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415208962",
@@ -4340,7 +4523,8 @@
         "I4210141913"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4415454748",
@@ -4431,7 +4615,8 @@
         "I99065089"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4406975817",
@@ -4544,7 +4729,8 @@
         "I4210164802"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415276815",
@@ -4630,7 +4816,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407358712",
@@ -4649,7 +4836,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4406448936",
@@ -4674,7 +4862,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415037596",
@@ -4693,7 +4882,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415371080",
@@ -4712,7 +4902,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416766981",
@@ -4794,7 +4985,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4406458061",
@@ -4811,7 +5003,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407247288",
@@ -4827,7 +5020,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407310252",
@@ -4843,7 +5037,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407521413",
@@ -4917,7 +5112,8 @@
         "I97565354"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4407569633",
@@ -4937,7 +5133,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4408827273",
@@ -4955,7 +5152,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4412944274",
@@ -4975,7 +5173,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4412944997",
@@ -4995,7 +5194,8 @@
         "I4210105785"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4413277998",
@@ -5015,7 +5215,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4413533219",
@@ -5034,7 +5235,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414585650",
@@ -5053,7 +5255,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414684805",
@@ -5070,7 +5273,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414790446",
@@ -5085,7 +5289,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414820817",
@@ -5101,7 +5306,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414875736",
@@ -5118,7 +5324,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414903279",
@@ -5133,7 +5340,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4414951773",
@@ -5152,7 +5360,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415112542",
@@ -5170,7 +5379,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416035271",
@@ -5187,7 +5397,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416035462",
@@ -5204,7 +5415,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416035479",
@@ -5223,7 +5435,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416054568",
@@ -5239,7 +5452,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416065025",
@@ -5256,7 +5470,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416135598",
@@ -5272,7 +5487,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416329855",
@@ -5290,7 +5506,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416435906",
@@ -5307,7 +5524,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416455388",
@@ -5326,7 +5544,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416512822",
@@ -5345,7 +5564,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416947782",
@@ -5360,7 +5580,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4416951162",
@@ -5381,7 +5602,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417049741",
@@ -5403,7 +5625,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417078365",
@@ -5422,7 +5645,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417101019",
@@ -5498,7 +5722,8 @@
         "I99065089"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4417136564",
@@ -5517,7 +5742,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417309031",
@@ -5536,7 +5762,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417322606",
@@ -5558,7 +5785,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417363868",
@@ -5574,7 +5802,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4417433087",
@@ -5592,7 +5821,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399868320",
@@ -5620,7 +5850,8 @@
         "I8087733"
       ],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400267098",
@@ -5639,7 +5870,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4396780921",
@@ -5658,7 +5890,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403443959",
@@ -5678,7 +5911,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404350086",
@@ -5698,7 +5932,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4390784401",
@@ -5717,7 +5952,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399911706",
@@ -5738,7 +5974,8 @@
         "Wieland Brendel",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402946598",
@@ -5757,7 +5994,8 @@
         "I8087733"
       ],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403752323",
@@ -5775,7 +6013,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404406434",
@@ -5794,7 +6033,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415798042",
@@ -5812,7 +6052,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404821172",
@@ -5837,7 +6078,8 @@
         "I78577930"
       ],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4405755284",
@@ -5867,7 +6109,8 @@
         "I95457486"
       ],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4402727927",
@@ -5890,7 +6133,8 @@
         "I66946132"
       ],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415798532",
@@ -5914,7 +6158,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391158973",
@@ -5935,7 +6180,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399144321",
@@ -5959,7 +6205,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392118239",
@@ -5978,7 +6225,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399759467",
@@ -6002,7 +6250,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392539600",
@@ -6020,7 +6269,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4393903327",
@@ -6041,7 +6291,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4393903954",
@@ -6060,7 +6311,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4393213232",
@@ -6083,7 +6335,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4396882152",
@@ -6104,7 +6357,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404089497",
@@ -6122,7 +6376,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4405310410",
@@ -6140,7 +6395,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415795899",
@@ -6164,7 +6420,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415796517",
@@ -6183,7 +6440,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415796767",
@@ -6202,7 +6460,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4398133596",
@@ -6256,7 +6515,8 @@
         "I99065089"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4415796422",
@@ -6274,7 +6534,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391932574",
@@ -6304,7 +6565,8 @@
         "I83019370"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400140719",
@@ -6324,7 +6586,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402748878",
@@ -6341,7 +6604,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4415796772",
@@ -6362,7 +6626,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415797462",
@@ -6382,7 +6647,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415799074",
@@ -6399,7 +6665,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4401580935",
@@ -6421,7 +6688,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391885902",
@@ -6442,7 +6710,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4390788117",
@@ -6461,7 +6730,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391623281",
@@ -6479,7 +6749,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4396787932",
@@ -6495,7 +6766,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392639797",
@@ -6514,7 +6786,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392011633",
@@ -6535,7 +6808,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392340482",
@@ -6554,7 +6828,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4395687037",
@@ -6574,7 +6849,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400481137",
@@ -6591,7 +6867,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403564620",
@@ -6609,7 +6886,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392340557",
@@ -6629,7 +6907,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4395687469",
@@ -6648,7 +6927,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402427190",
@@ -6664,7 +6944,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403964007",
@@ -6684,7 +6965,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404239976",
@@ -6706,7 +6988,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4404569993",
@@ -6724,7 +7007,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404573957",
@@ -6743,7 +7027,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392488790",
@@ -6760,7 +7045,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399448095",
@@ -6782,7 +7068,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400141404",
@@ -6800,7 +7087,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403345186",
@@ -6817,7 +7105,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403370486",
@@ -6835,7 +7124,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403482143",
@@ -6860,7 +7150,8 @@
         "I8087733"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4403579460",
@@ -6877,7 +7168,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403753201",
@@ -6895,7 +7187,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403799481",
@@ -6918,7 +7211,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403851752",
@@ -6934,7 +7228,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403963974",
@@ -6953,7 +7248,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404307873",
@@ -6969,7 +7265,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404313512",
@@ -6988,7 +7285,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404351320",
@@ -7007,7 +7305,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404405780",
@@ -7027,7 +7326,8 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404518193",
@@ -7046,7 +7346,8 @@
         "I161046081"
       ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4415800513",
@@ -7061,7 +7362,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415797779",
@@ -7078,7 +7380,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415795263",
@@ -7096,7 +7399,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415800683",
@@ -7114,7 +7418,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399317991",
@@ -7129,7 +7434,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392492373",
@@ -7147,7 +7453,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399061506",
@@ -7165,7 +7472,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404344645",
@@ -7181,7 +7489,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392019725",
@@ -7199,7 +7508,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392271254",
@@ -7216,7 +7526,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392971970",
@@ -7232,7 +7543,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399511139",
@@ -7249,7 +7561,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400018600",
@@ -7265,7 +7578,8 @@
         "I4401726832"
       ],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4400434714",
@@ -7280,7 +7594,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403577262",
@@ -7296,7 +7611,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403578682",
@@ -7313,7 +7629,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404986981",
@@ -7332,7 +7649,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415795894",
@@ -7349,7 +7667,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4401415287",
@@ -7495,7 +7814,8 @@
         "I98677209"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402727474",
@@ -7516,7 +7836,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402671601",
@@ -7533,7 +7854,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4405533111",
@@ -7557,7 +7879,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W2945825390",
@@ -7580,7 +7903,8 @@
         "I56590836"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4405761636",
@@ -7604,7 +7928,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404954016",
@@ -7629,7 +7954,8 @@
         "I62916508"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404780861",
@@ -7648,7 +7974,8 @@
         "I4210105785"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4401043119",
@@ -7671,7 +7998,8 @@
         "I4210141946"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415795596",
@@ -7690,7 +8018,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402353990",
@@ -7715,7 +8044,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404781723",
@@ -7738,7 +8068,8 @@
         "I4210141946"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415795245",
@@ -7756,7 +8087,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4401043266",
@@ -7771,7 +8103,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404782240",
@@ -7788,7 +8121,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415799289",
@@ -7807,7 +8141,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402670003",
@@ -7827,7 +8162,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402364381",
@@ -7850,7 +8186,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391463123",
@@ -7871,7 +8208,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404356212",
@@ -7895,7 +8233,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391800301",
@@ -7922,7 +8261,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4395687269",
@@ -7941,7 +8281,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391835954",
@@ -7959,7 +8300,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403321691",
@@ -7982,7 +8324,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4390897804",
@@ -8002,7 +8345,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391556118",
@@ -8018,7 +8362,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391591846",
@@ -8036,7 +8381,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399455361",
@@ -8053,7 +8399,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400163273",
@@ -8072,7 +8419,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400374334",
@@ -8097,7 +8445,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4390833710",
@@ -8114,7 +8463,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391709969",
@@ -8133,7 +8483,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4391984898",
@@ -8152,7 +8503,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392012690",
@@ -8167,7 +8519,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392576153",
@@ -8188,7 +8541,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392686416",
@@ -8211,7 +8565,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392717827",
@@ -8232,7 +8587,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4392780902",
@@ -8249,7 +8605,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4393064086",
@@ -8265,7 +8622,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4393119110",
@@ -8285,7 +8643,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4393335967",
@@ -8300,7 +8659,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4395443713",
@@ -8317,7 +8677,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4396651322",
@@ -8338,7 +8699,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4398192168",
@@ -8353,7 +8715,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4398881448",
@@ -8374,7 +8737,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399062398",
@@ -8393,7 +8757,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399197607",
@@ -8411,7 +8776,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399270639",
@@ -8433,7 +8799,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399355697",
@@ -8449,7 +8816,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399405976",
@@ -8483,7 +8851,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399421018",
@@ -8507,7 +8876,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4399795301",
@@ -8525,7 +8895,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400023716",
@@ -8544,7 +8915,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400104922",
@@ -8561,7 +8933,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400142000",
@@ -8578,7 +8951,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400343209",
@@ -8596,7 +8970,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400377933",
@@ -8615,7 +8990,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4400702714",
@@ -8638,7 +9014,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4402671677",
@@ -8657,7 +9034,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403012165",
@@ -8678,7 +9056,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403579784",
@@ -8696,7 +9075,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4403851999",
@@ -8712,7 +9092,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404340722",
@@ -8732,7 +9113,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404402378",
@@ -8748,7 +9130,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404404057",
@@ -8764,7 +9147,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404570967",
@@ -8786,7 +9170,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404652609",
@@ -8804,7 +9189,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4404781194",
@@ -8826,7 +9212,8 @@
         "I889458895"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415795991",
@@ -8844,7 +9231,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415796859",
@@ -8868,7 +9256,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4415799205",
@@ -8885,7 +9274,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387723693",
@@ -8903,7 +9293,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389260677",
@@ -8920,7 +9311,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387559920",
@@ -8939,7 +9331,8 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387560543",
@@ -8969,7 +9362,8 @@
         "I66946132"
       ],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4388650833",
@@ -8990,7 +9384,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387946978",
@@ -9009,7 +9404,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4388514204",
@@ -9027,7 +9423,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389364490",
@@ -9046,7 +9443,8 @@
       ],
       "institution_ids": [],
       "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389363857",
@@ -9063,7 +9461,8 @@
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389775671",
@@ -9080,7 +9479,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4390872433",
@@ -9107,7 +9507,8 @@
         "I74973139"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387704082",
@@ -9126,7 +9527,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389144895",
@@ -9148,7 +9550,8 @@
         "I47508984"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4386617351",
@@ -9169,7 +9572,8 @@
         "I4210138976"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389666216",
@@ -9189,7 +9593,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387764390",
@@ -9302,7 +9707,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4388651133",
@@ -9329,7 +9735,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389760925",
@@ -9348,7 +9755,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387596590",
@@ -9365,7 +9773,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387723603",
@@ -9386,7 +9795,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387946929",
@@ -9406,7 +9816,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4386554551",
@@ -9428,7 +9839,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4386755387",
@@ -9446,7 +9858,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4387995400",
@@ -9462,7 +9875,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4388079278",
@@ -9485,7 +9899,8 @@
         "I47508984"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4388747936",
@@ -9503,7 +9918,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4388748012",
@@ -9521,7 +9937,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4388748115",
@@ -9541,7 +9958,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389261298",
@@ -9557,7 +9975,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389325632",
@@ -9575,7 +9994,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4390042953",
@@ -9594,7 +10014,8 @@
         "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4390136445",
@@ -9612,7 +10033,8 @@
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     }
   ],
   "per_scientist_counts": {
@@ -9648,5 +10070,10 @@
     "ELLIS Unit Genoa": 1,
     "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit UCL London": 1
+  },
+  "venue_counts": {
+    "ICML": 0,
+    "NeurIPS": 0,
+    "ICLR": 0
   }
 }

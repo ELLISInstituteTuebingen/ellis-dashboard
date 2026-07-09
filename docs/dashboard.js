@@ -38,6 +38,18 @@ function renderStats(data) {
     `Last updated ${updated.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}`;
 }
 
+function renderVenues(data) {
+  const row = document.getElementById('venue-stat-row');
+  const venues = data.venue_counts || {};
+  const order = ['NeurIPS', 'ICML', 'ICLR'];
+  row.innerHTML = order.map(name => `
+    <div class="stat">
+      <div class="num">${(venues[name] || 0).toLocaleString()}</div>
+      <div class="label">${name}</div>
+    </div>
+  `).join('');
+}
+
 function renderTrendChart(data) {
   const years = Object.keys(data.publications_per_year).sort();
   const counts = years.map(y => data.publications_per_year[y]);
@@ -168,6 +180,7 @@ function renderTable(data) {
 
 loadData().then(data => {
   renderStats(data);
+  renderVenues(data);
   renderTrendChart(data);
   renderNetwork(data);
   renderTable(data);

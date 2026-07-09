@@ -71,6 +71,30 @@ def author_affiliation_matches_keywords(work, author_id, keywords):
     return False
 
 
+VENUE_PATTERNS = {
+    "ICML": ["international conference on machine learning"],
+    "NeurIPS": ["neural information processing systems"],
+    "ICLR": ["international conference on learning representations"],
+}
+
+
+def classify_venue(work):
+    """Check every location linked to this paper (not just primary_location,
+    since conference papers are often indexed with an arXiv preprint as the
+    primary listing) for a known top ML venue name."""
+    all_locations = work.get("locations") or []
+    names = []
+    for loc in all_locations:
+        source = loc.get("source") or {}
+        if source.get("display_name"):
+            names.append(source["display_name"].lower())
+    combined = " ".join(names)
+    for venue_label, patterns in VENUE_PATTERNS.items():
+        if any(p in combined for p in patterns):
+            return venue_label
+    return None
+
+
 def institution_ids_in_work(work):
     ids = set()
     for authorship in work.get("authorships", []):
@@ -127,6 +151,7 @@ def simplify_work(work, scientist_name, confirmed_affiliation):
         "institution_ids": sorted(institution_ids_in_work(work)),
         "scientist": scientist_name,
         "confirmed_ellis_affiliation": confirmed_affiliation,
+        "venue_category": classify_venue(work),
     }
 
 
@@ -153,6 +178,7 @@ def main():
     per_scientist_counts = defaultdict(int)
     year_counts = defaultdict(int)
     unit_collab_counts = defaultdict(int)  # unit name -> number of joint papers
+    venue_counts = defaultdict(int)  # ICML/NeurIPS/ICLR -> count
 
     # Make sure every tracked scientist shows up even with zero matched papers.
     for scientist in team["scientists"]:
@@ -182,6 +208,8 @@ def main():
                 all_publications[wid] = simplified
                 if simplified["year"]:
                     year_counts[simplified["year"]] += 1
+                if simplified["venue_category"]:
+                    venue_counts[simplified["venue_category"]] += 1
             else:
                 # already seen via another scientist -> track as internal collaboration
                 existing = all_publications[wid]["scientist"]
@@ -217,6 +245,7 @@ def main():
         "ellis_site_collaborations": dict(
             sorted(unit_collab_counts.items(), key=lambda kv: kv[1], reverse=True)
         ),
+        "venue_counts": {v: venue_counts.get(v, 0) for v in VENUE_PATTERNS},
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
