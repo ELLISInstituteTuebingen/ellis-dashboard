@@ -1,0 +1,92 @@
+{
+  "_comment": "Run `python scripts/lookup_authors.py` to resolve openalex_id for each person interactively — it'll show you candidate matches so you can confirm before writing.",
+  "institute": {
+    "name": "ELLIS Institute Tübingen",
+    "openalex_institution_id": "I4405263145",
+    "affiliation_keywords": [
+      "ELLIS Institute Tübingen",
+      "ELLIS Institute Tuebingen",
+      "ELLIS Institute, Tübingen"
+    ]
+  },
+  "scientists": [
+    {
+      "name": "Celestine Mendler-Dünner",
+      "role": "TBD",
+      "openalex_id": "A5013807314",
+      "joined_date": "2023-09-01"
+    },
+    {
+      "name": "Sahar Abdelnabi",
+      "role": "TBD",
+      "openalex_id": "A5040674721",
+      "joined_date": "2025-08-01"
+    },
+    {
+      "name": "Jakob Macke",
+      "role": "TBD",
+      "openalex_id": "A5080225154",
+      "joined_date": "2026-07-01"
+    },
+    {
+      "name": "Wieland Brendel",
+      "role": "TBD",
+      "openalex_id": "A5086801305",
+      "joined_date": "2023-09-01"
+    },
+    {
+      "name": "Jonas Geiping",
+      "role": "TBD",
+      "openalex_id": "A5049400969",
+      "joined_date": "2023-10-01"
+    },
+    {
+      "name": "Frank Hutter",
+      "role": "TBD",
+      "openalex_id": "A5031002895",
+      "joined_date": "2024-01-01"
+    },
+    {
+      "name": "T. Konstantin Rusch",
+      "role": "TBD",
+      "openalex_id": "A5102790508",
+      "joined_date": "2025-06-01"
+    },
+    {
+      "name": "Shiwei Liu",
+      "role": "TBD",
+      "openalex_id": "A5100415810",
+      "joined_date": "2025-07-01"
+    },
+    {
+      "name": "Maksym Andriushchenko",
+      "role": "TBD",
+      "openalex_id": "A5057136518",
+      "joined_date": "2025-08-01"
+    },
+    {
+      "name": "Maximilian Dax",
+      "role": "TBD",
+      "openalex_id": "A5004309436",
+      "joined_date": "2025-08-01"
+    },
+    {
+      "name": "Rediet Abebe",
+      "role": "TBD",
+      "openalex_id": "A5072647467",
+      "joined_date": "2025-01-01"
+    },
+    {
+      "name": "Antonio Orvieto",
+      "role": "TBD",
+      "openalex_id": "A5081990239",
+      "joined_date": "2023-09-01"
+    },
+    {
+      "name": "Bernhard Schölkopf",
+      "role": "TBD",
+      "openalex_id": "A5044005697",
+      "joined_date": "2023-09-01"
+    }
+  ]
+}

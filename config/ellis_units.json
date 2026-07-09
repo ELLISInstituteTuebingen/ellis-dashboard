@@ -1,0 +1,27 @@
+{
+  "_comment": "ELLIS Sites = ELLIS Units + ELLIS Institutes. Each entry uses EITHER a resolved openalex_institution_id (precise, works for established universities) OR affiliation_keywords (text-based fallback, for brand-new sites OpenAlex hasn't indexed as a formal institution yet).",
+  "sites": [
+    { "name": "ELLIS Unit Amsterdam", "search_term": "University of Amsterdam", "openalex_institution_id": "I887064364" },
+    { "name": "ELLIS Unit Berlin", "search_term": "Technical University of Berlin", "openalex_institution_id": "I4577782" },
+    { "name": "ELLIS Unit Cambridge", "search_term": "University of Cambridge", "openalex_institution_id": "I241749" },
+    { "name": "ELLIS Unit Copenhagen", "search_term": "University of Copenhagen", "openalex_institution_id": "I124055696" },
+    { "name": "ELLIS Unit Darmstadt", "search_term": "Technical University of Darmstadt", "openalex_institution_id": "I31512782" },
+    { "name": "ELLIS Unit ETH Zurich", "search_term": "ETH Zurich", "openalex_institution_id": "I35440088" },
+    { "name": "ELLIS Unit Finland", "search_term": "Aalto University", "openalex_institution_id": "I9927081" },
+    { "name": "ELLIS Unit Freiburg", "search_term": "University of Freiburg", "openalex_institution_id": "I161046081" },
+    { "name": "ELLIS Unit Genoa", "search_term": "Istituto Italiano di Tecnologia", "openalex_institution_id": "I30771326" },
+    { "name": "ELLIS Unit Israel", "search_term": "Technion Israel Institute of Technology", "openalex_institution_id": "I174306211" },
+    { "name": "ELLIS Unit KAUST", "search_term": "King Abdullah University of Science and Technology", "openalex_institution_id": "I71920554" },
+    { "name": "ELLIS Unit Lausanne", "search_term": "EPFL", "openalex_institution_id": "I5124864" },
+    { "name": "ELLIS Unit Linz", "search_term": "Johannes Kepler University Linz", "openalex_institution_id": "I121883995" },
+    { "name": "ELLIS Unit Munich", "search_term": "Technical University of Munich", "openalex_institution_id": "I62916508" },
+    { "name": "ELLIS Unit Nijmegen", "search_term": "Radboud University", "openalex_institution_id": "I145872427" },
+    { "name": "ELLIS Unit Oxford", "search_term": "University of Oxford", "openalex_institution_id": "I40120149" },
+    { "name": "ELLIS Unit Prague", "search_term": "Czech Technical University in Prague", "openalex_institution_id": "I44504214" },
+    { "name": "ELLIS Unit Saarbrücken", "search_term": "Saarland University", "openalex_institution_id": "I91712215" },
+    { "name": "ELLIS Unit Turin", "search_term": "University of Turin", "openalex_institution_id": "I55143463" },
+    { "name": "ELLIS Unit UCL London", "search_term": "University College London", "openalex_institution_id": "I45129253" },
+    { "name": "ELLIS Unit Warsaw", "search_term": "University of Warsaw", "openalex_institution_id": "I4654613" },
+    { "name": "ELLIS Institute Finland", "search_term": "ELLIS Institute Finland", "openalex_institution_id": "NOT_IN_OPENALEX", "affiliation_keywords": ["ELLIS Institute Finland"] }
+  ]
+}

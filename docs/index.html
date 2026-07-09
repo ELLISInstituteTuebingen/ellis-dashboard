@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELLIS Institute Tübingen — Research Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header class="hero">
+    <div class="hero-eyebrow">Automated Research Dashboard</div>
+    <h1>ELLIS Institute Tübingen<br><em>publications &amp; collaboration</em></h1>
+    <p class="lede">
+      A live view of the Institute's research output — pulled directly from OpenAlex
+      and refreshed on a schedule, so it's never more than a week out of date.
+    </p>
+
+    <div class="stat-row" id="stat-row">
+      <!-- filled by JS -->
+    </div>
+    <div class="updated-note" id="updated-note"></div>
+  </header>
+
+  <section class="block" id="trends">
+    <div class="block-head">
+      <h2>Output over time</h2>
+      <div class="sub">Publications per year across all tracked scientists.</div>
+    </div>
+    <div class="chart-card">
+      <canvas id="trendChart"></canvas>
+    </div>
+  </section>
+
+  <section class="block" id="network">
+    <div class="block-head">
+      <h2>Collaboration network</h2>
+      <div class="sub">Joint papers with scientists at other ELLIS Sites (Units & Institutes). Line thickness = number of shared publications.</div>
+    </div>
+    <div class="network-card">
+      <div id="networkSvgContainer"></div>
+      <div class="network-legend">
+        <span><span class="dot sandstone"></span> ELLIS Institute Tübingen</span>
+        <span><span class="dot network"></span> Other ELLIS Sites</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="publications">
+    <div class="block-head">
+      <h2>Publications</h2>
+      <div class="sub">Search or filter the full tracked list.</div>
+    </div>
+    <div class="filters">
+      <input type="text" id="searchBox" placeholder="Search title, author, venue…">
+      <select id="scientistFilter"><option value="">All scientists</option></select>
+      <select id="yearFilter"><option value="">All years</option></select>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Title</th><th>Scientist</th><th>Year</th><th>Citations</th></tr>
+      </thead>
+      <tbody id="pubTableBody"></tbody>
+    </table>
+  </section>
+
+  <footer>
+    Data source: OpenAlex API · Institute: ELLIS Institute Tübingen · Auto-refreshed weekly via GitHub Actions
+  </footer>
+</div>
+
+<script src="vendor/chart.umd.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>
