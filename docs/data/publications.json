@@ -1,28 +1,47 @@
 {
-  "generated_at": "2026-07-09T10:44:34Z",
+  "generated_at": "2026-07-09T10:58:46Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 422,
-  "confirmed_affiliation_count": 28,
+  "total_publications": 432,
+  "confirmed_affiliation_count": 27,
   "publications": [
     {
-      "id": "W7152711184",
-      "title": "Stochastic Wage Suppression on Gig Platforms and How to Organize Against It",
+      "id": "W7135177739",
+      "title": "Reaching a Consensus in Predictive Loops",
       "year": 2026,
-      "venue": null,
+      "venue": "arXiv (Cornell University)",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.1145/3774904.3792740",
+      "doi": "https://doi.org/10.48550/arxiv.2603.12137",
       "authors": [
-        "Ana-Andreea Stoica",
-        "Celestine D\u00fcnner",
-        "Moritz Hardt"
+        "Jiduan Wu",
+        "Rediet Abebe",
+        "Celestine Mendler-D\u00fcnner"
       ],
-      "institution_ids": [
-        "I4210133934",
-        "I4210135521",
-        "I8087733"
+      "institution_ids": [],
+      "scientist": [
+        "Celestine Mendler-D\u00fcnner",
+        "Rediet Abebe"
       ],
-      "scientist": "Celestine Mendler-D\u00fcnner",
-      "confirmed_ellis_affiliation": true,
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7135429269",
+      "title": "Opinion Dynamics in Learning Systems",
+      "year": 2026,
+      "venue": "ArXiv.org",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Jiduan Wu",
+        "Rediet Abebe",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": [
+        "Celestine Mendler-D\u00fcnner",
+        "Rediet Abebe"
+      ],
+      "confirmed_ellis_affiliation": false,
       "venue_category": null
     },
     {
@@ -1571,40 +1590,6 @@
       "venue_category": null
     },
     {
-      "id": "W7135177739",
-      "title": "Reaching a Consensus in Predictive Loops",
-      "year": 2026,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2603.12137",
-      "authors": [
-        "Jiduan Wu",
-        "Rediet Abebe",
-        "Celestine Mendler-D\u00fcnner"
-      ],
-      "institution_ids": [],
-      "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W7135429269",
-      "title": "Opinion Dynamics in Learning Systems",
-      "year": 2026,
-      "venue": "ArXiv.org",
-      "cited_by_count": 0,
-      "doi": null,
-      "authors": [
-        "Jiduan Wu",
-        "Rediet Abebe",
-        "Celestine Mendler-D\u00fcnner"
-      ],
-      "institution_ids": [],
-      "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
       "id": "W7154370629",
       "title": "Compliant But Unsatisfactory: The Gap Between Auditing Standards and Practices for Probabilistic Genotyping Software",
       "year": 2026,
@@ -2401,22 +2386,40 @@
       "venue_category": null
     },
     {
-      "id": "W4409884259",
-      "title": "Decline Now: A Combinatorial Model for Algorithmic Collective Action",
+      "id": "W4414298153",
+      "title": "Performative Prediction: Past and Future",
       "year": 2025,
-      "venue": null,
-      "cited_by_count": 2,
-      "doi": "https://doi.org/10.1145/3706598.3713966",
+      "venue": "Statistical Science",
+      "cited_by_count": 5,
+      "doi": "https://doi.org/10.1214/25-sts986",
       "authors": [
-        "Dorothee Sigg",
         "Moritz Hardt",
-        "Celestine D\u00fcnner"
+        "Celestine Mendler-D\u00fcnner"
       ],
       "institution_ids": [
         "I4210135521"
       ],
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": true,
+      "venue_category": null
+    },
+    {
+      "id": "W4416120121",
+      "title": "Performative Validity of Recourse Explanations",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2506.15366",
+      "authors": [
+        "Gunnar K\u00f6nig",
+        "Hidde Fokkema",
+        "Timo Freiesleben",
+        "Celestine Mendler-D\u00fcnner",
+        "Ulrike von Luxburg"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
       "venue_category": null
     },
     {
@@ -5823,6 +5826,160 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null
+    },
+    {
+      "id": "W4415797819",
+      "title": "Questioning the Survey Responses of Large Language Models",
+      "year": 2024,
+      "venue": null,
+      "cited_by_count": 9,
+      "doi": "https://doi.org/10.52202/079017-1458",
+      "authors": [
+        "Ricardo Dominguez-Olmedo",
+        "Moritz Hardt",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4415795448",
+      "title": "Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists",
+      "year": 2024,
+      "venue": null,
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.52202/079017-3784",
+      "authors": [
+        "Joachim Baumann",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4415796313",
+      "title": "Evaluating language models as risk scores",
+      "year": 2024,
+      "venue": null,
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.52202/079017-3089",
+      "authors": [
+        "Andr\u00e9 F. Cruz",
+        "Moritz Hardt",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4415797508",
+      "title": "An engine not a camera: Measuring performative power of online search",
+      "year": 2024,
+      "venue": null,
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.52202/079017-1891",
+      "authors": [
+        "Gabriele Carovano",
+        "Moritz Hardt",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4394644575",
+      "title": "Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2404.04269",
+      "authors": [
+        "Joachim Baumann",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
+      "id": "W4403578431",
+      "title": "Decline Now: A Combinatorial Model for Algorithmic Collective Action",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2410.12633",
+      "authors": [
+        "Dorothee Sigg",
+        "Moritz Hardt",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4399198503",
+      "title": "An engine not a camera: Measuring performative power of online search",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2405.19073",
+      "authors": [
+        "Celestine Mendler-D\u00fcnner",
+        "Gabriele Carovano",
+        "Moritz Hardt"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
+      "id": "W4403963965",
+      "title": "Adjusting Pretrained Backbones for Performativity",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2410.04499",
+      "authors": [
+        "Berker Demirel",
+        "Lingjing Kong",
+        "Kun Zhang",
+        "Theofanis Karaletsos",
+        "Celestine Mendler-D\u00fcnner",
+        "Francesco Locatello"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4405028376",
+      "title": "Evaluating language models as risk scores",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2407.14614",
+      "authors": [
+        "Andr\u00e9 F. Cruz",
+        "Moritz Hardt",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4399868320",
@@ -9278,6 +9435,22 @@
       "venue_category": null
     },
     {
+      "id": "W4387963982",
+      "title": "Performative Prediction: Past and Future",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 5,
+      "doi": "https://doi.org/10.15496/publikation-120358",
+      "authors": [
+        "Moritz Hardt",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
       "id": "W4387723693",
       "title": "Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?",
       "year": 2023,
@@ -10038,7 +10211,7 @@
     }
   ],
   "per_scientist_counts": {
-    "Celestine Mendler-D\u00fcnner": 2,
+    "Celestine Mendler-D\u00fcnner": 14,
     "Sahar Abdelnabi": 26,
     "Jakob Macke": 5,
     "Wieland Brendel": 37,
@@ -10053,10 +10226,10 @@
     "Bernhard Sch\u00f6lkopf": 173
   },
   "publications_per_year": {
-    "2023": 32,
-    "2024": 160,
-    "2025": 140,
-    "2026": 90
+    "2023": 33,
+    "2024": 169,
+    "2025": 141,
+    "2026": 89
   },
   "ellis_site_collaborations": {
     "ELLIS Unit Freiburg": 20,
@@ -10073,7 +10246,7 @@
   },
   "venue_counts": {
     "ICML": 18,
-    "NeurIPS": 20,
+    "NeurIPS": 23,
     "ICLR": 21
   }
 }
