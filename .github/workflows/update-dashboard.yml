@@ -10,6 +10,7 @@ on:
     paths:
       - "config/**"
       - "scripts/**"
+      - "docs/**"
 
 permissions:
   contents: write
