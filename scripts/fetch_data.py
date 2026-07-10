@@ -255,17 +255,36 @@ def keyword_site_hits_in_work(work, keyword_sites):
     return hits
 
 
+GRACE_PERIOD_DAYS = 60  # catch papers first posted just before someone's
+                         # official join date but presented/accepted after —
+                         # OpenAlex dates papers by first posting, not by
+                         # conference/acceptance date, so work finished right
+                         # at a join-date boundary would otherwise be missed.
+
+
+def _apply_grace_period(joined_date_str):
+    """Shifts a join date back by GRACE_PERIOD_DAYS days."""
+    if not joined_date_str:
+        return None
+    from datetime import date, timedelta
+    y, m, d = map(int, joined_date_str.split("-"))
+    shifted = date(y, m, d) - timedelta(days=GRACE_PERIOD_DAYS)
+    return shifted.strftime("%Y-%m-%d")
+
+
 def work_is_after_join_date(work, joined_date_str):
-    """True if the work's publication date is on/after the scientist's join date.
-    Falls back to comparing just the year if no exact date is available."""
+    """True if the work's publication date is on/after the scientist's join
+    date (with a grace period applied — see GRACE_PERIOD_DAYS). Falls back to
+    comparing just the year if no exact date is available."""
     if not joined_date_str:
         return True  # no join date configured -> don't filter anything out
+    effective_date = _apply_grace_period(joined_date_str)
     pub_date = work.get("publication_date")  # "YYYY-MM-DD"
     if pub_date:
-        return pub_date >= joined_date_str
+        return pub_date >= effective_date
     pub_year = work.get("publication_year")
     if pub_year:
-        return str(pub_year) >= joined_date_str[:4]
+        return str(pub_year) >= effective_date[:4]
     return False  # no date info at all -> exclude rather than guess
 
 
@@ -402,7 +421,9 @@ def main():
 
         joined_date = scientist.get("joined_date")
         combined = [(w, aid) for w, aid in combined if work_is_after_join_date(w, joined_date)]
-        print(f"    kept {len(combined)} of {before_count} after join-date filter (since {joined_date})")
+        effective = _apply_grace_period(joined_date) if joined_date else None
+        print(f"    kept {len(combined)} of {before_count} after join-date filter "
+              f"(since {joined_date}, effectively {effective} with {GRACE_PERIOD_DAYS}-day grace period)")
 
         for w, author_id in combined:
             confirmed = author_affiliation_matches_keywords(w, author_id, keywords)
