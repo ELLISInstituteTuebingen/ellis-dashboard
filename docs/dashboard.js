@@ -121,28 +121,90 @@ function renderTrendChart(data) {
   });
 }
 
+// Approximate coordinates (lat, lon) for each ELLIS Site's host city.
+const SITE_COORDS = {
+  "Associate Unit Lviv": { lat: 49.84, lon: 24.03, city: "Lviv" },
+  "Institute Finland": { lat: 60.17, lon: 24.94, city: "Finland" },
+  "Institute Tübingen": { lat: 48.52, lon: 9.06, city: "Tübingen" },
+  "Unit Amsterdam": { lat: 52.37, lon: 4.90, city: "Amsterdam" },
+  "Unit Barcelona": { lat: 41.39, lon: 2.17, city: "Barcelona" },
+  "Unit Berlin": { lat: 52.52, lon: 13.40, city: "Berlin" },
+  "Unit Cambridge": { lat: 52.21, lon: 0.12, city: "Cambridge" },
+  "Unit Copenhagen": { lat: 55.68, lon: 12.57, city: "Copenhagen" },
+  "Unit Czechia": { lat: 49.20, lon: 16.61, city: "Czechia" },
+  "Unit Darmstadt": { lat: 49.87, lon: 8.65, city: "Darmstadt" },
+  "Unit Delft": { lat: 52.01, lon: 4.36, city: "Delft" },
+  "Unit Denmark": { lat: 56.16, lon: 10.20, city: "Denmark" },
+  "Unit Edinburgh": { lat: 55.95, lon: -3.19, city: "Edinburgh" },
+  "Unit Franconia": { lat: 49.59, lon: 11.01, city: "Franconia" },
+  "Unit Freiburg": { lat: 48.00, lon: 7.84, city: "Freiburg" },
+  "Unit Genoa": { lat: 44.41, lon: 8.95, city: "Genoa" },
+  "Unit Graz": { lat: 47.07, lon: 15.44, city: "Graz" },
+  "Unit Grenoble": { lat: 45.19, lon: 5.72, city: "Grenoble" },
+  "Unit Haifa": { lat: 32.79, lon: 34.99, city: "Haifa" },
+  "Unit Heidelberg": { lat: 49.40, lon: 8.67, city: "Heidelberg" },
+  "Unit Helsinki": { lat: 60.17, lon: 24.94, city: "Helsinki" },
+  "Unit Jena": { lat: 50.93, lon: 11.59, city: "Jena" },
+  "Unit Lausanne": { lat: 46.52, lon: 6.63, city: "Lausanne" },
+  "Unit Leuven": { lat: 50.88, lon: 4.70, city: "Leuven" },
+  "Unit Linz": { lat: 48.31, lon: 14.29, city: "Linz" },
+  "Unit Lisbon": { lat: 38.72, lon: -9.14, city: "Lisbon" },
+  "Unit London": { lat: 51.51, lon: -0.13, city: "London" },
+  "Unit Madrid": { lat: 40.42, lon: -3.70, city: "Madrid" },
+  "Unit Manchester": { lat: 53.48, lon: -2.24, city: "Manchester" },
+  "Unit Milan": { lat: 45.46, lon: 9.19, city: "Milan" },
+  "Unit Modena": { lat: 44.65, lon: 10.93, city: "Modena" },
+  "Unit Munich": { lat: 48.14, lon: 11.58, city: "Munich" },
+  "Unit NRW": { lat: 50.74, lon: 7.10, city: "NRW" },
+  "Unit Nijmegen": { lat: 51.81, lon: 5.84, city: "Nijmegen" },
+  "Unit Oxford": { lat: 51.75, lon: -1.26, city: "Oxford" },
+  "Unit Paris": { lat: 48.86, lon: 2.35, city: "Paris" },
+  "Unit Potsdam": { lat: 52.39, lon: 13.06, city: "Potsdam" },
+  "Unit Prague": { lat: 50.08, lon: 14.44, city: "Prague" },
+  "Unit Saarbrücken": { lat: 49.24, lon: 7.00, city: "Saarbrücken" },
+  "Unit Slovenia": { lat: 46.06, lon: 14.51, city: "Slovenia" },
+  "Unit Sofia": { lat: 42.70, lon: 23.32, city: "Sofia" },
+  "Unit Stuttgart": { lat: 48.78, lon: 9.18, city: "Stuttgart" },
+  "Unit Sweden": { lat: 59.33, lon: 18.07, city: "Sweden" },
+  "Unit Tel Aviv": { lat: 32.09, lon: 34.78, city: "Tel Aviv" },
+  "Unit Trento": { lat: 46.07, lon: 11.12, city: "Trento" },
+  "Unit Turin": { lat: 45.07, lon: 7.69, city: "Turin" },
+  "Unit Tübingen": { lat: 48.52, lon: 9.06, city: "Tübingen" },
+  "Unit Vienna": { lat: 48.21, lon: 16.37, city: "Vienna" },
+  "Unit Warsaw": { lat: 52.23, lon: 21.01, city: "Warsaw" },
+  "Unit Zurich": { lat: 47.38, lon: 8.54, city: "Zurich" },
+};
+
+const MAP_BOUNDS = { lonMin: -11, lonMax: 36, latMin: 31, latMax: 62 };
+
+function projectLatLon(lat, lon, width, height) {
+  const x = ((lon - MAP_BOUNDS.lonMin) / (MAP_BOUNDS.lonMax - MAP_BOUNDS.lonMin)) * width;
+  const y = ((MAP_BOUNDS.latMax - lat) / (MAP_BOUNDS.latMax - MAP_BOUNDS.latMin)) * height;
+  return { x, y };
+}
+
 function renderNetwork(data) {
   const container = document.getElementById('networkSvgContainer');
   const units = Object.entries(data.ellis_member_collaborations || {})
-    .filter(([name]) => !name.includes('Tübingen'));
-  const width = 1100, height = 460;
-  const cx = width / 2, cy = height / 2;
-  const radius = Math.min(width, height) / 2 - 90;
+    .filter(([name]) => !name.includes('Tübingen'))
+    .filter(([name]) => SITE_COORDS[name]);
 
+  const width = 1100, height = 620;
+  const home = projectLatLon(SITE_COORDS["Institute Tübingen"].lat, SITE_COORDS["Institute Tübingen"].lon, width, height);
   const maxCount = Math.max(1, ...units.map(u => u[1]));
 
   let edges = '', nodes = '';
-  units.forEach(([name, count], i) => {
-    const angle = (i / units.length) * 2 * Math.PI - Math.PI / 2;
-    const x = cx + radius * Math.cos(angle);
-    const y = cy + radius * Math.sin(angle);
+  units.forEach(([name, count]) => {
+    const coord = SITE_COORDS[name];
+    const { x, y } = projectLatLon(coord.lat, coord.lon, width, height);
     const strokeWidth = 1 + (count / maxCount) * 6;
+    const r = 12 + (count / maxCount) * 12;
 
-    edges += `<path class="edge" d="M ${cx} ${cy} L ${x} ${y}" stroke-width="${strokeWidth.toFixed(1)}" />`;
+    edges += `<path class="edge" d="M ${home.x} ${home.y} L ${x} ${y}" stroke-width="${strokeWidth.toFixed(1)}" />`;
     nodes += `
       <g class="node-unit" transform="translate(${x},${y})">
-        <circle r="${14 + (count / maxCount) * 10}" />
-        <text text-anchor="middle" dy="34" font-size="12">${name.replace('ELLIS Unit ', '').replace('Unit ', '')}</text>
+        <circle r="${r.toFixed(1)}" />
+        <text text-anchor="middle" dy="${r + 14}" font-size="12">${coord.city}</text>
         <text text-anchor="middle" dy="4" font-size="11" fill="${COLORS.network}">${count}</text>
       </g>`;
   });
@@ -150,9 +212,9 @@ function renderNetwork(data) {
   const svg = `
     <svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
       ${edges}
-      <g class="node-institute" transform="translate(${cx},${cy})">
-        <circle r="34" />
-        <text text-anchor="middle" dy="5" font-size="12" font-weight="600">ELLIS</text>
+      <g class="node-institute" transform="translate(${home.x},${home.y})">
+        <circle r="20" />
+        <text text-anchor="middle" dy="34" font-size="12" font-weight="600">ELLIS Tübingen</text>
       </g>
       ${nodes}
     </svg>
