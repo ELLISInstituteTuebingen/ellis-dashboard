@@ -5741,5 +5741,143 @@
     "units": [
       "Unit Tel Aviv"
     ]
+  },
+  {
+    "name": "Andreas Krause",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Sepp Hochreiter",
+    "units": [
+      "Unit Linz"
+    ]
+  },
+  {
+    "name": "Bernt Schiele",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Christoph H. Lampert",
+    "units": [
+      "Unit Vienna"
+    ]
+  },
+  {
+    "name": "Nicu Sebe",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Bruno Lepri",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Miguel Hernández-Lobato",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Arthur Gretton",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Massimiliano Pontil",
+    "units": [
+      "Unit Genoa"
+    ]
+  },
+  {
+    "name": "Rita Cucchiara",
+    "units": [
+      "Unit Modena"
+    ]
+  },
+  {
+    "name": "Ole Winther",
+    "units": [
+      "Unit Copenhagen"
+    ]
+  },
+  {
+    "name": "Ralf Herbrich",
+    "units": [
+      "Unit Potsdam"
+    ]
+  },
+  {
+    "name": "Ingo Steinwart",
+    "units": [
+      "Unit Stuttgart"
+    ]
+  },
+  {
+    "name": "Markus Reichstein",
+    "units": [
+      "Unit Jena"
+    ]
+  },
+  {
+    "name": "Marcel van Gerven",
+    "units": [
+      "Unit Nijmegen"
+    ]
+  },
+  {
+    "name": "Amir Globerson",
+    "units": [
+      "Unit Tel Aviv"
+    ]
+  },
+  {
+    "name": "Shie Mannor",
+    "units": [
+      "Unit Haifa"
+    ]
+  },
+  {
+    "name": "Tomasz Trzciński",
+    "units": [
+      "Unit Warsaw"
+    ]
+  },
+  {
+    "name": "Dimosthenis Karatzas",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Carme Torras",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Fabian Theis",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Andreas Bulling",
+    "units": [
+      "Unit Stuttgart"
+    ]
+  },
+  {
+    "name": "Frans A. Oliehoek",
+    "units": [
+      "Unit Delft"
+    ]
   }
 ]

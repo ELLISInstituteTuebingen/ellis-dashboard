@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:19:54Z",
+  "generated_at": "2026-07-10T11:45:53Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 468,
   "confirmed_affiliation_count": 27,
@@ -11045,7 +11045,7 @@
     "ELLIS Unit Genoa": 1
   },
   "ellis_member_collaborations": {
-    "Unit Zurich": 33,
+    "Unit Zurich": 39,
     "Unit T\u00fcbingen": 30,
     "Institute T\u00fcbingen": 14,
     "Unit Paris": 10,
@@ -11057,16 +11057,19 @@
     "Unit Munich": 6,
     "Unit Franconia": 6,
     "Unit NRW": 5,
+    "Unit Genoa": 2,
     "Unit Haifa": 2,
     "Unit Delft": 2,
     "Unit Darmstadt": 2,
-    "Unit Denmark": 2,
     "Unit Copenhagen": 2,
+    "Unit Denmark": 2,
     "Unit Vienna": 1,
     "Unit Leuven": 1,
     "Unit Berlin": 1,
     "Unit Freiburg": 1,
-    "Institute Finland": 1
+    "Institute Finland": 1,
+    "Unit Jena": 1,
+    "Unit Trento": 1
   },
   "venue_counts": {
     "ICML": 35,
