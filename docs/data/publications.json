@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:27:25Z",
+  "generated_at": "2026-07-10T04:55:07Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 438,
   "confirmed_affiliation_count": 28,
@@ -5502,7 +5502,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP"
+      "venue_category": null
     },
     {
       "id": "W4414790446",
@@ -5553,7 +5553,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP"
+      "venue_category": null
     },
     {
       "id": "W4414903279",
@@ -5569,7 +5569,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML"
+      "venue_category": null
     },
     {
       "id": "W4414951773",
@@ -5644,7 +5644,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP"
+      "venue_category": null
     },
     {
       "id": "W4416035479",
@@ -8786,7 +8786,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ACL"
+      "venue_category": null
     },
     {
       "id": "W4392012690",
@@ -8802,7 +8802,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
+      "venue_category": null
     },
     {
       "id": "W4392576153",
@@ -8905,7 +8905,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML"
+      "venue_category": null
     },
     {
       "id": "W4393119110",
@@ -8942,7 +8942,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ACL"
+      "venue_category": null
     },
     {
       "id": "W4395443713",
@@ -8982,7 +8982,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ACL"
+      "venue_category": null
     },
     {
       "id": "W4398192168",
@@ -8998,7 +8998,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML"
+      "venue_category": null
     },
     {
       "id": "W4398881448",
@@ -9020,7 +9020,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP"
+      "venue_category": null
     },
     {
       "id": "W4399062398",
@@ -9099,7 +9099,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "UAI"
+      "venue_category": null
     },
     {
       "id": "W4399405976",
@@ -9178,7 +9178,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
+      "venue_category": null
     },
     {
       "id": "W4400023716",
@@ -9216,7 +9216,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
+      "venue_category": null
     },
     {
       "id": "W4400142000",
@@ -9234,7 +9234,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP"
+      "venue_category": null
     },
     {
       "id": "W4400343209",
@@ -9253,7 +9253,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML"
+      "venue_category": null
     },
     {
       "id": "W4400377933",
@@ -9339,7 +9339,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "CoRL"
+      "venue_category": null
     },
     {
       "id": "W4403579784",
@@ -9358,7 +9358,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
+      "venue_category": null
     },
     {
       "id": "W4403851999",
@@ -9375,7 +9375,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
+      "venue_category": null
     },
     {
       "id": "W4404340722",
@@ -9495,7 +9495,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP"
+      "venue_category": null
     },
     {
       "id": "W4415795991",
@@ -10274,7 +10274,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "UAI"
+      "venue_category": null
     },
     {
       "id": "W4389325632",
@@ -10293,7 +10293,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "CVPR"
+      "venue_category": null
     },
     {
       "id": "W4390042953",
@@ -10370,21 +10370,19 @@
     "ELLIS Unit UCL London": 1
   },
   "venue_counts": {
-    "ICML": 35,
+    "ICML": 31,
     "NeurIPS": 61,
-    "ICLR": 38
+    "ICLR": 33
   },
   "broader_venue_counts": {
-    "CVPR": 7,
-    "EMNLP": 7,
-    "ACL": 5,
+    "CVPR": 6,
     "AISTATS": 4,
     "ICCV": 3,
+    "ACL": 2,
     "ICRA": 2,
-    "UAI": 2,
     "ECCV": 1,
     "RSS": 1,
-    "CoRL": 1
+    "EMNLP": 1
   },
-  "top_tier_total_count": 167
+  "top_tier_total_count": 145
 }
