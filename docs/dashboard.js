@@ -211,7 +211,7 @@ function renderNetwork(data) {
 
     edges += `<path class="edge" d="M ${cx} ${cy} L ${x} ${y}" stroke-width="${strokeWidth.toFixed(1)}" />`;
     nodes += `
-      <g class="node-unit" transform="translate(${x},${y})">
+      <g class="node-unit" transform="translate(${x},${y})" onclick="openCollabModal('${name.replace(/'/g, "\\'")}')">
         <circle r="${r.toFixed(1)}" />
         <text text-anchor="middle" dy="${r + 15}" font-size="${labelSize.toFixed(1)}">${name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', '')}</text>
         <text text-anchor="middle" dy="4" font-size="${(labelSize - 1).toFixed(1)}" fill="${COLORS.network}">${count}</text>
@@ -232,7 +232,7 @@ function renderNetwork(data) {
 
   if (sideList) {
     const rows = minorUnits.map(([name, count]) => `
-      <div class="side-row">
+      <div class="side-row" onclick="openCollabModal('${name.replace(/'/g, "\\'")}')">
         <span class="site-name">${name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', '')}</span>
         <span class="site-count">${count}</span>
       </div>
@@ -303,7 +303,10 @@ function renderTable(data) {
   draw();
 }
 
+let CURRENT_DATA = null;
+
 loadData().then(data => {
+  CURRENT_DATA = data;
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
@@ -313,3 +316,31 @@ loadData().then(data => {
   document.querySelector('.wrap').innerHTML =
     `<p style="padding:60px 0;color:#C87F4A;font-family:monospace;">Could not load data/publications.json — ${err.message}</p>`;
 });
+
+function openCollabModal(unitName) {
+  const details = (CURRENT_DATA && CURRENT_DATA.ellis_member_collaboration_details) || {};
+  const papers = details[unitName] || [];
+  const displayName = unitName.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', '');
+
+  document.getElementById('collabModalTitle').textContent = `${displayName} — ${papers.length} shared paper${papers.length === 1 ? '' : 's'}`;
+
+  const body = document.getElementById('collabModalBody');
+  body.innerHTML = papers.length
+    ? papers.map(p => `
+        <div class="modal-pub-row">
+          <div class="pub-title">${p.title}</div>
+          <div class="pub-meta">
+            <span class="highlight">${p.year || '—'}</span> ·
+            our scientist: ${p.scientist} ·
+            ELLIS co-author: <span class="highlight">${p.co_author}</span>
+          </div>
+        </div>
+      `).join('')
+    : `<p style="color:var(--muted); font-size:13.5px;">No paper details available.</p>`;
+
+  document.getElementById('collabModalOverlay').classList.add('open');
+}
+
+function closeCollabModal() {
+  document.getElementById('collabModalOverlay').classList.remove('open');
+}

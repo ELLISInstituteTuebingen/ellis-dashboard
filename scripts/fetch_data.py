@@ -360,20 +360,44 @@ def compute_member_collaborations(all_publications, member_lookup):
     """Cross-checks every co-author name on every tracked publication against
     the real ELLIS Fellows/Scholars/Members roster. Far more precise than
     institution-level matching, since it only counts a genuine named ELLIS
-    person, not just anyone at the same university."""
+    person, not just anyone at the same university.
+
+    Returns (counts, details):
+      counts:  {unit: count}, sorted descending
+      details: {unit: [{title, year, scientist, co_author}, ...]}, sorted
+               by year descending, for click-to-expand drilldown in the UI.
+    """
     unit_counts = defaultdict(int)
     unit_papers = defaultdict(set)
+    unit_details = defaultdict(list)
+
     for pub in all_publications.values():
-        hit_units_this_paper = set()
+        hit_units_this_paper = {}  # unit -> first matching co-author name
         for author in pub.get("authors", []):
             units = member_lookup.get(_normalize_name(author))
             if units:
-                hit_units_this_paper.update(units)
-        for u in hit_units_this_paper:
+                for u in units:
+                    hit_units_this_paper.setdefault(u, author)
+        for u, co_author in hit_units_this_paper.items():
             if pub["id"] not in unit_papers[u]:
                 unit_papers[u].add(pub["id"])
                 unit_counts[u] += 1
-    return dict(sorted(unit_counts.items(), key=lambda kv: -kv[1]))
+                scientist = pub.get("scientist")
+                scientist_str = ", ".join(scientist) if isinstance(scientist, list) else scientist
+                unit_details[u].append({
+                    "title": pub.get("title"),
+                    "year": pub.get("year"),
+                    "scientist": scientist_str,
+                    "co_author": co_author,
+                    "doi": pub.get("doi"),
+                })
+
+    for u in unit_details:
+        unit_details[u].sort(key=lambda p: -(p["year"] or 0))
+
+    counts = dict(sorted(unit_counts.items(), key=lambda kv: -kv[1]))
+    details = dict(unit_details)
+    return counts, details
 
 
 def main():
@@ -468,7 +492,7 @@ def main():
     print(f"    Applied {override_count} manual venue overrides from config/known_venues.json")
 
     member_lookup = build_member_lookup(members, team)
-    member_collaborations = compute_member_collaborations(all_publications, member_lookup)
+    member_collaborations, member_collaboration_details = compute_member_collaborations(all_publications, member_lookup)
     print(f"    Found real-member collaborations across {len(member_collaborations)} ELLIS Sites "
           f"(checked against {len(member_lookup)} named roster entries)")
 
@@ -499,6 +523,7 @@ def main():
             sorted(unit_collab_counts.items(), key=lambda kv: kv[1], reverse=True)
         ),
         "ellis_member_collaborations": member_collaborations,
+        "ellis_member_collaboration_details": member_collaboration_details,
         "venue_counts": {v: all_venue_counts.get(v, 0) for v in CORE_VENUE_PATTERNS},
         "broader_venue_counts": dict(
             sorted(broader_only_counts.items(), key=lambda kv: kv[1], reverse=True)

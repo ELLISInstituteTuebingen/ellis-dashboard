@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T13:03:50Z",
+  "generated_at": "2026-07-10T13:15:21Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 468,
   "confirmed_affiliation_count": 27,
@@ -11041,8 +11041,8 @@
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
     "ELLIS Unit Copenhagen": 1,
-    "ELLIS Unit Darmstadt": 1,
-    "ELLIS Unit Genoa": 1
+    "ELLIS Unit Genoa": 1,
+    "ELLIS Unit Darmstadt": 1
   },
   "ellis_member_collaborations": {
     "Unit Zurich": 39,
@@ -11050,8 +11050,8 @@
     "Institute T\u00fcbingen": 14,
     "Unit Paris": 10,
     "Unit Saarbr\u00fccken": 9,
-    "Unit Cambridge": 8,
     "Unit Oxford": 8,
+    "Unit Cambridge": 8,
     "Unit London": 7,
     "Unit Lausanne": 7,
     "Unit Munich": 6,
@@ -11070,6 +11070,1234 @@
     "Institute Finland": 1,
     "Unit Jena": 1,
     "Unit Trento": 1
+  },
+  "ellis_member_collaboration_details": {
+    "Unit T\u00fcbingen": [
+      {
+        "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Geiger",
+        "doi": "https://doi.org/10.48550/arxiv.2606.12340"
+      },
+      {
+        "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting 42",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Geiger",
+        "doi": "https://doi.org/10.1145/3816072"
+      },
+      {
+        "title": "Performative Prediction: Past and Future",
+        "year": 2025,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.1214/25-sts986"
+      },
+      {
+        "title": "Performative Validity of Recourse Explanations",
+        "year": 2025,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Ulrike von Luxburg",
+        "doi": "https://doi.org/10.48550/arxiv.2506.15366"
+      },
+      {
+        "title": "Difficult Lessons on Social Prediction from Wisconsin Public Schools",
+        "year": 2025,
+        "scientist": "Rediet Abebe",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.1145/3715275.3732175"
+      },
+      {
+        "title": "Policy Design in Long-Run Welfare Dynamics",
+        "year": 2025,
+        "scientist": "Rediet Abebe",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.48550/arxiv.2503.00632"
+      },
+      {
+        "title": "Policy Design in Long-Run Welfare Dynamics",
+        "year": 2025,
+        "scientist": "Rediet Abebe",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.1145/3757887.3767683"
+      },
+      {
+        "title": "PENEX: AdaBoost-Inspired Neural Network Regularization",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.48550/arxiv.2510.02107"
+      },
+      {
+        "title": "Questioning the Survey Responses of Large Language Models",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.52202/079017-1458"
+      },
+      {
+        "title": "Evaluating language models as risk scores",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.52202/079017-3089"
+      },
+      {
+        "title": "An engine not a camera: Measuring performative power of online search",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.52202/079017-1891"
+      },
+      {
+        "title": "Decline Now: A Combinatorial Model for Algorithmic Collective Action",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.48550/arxiv.2410.12633"
+      },
+      {
+        "title": "An engine not a camera: Measuring performative power of online search",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.48550/arxiv.2405.19073"
+      },
+      {
+        "title": "Evaluating language models as risk scores",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Moritz Hardt",
+        "doi": "https://doi.org/10.48550/arxiv.2407.14614"
+      },
+      {
+        "title": "An Interpretable N-gram Perplexity Threat Model for Large Language Model Jailbreaks",
+        "year": 2024,
+        "scientist": "Jonas Geiping",
+        "co_author": "Matthias Hein",
+        "doi": "https://doi.org/10.48550/arxiv.2410.16222"
+      },
+      {
+        "title": "GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Geiger",
+        "doi": "https://doi.org/10.1109/cvpr52733.2024.02012"
+      },
+      {
+        "title": "Safe &amp; Accurate at Speed with Tendons: A Robot Arm for Exploring Dynamic Motion",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.15607/rss.2024.xx.099"
+      },
+      {
+        "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.48550/arxiv.2408.08313"
+      },
+      {
+        "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.48550/arxiv.2410.01660"
+      },
+      {
+        "title": "Pairwise Similarity Learning is SimPLE",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.1109/iccv51070.2023.00489"
+      },
+      {
+        "title": "Reinforcement learning with model-based feedforward inputs for robotic table tennis",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.1007/s10514-023-10140-6"
+      },
+      {
+        "title": "Data-Efficient Online Learning of Ball Placement in Robot Table Tennis",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.1109/iros55552.2023.10342132"
+      },
+      {
+        "title": "Benchmarking Offline Reinforcement Learning on Real-Robot Hardware",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Georg Martius",
+        "doi": "https://doi.org/10.48550/arxiv.2307.15690"
+      },
+      {
+        "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.48550/arxiv.2311.06243"
+      },
+      {
+        "title": "Real Robot Challenge 2022: Learning Dexterous Manipulation from Offline Data in the Real World",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Georg Martius",
+        "doi": "https://doi.org/10.48550/arxiv.2308.07741"
+      },
+      {
+        "title": "Deep Backtracking Counterfactuals for Causally Compliant Explanations",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.48550/arxiv.2310.07665"
+      },
+      {
+        "title": "Pairwise Similarity Learning is SimPLE",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.48550/arxiv.2310.09449"
+      },
+      {
+        "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.48550/arxiv.2310.15168"
+      },
+      {
+        "title": "Data-Efficient Online Learning of Ball Placement in Robot Table Tennis",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.48550/arxiv.2308.14562"
+      },
+      {
+        "title": "GraphDreamer: Compositional 3D Scene Synthesis from Scene Graphs",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Geiger",
+        "doi": "https://doi.org/10.48550/arxiv.2312.00093"
+      }
+    ],
+    "Unit Vienna": [
+      {
+        "title": "Adjusting Pretrained Backbones for Performativity",
+        "year": 2024,
+        "scientist": "Celestine Mendler-D\u00fcnner",
+        "co_author": "Francesco Locatello",
+        "doi": "https://doi.org/10.48550/arxiv.2410.04499"
+      }
+    ],
+    "Unit Saarbr\u00fccken": [
+      {
+        "title": "Hidden in Memory: Sleeper Memory Poisoning in LLM Agents",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "Mario Fritz",
+        "doi": "https://doi.org/10.48550/arxiv.2605.15338"
+      },
+      {
+        "title": "Hidden in Memory: Sleeper Memory Poisoning in LLM Agents",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "Mario Fritz",
+        "doi": null
+      },
+      {
+        "title": "Position: Safety Must Precede the Deployment of Open-Ended AI Agents",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "Mario Fritz",
+        "doi": "https://doi.org/10.60882/cispa.32780832.v1"
+      },
+      {
+        "title": "Hidden in Memory: Sleeper Memory Poisoning in LLM Agents",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "Mario Fritz",
+        "doi": "https://doi.org/10.60882/cispa.32780871"
+      },
+      {
+        "title": "Hidden in Memory: Sleeper Memory Poisoning in LLM Agents",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "Mario Fritz",
+        "doi": "https://doi.org/10.60882/cispa.32780871.v1"
+      },
+      {
+        "title": "Position: Safety Must Precede the Deployment of Open-Ended AI Agents",
+        "year": 2026,
+        "scientist": "Sahar Abdelnabi",
+        "co_author": "Mario Fritz",
+        "doi": "https://doi.org/10.60882/cispa.32780832"
+      },
+      {
+        "title": "Artificial intelligence for modelling infectious disease epidemics",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Manuel Gomez-Rodriguez",
+        "doi": "https://doi.org/10.1038/s41586-024-08564-w"
+      },
+      {
+        "title": "Causality Is Key to Understand and Balance Multiple Goals in Trustworthy ML and Foundation Models",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mario Fritz",
+        "doi": "https://doi.org/10.48550/arxiv.2502.21123"
+      },
+      {
+        "title": "Optimal Decision Making Under Strategic Behavior",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adish Singla",
+        "doi": "https://doi.org/10.1287/mnsc.2021.02567"
+      }
+    ],
+    "Unit Leuven": [
+      {
+        "title": "SUMMER: Dataset of human single-neuron activity during an 83-minute movie from 2,286 neurons and 29 patients",
+        "year": 2026,
+        "scientist": "Jakob Macke",
+        "co_author": "Pedro J Gon\u00e7alves",
+        "doi": "https://doi.org/10.48324/dandi.001616/0.260702.0824"
+      }
+    ],
+    "Unit Munich": [
+      {
+        "title": "SUMMER: Dataset of human single-neuron activity during an 83-minute movie from 2,286 neurons and 29 patients",
+        "year": 2026,
+        "scientist": "Jakob Macke",
+        "co_author": "Laura Leal-Taix\u00e9",
+        "doi": "https://doi.org/10.48324/dandi.001616/0.260702.0824"
+      },
+      {
+        "title": "VGGSounder: Audio-Visual Evaluations for Foundation Models",
+        "year": 2025,
+        "scientist": "Wieland Brendel",
+        "co_author": "A. Sophia Koepke",
+        "doi": "https://doi.org/10.1109/iccv51701.2025.00103"
+      },
+      {
+        "title": "Can Fairness be Automated? Guidelines and Opportunities for Fairness-aware AutoML",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Bernd Bischl",
+        "doi": "https://doi.org/10.1613/jair.1.14747"
+      },
+      {
+        "title": "Position: A Call to Action for a Human-Centered AutoML Paradigm",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Bernd Bischl",
+        "doi": "https://doi.org/10.48550/arxiv.2406.03348"
+      },
+      {
+        "title": "The Essential Role of Causality in Foundation World Models for Embodied AI",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Stefan Bauer",
+        "doi": "https://doi.org/10.48550/arxiv.2402.06665"
+      },
+      {
+        "title": "Generative Intervention Models for Causal Perturbation Modeling",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Niki Kilbertus",
+        "doi": "https://doi.org/10.48550/arxiv.2411.14003"
+      }
+    ],
+    "Unit London": [
+      {
+        "title": "Position: Understanding LLMs Requires More Than Statistical Generalization",
+        "year": 2024,
+        "scientist": "Wieland Brendel",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.48550/arxiv.2405.01964"
+      },
+      {
+        "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+        "year": 2024,
+        "scientist": "Wieland Brendel, Bernhard Sch\u00f6lkopf",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.48550/arxiv.2406.14302"
+      },
+      {
+        "title": "Rule Extrapolation in Language Models: A Study of Compositional Generalization on OOD Prompts",
+        "year": 2024,
+        "scientist": "Wieland Brendel",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.48550/arxiv.2409.13728"
+      },
+      {
+        "title": "Rule Extrapolation in Language Modeling: A Study of Compositional Generalization on OOD Prompts",
+        "year": 2024,
+        "scientist": "Wieland Brendel",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.52202/079017-1101"
+      },
+      {
+        "title": "Do Finetti: On Causal Effects for Exchangeable Data",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.52202/079017-4044"
+      },
+      {
+        "title": "Learning Beyond Pattern Matching? Assaying Mathematical Understanding in LLMs",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.48550/arxiv.2405.15485"
+      },
+      {
+        "title": "Do Finetti: On Causal Effects for Exchangeable Data",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.48550/arxiv.2405.18836"
+      }
+    ],
+    "Unit Zurich": [
+      {
+        "title": "MentisOculi: Revealing the Limits of Reasoning with Mental Imagery",
+        "year": 2026,
+        "scientist": "Wieland Brendel",
+        "co_author": "Ryan Cotterell",
+        "doi": null
+      },
+      {
+        "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
+        "year": 2026,
+        "scientist": "T. Konstantin Rusch, Antonio Orvieto",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2606.18206"
+      },
+      {
+        "title": "Fixed-Point Reasoners: Stable and Adaptive Deep Looped Transformers",
+        "year": 2026,
+        "scientist": "T. Konstantin Rusch, Antonio Orvieto",
+        "co_author": "Thomas Hofmann",
+        "doi": null
+      },
+      {
+        "title": "Test of Time: Rethinking Temporal Signal of Benchmark Contamination",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.18653/v1/2026.acl-long.1693"
+      },
+      {
+        "title": "Bounded Ratio Reinforcement Learning",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Krause",
+        "doi": "https://doi.org/10.48550/arxiv.2604.18578"
+      },
+      {
+        "title": "Bounded Ratio Reinforcement Learning",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Krause",
+        "doi": null
+      },
+      {
+        "title": "Sample Smart, Not Hard: Correctness-First Decoding for Better Reasoning in LLMs",
+        "year": 2025,
+        "scientist": "Jonas Geiping",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2510.05987"
+      },
+      {
+        "title": "Generalized Interpolating Discrete Diffusion",
+        "year": 2025,
+        "scientist": "Antonio Orvieto, Bernhard Sch\u00f6lkopf",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2503.04482"
+      },
+      {
+        "title": "Generalized Linear Mode Connectivity for Transformers",
+        "year": 2025,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Valentina Boeva",
+        "doi": "https://doi.org/10.48550/arxiv.2506.22712"
+      },
+      {
+        "title": "Scaling Behavior of Discrete Diffusion Language Models",
+        "year": 2025,
+        "scientist": "Antonio Orvieto, Bernhard Sch\u00f6lkopf",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2512.10858"
+      },
+      {
+        "title": "International AI Safety Report",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Krause",
+        "doi": "https://doi.org/10.48550/arxiv.2501.17805"
+      },
+      {
+        "title": "Improving Large Language Model Safety with Contrastive Representation Learning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2506.11938"
+      },
+      {
+        "title": "Improving Large Language Model Safety with Contrastive Representation Learning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.18653/v1/2025.emnlp-main.1430"
+      },
+      {
+        "title": "Corrupted by Reasoning: Reasoning Language Models Become Free-Riders in Public Goods Games",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2506.23276"
+      },
+      {
+        "title": "Super Consistency of Neural Network Landscapes and Learning Rate Transfer",
+        "year": 2024,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2402.17457"
+      },
+      {
+        "title": "Super Consistency of Neural Network Landscapes and Learning Rate Transfer",
+        "year": 2024,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.52202/079017-3262"
+      },
+      {
+        "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.52202/079017-3548"
+      },
+      {
+        "title": "Implicit Personalization in Language Models: A Systematic Study",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.18653/v1/2024.findings-emnlp.717"
+      },
+      {
+        "title": "CausalCite: A Causal Formulation of Paper Citations",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.18653/v1/2024.findings-acl.497"
+      },
+      {
+        "title": "Do Language Models Exhibit the Same Cognitive Biases in Problem Solving as Human Learners?",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ryan Cotterell",
+        "doi": "https://doi.org/10.48550/arxiv.2401.18070"
+      },
+      {
+        "title": "Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2404.16698"
+      },
+      {
+        "title": "A Probabilistic Model Behind Self-Supervised Learning",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Carl Allen",
+        "doi": "https://doi.org/10.48550/arxiv.2402.01399"
+      },
+      {
+        "title": "Language Model Alignment in Multilingual Trolley Problems",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2407.02273"
+      },
+      {
+        "title": "Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2402.11655"
+      },
+      {
+        "title": "Hallmarks of Optimization Trajectories in Neural Networks: Directional Exploration and Redundancy",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2403.07379"
+      },
+      {
+        "title": "Implicit Personalization in Language Models: A Systematic Study",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2405.14808"
+      },
+      {
+        "title": "Quriosity: Analyzing Human Questioning Behavior and Causal Inquiry through Curiosity-Driven Queries",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2405.20318"
+      },
+      {
+        "title": "On Affine Homotopy between Language Encoders",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2406.02329"
+      },
+      {
+        "title": "Standardizing Structural Causal Models",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Krause",
+        "doi": "https://doi.org/10.48550/arxiv.2406.11601"
+      },
+      {
+        "title": "Landscaping Linear Mode Connectivity",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2406.16300"
+      },
+      {
+        "title": "Preference Elicitation for Offline Reinforcement Learning",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Gunnar R\u00e4tsch",
+        "doi": "https://doi.org/10.48550/arxiv.2406.18450"
+      },
+      {
+        "title": "Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.18653/v1/2024.acl-long.458"
+      },
+      {
+        "title": "MathGAP: Out-of-Distribution Evaluation on Problems with Arbitrarily Complex Proofs",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2410.13502"
+      },
+      {
+        "title": "Generative Intervention Models for Causal Perturbation Modeling",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Krause",
+        "doi": "https://doi.org/10.48550/arxiv.2411.14003"
+      },
+      {
+        "title": "Do LLMs Think Fast and Slow? A Causal Study on Sentiment Analysis",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.18653/v1/2024.findings-emnlp.547"
+      },
+      {
+        "title": "On Affine Homotopy between Language Encoders",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ryan Cotterell",
+        "doi": "https://doi.org/10.52202/079017-2333"
+      },
+      {
+        "title": "Recurrent Distance Filtering for Graph Representation Learning",
+        "year": 2023,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2312.01538"
+      },
+      {
+        "title": "Causal Modeling with Stationary Diffusions",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Krause",
+        "doi": "https://doi.org/10.48550/arxiv.2310.17405"
+      },
+      {
+        "title": "Exploring the Jungle of Bias: Political Bias Attribution in Language Models via Dependency Analysis",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2311.08605"
+      }
+    ],
+    "Unit Lausanne": [
+      {
+        "title": "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping",
+        "year": 2026,
+        "scientist": "Wieland Brendel",
+        "co_author": "Martin Jaggi",
+        "doi": "https://doi.org/10.48550/arxiv.2606.29983"
+      },
+      {
+        "title": "Stabilizing Extrapolation in Looped Transformers via Learned Stochastic Stopping",
+        "year": 2026,
+        "scientist": "Wieland Brendel",
+        "co_author": "Martin Jaggi",
+        "doi": null
+      },
+      {
+        "title": "Sequence Modeling Architectures: Foundations [Special Issue on the Mathematics of Deep Learning]",
+        "year": 2026,
+        "scientist": "Jonas Geiping, Antonio Orvieto",
+        "co_author": "\u00c7a\u011flar G\u00fcl\u00e7ehre",
+        "doi": "https://doi.org/10.1109/msp.2026.3682808"
+      },
+      {
+        "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
+        "year": 2025,
+        "scientist": "Jonas Geiping, Maksym Andriushchenko",
+        "co_author": "\u00c7a\u011flar G\u00fcl\u00e7ehre",
+        "doi": "https://doi.org/10.48550/arxiv.2510.09462"
+      },
+      {
+        "title": "Selective Rotary Position Embedding",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "Volkan Cevher",
+        "doi": "https://doi.org/10.48550/arxiv.2511.17388"
+      },
+      {
+        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "Nicolas Flammarion",
+        "doi": "https://doi.org/10.48550/arxiv.2506.14866"
+      },
+      {
+        "title": "Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues",
+        "year": 2023,
+        "scientist": "Antonio Orvieto",
+        "co_author": "\u00c7a\u011flar G\u00fcl\u00e7ehre",
+        "doi": "https://doi.org/10.48550/arxiv.2307.11888"
+      }
+    ],
+    "Unit Berlin": [
+      {
+        "title": "Strategic Dishonesty Can Undermine AI Safety Evaluations of Frontier LLMs",
+        "year": 2025,
+        "scientist": "Jonas Geiping, Maksym Andriushchenko",
+        "co_author": "Wojciech Samek",
+        "doi": "https://doi.org/10.48550/arxiv.2509.18058"
+      }
+    ],
+    "Unit Oxford": [
+      {
+        "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ingmar Posner",
+        "doi": "https://doi.org/10.48550/arxiv.2604.09487"
+      },
+      {
+        "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
+        "year": 2026,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ingmar Posner",
+        "doi": null
+      },
+      {
+        "title": "Managing extreme AI risks amid rapid progress",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "At\u0131l\u0131m G\u00fcne\u015f Baydin",
+        "doi": "https://doi.org/10.1126/science.adn0117"
+      },
+      {
+        "title": "Theoretical Foundations of Deep Selective State-Space Models",
+        "year": 2024,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Terry Lyons",
+        "doi": "https://doi.org/10.52202/079017-4041"
+      },
+      {
+        "title": "Theoretical Foundations of Deep Selective State-Space Models",
+        "year": 2024,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Terry Lyons",
+        "doi": "https://doi.org/10.48550/arxiv.2402.19047"
+      },
+      {
+        "title": "Imagining and building wise machines: The centrality of AI metacognition",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Nick Chater",
+        "doi": "https://doi.org/10.48550/arxiv.2411.02478"
+      },
+      {
+        "title": "Compete and Compose: Learning Independent Mechanisms for Modular World Models",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ingmar Posner",
+        "doi": "https://doi.org/10.48550/arxiv.2404.15109"
+      },
+      {
+        "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ingmar Posner",
+        "doi": "https://doi.org/10.48550/arxiv.2411.06890"
+      }
+    ],
+    "Unit Cambridge": [
+      {
+        "title": "Orthogonal Finetuning Made Scalable",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.48550/arxiv.2506.19847"
+      },
+      {
+        "title": "Orthogonal Finetuning Made Scalable",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.18653/v1/2025.emnlp-main.1627"
+      },
+      {
+        "title": "Managing extreme AI risks amid rapid progress",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "David Krueger",
+        "doi": "https://doi.org/10.1126/science.adn0117"
+      },
+      {
+        "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.48550/arxiv.2408.08313"
+      },
+      {
+        "title": "Pairwise Similarity Learning is SimPLE",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.1109/iccv51070.2023.00489"
+      },
+      {
+        "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.48550/arxiv.2311.06243"
+      },
+      {
+        "title": "Pairwise Similarity Learning is SimPLE",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.48550/arxiv.2310.09449"
+      },
+      {
+        "title": "Machine Learning for Science: Mathematics at the Interface of Data-driven and Mechanistic Modelling",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Neil D. Lawrence",
+        "doi": "https://doi.org/10.4171/owr/2023/26"
+      }
+    ],
+    "Unit NRW": [
+      {
+        "title": "carps: A Framework for Comparing N Hyperparameter Optimizers on M Benchmarks",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "Matthias Feurer",
+        "doi": "https://doi.org/10.48550/arxiv.2506.06143"
+      },
+      {
+        "title": "Can Fairness be Automated? Guidelines and Opportunities for Fairness-aware AutoML",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Matthias Feurer",
+        "doi": "https://doi.org/10.1613/jair.1.14747"
+      },
+      {
+        "title": "AMLTK: A Modular AutoML Toolkit in Python",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Matthias Feurer",
+        "doi": "https://doi.org/10.21105/joss.06367"
+      },
+      {
+        "title": "Position: A Call to Action for a Human-Centered AutoML Paradigm",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Matthias Feurer",
+        "doi": "https://doi.org/10.48550/arxiv.2406.03348"
+      },
+      {
+        "title": "Landscaping Linear Mode Connectivity",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Kamp",
+        "doi": "https://doi.org/10.48550/arxiv.2406.16300"
+      }
+    ],
+    "Institute T\u00fcbingen": [
+      {
+        "title": "When is Warmstarting Effective for Scaling Language Models?",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Aaron Klein",
+        "doi": "https://doi.org/10.48550/arxiv.2605.13405"
+      },
+      {
+        "title": "When is Warmstarting Effective for Scaling Language Models?",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Aaron Klein",
+        "doi": null
+      },
+      {
+        "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2501.02945"
+      },
+      {
+        "title": "TabArena: A Living Benchmark for Machine Learning on Tabular Data",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2506.16791"
+      },
+      {
+        "title": "Tuning LLM Judge Design Decisions for 1/1000 of the Cost",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2501.17178"
+      },
+      {
+        "title": "EquiTabPFN: A Target-Permutation Equivariant Prior Fitted Networks",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2502.06684"
+      },
+      {
+        "title": "Improving LLM-based Global Optimization with Search Space Partitioning",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2505.21372"
+      },
+      {
+        "title": "Where to Begin: Efficient Pretraining via Subnetwork Selection and Distillation",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "Aaron Klein",
+        "doi": "https://doi.org/10.48550/arxiv.2510.07227"
+      },
+      {
+        "title": "HW-GPT-Bench: Hardware-Aware Architecture Benchmark for Language Models",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Aaron Klein",
+        "doi": "https://doi.org/10.52202/079017-1944"
+      },
+      {
+        "title": "Mamba4Cast: Efficient Zero-Shot Time Series Forecasting with State Space Models",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2410.09385"
+      },
+      {
+        "title": "GAMformer: Bridging Tabular Foundation Models and Interpretable Machine Learning",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2410.04560"
+      },
+      {
+        "title": "Compressing Large Language Models with Automated Sub-Network Search",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Aaron Klein",
+        "doi": "https://doi.org/10.48550/arxiv.2410.06479"
+      },
+      {
+        "title": "ARLBench: Flexible and Efficient Benchmarking for Hyperparameter Optimization in Reinforcement Learning",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "David Salinas",
+        "doi": "https://doi.org/10.48550/arxiv.2409.18827"
+      },
+      {
+        "title": "Warmstarting for Scaling Language Models",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Aaron Klein",
+        "doi": "https://doi.org/10.48550/arxiv.2411.07340"
+      }
+    ],
+    "Unit Freiburg": [
+      {
+        "title": "Is Mamba Capable of In-Context Learning?",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Thomas Brox",
+        "doi": "https://doi.org/10.48550/arxiv.2402.03170"
+      }
+    ],
+    "Unit Franconia": [
+      {
+        "title": "When is Warmstarting Effective for Scaling Language Models?",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Josif Grabocka",
+        "doi": "https://doi.org/10.48550/arxiv.2605.13405"
+      },
+      {
+        "title": "When is Warmstarting Effective for Scaling Language Models?",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Josif Grabocka",
+        "doi": null
+      },
+      {
+        "title": "Multi-objective Differentiable Neural Architecture Search",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Josif Grabocka",
+        "doi": "https://doi.org/10.48550/arxiv.2402.18213"
+      },
+      {
+        "title": "Regularized Neural Ensemblers",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Josif Grabocka",
+        "doi": "https://doi.org/10.48550/arxiv.2410.04520"
+      },
+      {
+        "title": "Ensembling Finetuned Language Models for Text Classification",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Josif Grabocka",
+        "doi": "https://doi.org/10.48550/arxiv.2410.19889"
+      },
+      {
+        "title": "Warmstarting for Scaling Language Models",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Josif Grabocka",
+        "doi": "https://doi.org/10.48550/arxiv.2411.07340"
+      }
+    ],
+    "Unit Genoa": [
+      {
+        "title": "DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "Massimiliano Pontil",
+        "doi": "https://doi.org/10.48550/arxiv.2502.10297"
+      },
+      {
+        "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
+        "year": 2024,
+        "scientist": "Frank Hutter",
+        "co_author": "Massimiliano Pontil",
+        "doi": "https://doi.org/10.48550/arxiv.2411.12537"
+      }
+    ],
+    "Unit Haifa": [
+      {
+        "title": "STRABLE: Benchmarking Tabular Machine Learning with Strings",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Roi Reichart",
+        "doi": "https://doi.org/10.48550/arxiv.2605.12292"
+      },
+      {
+        "title": "STRABLE: Benchmarking Tabular Machine Learning with Strings",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Roi Reichart",
+        "doi": null
+      }
+    ],
+    "Unit Paris": [
+      {
+        "title": "STRABLE: Benchmarking Tabular Machine Learning with Strings",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Ga\u00ebl Varoquaux",
+        "doi": "https://doi.org/10.48550/arxiv.2605.12292"
+      },
+      {
+        "title": "STRABLE: Benchmarking Tabular Machine Learning with Strings",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Ga\u00ebl Varoquaux",
+        "doi": null
+      },
+      {
+        "title": "International Al Safety Report: First Key Update Capabilities and Risk Implications",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko, Bernhard Sch\u00f6lkopf",
+        "co_author": "Ga\u00ebl Varoquaux",
+        "doi": "https://doi.org/10.70777/si.v2i6.16253"
+      },
+      {
+        "title": "International AI Safety Report 2025: First Key Update: Capabilities and Risk Implications",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko, Bernhard Sch\u00f6lkopf",
+        "co_author": "Ga\u00ebl Varoquaux",
+        "doi": "https://doi.org/10.48550/arxiv.2510.13653"
+      },
+      {
+        "title": "International AI Safety Report 2025: Second Key Update: Technical Safeguards and Risk Management",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko, Bernhard Sch\u00f6lkopf",
+        "co_author": "Ga\u00ebl Varoquaux",
+        "doi": "https://doi.org/10.48550/arxiv.2511.19863"
+      },
+      {
+        "title": "International AI Safety Report 2025: Second Key Update: Technical Safeguards and Risk Management",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko, Bernhard Sch\u00f6lkopf",
+        "co_author": "Ga\u00ebl Varoquaux",
+        "doi": "https://doi.org/10.70777/si.v2i4.16671"
+      },
+      {
+        "title": "An Uncertainty Principle for Linear Recurrent Neural Networks",
+        "year": 2025,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Francis Bach",
+        "doi": "https://doi.org/10.48550/arxiv.2502.09287"
+      },
+      {
+        "title": "International AI Safety Report",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ga\u00ebl Varoquaux",
+        "doi": "https://doi.org/10.48550/arxiv.2501.17805"
+      },
+      {
+        "title": "RAVEN: Rethinking Adversarial Video Generation with Efficient Tri-Plane Networks",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Cordelia Schmid",
+        "doi": "https://doi.org/10.1109/icip55913.2025.11084391"
+      },
+      {
+        "title": "RAVEN: Rethinking Adversarial Video Generation with Efficient Tri-plane Networks",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Cordelia Schmid",
+        "doi": "https://doi.org/10.48550/arxiv.2401.06035"
+      }
+    ],
+    "Unit Delft": [
+      {
+        "title": "$\u03b1$-PFN: Fast Entropy Search via In-Context Learning",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Tom Viering",
+        "doi": "https://doi.org/10.48550/arxiv.2606.07134"
+      },
+      {
+        "title": "$\u03b1$-PFN: Fast Entropy Search via In-Context Learning",
+        "year": 2026,
+        "scientist": "Frank Hutter",
+        "co_author": "Tom Viering",
+        "doi": null
+      }
+    ],
+    "Institute Finland": [
+      {
+        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "Francesco Croce",
+        "doi": "https://doi.org/10.48550/arxiv.2506.14866"
+      }
+    ],
+    "Unit Darmstadt": [
+      {
+        "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models : Open X-Embodiment Collaboration<sup>0</sup>",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Jan Peters",
+        "doi": "https://doi.org/10.1109/icra57147.2024.10611477"
+      },
+      {
+        "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Jan Peters",
+        "doi": "https://doi.org/10.48550/arxiv.2310.08864"
+      }
+    ],
+    "Unit Jena": [
+      {
+        "title": "Early warning of complex climate risk with integrated artificial intelligence",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Markus Reichstein",
+        "doi": "https://doi.org/10.1038/s41467-025-57640-w"
+      }
+    ],
+    "Unit Copenhagen": [
+      {
+        "title": "Accuracy on the wrong line: On the pitfalls of noisy data for out-of-distribution generalisation",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Amartya Sanyal",
+        "doi": "https://doi.org/10.48550/arxiv.2406.19049"
+      },
+      {
+        "title": "Provable Privacy with Non-Private Pre-Processing",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Amartya Sanyal",
+        "doi": "https://doi.org/10.48550/arxiv.2403.13041"
+      }
+    ],
+    "Unit Denmark": [
+      {
+        "title": "Accuracy on the wrong line: On the pitfalls of noisy data for out-of-distribution generalisation",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Amartya Sanyal",
+        "doi": "https://doi.org/10.48550/arxiv.2406.19049"
+      },
+      {
+        "title": "Provable Privacy with Non-Private Pre-Processing",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Amartya Sanyal",
+        "doi": "https://doi.org/10.48550/arxiv.2403.13041"
+      }
+    ],
+    "Unit Trento": [
+      {
+        "title": "Riemannian Batch Normalization: A Gyro Approach",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Nicu Sebe",
+        "doi": "https://doi.org/10.48550/arxiv.2509.07115"
+      }
+    ]
   },
   "venue_counts": {
     "ICML": 35,

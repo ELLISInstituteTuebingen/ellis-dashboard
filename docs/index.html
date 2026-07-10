@@ -87,6 +87,16 @@
   </footer>
 </div>
 
+<div id="collabModalOverlay" class="modal-overlay" onclick="if(event.target===this) closeCollabModal()">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div id="collabModalTitle" class="modal-title"></div>
+      <button class="modal-close" onclick="closeCollabModal()">&times;</button>
+    </div>
+    <div id="collabModalBody" class="modal-body"></div>
+  </div>
+</div>
+
 <script src="vendor/chart.umd.js"></script>
 <script src="dashboard.js"></script>
 </body>

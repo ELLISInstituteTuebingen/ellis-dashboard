@@ -253,6 +253,70 @@ section.block {
   font-size: 13px;
 }
 
+/* ---------- COLLAB DETAIL MODAL ---------- */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay.open { display: flex; }
+
+.modal-box {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  width: min(640px, 90vw);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.modal-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+}
+.modal-close:hover { color: var(--text); }
+
+.modal-body {
+  padding: 12px 20px 20px;
+  overflow-y: auto;
+}
+
+.modal-pub-row {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.modal-pub-row .pub-title { color: var(--text); font-weight: 500; font-size: 13.5px; }
+.modal-pub-row .pub-meta { color: var(--muted); font-size: 12px; margin-top: 4px; }
+.modal-pub-row .pub-meta .highlight { color: var(--network); }
+
+.node-unit, .side-row { cursor: pointer; }
+.node-unit:hover circle { stroke: var(--sandstone); }
+.side-row:hover { background: var(--surface-2); }
+
 /* ---------- TABLE ---------- */
 .filters {
   display: flex;
