@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:27:25Z",
+  "generated_at": "2026-07-10T05:05:57Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 438,
   "confirmed_affiliation_count": 28,
@@ -10365,9 +10365,22 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit Berlin": 1,
     "ELLIS Unit Copenhagen": 1,
-    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit Genoa": 1,
+    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit UCL London": 1
+  },
+  "ellis_member_collaborations": {
+    "Unit T\u00fcbingen": 38,
+    "Unit Zurich": 38,
+    "Unit Cambridge": 11,
+    "Unit Paris": 10,
+    "Unit Oxford": 7,
+    "Unit Munich": 5,
+    "Unit Lausanne": 5,
+    "Unit Saarbr\u00fccken": 2,
+    "Unit Darmstadt": 2,
+    "Unit Freiburg": 1,
+    "Unit Trento": 1
   },
   "venue_counts": {
     "ICML": 35,

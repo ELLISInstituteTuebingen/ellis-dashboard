@@ -16,6 +16,7 @@ import sys
 import html
 import re
 import os
+import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
@@ -47,7 +48,9 @@ def load_config():
     sites = json.loads((CONFIG_DIR / "ellis_units.json").read_text())
     known_venues_path = CONFIG_DIR / "known_venues.json"
     known_venues = json.loads(known_venues_path.read_text()) if known_venues_path.exists() else {"papers": []}
-    return team, sites, known_venues
+    members_path = CONFIG_DIR / "ellis_members.json"
+    members = json.loads(members_path.read_text()) if members_path.exists() else []
+    return team, sites, known_venues, members
 
 
 def fetch_all_works_for_author(author_id, per_page=200):
@@ -311,8 +314,51 @@ def apply_known_venue_overrides(all_publications, known_papers):
     return overrides
 
 
+def _normalize_name(name):
+    """Lowercase, strip accents/periods/hyphens, collapse whitespace —
+    for matching co-author names against the ELLIS members roster."""
+    name = unicodedata.normalize("NFKD", name)
+    name = "".join(c for c in name if not unicodedata.combining(c))
+    name = name.replace(".", "").replace("-", " ")
+    name = re.sub(r"\s+", " ", name).strip().lower()
+    return name
+
+
+def build_member_lookup(members, team):
+    """Returns {normalized_name: [units]}, skipping our own tracked
+    scientists (co-authoring with yourself isn't an external collaboration)."""
+    own_names = {_normalize_name(s["name"]) for s in team["scientists"]}
+    lookup = {}
+    for m in members:
+        norm = _normalize_name(m["name"])
+        if norm in own_names or not m.get("units"):
+            continue
+        lookup[norm] = m["units"]
+    return lookup
+
+
+def compute_member_collaborations(all_publications, member_lookup):
+    """Cross-checks every co-author name on every tracked publication against
+    the real ELLIS Fellows/Scholars/Members roster. Far more precise than
+    institution-level matching, since it only counts a genuine named ELLIS
+    person, not just anyone at the same university."""
+    unit_counts = defaultdict(int)
+    unit_papers = defaultdict(set)
+    for pub in all_publications.values():
+        hit_units_this_paper = set()
+        for author in pub.get("authors", []):
+            units = member_lookup.get(_normalize_name(author))
+            if units:
+                hit_units_this_paper.update(units)
+        for u in hit_units_this_paper:
+            if pub["id"] not in unit_papers[u]:
+                unit_papers[u].add(pub["id"])
+                unit_counts[u] += 1
+    return dict(sorted(unit_counts.items(), key=lambda kv: -kv[1]))
+
+
 def main():
-    team, sites_cfg, known_venues = load_config()
+    team, sites_cfg, known_venues, members = load_config()
     unit_id_to_name = {
         s["openalex_institution_id"]: s["name"]
         for s in sites_cfg["sites"]
@@ -400,6 +446,11 @@ def main():
     override_count = apply_known_venue_overrides(all_publications, known_venues.get("papers", []))
     print(f"    Applied {override_count} manual venue overrides from config/known_venues.json")
 
+    member_lookup = build_member_lookup(members, team)
+    member_collaborations = compute_member_collaborations(all_publications, member_lookup)
+    print(f"    Found real-member collaborations across {len(member_collaborations)} ELLIS Sites "
+          f"(checked against {len(member_lookup)} named roster entries)")
+
     # Recompute venue tallies from final (possibly Semantic-Scholar-upgraded) categories.
     all_venue_counts = defaultdict(int)
     for pub in all_publications.values():
@@ -426,6 +477,7 @@ def main():
         "ellis_site_collaborations": dict(
             sorted(unit_collab_counts.items(), key=lambda kv: kv[1], reverse=True)
         ),
+        "ellis_member_collaborations": member_collaborations,
         "venue_counts": {v: all_venue_counts.get(v, 0) for v in CORE_VENUE_PATTERNS},
         "broader_venue_counts": dict(
             sorted(broader_only_counts.items(), key=lambda kv: kv[1], reverse=True)
