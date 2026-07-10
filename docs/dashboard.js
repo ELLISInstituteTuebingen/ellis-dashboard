@@ -185,11 +185,15 @@ function projectLatLon(lat, lon, width, height) {
 
 function renderNetwork(data) {
   const container = document.getElementById('networkSvgContainer');
-  const units = Object.entries(data.ellis_member_collaborations || {})
+  const sideList = document.getElementById('networkSideList');
+  const allUnits = Object.entries(data.ellis_member_collaborations || {})
     .filter(([name]) => !name.includes('Tübingen'))
     .sort((a, b) => b[1] - a[1]);
 
-  const width = 1150, height = 620;
+  const units = allUnits.filter(([, count]) => count > 4);
+  const minorUnits = allUnits.filter(([, count]) => count <= 4);
+
+  const width = 950, height = 620;
   const cx = width / 2, cy = height / 2;
   const radius = Math.min(width, height) / 2 - 110;
   const maxCount = Math.max(1, ...units.map(u => u[1]));
@@ -200,17 +204,14 @@ function renderNetwork(data) {
     const x = cx + radius * Math.cos(angle);
     const y = cy + radius * Math.sin(angle);
 
-    // Dramatic non-linear scaling: big numbers dominate, small ones (1-3)
-    // shrink and fade so they don't compete for attention.
     const t = count / maxCount;
-    const r = 9 + Math.pow(t, 0.7) * 30;
-    const strokeWidth = 0.5 + Math.pow(t, 0.7) * 9;
-    const opacity = 0.35 + t * 0.65;
-    const labelSize = 10.5 + t * 3.5;
+    const r = 12 + Math.pow(t, 0.7) * 28;
+    const strokeWidth = 1 + Math.pow(t, 0.7) * 8;
+    const labelSize = 11.5 + t * 3;
 
-    edges += `<path class="edge" d="M ${cx} ${cy} L ${x} ${y}" stroke-width="${strokeWidth.toFixed(1)}" opacity="${opacity.toFixed(2)}" />`;
+    edges += `<path class="edge" d="M ${cx} ${cy} L ${x} ${y}" stroke-width="${strokeWidth.toFixed(1)}" />`;
     nodes += `
-      <g class="node-unit" transform="translate(${x},${y})" opacity="${opacity.toFixed(2)}">
+      <g class="node-unit" transform="translate(${x},${y})">
         <circle r="${r.toFixed(1)}" />
         <text text-anchor="middle" dy="${r + 15}" font-size="${labelSize.toFixed(1)}">${name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', '')}</text>
         <text text-anchor="middle" dy="4" font-size="${(labelSize - 1).toFixed(1)}" fill="${COLORS.network}">${count}</text>
@@ -228,6 +229,16 @@ function renderNetwork(data) {
     </svg>
   `;
   container.innerHTML = svg;
+
+  if (sideList) {
+    const rows = minorUnits.map(([name, count]) => `
+      <div class="side-row">
+        <span class="site-name">${name.replace('ELLIS Unit ', '').replace('Unit ', '').replace('Institute ', '')}</span>
+        <span class="site-count">${count}</span>
+      </div>
+    `).join('');
+    sideList.innerHTML = `<div class="side-list-title">Also collaborated with</div>${rows}`;
+  }
 }
 
 function renderTable(data) {

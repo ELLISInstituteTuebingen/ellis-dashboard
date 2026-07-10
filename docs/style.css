@@ -160,6 +160,43 @@ section.block {
   padding: 8px;
 }
 
+.network-layout {
+  display: flex;
+  gap: 8px;
+}
+
+#networkSvgContainer {
+  flex: 1;
+  min-width: 0;
+}
+
+.network-side-list {
+  width: 190px;
+  flex-shrink: 0;
+  padding: 20px 16px 20px 8px;
+  border-left: 1px solid var(--line);
+}
+
+.network-side-list .side-list-title {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.network-side-list .side-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  font-size: 13px;
+  border-bottom: 1px solid var(--line);
+}
+
+.network-side-list .side-row .site-name { color: var(--text); }
+.network-side-list .side-row .site-count { color: var(--network); font-family: var(--font-mono); }
+
 .network-card svg { width: 100%; height: auto; display: block; }
 
 .node-institute circle { fill: var(--sandstone); }
