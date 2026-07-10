@@ -183,6 +183,41 @@ function projectLatLon(lat, lon, width, height) {
   return { x, y };
 }
 
+function declutterNodes(nodes, home, minDist) {
+  // Iteratively pushes nodes apart from each other AND away from the home
+  // point if they're closer than minDist, preserving general map direction
+  // while keeping labels legible. Home itself never moves.
+  for (let iter = 0; iter < 300; iter++) {
+    let moved = false;
+
+    for (let i = 0; i < nodes.length; i++) {
+      const dx0 = nodes[i].x - home.x, dy0 = nodes[i].y - home.y;
+      const d0 = Math.sqrt(dx0 * dx0 + dy0 * dy0) || 0.001;
+      if (d0 < minDist) {
+        moved = true;
+        const ux = dx0 / d0, uy = dy0 / d0;
+        nodes[i].x = home.x + ux * minDist;
+        nodes[i].y = home.y + uy * minDist;
+      }
+    }
+
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const dx = nodes[j].x - nodes[i].x, dy = nodes[j].y - nodes[i].y;
+        const dist = Math.sqrt(dx * dx + dy * dy) || 0.001;
+        if (dist < minDist) {
+          moved = true;
+          const overlap = (minDist - dist) / 2;
+          const ux = dx / dist, uy = dy / dist;
+          nodes[i].x -= ux * overlap; nodes[i].y -= uy * overlap;
+          nodes[j].x += ux * overlap; nodes[j].y += uy * overlap;
+        }
+      }
+    }
+    if (!moved) break;
+  }
+}
+
 function renderNetwork(data) {
   const container = document.getElementById('networkSvgContainer');
   const units = Object.entries(data.ellis_member_collaborations || {})
@@ -193,19 +228,27 @@ function renderNetwork(data) {
   const home = projectLatLon(SITE_COORDS["Institute Tübingen"].lat, SITE_COORDS["Institute Tübingen"].lon, width, height);
   const maxCount = Math.max(1, ...units.map(u => u[1]));
 
-  let edges = '', nodes = '';
-  units.forEach(([name, count]) => {
+  const nodes = units.map(([name, count]) => {
     const coord = SITE_COORDS[name];
     const { x, y } = projectLatLon(coord.lat, coord.lon, width, height);
-    const strokeWidth = 1 + (count / maxCount) * 6;
-    const r = 12 + (count / maxCount) * 12;
+    return { name, count, city: coord.city, x, y, origX: x, origY: y };
+  });
 
-    edges += `<path class="edge" d="M ${home.x} ${home.y} L ${x} ${y}" stroke-width="${strokeWidth.toFixed(1)}" />`;
-    nodes += `
-      <g class="node-unit" transform="translate(${x},${y})">
+  declutterNodes(nodes, home, 55);
+
+  let edges = '', nodeEls = '';
+  nodes.forEach(n => {
+    const strokeWidth = 1 + (n.count / maxCount) * 6;
+    const r = 12 + (n.count / maxCount) * 12;
+
+    // Line drawn to the node's true (pre-declutter) geographic position,
+    // so direction stays accurate even though the label itself was nudged.
+    edges += `<path class="edge" d="M ${home.x} ${home.y} L ${n.origX} ${n.origY}" stroke-width="${strokeWidth.toFixed(1)}" />`;
+    nodeEls += `
+      <g class="node-unit" transform="translate(${n.x},${n.y})">
         <circle r="${r.toFixed(1)}" />
-        <text text-anchor="middle" dy="${r + 14}" font-size="12">${coord.city}</text>
-        <text text-anchor="middle" dy="4" font-size="11" fill="${COLORS.network}">${count}</text>
+        <text text-anchor="middle" dy="${r + 14}" font-size="12">${n.city}</text>
+        <text text-anchor="middle" dy="4" font-size="11" fill="${COLORS.network}">${n.count}</text>
       </g>`;
   });
 
@@ -216,7 +259,7 @@ function renderNetwork(data) {
         <circle r="20" />
         <text text-anchor="middle" dy="34" font-size="12" font-weight="600">ELLIS Tübingen</text>
       </g>
-      ${nodes}
+      ${nodeEls}
     </svg>
   `;
   container.innerHTML = svg;
