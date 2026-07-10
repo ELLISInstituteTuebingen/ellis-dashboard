@@ -1,0 +1,3312 @@
+[
+  {
+    "name": "Nassir Navab",
+    "units": []
+  },
+  {
+    "name": "Claire Boyer",
+    "units": []
+  },
+  {
+    "name": "Mennatallah El-Assady",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Lihi Zelnik-Manor",
+    "units": []
+  },
+  {
+    "name": "Rika Antonova",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Zeb Kurth-Nelson",
+    "units": []
+  },
+  {
+    "name": "Carola-Bibiane Schönlieb",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Bruno Correia",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Melanie Zeilinger",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Robert West",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Johannes Margraf",
+    "units": []
+  },
+  {
+    "name": "Catalina Vallejos",
+    "units": []
+  },
+  {
+    "name": "Holger Rauhut",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Andrea Cavallaro",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Víctor Elvira",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Yiannis Kompatsiaris",
+    "units": []
+  },
+  {
+    "name": "Philippe Schwaller",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Peter Lukas Bühlmann",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Julia Vogt",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Maria Brbić",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Oliver Lemon",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Martin Schrimpf",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Siddhartha Mishra",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Anna Rogers",
+    "units": []
+  },
+  {
+    "name": "Antoine Bosselut",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Chen Chen",
+    "units": [
+      "Unit Manchester"
+    ]
+  },
+  {
+    "name": "Ola Engkvist",
+    "units": []
+  },
+  {
+    "name": "Anne-Marie Kermarrec",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Sagie Benaim",
+    "units": [
+      "Unit Tel Aviv"
+    ]
+  },
+  {
+    "name": "Caglar Gulcehre",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Laura Sevilla-Lara",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Ole Winther",
+    "units": []
+  },
+  {
+    "name": "Ioannis Patras",
+    "units": []
+  },
+  {
+    "name": "Catarina Barata",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Tanja Schultz",
+    "units": []
+  },
+  {
+    "name": "Alejandro Frangi",
+    "units": [
+      "Unit Manchester"
+    ]
+  },
+  {
+    "name": "Veronika Cheplygina",
+    "units": [
+      "Unit Copenhagen"
+    ]
+  },
+  {
+    "name": "Chryssa Zerva",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Stéphane Lathuilière",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Emir Demirović",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Justus Thies",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Or Litany",
+    "units": []
+  },
+  {
+    "name": "Martin R. Oswald",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Debabrota Basu",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Steven McDonagh",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Cecilia Clementi",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Jonas Geiping",
+    "units": [
+      "Institute Tübingen"
+    ]
+  },
+  {
+    "name": "Marcus Rohrbach",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Anna Rohrbach",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Monika Henzinger",
+    "units": [
+      "Unit Vienna"
+    ]
+  },
+  {
+    "name": "Paul Jäger",
+    "units": [
+      "Unit Heidelberg"
+    ]
+  },
+  {
+    "name": "Niloy J. Mitra",
+    "units": []
+  },
+  {
+    "name": "Michele Ceriotti",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "George Drettakis",
+    "units": []
+  },
+  {
+    "name": "Victor Lempitsky",
+    "units": []
+  },
+  {
+    "name": "Lucy Colwell",
+    "units": []
+  },
+  {
+    "name": "Martha Larson",
+    "units": [
+      "Unit Nijmegen"
+    ]
+  },
+  {
+    "name": "Angela Dai",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Regina Barzilay",
+    "units": []
+  },
+  {
+    "name": "Adrian Hilton",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Karsten Reuter",
+    "units": []
+  },
+  {
+    "name": "Maks Ovsjanikov",
+    "units": []
+  },
+  {
+    "name": "Edmond Boyer",
+    "units": []
+  },
+  {
+    "name": "Marwin Segler",
+    "units": []
+  },
+  {
+    "name": "Francesca Grisoni",
+    "units": []
+  },
+  {
+    "name": "Sereina Riniker",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Marco Hutter",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Xucong Zhang",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Gaël Richard",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "José Santos-Victor",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Sven Behnke",
+    "units": []
+  },
+  {
+    "name": "Georgia Chalvatzaki",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Zuzana Kúkelová",
+    "units": [
+      "Unit Prague"
+    ]
+  },
+  {
+    "name": "Martin Riedmiller",
+    "units": []
+  },
+  {
+    "name": "David Gross",
+    "units": []
+  },
+  {
+    "name": "Emanuel Gonçalves",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Pasquale Minervini",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Gitta Kutyniok",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Maryam Kamgarpour",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Fernando P. Santos",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Holger Caesar",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Krikamol Muandet",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Michael Felsberg",
+    "units": []
+  },
+  {
+    "name": "Luiz Chamon",
+    "units": [
+      "Unit Stuttgart",
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Andrew Yates",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Stefan Feuerriegel",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "François-Xavier Briol",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Arlindo Oliveira",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Claire Vernade",
+    "units": []
+  },
+  {
+    "name": "Margret Keuper",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Mark Steedman",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Piotr Sankowski",
+    "units": [
+      "Unit Warsaw"
+    ]
+  },
+  {
+    "name": "Eddy Ilg",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Peyman Mohajerin Esfahani",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Carles Sierra",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Goran Glavaš",
+    "units": []
+  },
+  {
+    "name": "Wendelin Böhmer",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Torsten Hoefler",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Gábor Lugosi",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Elisabeth Lex",
+    "units": [
+      "Unit Graz"
+    ]
+  },
+  {
+    "name": "Dimitrios Tzionas",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Mor Nitzan",
+    "units": []
+  },
+  {
+    "name": "Roberto Navigli",
+    "units": []
+  },
+  {
+    "name": "Simone Melzi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Jacopo Staiano",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Wei Pan",
+    "units": [
+      "Unit Manchester"
+    ]
+  },
+  {
+    "name": "Antonio M. López Peña",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Andrea Passerini",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Hakan Bilen",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Miguel R. D. Rodrigues",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Markus Reichstein",
+    "units": []
+  },
+  {
+    "name": "Hervé Jégou",
+    "units": []
+  },
+  {
+    "name": "Shaogang Gong",
+    "units": []
+  },
+  {
+    "name": "Emine Yilmaz",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Timothy M. Hospedales",
+    "units": []
+  },
+  {
+    "name": "Vittorio Ferrari",
+    "units": []
+  },
+  {
+    "name": "Elisabeth André",
+    "units": []
+  },
+  {
+    "name": "Björn Schuller",
+    "units": []
+  },
+  {
+    "name": "Mrinmaya Sachan",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Bernd Bischl",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Alberto Marchesi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "María Piles",
+    "units": []
+  },
+  {
+    "name": "Jakob Zscheischler",
+    "units": []
+  },
+  {
+    "name": "Sabine Süsstrunk",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Cesare Alippi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Arno Solin",
+    "units": [
+      "Unit Helsinki"
+    ]
+  },
+  {
+    "name": "Marinka Zitnik",
+    "units": []
+  },
+  {
+    "name": "Alessandra Sciutti",
+    "units": [
+      "Unit Genoa"
+    ]
+  },
+  {
+    "name": "Emanuele Rodolà",
+    "units": []
+  },
+  {
+    "name": "Petar Veličković",
+    "units": []
+  },
+  {
+    "name": "Niao He",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Siddharth Narayanaswamy",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Manon Kok",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Alison Noble",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Sotirios Tsaftaris",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Edith Elkind",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Dorina Thanou",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Florence d'Alché-Buc",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Philipp Berens",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Sara Magliacane",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Mathias Niepert",
+    "units": [
+      "Unit Stuttgart"
+    ]
+  },
+  {
+    "name": "Bram van Ginneken",
+    "units": [
+      "Unit Nijmegen"
+    ]
+  },
+  {
+    "name": "Shaodi You",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Bastian Rieck",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Moritz Hardt",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Bob Williamson",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Hayley Hung",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Vlad Niculae",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Björn Ommer",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Vera Demberg",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Joost van de Weijer",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "David Barber",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Pontus Stenetorp",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Elena Marchiori",
+    "units": [
+      "Unit Nijmegen"
+    ]
+  },
+  {
+    "name": "Eric Moulines",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Michèle Sebag",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Elisa D. Mekler",
+    "units": []
+  },
+  {
+    "name": "Thomas Serre",
+    "units": []
+  },
+  {
+    "name": "Oisin Mac Aodha",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Alexandra Birch",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Nicolas Vayatis",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Manfred Opper",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Bertrand Thirion",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Christian P. Robert",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Anna Kreshuk",
+    "units": [
+      "Unit Heidelberg"
+    ]
+  },
+  {
+    "name": "Iain Murray",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Grégoire Montavon",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Amos Storkey",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Mark Girolami",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Begüm Demir",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Fred A. Hamprecht",
+    "units": [
+      "Unit Heidelberg"
+    ]
+  },
+  {
+    "name": "Ana Paiva",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Frank Keller",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Volker Markl",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Matthias Nießner",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Eleftheria Zeggini",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Marcel van Gerven",
+    "units": [
+      "Unit Nijmegen"
+    ]
+  },
+  {
+    "name": "Rodrigo Rodrigues",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Matt J. Kusner",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Lorenzo Baraldi",
+    "units": [
+      "Unit Modena"
+    ]
+  },
+  {
+    "name": "Stefano Panzeri",
+    "units": [
+      "Unit Genoa"
+    ]
+  },
+  {
+    "name": "Lourdes Agapito",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Zuzana Kúkelová",
+    "units": [
+      "Unit Prague"
+    ]
+  },
+  {
+    "name": "Martin Riedmiller",
+    "units": []
+  },
+  {
+    "name": "Krishna P. Gummadi",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Lena Maier-Hein",
+    "units": [
+      "Unit Heidelberg"
+    ]
+  },
+  {
+    "name": "Peter Grünwald",
+    "units": []
+  },
+  {
+    "name": "Tamim Asfour",
+    "units": []
+  },
+  {
+    "name": "Andrea Vedaldi",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Zeynep Akata",
+    "units": [
+      "Unit Tübingen",
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Emmanuel Dupoux",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Carl Edward Rasmussen",
+    "units": []
+  },
+  {
+    "name": "Mackenzie Mathis",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Bradley C. Love",
+    "units": []
+  },
+  {
+    "name": "Asja Fischer",
+    "units": []
+  },
+  {
+    "name": "Giulio Biroli",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Julien Mairal",
+    "units": []
+  },
+  {
+    "name": "Konrad Schindler",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Nozha Boujemaa",
+    "units": []
+  },
+  {
+    "name": "Bruno Lepri",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Veronika Eyring",
+    "units": []
+  },
+  {
+    "name": "Nuno Carvalhais",
+    "units": [
+      "Unit Jena"
+    ]
+  },
+  {
+    "name": "Daniel Cremers",
+    "units": []
+  },
+  {
+    "name": "Peter Dayan",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Chris Holmes",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Michael A. Osborne",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Taco Cohen",
+    "units": []
+  },
+  {
+    "name": "Aki Vehtari",
+    "units": [
+      "Unit Helsinki"
+    ]
+  },
+  {
+    "name": "Sonia Petrone",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Sethu Vijayakumar",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Chris Russell",
+    "units": []
+  },
+  {
+    "name": "Emilia Gómez",
+    "units": []
+  },
+  {
+    "name": "Chris Watkins",
+    "units": []
+  },
+  {
+    "name": "Andrew Fitzgibbon",
+    "units": []
+  },
+  {
+    "name": "Sebastian Nowozin",
+    "units": []
+  },
+  {
+    "name": "Yee Whye Teh",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Yishay Mansour",
+    "units": [
+      "Unit Tel Aviv"
+    ]
+  },
+  {
+    "name": "Gunnar Rätsch",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Arthur Gretton",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Alexander Ecker",
+    "units": []
+  },
+  {
+    "name": "Ralf Herbrich",
+    "units": [
+      "Unit Potsdam"
+    ]
+  },
+  {
+    "name": "Michael Bronstein",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Thomas Hofmann",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Riccardo Zecchina",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Antti Oulasvirta",
+    "units": [
+      "Unit Helsinki"
+    ]
+  },
+  {
+    "name": "Michal Irani",
+    "units": []
+  },
+  {
+    "name": "Fabian Theis",
+    "units": []
+  },
+  {
+    "name": "ChaTo Castillo",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Chelsea Finn",
+    "units": []
+  },
+  {
+    "name": "Thomas Brox",
+    "units": [
+      "Unit Freiburg"
+    ]
+  },
+  {
+    "name": "Christoph Bock",
+    "units": []
+  },
+  {
+    "name": "Nicolò Cesa-Bianchi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Bernt Schiele",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Pushmeet Kohli",
+    "units": []
+  },
+  {
+    "name": "John Shawe-Taylor",
+    "units": [
+      "Unit London"
+    ]
+  },
+  {
+    "name": "Chris Williams",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Tomas Pajdla",
+    "units": [
+      "Unit Prague"
+    ]
+  },
+  {
+    "name": "Paul Newman",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Raia Hadsell",
+    "units": []
+  },
+  {
+    "name": "Karsten Borgwardt",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Ivan Laptev",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Isabel Valera",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Miguel Ángel Martín-Delgado",
+    "units": [
+      "Unit Madrid"
+    ]
+  },
+  {
+    "name": "Pascal Frossard",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Andreas Geiger",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Gerhard Neumann",
+    "units": []
+  },
+  {
+    "name": "Frank Nielsen",
+    "units": []
+  },
+  {
+    "name": "Carme Torras",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Stefan Roth",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Oriol Vinyals",
+    "units": []
+  },
+  {
+    "name": "Oliver Brock",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Sharon Goldwater",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Martin Jaggi",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Jakob Runge",
+    "units": [
+      "Unit Potsdam"
+    ]
+  },
+  {
+    "name": "Simo Särkkä",
+    "units": [
+      "Unit Helsinki"
+    ]
+  },
+  {
+    "name": "Gustau Camps-Valls",
+    "units": []
+  },
+  {
+    "name": "Matthew Blaschko",
+    "units": []
+  },
+  {
+    "name": "Yair Weiss",
+    "units": []
+  },
+  {
+    "name": "Stefanie Jegelka",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Csaba Szepesvari",
+    "units": []
+  },
+  {
+    "name": "Nuria Oliver",
+    "units": []
+  },
+  {
+    "name": "Frank Hutter",
+    "units": [
+      "Institute Tübingen",
+      "Unit Freiburg"
+    ]
+  },
+  {
+    "name": "Jonas Peters",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Samuel Kaski",
+    "units": [
+      "Unit Helsinki",
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Gábor Csányi",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Jane X. Wang",
+    "units": []
+  },
+  {
+    "name": "Guido Sanguinetti",
+    "units": []
+  },
+  {
+    "name": "Robert Legenstein",
+    "units": [
+      "Unit Graz"
+    ]
+  },
+  {
+    "name": "Oliver Stegle",
+    "units": [
+      "Unit Heidelberg"
+    ]
+  },
+  {
+    "name": "Christian Theobalt",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Lorenzo Rosasco",
+    "units": [
+      "Unit Genoa"
+    ]
+  },
+  {
+    "name": "Thomas Schön",
+    "units": []
+  },
+  {
+    "name": "Xiaoxiang Zhu",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Jan Peters",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Matthias Bethge",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Magnus Rattray",
+    "units": [
+      "Unit Manchester"
+    ]
+  },
+  {
+    "name": "Patrick van der Smagt",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Plamen P. Angelov",
+    "units": []
+  },
+  {
+    "name": "Francis Bach",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Andrew Zisserman",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Lenka Zdeborová",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Carlo Baldassi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Nicolas Heess",
+    "units": []
+  },
+  {
+    "name": "Wolfram Burgard",
+    "units": []
+  },
+  {
+    "name": "Dario Floreano",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Bjorn Stevens",
+    "units": []
+  },
+  {
+    "name": "Matthias Rupp",
+    "units": []
+  },
+  {
+    "name": "Barbara Caputo",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Frank Noé",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Jürgen Schmidhuber",
+    "units": []
+  },
+  {
+    "name": "Luca Oneto",
+    "units": [
+      "Unit Genoa"
+    ]
+  },
+  {
+    "name": "Richard E. Turner",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Li Zhaoping",
+    "units": []
+  },
+  {
+    "name": "Giuseppe Carleo",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Aleš Ude",
+    "units": []
+  },
+  {
+    "name": "Massimiliano Pontil",
+    "units": []
+  },
+  {
+    "name": "Max Welling",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Y-Lan Boureau",
+    "units": []
+  },
+  {
+    "name": "Wolfgang Maass",
+    "units": []
+  },
+  {
+    "name": "Tatiana Tommasi",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Karteek Alahari",
+    "units": []
+  },
+  {
+    "name": "Gabriel Peyré",
+    "units": []
+  },
+  {
+    "name": "Stefano V. Albrecht",
+    "units": []
+  },
+  {
+    "name": "Timothy P. Lillicrap",
+    "units": []
+  },
+  {
+    "name": "Pierre Vandergheynst",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Thore Graepel",
+    "units": []
+  },
+  {
+    "name": "Herke van Hoof",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Omer Levy",
+    "units": [
+      "Unit Tel Aviv"
+    ]
+  },
+  {
+    "name": "Isabelle Guyon",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Klaus-Robert Müller",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Thomas Wiegand",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Olivier Bousquet",
+    "units": []
+  },
+  {
+    "name": "Matthias Grossglauser",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Stephan Günnemann",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Patrick Rebeschini",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Miguel Hernández-Lobato",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Mathieu Aubry",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Laura Leal-Taixé",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Torsten Sattler",
+    "units": [
+      "Unit Prague"
+    ]
+  },
+  {
+    "name": "Fredrik D. Johansson",
+    "units": [
+      "Unit Copenhagen"
+    ]
+  },
+  {
+    "name": "Manuel Lopes",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Doina Precup",
+    "units": []
+  },
+  {
+    "name": "Hilbert Johan Kappen",
+    "units": [
+      "Unit Nijmegen"
+    ]
+  },
+  {
+    "name": "Marcel Worring",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Matthias Hein",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Giuseppe E. Santoro",
+    "units": []
+  },
+  {
+    "name": "Remi Monasson",
+    "units": []
+  },
+  {
+    "name": "Bernhard Schölkopf",
+    "units": [
+      "Unit Tübingen",
+      "Institute Tübingen"
+    ]
+  },
+  {
+    "name": "Andreas Krause",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Sancho Salcedo-Sanz",
+    "units": [
+      "Unit Madrid"
+    ]
+  },
+  {
+    "name": "Vedran Dunjko",
+    "units": []
+  },
+  {
+    "name": "Jiri Matas",
+    "units": []
+  },
+  {
+    "name": "Mihaela van der Schaar",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Tinne Tuytelaars",
+    "units": [
+      "Unit Leuven"
+    ]
+  },
+  {
+    "name": "Wieland Brendel",
+    "units": [
+      "Institute Tübingen"
+    ]
+  },
+  {
+    "name": "Joshua B. Tenenbaum",
+    "units": []
+  },
+  {
+    "name": "Nick Chater",
+    "units": []
+  },
+  {
+    "name": "Jean Ponce",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Amir Globerson",
+    "units": [
+      "Unit Tel Aviv"
+    ]
+  },
+  {
+    "name": "Yarin Gal",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Volkan Cevher",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Stefanos Zafeiriou",
+    "units": []
+  },
+  {
+    "name": "Mário A. T. Figueiredo",
+    "units": [
+      "Unit Lisbon"
+    ]
+  },
+  {
+    "name": "Pietro Liò",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Miguel D. Mahecha",
+    "units": []
+  },
+  {
+    "name": "Florian Marquardt",
+    "units": []
+  },
+  {
+    "name": "Florent Krzakala",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Christoph H. Lampert",
+    "units": [
+      "Unit Vienna"
+    ]
+  },
+  {
+    "name": "Jens Eisert",
+    "units": []
+  },
+  {
+    "name": "Dariu Gavrila",
+    "units": [
+      "Unit Delft"
+    ]
+  },
+  {
+    "name": "Cédric Archambeau",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Danica Kragic",
+    "units": []
+  },
+  {
+    "name": "Ingmar Posner",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Shimon Whiteson",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Timothy Behrens",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Sergio Escalera",
+    "units": [
+      "Unit Barcelona"
+    ]
+  },
+  {
+    "name": "Anne Hsu",
+    "units": []
+  },
+  {
+    "name": "Ciro Cattuto",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Adrian Weller",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Joachim Denzler",
+    "units": []
+  },
+  {
+    "name": "Luc Van Gool",
+    "units": [
+      "Unit Sofia"
+    ]
+  },
+  {
+    "name": "Michael J. Black",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Julia A. Schnabel",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Devis Tuia",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Davide Scaramuzza",
+    "units": []
+  },
+  {
+    "name": "Shie Mannor",
+    "units": []
+  },
+  {
+    "name": "Justus Piater",
+    "units": []
+  },
+  {
+    "name": "Cordelia Schmid",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Aude Billard",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Zoubin Ghahramani",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Rita Cucchiara",
+    "units": []
+  },
+  {
+    "name": "Manuel Gomez Rodriguez",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Jakob Verbeek",
+    "units": []
+  },
+  {
+    "name": "Philipp Hennig",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Josef Sivic",
+    "units": []
+  },
+  {
+    "name": "Sepp Hochreiter",
+    "units": []
+  },
+  {
+    "name": "Jean-Philippe Vert",
+    "units": []
+  },
+  {
+    "name": "Matthew Botvinick",
+    "units": []
+  },
+  {
+    "name": "Silvia Chiappa",
+    "units": []
+  },
+  {
+    "name": "Marc Toussaint",
+    "units": [
+      "Unit Berlin"
+    ]
+  },
+  {
+    "name": "Ulrike von Luxburg",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Ingo Steinwart",
+    "units": []
+  },
+  {
+    "name": "Andrea Vedaldi",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Emmanuel Abbé",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Rico Sennrich",
+    "units": []
+  },
+  {
+    "name": "Yoav Goldberg",
+    "units": []
+  },
+  {
+    "name": "Mirella Lapata",
+    "units": [
+      "Unit Edinburgh"
+    ]
+  },
+  {
+    "name": "Omri Abend",
+    "units": []
+  },
+  {
+    "name": "Carl Allen",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Niko Beerenwinkel",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Ryan Cotterell",
+    "units": [
+      "Unit Zurich",
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Christian Holz",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Robert Katzschmann",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Fanny Yang",
+    "units": [
+      "Unit Zurich"
+    ]
+  },
+  {
+    "name": "Georg Martius",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Michael Muehlebach",
+    "units": [
+      "Unit Tübingen"
+    ]
+  },
+  {
+    "name": "Carl Henrik Ek",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Lynda Haines",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "David Krueger",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Po-Ling Loh",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Shangzhe Wu",
+    "units": [
+      "Unit Cambridge"
+    ]
+  },
+  {
+    "name": "Alessandro Abate",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Fazl Barez",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Atılım Güneş Baydin",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Arnab Bhattacharyya",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Adel Bibi",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Matthias Caro",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "David A. Clifton",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Theo Damoulas",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Puneet K. Dokania",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Robin J. Evans",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Jiarui Gan",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Nathan Griffiths",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Nick Hawes",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Maximilian Kasy",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Iro Laina",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Fanghui Liu",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Terry Lyons",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Janet Pierrehumbert",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Rui Ponte Costa",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Gareth Roberts",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Christian Rupprecht",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Christian Schroeder de Witt",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Philip Stier",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Jared Tanner",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Matthew Thorpe",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Long Tran-Thanh",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Paolo Turrini",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Wenkai Xu",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Christopher Yau",
+    "units": [
+      "Unit Oxford"
+    ]
+  },
+  {
+    "name": "Francesco Amigoni",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Marco Antoniotti",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Federica Arrigoni",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Simone Bianco",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Giacomo Boracchi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Marco Bressan",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Marco Buzzelli",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Elena Casiraghi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Matteo Castiglioni",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Andrea Celli",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Luigi Celona",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Davide Chicco",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Stefano Coniglio",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Marek Eliáš",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Emmanuel Esposito",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Gianmarco Genalti",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Alfonso Gerevini",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Dirk Hovy",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Matteo Luperto",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Luca Magri",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Andrea Manzoni",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Alberto Maria Metelli",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Marco Mussi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Paolo Napoletano",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Debora Nozza",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Matteo Papini",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Francesco Pierri",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Chiara Plizzari",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Carlos Rodríguez-Pardo",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Alessandro Rudi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Roberto Sassi",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Raimondo Schettini",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Micol Spitale",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Fabio Stella",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Francesco Trovò",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Giorgio Valentini",
+    "units": [
+      "Unit Milan"
+    ]
+  },
+  {
+    "name": "Franziska Boenisch",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Rebekka Burkholz",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Alexander Koller",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Jan Eric Lenssen",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Sebastian U. Stich",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Mariya Toneva",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Xiao Zhang",
+    "units": [
+      "Unit Saarbrücken"
+    ]
+  },
+  {
+    "name": "Gilles Blanchard",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Quentin Bouniot",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Andrei Bursuc",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Laura Cantini",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Justine Cassell",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Matthieu Cord",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Raoul de Charette",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Aymeric Dieuleveut",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Gianni Franchi",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Jhony H. Giraldo",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Vicky Kalogeiton",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Balázs Kégl",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Loïc Landrieu",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Marc Lelarge",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Vincent Lepetit",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Bruno Loureiro",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Ioana Manolescu",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Rémi Munos",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Edouard Oyallon",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "David Picard",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Thierry Poibeau",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Enzo Tartaglione",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Florence Tupin",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Michal Valko",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Gaël Varoquaux",
+    "units": [
+      "Unit Paris"
+    ]
+  },
+  {
+    "name": "Bjoern Eskofier",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Alexander Fraser",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Niki Kilbertus",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "A. Sophia Koepke",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Carsten Marr",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Eric Schulz",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Leo Schwinn",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Suvrit Sra",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Federico Tombari",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Christian Wachinger",
+    "units": [
+      "Unit Munich"
+    ]
+  },
+  {
+    "name": "Thomas Casey",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Qi Chen",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Michael Cochez",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Francesco Croce",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Andrew Cropper",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Azade Farshad",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Andrea Ganna",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Vikas K. Garg",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Antti Honkela",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Shaoxiong Ji",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Mikko Karttunen",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Arto Klami",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Ville Kyrki",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Eric Malmi",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Pekka Marttinen",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Simone Parisi",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Kai Puolamäki",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Teemu Roos",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Laura Ruotsalainen",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Jörg Tiedemann",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Jiancheng Yang",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Indrė Žliobaitė",
+    "units": [
+      "Institute Finland"
+    ]
+  },
+  {
+    "name": "Mohammad Alian Nejadi",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Johann Brehmer",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Iacer Calixto",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Patrick Forré",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Theo Gevers",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Iris Groen",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Madelon Hulsebos",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Ana Lučić",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Pascal Mettes",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Christof Monz",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Joris M. Mooij",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Christian Andersson Naesseth",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Sandro Pezzelle",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Khalil Sima'an",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Arnold Smeulders",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Tim van Erven",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Nanne van Noord",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Willem Zuidema",
+    "units": [
+      "Unit Amsterdam"
+    ]
+  },
+  {
+    "name": "Nicu Sebe",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Çiğdem Beyan",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Francesca Bovolo",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Giovanni De Toni",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Marco Guerini",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Giovanni Iacca",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Oswald Lanz",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Antonio Longa",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Massimiliano Mancini",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Matteo Negri",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Fabio Poiesi",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Paolo Rota",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Matteo Saveriano",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Stefano Teso",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Sara Tonelli",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Wei Wang",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Yiming Wang",
+    "units": [
+      "Unit Trento"
+    ]
+  },
+  {
+    "name": "Giuseppe Averta",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Carlo Alberto Barbano",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Raffaello Camoriano",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Enrico Magli",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Stefano Favaro",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Attilio Fiandrotti",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Giulia Fracastoro",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Matteo Giordano",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Marco Grangetto",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Carlo Masone",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Giuseppe Rizzo",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Leonel Rozo",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Diego Valsesia",
+    "units": [
+      "Unit Turin"
+    ]
+  },
+  {
+    "name": "Armin Biere",
+    "units": [
+      "Unit Freiburg"
+    ]
+  },
+  {
+    "name": "Abhinav Valada",
+    "units": [
+      "Unit Freiburg"
+    ]
+  },
+  {
+    "name": "Behzad Bozorgtabar",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Charlotte Bunne",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Grigorios Chrysos",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Nicolas Flammarion",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Tanja Käser",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Mathieu Salzmann",
+    "units": [
+      "Unit Lausanne"
+    ]
+  },
+  {
+    "name": "Carsten Binnig",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Heinz Köppl",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Mira Mezini",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Constantin Rothkopf",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Simone Schaub-Meyer",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  },
+  {
+    "name": "Angela Yu",
+    "units": [
+      "Unit Darmstadt"
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+
+95 co-authorship matches found against the real ELLIS roster
+
+  [2026] SUMMER: Dataset of human single-neuron activity during an 83
+        co-author: Laura Leal-Taixé  ->  Unit Munich
+  [2026] MentisOculi: Revealing the Limits of Reasoning with Mental I
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2026] MentisOculi: Revealing the Limits of Reasoning with Mental I
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2026] Stabilizing Extrapolation in Looped Transformers via Learned
+        co-author: Martin Jaggi  ->  Unit Lausanne
+  [2026] Stabilizing Extrapolation in Looped Transformers via Learned
+        co-author: Martin Jaggi  ->  Unit Lausanne
+  [2026] Sequence Modeling Architectures: Foundations [Special Issue 
+        co-author: Çağlar Gülçehre  ->  Unit Lausanne
+  [2026] Sequence Modeling Architectures: Foundations [Special Issue 
+        co-author: Volkan Cevher  ->  Unit Lausanne
+  [2026] Fixed-Point Reasoners: Stable and Adaptive Deep Looped Trans
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2026] Fixed-Point Reasoners: Stable and Adaptive Deep Looped Trans
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2026] PostTrainBench: Can LLM Agents Automate LLM Post-Training?
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2026] Test of Time: Rethinking Temporal Signal of Benchmark Contam
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2026] Sim-to-Real Transfer for Muscle-Actuated Robots via Generali
+        co-author: Ingmar Posner  ->  Unit Oxford
+  [2026] Sim-to-Real Transfer for Muscle-Actuated Robots via Generali
+        co-author: Ingmar Posner  ->  Unit Oxford
+  [2026] Bounded Ratio Reinforcement Learning
+        co-author: Andreas Krause  ->  Unit Zurich
+  [2026] Bounded Ratio Reinforcement Learning
+        co-author: Andreas Krause  ->  Unit Zurich
+  [2026] Echoes of the Prior: A Computational Phenomenology of Forget
+        co-author: Andreas Geiger  ->  Unit Tübingen
+  [2026] Echoes of the Prior: A Computational Phenomenology of Forget
+        co-author: Andreas Geiger  ->  Unit Tübingen
+  [2025] Performative Prediction: Past and Future
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2025] Performative Validity of Recourse Explanations
+        co-author: Ulrike von Luxburg  ->  Unit Tübingen
+  [2025] LLMs on the Line: Data Determines Loss-to-Loss Scaling Laws
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2025] Pretraining Frequency Predicts Compositional Generalization 
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2025] VGGSounder: Audio-Visual Evaluations for Foundation Models
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2025] Sample Smart, Not Hard: Correctness-First Decoding for Bette
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2025] Strategic Dishonesty Can Undermine AI Safety Evaluations of 
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2025] Adaptive Attacks on Trusted Monitors Subvert AI Control Prot
+        co-author: Çağlar Gülçehre  ->  Unit Lausanne
+  [2025] Selective Rotary Position Embedding
+        co-author: Volkan Cevher  ->  Unit Lausanne
+  [2025] Difficult Lessons on Social Prediction from Wisconsin Public
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2025] Policy Design in Long-Run Welfare Dynamics
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2025] Policy Design in Long-Run Welfare Dynamics
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2025] An Uncertainty Principle for Linear Recurrent Neural Network
+        co-author: Francis Bach  ->  Unit Paris
+  [2025] Generalized Interpolating Discrete Diffusion
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2025] Scaling Behavior of Discrete Diffusion Language Models
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2025] Artificial intelligence for modelling infectious disease epi
+        co-author: Manuel Gomez-Rodriguez  ->  Unit Saarbrücken
+  [2025] International AI Safety Report
+        co-author: Andreas Krause  ->  Unit Zurich
+  [2025] RAVEN: Rethinking Adversarial Video Generation with Efficien
+        co-author: Cordelia Schmid  ->  Unit Paris
+  [2025] Orthogonal Finetuning Made Scalable
+        co-author: Adrian Weller  ->  Unit Cambridge
+  [2025] Improving Large Language Model Safety with Contrastive Repre
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2025] Orthogonal Finetuning Made Scalable
+        co-author: Adrian Weller  ->  Unit Cambridge
+  [2025] Improving Large Language Model Safety with Contrastive Repre
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2025] Corrupted by Reasoning: Reasoning Language Models Become Fre
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Questioning the Survey Responses of Large Language Models
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2024] Evaluating language models as risk scores
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2024] An engine not a camera: Measuring performative power of onli
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2024] Decline Now: A Combinatorial Model for Algorithmic Collectiv
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2024] An engine not a camera: Measuring performative power of onli
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2024] Evaluating language models as risk scores
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2024] In Search of Forgotten Domain Generalization
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2024] An Interpretable N-gram Perplexity Threat Model for Large La
+        co-author: Matthias Hein  ->  Unit Tübingen
+  [2024] Can Fairness be Automated? Guidelines and Opportunities for 
+        co-author: Bernd Bischl  ->  Unit Munich
+  [2024] Is Mamba Capable of In-Context Learning?
+        co-author: Thomas Brox  ->  Unit Freiburg
+  [2024] Position: A Call to Action for a Human-Centered AutoML Parad
+        co-author: Bernd Bischl  ->  Unit Munich
+  [2024] Super Consistency of Neural Network Landscapes and Learning 
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2024] Super Consistency of Neural Network Landscapes and Learning 
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2024] Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+        co-author: Jan Peters  ->  Unit Darmstadt
+  [2024] GraphDreamer: Compositional 3D Scene Synthesis from Scene Gr
+        co-author: Andreas Geiger  ->  Unit Tübingen
+  [2024] Optimal Decision Making Under Strategic Behavior
+        co-author: Manuel Gomez-Rodriguez  ->  Unit Saarbrücken
+  [2024] Cooperate or Collapse: Emergence of Sustainable Cooperation 
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Implicit Personalization in Language Models: A Systematic St
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] CausalCite: A Causal Formulation of Paper Citations
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Do Language Models Exhibit the Same Cognitive Biases in Prob
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Cooperate or Collapse: Emergence of Sustainable Cooperation 
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Can Large Language Models Understand Symbolic Graphics Progr
+        co-author: Adrian Weller  ->  Unit Cambridge
+  [2024] Can Large Language Models Understand Symbolic Graphics Progr
+        co-author: Michael J. Black  ->  Unit Tübingen
+  [2024] Language Model Alignment in Multilingual Trolley Problems
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] RAVEN: Rethinking Adversarial Video Generation with Efficien
+        co-author: Cordelia Schmid  ->  Unit Paris
+  [2024] Competition of Mechanisms: Tracing How Language Models Handl
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Hallmarks of Optimization Trajectories in Neural Networks: D
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2024] Compete and Compose: Learning Independent Mechanisms for Mod
+        co-author: Ingmar Posner  ->  Unit Oxford
+  [2024] Implicit Personalization in Language Models: A Systematic St
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Quriosity: Analyzing Human Questioning Behavior and Causal I
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] On Affine Homotopy between Language Encoders
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] Standardizing Structural Causal Models
+        co-author: Andreas Krause  ->  Unit Zurich
+  [2024] Landscaping Linear Mode Connectivity
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2024] Preference Elicitation for Offline Reinforcement Learning
+        co-author: Gunnar Rätsch  ->  Unit Zurich
+  [2024] Competition of Mechanisms: Tracing How Language Models Handl
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] MathGAP: Out-of-Distribution Evaluation on Problems with Arb
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] SPARTAN: A Sparse Transformer World Model Attending to What 
+        co-author: Ingmar Posner  ->  Unit Oxford
+  [2024] Generative Intervention Models for Causal Perturbation Model
+        co-author: Andreas Krause  ->  Unit Zurich
+  [2024] Do LLMs Think Fast and Slow? A Causal Study on Sentiment Ana
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2024] On Affine Homotopy between Language Encoders
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2023] Performative Prediction: Past and Future
+        co-author: Moritz Hardt  ->  Unit Tübingen
+  [2023] Does CLIP's Generalization Performance Mainly Stem from High
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2023] Provable Compositional Generalization for Object-Centric Lea
+        co-author: Matthias Bethge  ->  Unit Tübingen
+  [2023] Recurrent Distance Filtering for Graph Representation Learni
+        co-author: Thomas Hofmann  ->  Unit Zurich
+  [2023] Pairwise Similarity Learning is SimPLE
+        co-author: Adrian Weller  ->  Unit Cambridge
+  [2023] Pairwise Similarity Learning is SimPLE
+        co-author: Michael J. Black  ->  Unit Tübingen
+  [2023] Open X-Embodiment: Robotic Learning Datasets and RT-X Models
+        co-author: Jan Peters  ->  Unit Darmstadt
+  [2023] Parameter-Efficient Orthogonal Finetuning via Butterfly Fact
+        co-author: Michael J. Black  ->  Unit Tübingen
+  [2023] Parameter-Efficient Orthogonal Finetuning via Butterfly Fact
+        co-author: Adrian Weller  ->  Unit Cambridge
+  [2023] Pairwise Similarity Learning is SimPLE
+        co-author: Adrian Weller  ->  Unit Cambridge
+  [2023] Pairwise Similarity Learning is SimPLE
+        co-author: Michael J. Black  ->  Unit Tübingen
+  [2023] Ghost on the Shell: An Expressive Representation of General 
+        co-author: Michael J. Black  ->  Unit Tübingen
+  [2023] Causal Modeling with Stationary Diffusions
+        co-author: Andreas Krause  ->  Unit Zurich
+  [2023] Exploring the Jungle of Bias: Political Bias Attribution in 
+        co-author: Mrinmaya Sachan  ->  Unit Zurich
+  [2023] GraphDreamer: Compositional 3D Scene Synthesis from Scene Gr
+        co-author: Andreas Geiger  ->  Unit Tübingen
+
+=== Confirmed collaborations by ELLIS Site (real named members) ===
+  Unit Zurich: 36 paper(s)
+  Unit Tübingen: 32 paper(s)
+  Unit Cambridge: 6 paper(s)
+  Unit Lausanne: 5 paper(s)
+  Unit Oxford: 4 paper(s)
+  Unit Munich: 3 paper(s)
+  Unit Paris: 3 paper(s)
+  Unit Saarbrücken: 2 paper(s)
+  Unit Darmstadt: 2 paper(s)
+  Unit Freiburg: 1 paper(s)
+
+Note: only 262 of 388 roster entries have a specific Unit listed; members without one are skipped for per-Site counting even if matched.
