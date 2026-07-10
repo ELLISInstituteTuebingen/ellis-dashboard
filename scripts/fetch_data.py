@@ -400,6 +400,29 @@ def compute_member_collaborations(all_publications, member_lookup):
     return counts, details
 
 
+def dedupe_by_title(all_publications):
+    """OpenAlex sometimes creates two separate work records for the same
+    real-world paper (e.g. an arXiv preprint version and a published-venue
+    version each get their own work ID). Since our main dedup only checks
+    exact OpenAlex work ID, these slip through as if they were different
+    papers — inflating publication counts and causing the same paper to
+    show up twice in collaboration detail lists. This catches and merges
+    them by normalized title, keeping whichever entry was seen first."""
+    seen_titles = {}
+    removed = 0
+    for wid in list(all_publications.keys()):
+        title = all_publications[wid].get("title") or ""
+        norm = re.sub(r"[^a-z0-9]", "", title.lower())
+        if not norm:
+            continue
+        if norm in seen_titles:
+            del all_publications[wid]
+            removed += 1
+        else:
+            seen_titles[norm] = wid
+    return removed
+
+
 def main():
     team, sites_cfg, known_venues, members = load_config()
     unit_id_to_name = {
@@ -477,6 +500,9 @@ def main():
             hit_sites |= keyword_site_hits_in_work(w, keyword_sites)
             for site_name in hit_sites:
                 unit_collab_counts[site_name] += 1
+
+    removed_dupes = dedupe_by_title(all_publications)
+    print(f"    Removed {removed_dupes} duplicate OpenAlex records for the same paper (matched by title)")
 
     print("Cross-checking venues against Semantic Scholar (more reliable for ML conferences)...")
     s2_venues = fetch_semantic_scholar_venues(all_publications)
