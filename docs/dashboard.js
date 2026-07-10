@@ -14,7 +14,8 @@ async function loadData() {
 
 function renderStats(data) {
   const totalCitations = data.publications.reduce((s, p) => s + (p.cited_by_count || 0), 0);
-  const numUnits = Object.keys(data.ellis_site_collaborations || {}).length;
+  const numUnits = Object.keys(data.ellis_member_collaborations || {})
+    .filter(name => !name.includes('Tübingen')).length;
   const numScientists = Object.keys(data.per_scientist_counts || {}).length;
 
   const stats = [
@@ -122,7 +123,8 @@ function renderTrendChart(data) {
 
 function renderNetwork(data) {
   const container = document.getElementById('networkSvgContainer');
-  const units = Object.entries(data.ellis_site_collaborations || {});
+  const units = Object.entries(data.ellis_member_collaborations || {})
+    .filter(([name]) => !name.includes('Tübingen'));
   const width = 1100, height = 460;
   const cx = width / 2, cy = height / 2;
   const radius = Math.min(width, height) / 2 - 90;
@@ -140,7 +142,7 @@ function renderNetwork(data) {
     nodes += `
       <g class="node-unit" transform="translate(${x},${y})">
         <circle r="${14 + (count / maxCount) * 10}" />
-        <text text-anchor="middle" dy="34" font-size="12">${name.replace('ELLIS Unit ', '')}</text>
+        <text text-anchor="middle" dy="34" font-size="12">${name.replace('ELLIS Unit ', '').replace('Unit ', '')}</text>
         <text text-anchor="middle" dy="4" font-size="11" fill="${COLORS.network}">${count}</text>
       </g>`;
   });
@@ -224,7 +226,6 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
-  renderMemberCollaborations(data);
   renderNetwork(data);
   renderTable(data);
 }).catch(err => {
