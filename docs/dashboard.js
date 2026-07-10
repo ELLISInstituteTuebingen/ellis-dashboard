@@ -38,6 +38,29 @@ function renderStats(data) {
     `Last updated ${updated.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}`;
 }
 
+function renderMemberCollaborations(data) {
+  const container = document.getElementById('member-collab-list');
+  const collabs = data.ellis_member_collaborations || {};
+  const entries = Object.entries(collabs);
+
+  if (!entries.length) {
+    container.innerHTML = `<p style="color:var(--muted); font-size:13.5px;">No confirmed collaborations found yet against the current ELLIS member roster.</p>`;
+    return;
+  }
+
+  const maxCount = Math.max(...entries.map(([, c]) => c));
+  container.innerHTML = entries.map(([site, count]) => {
+    const pct = Math.max(4, Math.round((count / maxCount) * 100));
+    return `
+      <div class="member-collab-row">
+        <div class="site-name">${site.replace('Unit ', '').replace('Institute ', '')}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+        <div class="count">${count}</div>
+      </div>
+    `;
+  }).join('');
+}
+
 function renderVenues(data) {
   const row = document.getElementById('venue-stat-row');
   const venues = data.venue_counts || {};
@@ -201,6 +224,7 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
+  renderMemberCollaborations(data);
   renderNetwork(data);
   renderTable(data);
 }).catch(err => {

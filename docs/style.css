@@ -180,6 +180,42 @@ section.block {
 .dot.sandstone { background: var(--sandstone); }
 .dot.network { background: transparent; border: 1.5px solid var(--network); }
 
+/* ---------- MEMBER COLLABORATION LEADERBOARD ---------- */
+.member-collab-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.member-collab-row .site-name {
+  width: 200px;
+  flex-shrink: 0;
+  font-size: 13.5px;
+  color: var(--text);
+}
+
+.member-collab-row .bar-track {
+  flex: 1;
+  height: 10px;
+  background: var(--line);
+  position: relative;
+}
+
+.member-collab-row .bar-fill {
+  height: 100%;
+  background: var(--sandstone);
+}
+
+.member-collab-row .count {
+  width: 40px;
+  text-align: right;
+  font-family: var(--font-mono);
+  color: var(--network);
+  font-size: 13px;
+}
+
 /* ---------- TABLE ---------- */
 .filters {
   display: flex;
