@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ELLIS Institute Tübingen — Research Dashboard</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,10 +26,20 @@
     <div class="updated-note" id="updated-note"></div>
   </header>
 
+  <nav class="section-nav">
+    <a href="#trends">Output</a>
+    <a href="#network">Collaboration</a>
+    <a href="#venues">Venues</a>
+    <a href="#budget">Budget</a>
+    <a href="#growth">Growth</a>
+    <a href="#hindex">Impact</a>
+    <a href="#publications">All publications</a>
+  </nav>
+
   <section class="block" id="trends">
     <div class="block-head">
       <h2>Output over time</h2>
-      <div class="sub">Publications per year across all tracked scientists.</div>
+      <div class="sub">Publications per year across all tracked PIs and project leaders.</div>
     </div>
     <div class="chart-card">
       <canvas id="trendChart"></canvas>
@@ -76,7 +86,7 @@
 
   <section class="block" id="growth">
     <div class="block-head">
-      <h2>Growth in Principal Investigators &amp; Project Leaders</h2>
+      <h2>Growth in PIs &amp; project leaders</h2>
       <div class="sub">Cumulative headcount of tracked PIs and project leaders over time, by join date — shown as a growth curve, not attributed to individuals.</div>
     </div>
     <div class="chart-card" style="height:260px;">
@@ -104,12 +114,14 @@
       <select id="scientistFilter"><option value="">All scientists</option></select>
       <select id="yearFilter"><option value="">All years</option></select>
     </div>
-    <table>
-      <thead>
-        <tr><th>Title</th><th>Scientist</th><th>Year</th><th>Citations</th></tr>
-      </thead>
-      <tbody id="pubTableBody"></tbody>
-    </table>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Title</th><th>Scientist</th><th>Year</th><th>Citations</th></tr>
+        </thead>
+        <tbody id="pubTableBody"></tbody>
+      </table>
+    </div>
   </section>
 
   <footer>
