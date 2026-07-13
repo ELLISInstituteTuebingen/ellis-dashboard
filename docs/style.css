@@ -5,10 +5,10 @@
   --line: #2A3338;
   --text: #E8E6DE;
   --muted: #8FA0A6;
-  --sandstone: #C87F4A;
-  --sandstone-dim: #8a5a35;
-  --network: #5FA8D3;
-  --network-dim: #3d6d8a;
+  --sandstone: #E38E48;
+  --sandstone-dim: #9A6030;
+  --network: #4BC5BE;
+  --network-dim: #338581;
 
   --font-display: 'Newsreader', serif;
   --font-body: 'Roboto', sans-serif;
@@ -28,8 +28,8 @@ html, body {
 
 body {
   background-image:
-    radial-gradient(circle at 15% 0%, rgba(95,168,211,0.08), transparent 40%),
-    radial-gradient(circle at 85% 20%, rgba(200,127,74,0.07), transparent 40%);
+    radial-gradient(circle at 15% 0%, rgba(75,197,190,0.08), transparent 40%),
+    radial-gradient(circle at 85% 20%, rgba(227,142,72,0.07), transparent 40%);
 }
 
 a { color: var(--network); }
@@ -83,6 +83,9 @@ a { color: var(--network); }
 .hero h1 em {
   font-style: italic;
   font-weight: 500;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: var(--network);
 }
 

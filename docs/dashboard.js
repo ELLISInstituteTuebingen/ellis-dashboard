@@ -1,8 +1,8 @@
 const COLORS = {
   text: '#E8E6DE',
   muted: '#8FA0A6',
-  sandstone: '#C87F4A',
-  network: '#5FA8D3',
+  sandstone: '#E38E48',
+  network: '#4BC5BE',
   line: '#2A3338',
   surface: '#171E22',
 };
@@ -444,7 +444,7 @@ loadData().then(data => {
   renderTable(data);
 }).catch(err => {
   document.querySelector('.wrap').innerHTML =
-    `<p style="padding:60px 0;color:#C87F4A;font-family:monospace;">Could not load data/publications.json — ${err.message}</p>`;
+    `<p style="padding:60px 0;color:#E38E48;font-family:monospace;">Could not load data/publications.json — ${err.message}</p>`;
 });
 
 function openCollabModal(unitName) {
