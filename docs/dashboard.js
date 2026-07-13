@@ -306,62 +306,70 @@ function renderBudgetChart(data) {
   const pubsByYear = data.publications_per_year || {};
 
   const years = Object.keys(budgetByYear).sort();
-  const budgets = years.map(y => budgetByYear[y]);
-  const pubCounts = years.map(y => pubsByYear[y] || 0);
-  const labels = years.map(y => partialYears[y] ? `${y}*` : y);
+  const points = years.map(y => ({
+    x: budgetByYear[y],
+    y: pubsByYear[y] || 0,
+    year: y,
+    partial: !!partialYears[y],
+  }));
+
+  // Year labels drawn directly next to each point via a small custom plugin
+  // (no datalabels library vendored, so we draw them ourselves on the canvas).
+  const yearLabelPlugin = {
+    id: 'yearLabels',
+    afterDatasetsDraw(chart) {
+      const { ctx } = chart;
+      const meta = chart.getDatasetMeta(0);
+      meta.data.forEach((point, i) => {
+        const p = points[i];
+        ctx.save();
+        ctx.font = '11px JetBrains Mono, monospace';
+        ctx.fillStyle = COLORS.muted;
+        ctx.textAlign = 'left';
+        ctx.fillText(p.year + (p.partial ? '*' : ''), point.x + 10, point.y + 4);
+        ctx.restore();
+      });
+    },
+  };
 
   new Chart(document.getElementById('budgetChart'), {
+    type: 'scatter',
     data: {
-      labels,
-      datasets: [
-        {
-          type: 'bar',
-          label: 'Budget used (€)',
-          data: budgets,
-          backgroundColor: COLORS.sandstone,
-          borderRadius: 2,
-          maxBarThickness: 60,
-          yAxisID: 'yBudget',
-        },
-        {
-          type: 'line',
-          label: 'Publications',
-          data: pubCounts,
-          borderColor: COLORS.network,
-          backgroundColor: COLORS.network,
-          pointRadius: 5,
-          pointBackgroundColor: COLORS.network,
-          tension: 0.3,
-          yAxisID: 'yPubs',
-        },
-      ],
+      datasets: [{
+        label: 'Year',
+        data: points,
+        backgroundColor: points.map(p => p.partial ? COLORS.muted : COLORS.sandstone),
+        borderColor: points.map(p => p.partial ? COLORS.muted : COLORS.sandstone),
+        pointRadius: 8,
+        pointHoverRadius: 10,
+      }],
     },
+    plugins: [yearLabelPlugin],
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { labels: { color: COLORS.text, font: { family: 'JetBrains Mono', size: 11 } } },
+        legend: { display: false },
         tooltip: {
           callbacks: {
-            label: ctx => ctx.dataset.yAxisID === 'yBudget'
-              ? `Budget: €${ctx.parsed.y.toLocaleString()}`
-              : `Publications: ${ctx.parsed.y}`,
+            label: ctx => {
+              const p = points[ctx.dataIndex];
+              return `${p.year}${p.partial ? ' (partial year)' : ''}: €${p.x.toLocaleString()} · ${p.y} papers`;
+            },
           },
         },
       },
       scales: {
-        x: { ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } }, grid: { color: COLORS.line } },
-        yBudget: {
-          position: 'left',
-          beginAtZero: true,
+        x: {
+          title: { display: true, text: 'Budget used (€)', color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } },
           ticks: { color: COLORS.muted, callback: v => '€' + (v / 1e6).toFixed(1) + 'M' },
           grid: { color: COLORS.line },
         },
-        yPubs: {
-          position: 'right',
+        y: {
+          title: { display: true, text: 'Publications', color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } },
           beginAtZero: true,
           ticks: { color: COLORS.muted, precision: 0 },
-          grid: { drawOnChartArea: false },
+          grid: { color: COLORS.line },
         },
       },
     },
