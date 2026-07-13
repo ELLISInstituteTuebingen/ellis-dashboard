@@ -50,7 +50,9 @@ def load_config():
     known_venues = json.loads(known_venues_path.read_text()) if known_venues_path.exists() else {"papers": []}
     members_path = CONFIG_DIR / "ellis_members.json"
     members = json.loads(members_path.read_text()) if members_path.exists() else []
-    return team, sites, known_venues, members
+    budget_path = CONFIG_DIR / "budget.json"
+    budget = json.loads(budget_path.read_text()) if budget_path.exists() else {"budget_by_year": {}, "partial_years": {}}
+    return team, sites, known_venues, members, budget
 
 
 def fetch_all_works_for_author(author_id, per_page=200):
@@ -441,7 +443,7 @@ def compute_h_index(citation_counts):
 
 
 def main():
-    team, sites_cfg, known_venues, members = load_config()
+    team, sites_cfg, known_venues, members, budget_cfg = load_config()
     unit_id_to_name = {
         s["openalex_institution_id"]: s["name"]
         for s in sites_cfg["sites"]
@@ -584,6 +586,8 @@ def main():
         "ellis_member_collaborations": member_collaborations,
         "ellis_member_collaboration_details": member_collaboration_details,
         "h_index_distribution": sorted(h_index_values),
+        "budget_by_year": budget_cfg.get("budget_by_year", {}),
+        "budget_partial_years": budget_cfg.get("partial_years", {}),
         "venue_counts": {v: all_venue_counts.get(v, 0) for v in CORE_VENUE_PATTERNS},
         "broader_venue_counts": dict(
             sorted(broader_only_counts.items(), key=lambda kv: kv[1], reverse=True)

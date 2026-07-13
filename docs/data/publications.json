@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T08:02:43Z",
+  "generated_at": "2026-07-13T08:35:03Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 389,
   "confirmed_affiliation_count": 21,
@@ -3626,7 +3626,7 @@
       "id": "W4407574915",
       "title": "An Uncertainty Principle for Linear Recurrent Neural Networks",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": "ArXiv.org",
       "cited_by_count": 0,
       "doi": "https://doi.org/10.48550/arxiv.2502.09287",
       "authors": [
@@ -9274,7 +9274,7 @@
     }
   ],
   "per_scientist_counts": {
-    "Celestine Mendler-D\u00fcnner": 14,
+    "Celestine Mendler-D\u00fcnner": 13,
     "Sahar Abdelnabi": 26,
     "Jakob Macke": 12,
     "Wieland Brendel": 42,
@@ -9291,7 +9291,7 @@
     "David Salinas": 17
   },
   "publications_per_year": {
-    "2023": 73,
+    "2023": 72,
     "2024": 158,
     "2025": 146,
     "2026": 115
@@ -10425,6 +10425,16 @@
     73,
     141
   ],
+  "budget_by_year": {
+    "2023": 316627.0,
+    "2024": 2860361.0,
+    "2025": 5008645.0,
+    "2026": 330430.0
+  },
+  "budget_partial_years": {
+    "2023": "Institute launched Sept 2023 \u2014 partial year (4 months)",
+    "2026": "Year in progress \u2014 not yet financially complete"
+  },
   "venue_counts": {
     "ICML": 35,
     "NeurIPS": 50,

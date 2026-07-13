@@ -299,6 +299,74 @@ function renderTable(data) {
   draw();
 }
 
+function renderBudgetChart(data) {
+  const budgetByYear = data.budget_by_year || {};
+  const partialYears = data.budget_partial_years || {};
+  const pubsByYear = data.publications_per_year || {};
+
+  const years = Object.keys(budgetByYear).sort();
+  const budgets = years.map(y => budgetByYear[y]);
+  const pubCounts = years.map(y => pubsByYear[y] || 0);
+  const labels = years.map(y => partialYears[y] ? `${y}*` : y);
+
+  new Chart(document.getElementById('budgetChart'), {
+    data: {
+      labels,
+      datasets: [
+        {
+          type: 'bar',
+          label: 'Budget used (€)',
+          data: budgets,
+          backgroundColor: COLORS.sandstone,
+          borderRadius: 2,
+          maxBarThickness: 60,
+          yAxisID: 'yBudget',
+        },
+        {
+          type: 'line',
+          label: 'Publications',
+          data: pubCounts,
+          borderColor: COLORS.network,
+          backgroundColor: COLORS.network,
+          pointRadius: 5,
+          pointBackgroundColor: COLORS.network,
+          tension: 0.3,
+          yAxisID: 'yPubs',
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { labels: { color: COLORS.text, font: { family: 'JetBrains Mono', size: 11 } } },
+        tooltip: {
+          callbacks: {
+            label: ctx => ctx.dataset.yAxisID === 'yBudget'
+              ? `Budget: €${ctx.parsed.y.toLocaleString()}`
+              : `Publications: ${ctx.parsed.y}`,
+          },
+        },
+      },
+      scales: {
+        x: { ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } }, grid: { color: COLORS.line } },
+        yBudget: {
+          position: 'left',
+          beginAtZero: true,
+          ticks: { color: COLORS.muted, callback: v => '€' + (v / 1e6).toFixed(1) + 'M' },
+          grid: { color: COLORS.line },
+        },
+        yPubs: {
+          position: 'right',
+          beginAtZero: true,
+          ticks: { color: COLORS.muted, precision: 0 },
+          grid: { drawOnChartArea: false },
+        },
+      },
+    },
+  });
+}
+
 function renderHIndex(data) {
   const container = document.getElementById('hindexPlot');
   const values = data.h_index_distribution || [];
@@ -357,6 +425,7 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
+  renderBudgetChart(data);
   renderHIndex(data);
   renderNetwork(data);
   renderTable(data);
