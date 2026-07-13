@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T13:25:18Z",
+  "generated_at": "2026-07-13T07:17:10Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 370,
   "confirmed_affiliation_count": 20,
@@ -1053,7 +1053,7 @@
       "title": "Test of Time: Rethinking Temporal Signal of Benchmark Contamination",
       "year": 2026,
       "venue": null,
-      "cited_by_count": 0,
+      "cited_by_count": 1,
       "doi": "https://doi.org/10.18653/v1/2026.acl-long.1693",
       "authors": [
         "Terry Jingchen Zhang",
@@ -1932,7 +1932,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 680,
+      "cited_by_count": 684,
       "doi": "https://doi.org/10.1038/s41586-024-08328-6",
       "authors": [
         "Noah Hollmann",
@@ -3798,7 +3798,7 @@
       "title": "Early warning of complex climate risk with integrated artificial intelligence",
       "year": 2025,
       "venue": "Nature Communications",
-      "cited_by_count": 83,
+      "cited_by_count": 84,
       "doi": "https://doi.org/10.1038/s41467-025-57640-w",
       "authors": [
         "Markus Reichstein",
@@ -3847,7 +3847,7 @@
       "title": "Real-time inference for binary neutron star mergers using machine learning",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 39,
+      "cited_by_count": 40,
       "doi": "https://doi.org/10.1038/s41586-025-08593-z",
       "authors": [
         "Maximilian Dax",
@@ -3872,6 +3872,35 @@
         "I66946132",
         "I79510175",
         "I8087733"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
+    },
+    {
+      "id": "W4415208962",
+      "title": "In silico biological discovery with large perturbation models",
+      "year": 2025,
+      "venue": "Nature Computational Science",
+      "cited_by_count": 7,
+      "doi": "https://doi.org/10.1038/s43588-025-00870-1",
+      "authors": [
+        "Djordje Miladinovic",
+        "Tobias H\u00f6ppe",
+        "Mathieu Chevalley",
+        "Andreas Georgiou",
+        "Lachlan Stuart",
+        "Arash Mehrjou",
+        "Marcus Bantscheff",
+        "Bernhard Sch\u00f6lkopf",
+        "Patrick Schwab"
+      ],
+      "institution_ids": [
+        "I1339161553",
+        "I3018134672",
+        "I4210133934",
+        "I4210135521",
+        "I4210141913"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": true,
@@ -3906,41 +3935,13 @@
         "I27837315",
         "I35440088",
         "I4210109156",
+        "I4210109224",
         "I4210135521",
         "I899635006",
         "I99464096"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4415208962",
-      "title": "In silico biological discovery with large perturbation models",
-      "year": 2025,
-      "venue": "Nature Computational Science",
-      "cited_by_count": 6,
-      "doi": "https://doi.org/10.1038/s43588-025-00870-1",
-      "authors": [
-        "Djordje Miladinovic",
-        "Tobias H\u00f6ppe",
-        "Mathieu Chevalley",
-        "Andreas Georgiou",
-        "Lachlan Stuart",
-        "Arash Mehrjou",
-        "Marcus Bantscheff",
-        "Bernhard Sch\u00f6lkopf",
-        "Patrick Schwab"
-      ],
-      "institution_ids": [
-        "I1339161553",
-        "I3018134672",
-        "I4210133934",
-        "I4210135521",
-        "I4210141913"
-      ],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true,
       "venue_category": null
     },
     {
@@ -4081,7 +4082,7 @@
       "id": "W4406448936",
       "title": "Multi-megabase scale genome interpretation with genetic language models",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": "ArXiv.org",
       "cited_by_count": 1,
       "doi": "https://doi.org/10.48550/arxiv.2501.07737",
       "authors": [
@@ -4880,7 +4881,7 @@
       "title": "InfoNCE: Identifying the Gap Between Theory and Practice",
       "year": 2024,
       "venue": "arXiv (Cornell University)",
-      "cited_by_count": 4,
+      "cited_by_count": 5,
       "doi": "https://doi.org/10.48550/arxiv.2407.00143",
       "authors": [
         "Evgenia Rusak",
@@ -5420,7 +5421,7 @@
       "title": "Managing extreme AI risks amid rapid progress",
       "year": 2024,
       "venue": "Science",
-      "cited_by_count": 269,
+      "cited_by_count": 271,
       "doi": "https://doi.org/10.1126/science.adn0117",
       "authors": [
         "Yoshua Bengio",
@@ -5564,7 +5565,7 @@
       "title": "TuneTables: Context Optimization for Scalable Prior-Data Fitted Networks",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 2,
+      "cited_by_count": 3,
       "doi": "https://doi.org/10.52202/079017-2654",
       "authors": [
         "Valeriia Cherepanova",
@@ -6645,7 +6646,7 @@
       "title": "Mo\u00fbsai: Efficient Text-to-Music Diffusion Models",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 23,
+      "cited_by_count": 24,
       "doi": "https://doi.org/10.18653/v1/2024.acl-long.437",
       "authors": [
         "Flavio Schneider",
@@ -6663,7 +6664,7 @@
       "title": "Low-power scalable multilayer optoelectronic neural networks enabled with incoherent light",
       "year": 2024,
       "venue": "Nature Communications",
-      "cited_by_count": 19,
+      "cited_by_count": 20,
       "doi": "https://doi.org/10.1038/s41467-024-55139-4",
       "authors": [
         "Anran Song",
@@ -8691,12 +8692,12 @@
     }
   ],
   "per_scientist_counts": {
-    "Celestine Mendler-D\u00fcnner": 13,
+    "Celestine Mendler-D\u00fcnner": 14,
     "Sahar Abdelnabi": 27,
     "Jakob Macke": 8,
     "Wieland Brendel": 42,
     "Jonas Geiping": 36,
-    "Frank Hutter": 100,
+    "Frank Hutter": 101,
     "T. Konstantin Rusch": 11,
     "Shiwei Liu": 5,
     "Maksym Andriushchenko": 9,
@@ -8706,10 +8707,10 @@
     "Bernhard Sch\u00f6lkopf": 181
   },
   "publications_per_year": {
-    "2023": 52,
+    "2023": 53,
     "2024": 169,
     "2025": 149,
-    "2026": 98
+    "2026": 99
   },
   "ellis_site_collaborations": {
     "ELLIS Unit Freiburg": 21,
@@ -8721,8 +8722,8 @@
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
     "ELLIS Unit Copenhagen": 1,
-    "ELLIS Unit Genoa": 1,
-    "ELLIS Unit Darmstadt": 1
+    "ELLIS Unit Darmstadt": 1,
+    "ELLIS Unit Genoa": 1
   },
   "ellis_member_collaborations": {
     "Unit Zurich": 29,
@@ -9748,6 +9749,21 @@
       }
     ]
   },
+  "h_index_distribution": [
+    7,
+    7,
+    8,
+    9,
+    9,
+    13,
+    15,
+    15,
+    17,
+    31,
+    37,
+    73,
+    141
+  ],
   "venue_counts": {
     "ICML": 31,
     "NeurIPS": 49,

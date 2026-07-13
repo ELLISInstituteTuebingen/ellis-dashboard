@@ -303,6 +303,57 @@ function renderTable(data) {
   draw();
 }
 
+function renderHIndex(data) {
+  const container = document.getElementById('hindexPlot');
+  const values = data.h_index_distribution || [];
+  if (!values.length) {
+    container.innerHTML = `<p style="color:var(--muted); font-size:13.5px;">No h-index data available.</p>`;
+    return;
+  }
+
+  const width = 900, height = 200;
+  const marginLeft = 40, marginRight = 40, plotY = 100;
+  const maxVal = Math.max(...values, 10);
+  const scaleX = v => marginLeft + (v / maxVal) * (width - marginLeft - marginRight);
+
+  // Simple deterministic jitter so identical values don't stack exactly on
+  // top of each other (still anonymous — jitter carries no information).
+  const jittered = values.map((v, i) => {
+    const sameValueBefore = values.slice(0, i).filter(x => x === v).length;
+    const jitter = (sameValueBefore % 2 === 0 ? 1 : -1) * Math.ceil(sameValueBefore / 2) * 14;
+    return { v, y: plotY + jitter };
+  });
+
+  const median = values[Math.floor(values.length / 2)];
+  const min = values[0], max = values[values.length - 1];
+
+  let dots = jittered.map(({ v, y }) =>
+    `<circle class="hindex-dot" cx="${scaleX(v).toFixed(1)}" cy="${y}" r="9" />`
+  ).join('');
+
+  let axisTicks = '';
+  const tickStep = Math.max(1, Math.ceil(maxVal / 8));
+  for (let t = 0; t <= maxVal; t += tickStep) {
+    const x = scaleX(t);
+    axisTicks += `
+      <line class="hindex-axis-line" x1="${x}" y1="${plotY + 45}" x2="${x}" y2="${plotY + 50}" />
+      <text class="hindex-axis-label" text-anchor="middle" x="${x}" y="${plotY + 65}">${t}</text>
+    `;
+  }
+
+  const svg = `
+    <svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" class="hindex-svg-wrap">
+      <line class="hindex-axis-line" x1="${marginLeft}" y1="${plotY + 45}" x2="${width - marginRight}" y2="${plotY + 45}" />
+      ${axisTicks}
+      ${dots}
+      <text class="hindex-stat-label" x="${marginLeft}" y="20">min ${min}</text>
+      <text class="hindex-stat-label" text-anchor="middle" x="${width / 2}" y="20">median ${median}</text>
+      <text class="hindex-stat-label" text-anchor="end" x="${width - marginRight}" y="20">max ${max}</text>
+    </svg>
+  `;
+  container.innerHTML = svg;
+}
+
 let CURRENT_DATA = null;
 
 loadData().then(data => {
@@ -310,6 +361,7 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
+  renderHIndex(data);
   renderNetwork(data);
   renderTable(data);
 }).catch(err => {

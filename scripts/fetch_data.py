@@ -423,6 +423,23 @@ def dedupe_by_title(all_publications):
     return removed
 
 
+def compute_h_index(citation_counts):
+    """Standard h-index: the largest h such that at least h papers have at
+    least h citations each. Computed over a researcher's FULL career (all
+    fetched works, not just papers since joining ELLIS) — h-index is always
+    a career-total metric, using only a subset of someone's papers would
+    produce a much smaller, non-standard number that misrepresents their
+    actual academic standing."""
+    counts = sorted(citation_counts, reverse=True)
+    h = 0
+    for i, c in enumerate(counts, start=1):
+        if c >= i:
+            h = i
+        else:
+            break
+    return h
+
+
 def main():
     team, sites_cfg, known_venues, members = load_config()
     unit_id_to_name = {
@@ -451,6 +468,8 @@ def main():
     for scientist in team["scientists"]:
         per_scientist_counts[scientist["name"]] = 0
 
+    h_index_values = []  # anonymized list, no names attached — for the plot
+
     for scientist in team["scientists"]:
         author_ids = scientist.get("openalex_ids") or [scientist["openalex_id"]]
         if any(aid.startswith("A5000000") for aid in author_ids):
@@ -465,6 +484,20 @@ def main():
             for w in fetch_all_works_for_author(aid):
                 combined.append((w, aid))
         before_count = len(combined)
+
+        # h-index uses the FULL unfiltered career list, deduped by work id
+        # (a fragmented profile with multiple author IDs could otherwise
+        # double-count a paper that appears under more than one fragment).
+        seen_wids = set()
+        career_citations = []
+        for w, _ in combined:
+            wid = w["id"]
+            if wid not in seen_wids:
+                seen_wids.add(wid)
+                career_citations.append(w.get("cited_by_count", 0))
+        h_index = compute_h_index(career_citations)
+        h_index_values.append(h_index)
+        print(f"    career h-index: {h_index} (from {len(career_citations)} total works, all-time)")
 
         joined_date = scientist.get("joined_date")
         combined = [(w, aid) for w, aid in combined if work_is_after_join_date(w, joined_date)]
@@ -550,6 +583,7 @@ def main():
         ),
         "ellis_member_collaborations": member_collaborations,
         "ellis_member_collaboration_details": member_collaboration_details,
+        "h_index_distribution": sorted(h_index_values),
         "venue_counts": {v: all_venue_counts.get(v, 0) for v in CORE_VENUE_PATTERNS},
         "broader_venue_counts": dict(
             sorted(broader_only_counts.items(), key=lambda kv: kv[1], reverse=True)
