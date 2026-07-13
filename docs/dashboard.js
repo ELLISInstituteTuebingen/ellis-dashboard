@@ -21,7 +21,7 @@ function renderStats(data) {
   const stats = [
     { num: data.total_publications, label: 'Tracked publications' },
     { num: totalCitations, label: 'Total citations' },
-    { num: numScientists, label: 'Scientists tracked' },
+    { num: numScientists, label: 'PIs & project leaders tracked' },
     { num: numUnits, label: 'ELLIS Sites collaborated with' },
     { num: (data.open_access_percent || 0) + '%', label: 'Open access' },
   ];
@@ -392,7 +392,7 @@ function renderGrowthChart(data) {
     data: {
       labels,
       datasets: [{
-        label: 'Scientists at the Institute',
+        label: 'PIs & Project Leaders',
         data: cumulative,
         borderColor: COLORS.sandstone,
         backgroundColor: COLORS.sandstone,
