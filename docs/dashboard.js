@@ -20,7 +20,6 @@ function renderStats(data) {
 
   const stats = [
     { num: data.total_publications, label: 'Tracked publications' },
-    { num: data.confirmed_affiliation_count || 0, label: 'With confirmed ELLIS affiliation tag' },
     { num: totalCitations, label: 'Total citations' },
     { num: numScientists, label: 'Scientists tracked' },
     { num: numUnits, label: 'ELLIS Sites collaborated with' },
@@ -280,13 +279,10 @@ function renderTable(data) {
 
     tbody.innerHTML = rows.map(p => {
       const scientistList = Array.isArray(p.scientist) ? p.scientist.join(', ') : p.scientist;
-      const badge = p.confirmed_ellis_affiliation
-        ? '<span style="color:var(--network); font-size:11px; font-family:var(--font-mono); margin-left:8px;">· ELLIS-tagged</span>'
-        : '';
       return `
         <tr>
           <td>
-            <div class="pub-title">${p.title}${badge}</div>
+            <div class="pub-title">${p.title}</div>
             <div class="pub-meta">${p.venue || '—'} · ${p.authors.join(', ')}</div>
           </td>
           <td>${scientistList}</td>
