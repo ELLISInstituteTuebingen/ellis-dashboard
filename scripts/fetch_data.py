@@ -305,6 +305,7 @@ def simplify_work(work, scientist_name, confirmed_affiliation):
         "scientist": scientist_name,
         "confirmed_ellis_affiliation": confirmed_affiliation,
         "venue_category": classify_venue(work),
+        "is_oa": (work.get("open_access") or {}).get("is_oa", False),
     }
 
 
@@ -574,6 +575,13 @@ def main():
         "total_publications": len(all_publications),
         "confirmed_affiliation_count": sum(
             1 for p in all_publications.values() if p.get("confirmed_ellis_affiliation")
+        ),
+        "open_access_count": sum(1 for p in all_publications.values() if p.get("is_oa")),
+        "open_access_percent": round(
+            100 * sum(1 for p in all_publications.values() if p.get("is_oa")) / max(1, len(all_publications)), 1
+        ),
+        "scientist_join_dates": sorted(
+            s["joined_date"] for s in team["scientists"] if s.get("joined_date")
         ),
         "publications": sorted(
             all_publications.values(), key=lambda p: (p["year"] or 0), reverse=True

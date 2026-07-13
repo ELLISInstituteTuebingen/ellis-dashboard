@@ -23,6 +23,7 @@ function renderStats(data) {
     { num: totalCitations, label: 'Total citations' },
     { num: numScientists, label: 'Scientists tracked' },
     { num: numUnits, label: 'ELLIS Sites collaborated with' },
+    { num: (data.open_access_percent || 0) + '%', label: 'Open access' },
   ];
 
   const row = document.getElementById('stat-row');
@@ -367,6 +368,59 @@ function renderBudgetChart(data) {
   });
 }
 
+function renderGrowthChart(data) {
+  const joinDates = (data.scientist_join_dates || []).slice().sort();
+  if (!joinDates.length) return;
+
+  const formatLabel = iso => {
+    const d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  };
+
+  const labels = joinDates.map(formatLabel);
+  const cumulative = joinDates.map((_, i) => i + 1);
+
+  // Extend the line to "today" so it doesn't just stop at the last join date.
+  const today = new Date().toISOString().slice(0, 10);
+  if (today > joinDates[joinDates.length - 1]) {
+    labels.push(formatLabel(today));
+    cumulative.push(cumulative[cumulative.length - 1]);
+  }
+
+  new Chart(document.getElementById('growthChart'), {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: 'Scientists at the Institute',
+        data: cumulative,
+        borderColor: COLORS.sandstone,
+        backgroundColor: COLORS.sandstone,
+        stepped: 'before',
+        pointRadius: 3,
+        pointBackgroundColor: COLORS.sandstone,
+        fill: false,
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: {
+          ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 10 }, maxRotation: 45, minRotation: 45 },
+          grid: { color: COLORS.line },
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: COLORS.muted, precision: 0 },
+          grid: { color: COLORS.line },
+        },
+      },
+    },
+  });
+}
+
 function renderHIndex(data) {
   const container = document.getElementById('hindexPlot');
   const values = data.h_index_distribution || [];
@@ -426,6 +480,7 @@ loadData().then(data => {
   renderVenues(data);
   renderTrendChart(data);
   renderBudgetChart(data);
+  renderGrowthChart(data);
   renderHIndex(data);
   renderNetwork(data);
   renderTable(data);
