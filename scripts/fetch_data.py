@@ -583,6 +583,13 @@ def main():
         "scientist_join_dates": sorted(
             s["joined_date"] for s in team["scientists"] if s.get("joined_date")
         ),
+        "pi_headcount_by_year": {
+            year: sum(
+                1 for s in team["scientists"]
+                if s.get("joined_date") and s["joined_date"] <= f"{year}-12-31"
+            )
+            for year in budget_cfg.get("budget_by_year", {}).keys()
+        },
         "publications": sorted(
             all_publications.values(), key=lambda p: (p["year"] or 0), reverse=True
         ),

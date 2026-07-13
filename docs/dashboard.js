@@ -304,19 +304,27 @@ function renderBudgetChart(data) {
   const budgetByYear = data.budget_by_year || {};
   const partialYears = data.budget_partial_years || {};
   const pubsByYear = data.publications_per_year || {};
+  const headcountByYear = data.pi_headcount_by_year || {};
 
   const years = Object.keys(budgetByYear).sort();
-  const points = years.map(y => ({
-    x: budgetByYear[y],
-    y: pubsByYear[y] || 0,
-    year: y,
-    partial: !!partialYears[y],
-  }));
+  const maxHeadcount = Math.max(1, ...years.map(y => headcountByYear[y] || 0));
 
-  // Year labels drawn directly next to each point via a small custom plugin
-  // (no datalabels library vendored, so we draw them ourselves on the canvas).
-  const yearLabelPlugin = {
-    id: 'yearLabels',
+  const points = years.map(y => {
+    const headcount = headcountByYear[y] || 0;
+    return {
+      x: budgetByYear[y],
+      y: pubsByYear[y] || 0,
+      r: 8 + (headcount / maxHeadcount) * 22,
+      year: y,
+      headcount,
+      partial: !!partialYears[y],
+    };
+  });
+
+  // Year + headcount labels drawn directly next to each bubble via a small
+  // custom plugin (no datalabels library vendored, so drawn manually).
+  const bubbleLabelPlugin = {
+    id: 'bubbleLabels',
     afterDatasetsDraw(chart) {
       const { ctx } = chart;
       const meta = chart.getDatasetMeta(0);
@@ -326,25 +334,24 @@ function renderBudgetChart(data) {
         ctx.font = '11px JetBrains Mono, monospace';
         ctx.fillStyle = COLORS.muted;
         ctx.textAlign = 'left';
-        ctx.fillText(p.year + (p.partial ? '*' : ''), point.x + 10, point.y + 4);
+        ctx.fillText(`${p.year}${p.partial ? '*' : ''} · ${p.headcount} PIs`, point.x + p.r + 6, point.y + 4);
         ctx.restore();
       });
     },
   };
 
   new Chart(document.getElementById('budgetChart'), {
-    type: 'scatter',
+    type: 'bubble',
     data: {
       datasets: [{
         label: 'Year',
         data: points,
-        backgroundColor: points.map(p => p.partial ? COLORS.muted : COLORS.sandstone),
+        backgroundColor: points.map(p => p.partial ? COLORS.muted + '99' : COLORS.sandstone + '99'),
         borderColor: points.map(p => p.partial ? COLORS.muted : COLORS.sandstone),
-        pointRadius: 8,
-        pointHoverRadius: 10,
+        borderWidth: 1.5,
       }],
     },
-    plugins: [yearLabelPlugin],
+    plugins: [bubbleLabelPlugin],
     options: {
       responsive: true,
       maintainAspectRatio: false,
@@ -354,7 +361,7 @@ function renderBudgetChart(data) {
           callbacks: {
             label: ctx => {
               const p = points[ctx.dataIndex];
-              return `${p.year}${p.partial ? ' (partial year)' : ''}: €${p.x.toLocaleString()} · ${p.y} papers`;
+              return `${p.year}${p.partial ? ' (partial year)' : ''}: €${p.x.toLocaleString()} · ${p.y} papers · ${p.headcount} PIs`;
             },
           },
         },
