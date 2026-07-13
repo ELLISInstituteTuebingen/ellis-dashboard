@@ -20,13 +20,13 @@
       "name": "Sahar Abdelnabi",
       "role": "TBD",
       "openalex_id": "A5040674721",
-      "joined_date": "2025-08-01"
+      "joined_date": "2025-10-01"
     },
     {
       "name": "Jakob Macke",
       "role": "TBD",
       "openalex_id": "A5080225154",
-      "joined_date": "2026-07-01"
+      "joined_date": "2026-06-01"
     },
     {
       "name": "Wieland Brendel",
@@ -38,13 +38,13 @@
       "name": "Jonas Geiping",
       "role": "TBD",
       "openalex_id": "A5049400969",
-      "joined_date": "2023-10-01"
+      "joined_date": "2023-10-15"
     },
     {
       "name": "Frank Hutter",
       "role": "TBD",
       "openalex_id": "A5031002895",
-      "joined_date": "2024-01-01"
+      "joined_date": "2024-05-01"
     },
     {
       "name": "T. Konstantin Rusch",
@@ -62,12 +62,12 @@
       "name": "Shiwei Liu",
       "role": "TBD",
       "openalex_id": "A5100415810",
-      "joined_date": "2025-07-01"
+      "joined_date": "2025-09-01"
     },
     {
       "name": "Maksym Andriushchenko",
       "role": "TBD",
-      "joined_date": "2025-08-01",
+      "joined_date": "2025-09-01",
       "openalex_ids": [
         "A5057136518",
         "A5120034502"
@@ -77,7 +77,7 @@
       "name": "Maximilian Dax",
       "role": "TBD",
       "openalex_id": "A5004309436",
-      "joined_date": "2025-08-01"
+      "joined_date": "2024-10-01"
     },
     {
       "name": "Rediet Abebe",
@@ -89,13 +89,25 @@
       "name": "Antonio Orvieto",
       "role": "TBD",
       "openalex_id": "A5081990239",
-      "joined_date": "2023-09-01"
+      "joined_date": "2023-09-20"
     },
     {
       "name": "Bernhard Schölkopf",
       "role": "TBD",
       "openalex_id": "A5044005697",
-      "joined_date": "2023-09-01"
+      "joined_date": "2023-07-01"
+    },
+    {
+      "name": "Aaron Klein",
+      "role": "TBD",
+      "openalex_id": "A5044806693",
+      "joined_date": "2025-06-01"
+    },
+    {
+      "name": "David Salinas",
+      "role": "TBD",
+      "openalex_id": "A5078696011",
+      "joined_date": "2025-04-01"
     }
   ]
 }

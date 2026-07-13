@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-13T07:17:10Z",
+  "generated_at": "2026-07-13T08:01:05Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 370,
-  "confirmed_affiliation_count": 20,
+  "total_publications": 389,
+  "confirmed_affiliation_count": 21,
   "publications": [
     {
       "id": "W7135177739",
@@ -311,6 +311,103 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7148592692",
+      "title": "sbi reloaded: a toolkit for simulation-based inference workflows",
+      "year": 2026,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.19391621",
+      "authors": [
+        "Jan Boelts",
+        "Michael Deistler",
+        "Manuel Gloeckler",
+        "\u00c1lvaro Tejero-Cantero",
+        "Jan-Matthis Lueckmann",
+        "Guy Moss",
+        "Peter Steinbach",
+        "Thomas Moreau",
+        "Fabio Muratore",
+        "Julia Linhart",
+        "Conor Durkan",
+        "Julius Vetter",
+        "Benjamin Kurt Miller",
+        "Maternus Herold",
+        "Abolfazl Ziaeemehr",
+        "Matthijs Pals",
+        "Theo Gruner",
+        "Sebastian Bischoff",
+        "Nastya Krouglova",
+        "Richard Gao",
+        "Janne K. Lappalainen",
+        "B\u00e1lint Mucs\u00e1nyi",
+        "Felix Pei",
+        "Auguste Schulz",
+        "Zinovia Stefanidi",
+        "Pedro Rodrigues",
+        "Cornelius Schr\u00f6der",
+        "Faried Abu Zaid",
+        "Jonas Beck",
+        "Jaivardhan Kapoor",
+        "David S. Greenberg",
+        "Pedro J. Gon\u00e7alves",
+        "Jakob H. Macke"
+      ],
+      "institution_ids": [],
+      "scientist": "Jakob Macke",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7154330152",
+      "title": "Corrigendum to \u201cUncertainty mapping and probabilistic tractography using Simulation-based Inference in diffusion MRI: A comparison with classical Bayes\u201d [Medical Image Analysis 103 (2025) 103580]",
+      "year": 2026,
+      "venue": "Medical Image Analysis",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.1016/j.media.2026.104071",
+      "authors": [
+        "Jose Pedro Manzano-Patron",
+        "Michael Deistler",
+        "Cornelius Schr\u00f6der",
+        "Theodore Kypraios",
+        "Pedro J. Gon\u00e7alves",
+        "Jakob H. Macke",
+        "Stamatios N. Sotiropoulos"
+      ],
+      "institution_ids": [
+        "I142263535",
+        "I4210135521",
+        "I4210142472",
+        "I4210165766",
+        "I8087733"
+      ],
+      "scientist": "Jakob Macke",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7154705130",
+      "title": "Bayesian inference of depth-resolved radar attenuation rates and englacial temperatures",
+      "year": 2026,
+      "venue": null,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.22541/essoar.15002160/v1",
+      "authors": [
+        "Leah Sophie Muhle",
+        "Guy Moss",
+        "Rebecca Schlegel",
+        "Jakob H. Macke",
+        "Reinhard Drews"
+      ],
+      "institution_ids": [
+        "I4210135521",
+        "I4210140832",
+        "I8087733"
+      ],
+      "scientist": "Jakob Macke",
       "confirmed_ellis_affiliation": false,
       "venue_category": null
     },
@@ -1449,6 +1546,172 @@
       "venue_category": null
     },
     {
+      "id": "W7161262295",
+      "title": "TabPFN-3: Technical Report",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2605.13986",
+      "authors": [
+        "L\u00e9o Grinsztajn",
+        "Klemens Fl\u00f6ge",
+        "Oscar Key",
+        "Felix Birkel",
+        "Philipp Jund",
+        "Brendan Roof",
+        "Mihir Manium",
+        "Shi Bin",
+        "Hoo",
+        "Magnus B\u00fchler",
+        "Anurag Garg",
+        "Dominik Safaric",
+        "Jake Robertson",
+        "Benjamin J\u00e4ger",
+        "Simone Alessi",
+        "Adrian Hayler",
+        "Vladyslav Moroshan",
+        "Lennart Purucker",
+        "Philipp Singer",
+        "Alan Arazi",
+        "Julien Siems",
+        "Jan Hendrik Metzen",
+        "Georg Grab",
+        "Nick Erickson",
+        "Siyuan Guo",
+        "Eliott Kalfon",
+        "Simon Bing",
+        "David Salinas",
+        "Clara Cornu",
+        "Lilly Charlotte Wehrhahn",
+        "Diana Kriuchkova",
+        "Kursat Kaya",
+        "Lydia Sidhoum",
+        "Marie Salmon",
+        "Jerry Chen",
+        "Madelon Hulsebos",
+        "Yann LeCun",
+        "Samuel M\u00fcller",
+        "Bernhard Sch\u00f6lkopf",
+        "Sauraj Gambhir",
+        "Noah Hollmann"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7125227952",
+      "title": "Multi-Objective Hierarchical Optimization with Large Language Models",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2601.13892",
+      "authors": [
+        "A.M.L. Schwanke",
+        "Lyubomir Ivanov",
+        "David Salinas",
+        "Frank Hutter",
+        "Arber Zela"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7134836700",
+      "title": "Impermanent: A Live Benchmark for Temporal Generalization in Time Series Forecasting",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2603.08707",
+      "authors": [
+        "Azul Garza",
+        "Ren\u00e9e Rosillo",
+        "Rodrigo Mendoza-Smith",
+        "David Salinas",
+        "Andrew Williams",
+        "Arjun Ashok",
+        "Mononito Goswami",
+        "Jos\u00e9 Mart\u00edn Ju\u00e1rez"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7162310492",
+      "title": "An Open-Source Training Dataset for Foundation Models for Black-box Optimization",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2605.23417",
+      "authors": [
+        "Aaron Klein",
+        "Herilalaina Rakotoarison",
+        "Luca Thale-Bombien",
+        "David Salinas"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7164536035",
+      "title": "From Uncertain Judgments to Calibrated Rankings: Conformal Elo Estimation for LLM Evaluation",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2606.13221",
+      "authors": [
+        "Bora Kargi",
+        "David Salinas"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W7167064766",
+      "title": "MultiSynt/MT: Trillion-Token Multi-Parallel Pre-Training Data Translated Across 36 Languages",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2607.00890",
+      "authors": [
+        "Maximilian Idahl",
+        "J\u00f6rg Tiedemann",
+        "Sampo Pyysalo",
+        "David Salinas",
+        "Tomasz Galica",
+        "Shenbin Qian",
+        "Tudor Nicolae Mateiu",
+        "Zihao Li",
+        "Anna Lokrantz",
+        "Fedor Vitiugin",
+        "Andr\u00e9 F. T. Martins",
+        "Jenna Kanerva",
+        "Filip Ginter",
+        "Matthias Lindemann",
+        "Tim Isbister",
+        "Birger Moell",
+        "Jonas Lindh",
+        "Jan Haji\u010d",
+        "Jenia Jitsev",
+        "Andrey Kutuzov",
+        "Stephan Oepen",
+        "Gema Ram\u00edrez-S\u00e1nchez"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
       "id": "W4414298153",
       "title": "Performative Prediction: Past and Future",
       "year": 2025,
@@ -1484,45 +1747,6 @@
       "scientist": "Celestine Mendler-D\u00fcnner",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS"
-    },
-    {
-      "id": "W4417308938",
-      "title": "LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.09956",
-      "authors": [
-        "Sahar Abdelnabi",
-        "Aideen Fay",
-        "Ahmed Salem",
-        "Egor Zverev",
-        "K.F. Liao",
-        "C.C. Liu",
-        "Kuo, Chun-Chih",
-        "Jannis Weigend",
-        "Danyael Manlangit",
-        "Alex Apostolov",
-        "Haris Umair",
-        "Jo\u00e3o Donato",
-        "Masayuki Kawakita",
-        "Athar Mahboob",
-        "Tran Huu Bach",
-        "Tsun-Han Chiang",
-        "Myeongjin Cho",
-        "Hajin Choi",
-        "Kim, Byeonghyeon",
-        "H. Lee",
-        "Benjamin K. Pannell",
-        "Conor McCauley",
-        "Mark Russinovich",
-        "Andrew Paverd",
-        "Giovanni Cherubin"
-      ],
-      "institution_ids": [],
-      "scientist": "Sahar Abdelnabi",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
     },
     {
       "id": "W4407759068",
@@ -2081,7 +2305,10 @@
         "I4210133934",
         "I4210134004"
       ],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS"
     },
@@ -2156,7 +2383,10 @@
         "Frank Hutter"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS"
     },
@@ -2265,7 +2495,11 @@
         "Arber Zela"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Aaron Klein",
+        "David Salinas"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR"
     },
@@ -2363,7 +2597,10 @@
         "Aaron Klein"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Aaron Klein"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null
     },
@@ -2747,104 +2984,6 @@
       "venue_category": null
     },
     {
-      "id": "W4411419165",
-      "title": "An Improved Particle Swarm Optimization Method for Nonlinear Optimization",
-      "year": 2025,
-      "venue": "IntechOpen eBooks",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.5772/intechopen.1008452",
-      "authors": [
-        "Shiwei Liu",
-        "Yuandi Li",
-        "Longxiang Shan",
-        "Chengkang Liu",
-        "Dongqiao Wang",
-        "Qiaohua Wang",
-        "Xia Hua",
-        "Yanhua Sun",
-        "Lingsong He"
-      ],
-      "institution_ids": [],
-      "scientist": "Shiwei Liu",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4411707560",
-      "title": "Characterization of Optical Texture of High-temperature Processing Coke and Feed/tuyere Coke for Investigating the Deterioration of Coke in Blast Furnace",
-      "year": 2025,
-      "venue": "ISIJ International",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.2355/isijinternational.isijint-2025-127",
-      "authors": [
-        "Yuan She",
-        "Zhengyan Huang",
-        "Chong Zou",
-        "Siqi Li",
-        "Yaqi Gao",
-        "Shiwei Liu",
-        "Jiayao Qin",
-        "Haonan Li",
-        "Junjie Wang"
-      ],
-      "institution_ids": [
-        "I148099405"
-      ],
-      "scientist": "Shiwei Liu",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4414855974",
-      "title": "Leave it to the Specialist: Repair Sparse LLMs with Sparse Fine-Tuning via Sparsity Evolution",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2505.24037",
-      "authors": [
-        "Xiao, Qiao",
-        "Alan Ansell",
-        "Boqian Wu",
-        "Lu Yin",
-        "Mykola Pechenizkiy",
-        "Shiwei Liu",
-        "Decebal Constantin Mocanu"
-      ],
-      "institution_ids": [],
-      "scientist": "Shiwei Liu",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4416260835",
-      "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.22049",
-      "authors": [
-        "Tianhao Chen",
-        "Xin Xu",
-        "Liu Zijing",
-        "Pengxiang Li",
-        "Xinyuan Song",
-        "Ajay Jaiswal",
-        "Zhang, Fan",
-        "Jim Hu",
-        "Yan Wang",
-        "Hao Chen",
-        "Shizhe Diao",
-        "Shiwei Liu",
-        "Li Yu",
-        "Yin Lu",
-        "Can Yang"
-      ],
-      "institution_ids": [],
-      "scientist": "Shiwei Liu",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS"
-    },
-    {
       "id": "W4415454748",
       "title": "International Al Safety Report: First Key Update Capabilities and Risk Implications",
       "year": 2025,
@@ -3030,27 +3169,6 @@
       "venue_category": null
     },
     {
-      "id": "W4415333036",
-      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 2,
-      "doi": "https://doi.org/10.48550/arxiv.2506.14866",
-      "authors": [
-        "Thomas Kuntz",
-        "Agatha Duzan",
-        "Hao Zhao",
-        "Francesco Croce",
-        "J. Zico Kolter",
-        "Nicolas Flammarion",
-        "Maksym Andriushchenko"
-      ],
-      "institution_ids": [],
-      "scientist": "Maksym Andriushchenko",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS"
-    },
-    {
       "id": "W4416766981",
       "title": "International AI Safety Report 2025: Second Key Update: Technical Safeguards and Risk Management",
       "year": 2025,
@@ -3137,24 +3255,42 @@
       "venue_category": null
     },
     {
-      "id": "W4417357160",
-      "title": "Monitoring Decomposition Attacks in LLMs with Lightweight Sequential Monitors",
+      "id": "W4408218745",
+      "title": "Real-time inference for binary neutron star mergers using machine learning",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.10949",
+      "venue": "Nature",
+      "cited_by_count": 40,
+      "doi": "https://doi.org/10.1038/s41586-025-08593-z",
       "authors": [
-        "Chen Yueh-Han",
-        "Nitish Joshi",
-        "Yulin Chen",
-        "Maksym Andriushchenko",
-        "Rico Angell",
-        "He He"
+        "Maximilian Dax",
+        "Stephen Green",
+        "J. R. Gair",
+        "Nihar Gupte",
+        "M. P\u00fcrrer",
+        "V. Raymond",
+        "Jonas Wildberger",
+        "Jakob H. Macke",
+        "Alessandra Buonanno",
+        "Bernhard Sch\u00f6lkopf"
       ],
-      "institution_ids": [],
-      "scientist": "Maksym Andriushchenko",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
+      "institution_ids": [
+        "I142263535",
+        "I17626003",
+        "I35440088",
+        "I4210127646",
+        "I4210133934",
+        "I4210135521",
+        "I4210165766",
+        "I66946132",
+        "I79510175",
+        "I8087733"
+      ],
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
     },
     {
       "id": "W4416352768",
@@ -3191,6 +3327,30 @@
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
       ],
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4408423560",
+      "title": "Fast and reliable probabilistic reflectometry inversion with prior-amortized neural posterior estimation",
+      "year": 2025,
+      "venue": "Science Advances",
+      "cited_by_count": 5,
+      "doi": "https://doi.org/10.1126/sciadv.adr9668",
+      "authors": [
+        "Vladimir Starostin",
+        "Maximilian Dax",
+        "Alexander Gerlach",
+        "Alexander Hinderhofer",
+        "\u00c1lvaro Tejero-Cantero",
+        "Frank Schreiber"
+      ],
+      "institution_ids": [
+        "I4210133934",
+        "I4210135521",
+        "I8087733"
+      ],
+      "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null
     },
@@ -3837,41 +3997,6 @@
         "I60200437",
         "I78577930",
         "I86987016"
-      ],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true,
-      "venue_category": null
-    },
-    {
-      "id": "W4408218745",
-      "title": "Real-time inference for binary neutron star mergers using machine learning",
-      "year": 2025,
-      "venue": "Nature",
-      "cited_by_count": 40,
-      "doi": "https://doi.org/10.1038/s41586-025-08593-z",
-      "authors": [
-        "Maximilian Dax",
-        "Stephen Green",
-        "J. R. Gair",
-        "Nihar Gupte",
-        "M. P\u00fcrrer",
-        "V. Raymond",
-        "Jonas Wildberger",
-        "Jakob H. Macke",
-        "Alessandra Buonanno",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [
-        "I142263535",
-        "I17626003",
-        "I35440088",
-        "I4210127646",
-        "I4210133934",
-        "I4210135521",
-        "I4210165766",
-        "I66946132",
-        "I79510175",
-        "I8087733"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": true,
@@ -4744,6 +4869,126 @@
       "venue_category": "ICLR"
     },
     {
+      "id": "W7132984276",
+      "title": "Distributed Shape Derivatives for Level-Set Topology Optimization and Their Applications to Robust Topology Optimization",
+      "year": 2025,
+      "venue": "TSpace (University of Toronto)",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Aaron Klein"
+      ],
+      "institution_ids": [
+        "I185261750"
+      ],
+      "scientist": "Aaron Klein",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4409640743",
+      "title": "Challenges and Opportunities for Statistics in the Era of Data Science",
+      "year": 2025,
+      "venue": null,
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.1162/99608f92.abf14c9d",
+      "authors": [
+        "Claudia Kirch",
+        "Soumendra N. Lahiri",
+        "Harald Binder",
+        "Werner Brannath",
+        "Ivor Cribben",
+        "Holger Dette",
+        "Philipp Doebler",
+        "Oliver Y. Feng",
+        "Axel Gandy",
+        "Sonja Greven",
+        "Barbara Hammer",
+        "Stefan Harmeling",
+        "Thomas Hotz",
+        "G\u00f6ran Kauermann",
+        "Joscha Krause",
+        "Georg Krempl",
+        "Alicia Nieto-Reyes",
+        "Ostap Okhrin",
+        "Hernando Ombao",
+        "Florian Pein",
+        "Michal Pe\u0161ta",
+        "Dimitris N. Politis",
+        "Li\u2010Xuan Qin",
+        "Tom Rainforth",
+        "Holger Rauhut",
+        "Henry W. J. Reeve",
+        "David Salinas",
+        "Johannes Schmidt-Hieber",
+        "Clayton Scott",
+        "Johan Segers",
+        "Myra Spiliopoulou",
+        "Adalbert Wilhelm",
+        "Ines Wilms",
+        "Yi Yu",
+        "Johannes Lederer"
+      ],
+      "institution_ids": [
+        "I119449181",
+        "I13134134",
+        "I1334819555",
+        "I154425047",
+        "I159176309",
+        "I161046081",
+        "I180437899",
+        "I193619901",
+        "I193662353",
+        "I200332995",
+        "I204465549",
+        "I21250087",
+        "I27837315",
+        "I34352273",
+        "I36234482",
+        "I36258959",
+        "I39343248",
+        "I39555362",
+        "I40120149",
+        "I4210111179",
+        "I47508984",
+        "I51601045",
+        "I67415387",
+        "I71920554",
+        "I78650965",
+        "I8204097",
+        "I89864525",
+        "I904495901",
+        "I94624287",
+        "I95793202",
+        "I99464096"
+      ],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": true,
+      "venue_category": null
+    },
+    {
+      "id": "W4417071098",
+      "title": "Open-sci-ref-0.01: open and reproducible reference baselines for language model and dataset comparison",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2509.09009",
+      "authors": [
+        "Marianna Nezhurina",
+        "J\u00f6rg Franke",
+        "Taishi Nakamura",
+        "Timur Carstensen",
+        "Niccol\u00f2 Ajroldi",
+        "Ville Komulainen",
+        "David Salinas",
+        "Jenia Jitsev"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
       "id": "W4415797819",
       "title": "Questioning the Survey Responses of Large Language Models",
       "year": 2024,
@@ -5472,56 +5717,6 @@
       "venue_category": null
     },
     {
-      "id": "W4415796422",
-      "title": "Drift-Resilient TabPFN: In-Context Learning Temporal Distribution Shifts on Tabular Data",
-      "year": 2024,
-      "venue": null,
-      "cited_by_count": 8,
-      "doi": "https://doi.org/10.52202/079017-3134",
-      "authors": [
-        "Kai Helli",
-        "Noah Hollmann",
-        "Frank Hutter",
-        "Samuel M\u00fcller",
-        "David Schnurr"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS"
-    },
-    {
-      "id": "W4391932574",
-      "title": "Can Fairness be Automated? Guidelines and Opportunities for Fairness-aware AutoML",
-      "year": 2024,
-      "venue": "Journal of Artificial Intelligence Research",
-      "cited_by_count": 19,
-      "doi": "https://doi.org/10.1613/jair.1.14747",
-      "authors": [
-        "Hilde Weerts",
-        "Florian Pfisterer",
-        "Matthias Feurer",
-        "Katharina Eggensperger",
-        "Edward M. Bergman",
-        "Noor H. Awad",
-        "Joaquin Vanschoren",
-        "Mykola Pechenizkiy",
-        "Bernd Bischl",
-        "Frank Hutter"
-      ],
-      "institution_ids": [
-        "I161046081",
-        "I4210151956",
-        "I4403386549",
-        "I8087733",
-        "I8204097",
-        "I83019370"
-      ],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
       "id": "W4400140719",
       "title": "Partial RNA design",
       "year": 2024,
@@ -5561,67 +5756,6 @@
       "venue_category": null
     },
     {
-      "id": "W4415796772",
-      "title": "TuneTables: Context Optimization for Scalable Prior-Data Fitted Networks",
-      "year": 2024,
-      "venue": null,
-      "cited_by_count": 3,
-      "doi": "https://doi.org/10.52202/079017-2654",
-      "authors": [
-        "Valeriia Cherepanova",
-        "Niv Cohen",
-        "Benjamin Feuer",
-        "Micah Goldblum",
-        "Chinmay Hegde",
-        "Frank Hutter",
-        "Robin Tibor Schirrmeister",
-        "Colin White"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS"
-    },
-    {
-      "id": "W4415797462",
-      "title": "HW-GPT-Bench: Hardware-Aware Architecture Benchmark for Language Models",
-      "year": 2024,
-      "venue": null,
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.52202/079017-1944",
-      "authors": [
-        "J\u00f6rg K. H. Franke",
-        "Frank Hutter",
-        "Aaron Klein",
-        "Lennart Purucker",
-        "Benedikt Staffler",
-        "Rhea Sanjay Sukthanker",
-        "Arber Zela"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS"
-    },
-    {
-      "id": "W4415799074",
-      "title": "Improving Deep Learning Optimization through Constrained Parameter Regularization",
-      "year": 2024,
-      "venue": null,
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.52202/079017-0286",
-      "authors": [
-        "J\u00f6rg K. H. Franke",
-        "Michael Hefenbrock",
-        "Frank Hutter",
-        "Gregor Koehler"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS"
-    },
-    {
       "id": "W4401580935",
       "title": "AMLTK: A Modular AutoML Toolkit in Python",
       "year": 2024,
@@ -5638,67 +5772,6 @@
         "Marius Lindauer",
         "Frank Hutter",
         "Katharina Eggensperger"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4391885902",
-      "title": "RNAformer: A Simple yet Effective Model for Homology-Aware RNA Secondary Structure Prediction",
-      "year": 2024,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "cited_by_count": 32,
-      "doi": "https://doi.org/10.1101/2024.02.12.579881",
-      "authors": [
-        "J\u00f6rg K. H. Franke",
-        "Frederic Runge",
-        "Ryan Koeksal",
-        "Dominika Matus",
-        "Rolf Backofen",
-        "Frank Hutter"
-      ],
-      "institution_ids": [
-        "I161046081"
-      ],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4390788117",
-      "title": "RnaBench: A Comprehensive Library for <i>In Silico</i> RNA Modelling",
-      "year": 2024,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "cited_by_count": 8,
-      "doi": "https://doi.org/10.1101/2024.01.09.574794",
-      "authors": [
-        "Frederic Runge",
-        "Karim Farid",
-        "J\u00f6rg K. H. Franke",
-        "Frank Hutter"
-      ],
-      "institution_ids": [
-        "I161046081"
-      ],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4391623281",
-      "title": "Is Mamba Capable of In-Context Learning?",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 5,
-      "doi": "https://doi.org/10.48550/arxiv.2402.03170",
-      "authors": [
-        "Riccardo Grazzi",
-        "Julien Siems",
-        "Simon Schrodi",
-        "Thomas Brox",
-        "Frank Hutter"
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
@@ -5741,26 +5814,6 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null
-    },
-    {
-      "id": "W4392340482",
-      "title": "Multi-objective Differentiable Neural Architecture Search",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 2,
-      "doi": "https://doi.org/10.48550/arxiv.2402.18213",
-      "authors": [
-        "Rhea Sanjay Sukthanker",
-        "Arber Zela",
-        "Benedikt Staffler",
-        "Samuel Dooley",
-        "Josif Grabocka",
-        "Frank Hutter"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
     },
     {
       "id": "W4395687037",
@@ -5819,27 +5872,6 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
       "venue_category": null
-    },
-    {
-      "id": "W4392340557",
-      "title": "Diffusion-Based Neural Network Weights Generation",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2402.18153",
-      "authors": [
-        "Bedionita Soro",
-        "Bruno Andreis",
-        "Hayeon Lee",
-        "Jeong, Wonyong",
-        "Song Chong",
-        "Frank Hutter",
-        "Sung Ju Hwang"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
     },
     {
       "id": "W4395687469",
@@ -5921,6 +5953,25 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": true,
       "venue_category": null
+    },
+    {
+      "id": "W4404569993",
+      "title": "Drift-Resilient TabPFN: In-Context Learning Temporal Distribution Shifts on Tabular Data",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2411.10634",
+      "authors": [
+        "Kai Helli",
+        "David Schnurr",
+        "Noah Hollmann",
+        "Samuel M\u00fcller",
+        "Frank Hutter"
+      ],
+      "institution_ids": [],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
     },
     {
       "id": "W4404573957",
@@ -6238,6 +6289,34 @@
       ],
       "institution_ids": [],
       "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4405761636",
+      "title": "Flow matching for atmospheric retrieval of exoplanets: Where reliability meets adaptive noise levels",
+      "year": 2024,
+      "venue": "Astronomy and Astrophysics",
+      "cited_by_count": 8,
+      "doi": "https://doi.org/10.1051/0004-6361/202451861",
+      "authors": [
+        "Timothy D. Gebhard",
+        "Jonas Wildberger",
+        "Maximilian Dax",
+        "Annalena Kofler",
+        "Daniel Angerhausen",
+        "Sascha P. Quanz",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [
+        "I35440088",
+        "I4210127646",
+        "I4210135521"
+      ],
+      "scientist": [
+        "Maximilian Dax",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null
     },
@@ -6703,31 +6782,6 @@
         "I4210121786",
         "I4210135521",
         "I56590836"
-      ],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4405761636",
-      "title": "Flow matching for atmospheric retrieval of exoplanets: Where reliability meets adaptive noise levels",
-      "year": 2024,
-      "venue": "Astronomy and Astrophysics",
-      "cited_by_count": 8,
-      "doi": "https://doi.org/10.1051/0004-6361/202451861",
-      "authors": [
-        "Timothy D. Gebhard",
-        "Jonas Wildberger",
-        "Maximilian Dax",
-        "Annalena Kofler",
-        "Daniel Angerhausen",
-        "Sascha P. Quanz",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [
-        "I35440088",
-        "I4210127646",
-        "I4210135521"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
@@ -8010,78 +8064,6 @@
       "venue_category": null
     },
     {
-      "id": "W4390832733",
-      "title": "Rethinking Performance Measures of RNA Secondary Structure Problems",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 4,
-      "doi": "https://doi.org/10.48550/arxiv.2401.05351",
-      "authors": [
-        "Frederic Runge",
-        "J\u00f6rg K. H. Franke",
-        "Daniel Fertmann",
-        "Frank Hutter"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4389983039",
-      "title": "Weight-Entanglement Meets Gradient-Based Neural Architecture Search",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 3,
-      "doi": "https://doi.org/10.48550/arxiv.2312.10440",
-      "authors": [
-        "Rhea Sanjay Sukthanker",
-        "Arjun Krishnakumar",
-        "Mahmoud Safari",
-        "Frank Hutter"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
-      "id": "W4389073348",
-      "title": "A General Framework for User-Guided Bayesian Optimization",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2311.14645",
-      "authors": [
-        "Carl Hvarfner",
-        "Frank Hutter",
-        "Luigi Nardi"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR"
-    },
-    {
-      "id": "W4385261004",
-      "title": "Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2307.11888",
-      "authors": [
-        "Antonio Orvieto",
-        "Soham De",
-        "\u00c7a\u011flar G\u00fcl\u00e7ehre",
-        "Razvan Pascanu",
-        "Samuel Smith"
-      ],
-      "institution_ids": [],
-      "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null
-    },
-    {
       "id": "W4389363857",
       "title": "Recurrent Distance Filtering for Graph Representation Learning",
       "year": 2023,
@@ -8098,6 +8080,27 @@
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML"
+    },
+    {
+      "id": "W4381888413",
+      "title": "normflows: A PyTorch Package for NormalizingFlows",
+      "year": 2023,
+      "venue": "The Journal of Open Source Software",
+      "cited_by_count": 39,
+      "doi": "https://doi.org/10.21105/joss.05361",
+      "authors": [
+        "Vincent Stimper",
+        "David Liu",
+        "Andrew T. Campbell",
+        "Vincent Berenz",
+        "Lukas Ryll",
+        "Bernhard Sch\u00f6lkopf",
+        "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4389775671",
@@ -8137,6 +8140,42 @@
         "I183935753",
         "I4210135521",
         "I45129253",
+        "I8087733"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4379390255",
+      "title": "Quantification of intratumoural heterogeneity in mice and patients via machine-learning models trained on PET\u2013MRI data",
+      "year": 2023,
+      "venue": "Nature Biomedical Engineering",
+      "cited_by_count": 14,
+      "doi": "https://doi.org/10.1038/s41551-023-01047-9",
+      "authors": [
+        "Prateek Katiyar",
+        "Johannes Schwenck",
+        "Leonie Frauenfeld",
+        "Mathew R. Divine",
+        "Vaibhav Agrawal",
+        "Ursula Kohlhofer",
+        "Sergios Gatidis",
+        "Roland E. Kontermann",
+        "Alfred K\u00f6nigsrainer",
+        "Leticia Quintanilla\u2010Mart\u00ednez",
+        "Christian la Foug\u00e8re",
+        "Bernhard Sch\u00f6lkopf",
+        "Bernd J. Pichler",
+        "Jonathan A. Disselhorst"
+      ],
+      "institution_ids": [
+        "I100066346",
+        "I1325886976",
+        "I17937529",
+        "I223822909",
+        "I4210125796",
+        "I4210135521",
         "I8087733"
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
@@ -8215,6 +8254,31 @@
       "venue_category": null
     },
     {
+      "id": "W4367857414",
+      "title": "Evaluating vaccine allocation strategies using simulation-assisted causal modeling",
+      "year": 2023,
+      "venue": "Patterns",
+      "cited_by_count": 9,
+      "doi": "https://doi.org/10.1016/j.patter.2023.100739",
+      "authors": [
+        "Armin Keki\u0107",
+        "Jonas Dehning",
+        "Luigi Gresele",
+        "Julius von K\u00fcgelgen",
+        "Viola Priesemann",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [
+        "I241749",
+        "I4210088711",
+        "I4210135521",
+        "I74656192"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
       "id": "W4386617351",
       "title": "Parameterizing pressure\u2013temperature profiles of exoplanet atmospheres with neural networks",
       "year": 2023,
@@ -8235,6 +8299,28 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null
+    },
+    {
+      "id": "W4383109138",
+      "title": "AIMY: An Open-source Table Tennis Ball Launcher for Versatile and High-fidelity Trajectory Generation",
+      "year": 2023,
+      "venue": null,
+      "cited_by_count": 5,
+      "doi": "https://doi.org/10.1109/icra48891.2023.10160336",
+      "authors": [
+        "Alexander Dittrich",
+        "Jan Schneider",
+        "Simon Guist",
+        "Nico G\u00fcrtler",
+        "Heiko Ott",
+        "Thomas Steinbrenner",
+        "Bernhard Sch\u00f6lkopf",
+        "Dieter B\u00fcchler"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICRA"
     },
     {
       "id": "W4389666216",
@@ -8372,6 +8458,104 @@
       "venue_category": "ICRA"
     },
     {
+      "id": "W4380562664",
+      "title": "The autoPET challenge: Towards fully automated lesion segmentation in oncologic PET/CT imaging",
+      "year": 2023,
+      "venue": "Research Square",
+      "cited_by_count": 60,
+      "doi": "https://doi.org/10.21203/rs.3.rs-2572595/v1",
+      "authors": [
+        "Sergios Gatidis",
+        "Marcel Fr\u00fch",
+        "Matthias P. Fabritius",
+        "Sijing Gu",
+        "Konstantin Nikolaou",
+        "Christian la Foug\u00e8re",
+        "Ye Jin",
+        "Junjun He",
+        "Yige Peng",
+        "Lei Bi",
+        "Jun Ma",
+        "Bo Wang",
+        "Jia Zhang",
+        "Yukun Huang",
+        "Lars Heiliger",
+        "Zdravko Marinov",
+        "Rainer Stiefelhagen",
+        "Jan Egger",
+        "Jens Kleesiek",
+        "Ludovic Sibille",
+        "Lei Xiang",
+        "Simone Bendazolli",
+        "Mehdi Astaraki",
+        "Bernhard Sch\u00f6lkopf",
+        "Michael Ingrisch",
+        "Clemens C. Cyran",
+        "Thomas K\u00fcstner"
+      ],
+      "institution_ids": [
+        "I102335020",
+        "I129604602",
+        "I185261750",
+        "I3018771216",
+        "I4210119759",
+        "I4210125796",
+        "I4210135459",
+        "I4210135521",
+        "I4391012619",
+        "I8204097",
+        "I86987016"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4380356267",
+      "title": "Can Large Language Models Infer Causation from Correlation?",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 23,
+      "doi": "https://doi.org/10.48550/arxiv.2306.05836",
+      "authors": [
+        "Zhijing Jin",
+        "Jiarui Liu",
+        "Zhiheng Lyu",
+        "Spencer Poff",
+        "Mrinmaya Sachan",
+        "Rada Mihalcea",
+        "Mona Diab",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR"
+    },
+    {
+      "id": "W4380559233",
+      "title": "Controlling Text-to-Image Diffusion by Orthogonal Finetuning",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 21,
+      "doi": "https://doi.org/10.48550/arxiv.2306.07280",
+      "authors": [
+        "Zeju Qiu",
+        "Weiyang Liu",
+        "Haiwen Feng",
+        "Yuxuan Xue",
+        "Feng Yao",
+        "Zhen Liu",
+        "Dan Zhang",
+        "Adrian Weller",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
       "id": "W4385438620",
       "title": "Benchmarking Offline Reinforcement Learning on Real-Robot Hardware",
       "year": 2023,
@@ -8394,6 +8578,65 @@
       "venue_category": "ICLR"
     },
     {
+      "id": "W4378768677",
+      "title": "Flow Matching for Scalable Simulation-Based Inference",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 9,
+      "doi": "https://doi.org/10.48550/arxiv.2305.17161",
+      "authors": [
+        "Maximilian Dax",
+        "Jonas Wildberger",
+        "Simon Buchholz",
+        "Stephen Green",
+        "Jakob H. Macke",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
+      "id": "W4378942358",
+      "title": "Membership Inference Attacks against Language Models via Neighbourhood Comparison",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 4,
+      "doi": "https://doi.org/10.3929/ethz-b-000653508",
+      "authors": [
+        "Justus Mattern",
+        "Fatemehsadat Mireshghallah",
+        "Zhijing Jin",
+        "Bernhard Sch\u00f6lkopf",
+        "Mrinmaya Sachan",
+        "Taylor Berg-Kirkpatrick"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4382766067",
+      "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.48550/arxiv.2306.16922",
+      "authors": [
+        "Aaron Spieler",
+        "Nasim Rahaman",
+        "Georg Martius",
+        "Bernhard Sch\u00f6lkopf",
+        "Anna Levina"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR"
+    },
+    {
       "id": "W4386081322",
       "title": "SE(3) Equivariant Augmented Coupling Flows",
       "year": 2023,
@@ -8407,6 +8650,88 @@
         "\u00c9mile Mathieu",
         "Bernhard Sch\u00f6lkopf",
         "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
+      "id": "W4378768745",
+      "title": "Causal Component Analysis",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2305.17225",
+      "authors": [
+        "Wendong Liang",
+        "Armin Keki\u0107",
+        "Julius von K\u00fcgelgen",
+        "Simon Buchholz",
+        "Michel Besserve",
+        "Luigi Gresele",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
+      "id": "W4379256287",
+      "title": "Nonparametric Identifiability of Causal Representations from Unknown Interventions",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2306.00542",
+      "authors": [
+        "Julius von K\u00fcgelgen",
+        "Michel Besserve",
+        "Wendong Liang",
+        "Luigi Gresele",
+        "Armin Keki\u0107",
+        "Elias Bareinboim",
+        "David M. Blei",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
+      "id": "W4379469361",
+      "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2306.01157",
+      "authors": [
+        "Aliz\u00e9e Pace",
+        "Hugo Y\u00e8che",
+        "Bernhard Sch\u00f6lkopf",
+        "Gunnar R\u00e4tsch",
+        "Guy Tennenholtz"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR"
+    },
+    {
+      "id": "W4379539357",
+      "title": "Learning Linear Causal Representations from Interventions under General Nonlinear Mixing",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2306.02235",
+      "authors": [
+        "Simon Buchholz",
+        "Goutham Rajendran",
+        "Elan Rosenfeld",
+        "Bryon Aragam",
+        "Bernhard Sch\u00f6lkopf",
+        "Pradeep Ravikumar"
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
@@ -8475,6 +8800,44 @@
         "Daniel Angerhausen",
         "Sascha P. Quanz",
         "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4376988644",
+      "title": "The Hessian perspective into the Nature of Convolutional Neural Networks",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2305.09088",
+      "authors": [
+        "Sidak Pal Singh",
+        "Thomas Hofmann",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICML"
+    },
+    {
+      "id": "W4378474162",
+      "title": "All Roads Lead to Rome? Exploring the Invariance of Transformers' Representations",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2305.14555",
+      "authors": [
+        "Yu\u2010Xin Ren",
+        "Qipeng Guo",
+        "Zhijing Jin",
+        "Shauli Ravfogel",
+        "Mrinmaya Sachan",
+        "Bernhard Sch\u00f6lkopf",
+        "Ryan Cotterell"
       ],
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
@@ -8557,6 +8920,138 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR"
+    },
+    {
+      "id": "W4376123062",
+      "title": "Beyond Good Intentions: Reporting the Research Landscape of NLP for Social Good",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2305.05471",
+      "authors": [
+        "Fernando Gonz\u00e1lez",
+        "Zhijing Jin",
+        "Bernhard Sch\u00f6lkopf",
+        "Tom Hope",
+        "Mrinmaya Sachan",
+        "Rada Mihalcea"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "EMNLP"
+    },
+    {
+      "id": "W4377131264",
+      "title": "Estimation Beyond Data Reweighting: Kernel Method of Moments",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2305.10898",
+      "authors": [
+        "Heiner Kremer",
+        "Yassine Nemmour",
+        "Bernhard Sch\u00f6lkopf",
+        "Jia-Jie Zhu"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICML"
+    },
+    {
+      "id": "W4378509228",
+      "title": "Provably Learning Object-Centric Representations",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2305.14229",
+      "authors": [
+        "Jack Brady",
+        "R. Zimmermann",
+        "Yash Sharma",
+        "Bernhard Sch\u00f6lkopf",
+        "Julius von K\u00fcgelgen",
+        "Wieland Brendel"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICML"
+    },
+    {
+      "id": "W4378768645",
+      "title": "A Measure-Theoretic Axiomatisation of Causality",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2305.17139",
+      "authors": [
+        "Junhyung Park",
+        "Simon Buchholz",
+        "Bernhard Sch\u00f6lkopf",
+        "Krikamol Muandet"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS"
+    },
+    {
+      "id": "W4379933196",
+      "title": "Stochastic Marginal Likelihood Gradients using Neural Tangent Kernels",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2306.03968",
+      "authors": [
+        "Alexander Immer",
+        "Tycho F. A. van der Ouderaa",
+        "Mark van der Wilk",
+        "Gunnar R\u00e4tsch",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICML"
+    },
+    {
+      "id": "W4380365843",
+      "title": "Causal Effect Estimation from Observational and Interventional Data Through Matrix Weighted Linear Estimators",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2306.06002",
+      "authors": [
+        "Klaus-Rudolf Kladny",
+        "Julius von K\u00fcgelgen",
+        "Bernhard Sch\u00f6lkopf",
+        "Michael Muehlebach"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "UAI"
+    },
+    {
+      "id": "W4381248565",
+      "title": "Synchronizing Machine Learning Algorithms, Realtime Robotic Control and Simulated Environment with o80",
+      "year": 2023,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2306.09764",
+      "authors": [
+        "Vincent Berenz",
+        "Felix Widmaier",
+        "Simon Guist",
+        "Bernhard Sch\u00f6lkopf",
+        "Dieter B\u00fcchler"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     },
     {
       "id": "W4386426778",
@@ -8689,68 +9184,160 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null
+    },
+    {
+      "id": "W4413522447",
+      "title": "Intelligence artificielle : prendre en compte ses risques concrets, plut\u00f4t que de potentielles menaces existentielles",
+      "year": 2023,
+      "venue": null,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.64628/aak.tg33dtvgr",
+      "authors": [
+        "Nuria Oliver",
+        "Nicol\u00f2 Cesa\u2010Bianchi",
+        "Nada Lavra\u010d",
+        "Bernhard Sch\u00f6lkopf",
+        "Sepp Hochreiter",
+        "Serge Belongie",
+        "Florence d\u2019Alch\u00e9\u2013Buc"
+      ],
+      "institution_ids": [
+        "I121883995",
+        "I124055696",
+        "I130194489",
+        "I189158943",
+        "I192455894",
+        "I205703379",
+        "I4210135521"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4413522532",
+      "title": "Let\u2019s focus on AI\u2019s tangible risks rather than speculating about its potential to pose an existential threat",
+      "year": 2023,
+      "venue": null,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.64628/aao.xyrdfdn4x",
+      "authors": [
+        "Nuria Oliver",
+        "Nicol\u00f2 Cesa\u2010Bianchi",
+        "Nada Lavra\u010d",
+        "Bernhard Sch\u00f6lkopf",
+        "Sepp Hochreiter",
+        "Serge Belongie",
+        "Florence d'Alch\u00e9-Buc"
+      ],
+      "institution_ids": [
+        "I121883995",
+        "I124055696",
+        "I130194489",
+        "I189158943",
+        "I192455894",
+        "I205703379",
+        "I4210135521"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
+    },
+    {
+      "id": "W4413603615",
+      "title": "Inteligencia artificial: riesgos reales frente a amenazas hipot\u00e9ticas",
+      "year": 2023,
+      "venue": null,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.64628/aao.g6dxev5sa",
+      "authors": [
+        "Nuria Oliver",
+        "Nicol\u00f2 Cesa\u2010Bianchi",
+        "Nada Lavra\u010d",
+        "Bernhard Sch\u00f6lkopf",
+        "Sepp Hochreiter",
+        "Serge Belongie",
+        "Florence d'Alch\u00e9-Buc"
+      ],
+      "institution_ids": [
+        "I121883995",
+        "I124055696",
+        "I130194489",
+        "I189158943",
+        "I192455894",
+        "I205703379",
+        "I4210114058"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null
     }
   ],
   "per_scientist_counts": {
     "Celestine Mendler-D\u00fcnner": 14,
-    "Sahar Abdelnabi": 27,
-    "Jakob Macke": 8,
+    "Sahar Abdelnabi": 26,
+    "Jakob Macke": 12,
     "Wieland Brendel": 42,
     "Jonas Geiping": 36,
-    "Frank Hutter": 101,
+    "Frank Hutter": 85,
     "T. Konstantin Rusch": 11,
-    "Shiwei Liu": 5,
-    "Maksym Andriushchenko": 9,
-    "Maximilian Dax": 12,
+    "Shiwei Liu": 1,
+    "Maksym Andriushchenko": 7,
+    "Maximilian Dax": 16,
     "Rediet Abebe": 13,
-    "Antonio Orvieto": 42,
-    "Bernhard Sch\u00f6lkopf": 181
+    "Antonio Orvieto": 41,
+    "Bernhard Sch\u00f6lkopf": 207,
+    "Aaron Klein": 3,
+    "David Salinas": 17
   },
   "publications_per_year": {
-    "2023": 53,
-    "2024": 169,
-    "2025": 149,
-    "2026": 99
+    "2023": 73,
+    "2024": 158,
+    "2025": 146,
+    "2026": 115
   },
   "ellis_site_collaborations": {
-    "ELLIS Unit Freiburg": 21,
-    "ELLIS Unit ETH Zurich": 12,
-    "ELLIS Unit Cambridge": 11,
-    "ELLIS Unit Oxford": 10,
+    "ELLIS Unit Freiburg": 19,
+    "ELLIS Unit ETH Zurich": 14,
+    "ELLIS Unit Cambridge": 12,
+    "ELLIS Unit Oxford": 11,
     "ELLIS Unit Munich": 4,
+    "ELLIS Unit Copenhagen": 4,
+    "ELLIS Unit Linz": 3,
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
-    "ELLIS Unit Copenhagen": 1,
     "ELLIS Unit Darmstadt": 1,
-    "ELLIS Unit Genoa": 1
+    "ELLIS Unit Genoa": 1,
+    "ELLIS Unit KAUST": 1
   },
   "ellis_member_collaborations": {
-    "Unit Zurich": 29,
-    "Unit T\u00fcbingen": 24,
-    "Institute T\u00fcbingen": 13,
-    "Unit Paris": 7,
+    "Unit Zurich": 36,
+    "Unit T\u00fcbingen": 26,
+    "Unit Paris": 9,
+    "Unit Cambridge": 7,
+    "Unit Saarbr\u00fccken": 6,
     "Unit Munich": 6,
     "Unit London": 6,
-    "Unit Lausanne": 6,
     "Unit Oxford": 6,
-    "Unit Cambridge": 6,
-    "Unit Saarbr\u00fccken": 5,
-    "Unit NRW": 5,
-    "Unit Franconia": 5,
+    "Unit NRW": 6,
+    "Unit Copenhagen": 5,
+    "Unit Denmark": 5,
+    "Unit Lausanne": 4,
+    "Unit Franconia": 4,
+    "Unit Leuven": 3,
+    "Unit Linz": 3,
     "Unit Genoa": 2,
     "Unit Darmstadt": 2,
-    "Unit Copenhagen": 2,
-    "Unit Denmark": 2,
     "Unit Vienna": 1,
-    "Unit Leuven": 1,
     "Unit Berlin": 1,
-    "Unit Freiburg": 1,
     "Unit Haifa": 1,
     "Unit Delft": 1,
-    "Institute Finland": 1,
     "Unit Jena": 1,
-    "Unit Trento": 1
+    "Unit Trento": 1,
+    "Unit Amsterdam": 1,
+    "Unit Helsinki": 1,
+    "Institute Finland": 1
   },
   "ellis_member_collaboration_details": {
     "Unit T\u00fcbingen": [
@@ -8895,6 +9482,13 @@
         "doi": "https://doi.org/10.48550/arxiv.2307.15690"
       },
       {
+        "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Georg Martius",
+        "doi": "https://doi.org/10.48550/arxiv.2306.16922"
+      },
+      {
         "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -8921,6 +9515,13 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Michael J. Black",
         "doi": "https://doi.org/10.48550/arxiv.2310.15168"
+      },
+      {
+        "title": "Causal Effect Estimation from Observational and Interventional Data Through Matrix Weighted Linear Estimators",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.48550/arxiv.2306.06002"
       }
     ],
     "Unit Vienna": [
@@ -8967,9 +9568,30 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Adish Singla",
         "doi": "https://doi.org/10.1287/mnsc.2021.02567"
+      },
+      {
+        "title": "A Measure-Theoretic Axiomatisation of Causality",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Krikamol Muandet",
+        "doi": "https://doi.org/10.48550/arxiv.2305.17139"
       }
     ],
     "Unit Leuven": [
+      {
+        "title": "sbi reloaded: a toolkit for simulation-based inference workflows",
+        "year": 2026,
+        "scientist": "Jakob Macke",
+        "co_author": "Pedro J. Gon\u00e7alves",
+        "doi": "https://doi.org/10.5281/zenodo.19391621"
+      },
+      {
+        "title": "Corrigendum to \u201cUncertainty mapping and probabilistic tractography using Simulation-based Inference in diffusion MRI: A comparison with classical Bayes\u201d [Medical Image Analysis 103 (2025) 103580]",
+        "year": 2026,
+        "scientist": "Jakob Macke",
+        "co_author": "Pedro J. Gon\u00e7alves",
+        "doi": "https://doi.org/10.1016/j.media.2026.104071"
+      },
       {
         "title": "SUMMER: Dataset of human single-neuron activity during an 83-minute movie from 2,286 neurons and 29 patients",
         "year": 2026,
@@ -8994,11 +9616,11 @@
         "doi": "https://doi.org/10.1109/iccv51701.2025.00103"
       },
       {
-        "title": "Can Fairness be Automated? Guidelines and Opportunities for Fairness-aware AutoML",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Bernd Bischl",
-        "doi": "https://doi.org/10.1613/jair.1.14747"
+        "title": "Challenges and Opportunities for Statistics in the Era of Data Science",
+        "year": 2025,
+        "scientist": "David Salinas",
+        "co_author": "Holger Rauhut",
+        "doi": "https://doi.org/10.1162/99608f92.abf14c9d"
       },
       {
         "title": "Position: A Call to Action for a Human-Centered AutoML Paradigm",
@@ -9094,20 +9716,6 @@
         "scientist": "Frank Hutter",
         "co_author": "Volkan Cevher",
         "doi": "https://doi.org/10.48550/arxiv.2511.17388"
-      },
-      {
-        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-        "year": 2025,
-        "scientist": "Maksym Andriushchenko",
-        "co_author": "Nicolas Flammarion",
-        "doi": "https://doi.org/10.48550/arxiv.2506.14866"
-      },
-      {
-        "title": "Universality of Linear Recurrences Followed by Non-linear Projections: Finite-Width Guarantees and Benefits of Complex Eigenvalues",
-        "year": 2023,
-        "scientist": "Antonio Orvieto",
-        "co_author": "\u00c7a\u011flar G\u00fcl\u00e7ehre",
-        "doi": "https://doi.org/10.48550/arxiv.2307.11888"
       }
     ],
     "Unit Zurich": [
@@ -9308,6 +9916,55 @@
         "doi": "https://doi.org/10.48550/arxiv.2312.01538"
       },
       {
+        "title": "Can Large Language Models Infer Causation from Correlation?",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2306.05836"
+      },
+      {
+        "title": "Membership Inference Attacks against Language Models via Neighbourhood Comparison",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.3929/ethz-b-000653508"
+      },
+      {
+        "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Gunnar R\u00e4tsch",
+        "doi": "https://doi.org/10.48550/arxiv.2306.01157"
+      },
+      {
+        "title": "The Hessian perspective into the Nature of Convolutional Neural Networks",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Thomas Hofmann",
+        "doi": "https://doi.org/10.48550/arxiv.2305.09088"
+      },
+      {
+        "title": "All Roads Lead to Rome? Exploring the Invariance of Transformers' Representations",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2305.14555"
+      },
+      {
+        "title": "Beyond Good Intentions: Reporting the Research Landscape of NLP for Social Good",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2305.05471"
+      },
+      {
+        "title": "Stochastic Marginal Likelihood Gradients using Neural Tangent Kernels",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Gunnar R\u00e4tsch",
+        "doi": "https://doi.org/10.48550/arxiv.2306.03968"
+      },
+      {
         "title": "Causal Modeling with Stationary Diffusions",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -9398,6 +10055,13 @@
         "doi": "https://doi.org/10.1109/iccv51070.2023.00489"
       },
       {
+        "title": "Controlling Text-to-Image Diffusion by Orthogonal Finetuning",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.48550/arxiv.2306.07280"
+      },
+      {
         "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -9421,11 +10085,11 @@
         "doi": "https://doi.org/10.48550/arxiv.2506.06143"
       },
       {
-        "title": "Can Fairness be Automated? Guidelines and Opportunities for Fairness-aware AutoML",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Matthias Feurer",
-        "doi": "https://doi.org/10.1613/jair.1.14747"
+        "title": "Challenges and Opportunities for Statistics in the Era of Data Science",
+        "year": 2025,
+        "scientist": "David Salinas",
+        "co_author": "Stefan Harmeling",
+        "doi": "https://doi.org/10.1162/99608f92.abf14c9d"
       },
       {
         "title": "AMLTK: A Modular AutoML Toolkit in Python",
@@ -9447,108 +10111,29 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Michael Kamp",
         "doi": "https://doi.org/10.48550/arxiv.2406.16300"
+      },
+      {
+        "title": "The autoPET challenge: Towards fully automated lesion segmentation in oncologic PET/CT imaging",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Jens Kleesiek",
+        "doi": "https://doi.org/10.21203/rs.3.rs-2572595/v1"
       }
     ],
-    "Institute T\u00fcbingen": [
+    "Unit Genoa": [
       {
-        "title": "When is Warmstarting Effective for Scaling Language Models?",
-        "year": 2026,
-        "scientist": "Frank Hutter",
-        "co_author": "Aaron Klein",
-        "doi": "https://doi.org/10.48550/arxiv.2605.13405"
-      },
-      {
-        "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
+        "title": "DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products",
         "year": 2025,
         "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2501.02945"
+        "co_author": "Massimiliano Pontil",
+        "doi": "https://doi.org/10.48550/arxiv.2502.10297"
       },
       {
-        "title": "TabArena: A Living Benchmark for Machine Learning on Tabular Data",
-        "year": 2025,
-        "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2506.16791"
-      },
-      {
-        "title": "Tuning LLM Judge Design Decisions for 1/1000 of the Cost",
-        "year": 2025,
-        "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2501.17178"
-      },
-      {
-        "title": "EquiTabPFN: A Target-Permutation Equivariant Prior Fitted Networks",
-        "year": 2025,
-        "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2502.06684"
-      },
-      {
-        "title": "Improving LLM-based Global Optimization with Search Space Partitioning",
-        "year": 2025,
-        "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2505.21372"
-      },
-      {
-        "title": "Where to Begin: Efficient Pretraining via Subnetwork Selection and Distillation",
-        "year": 2025,
-        "scientist": "Frank Hutter",
-        "co_author": "Aaron Klein",
-        "doi": "https://doi.org/10.48550/arxiv.2510.07227"
-      },
-      {
-        "title": "HW-GPT-Bench: Hardware-Aware Architecture Benchmark for Language Models",
+        "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
         "year": 2024,
         "scientist": "Frank Hutter",
-        "co_author": "Aaron Klein",
-        "doi": "https://doi.org/10.52202/079017-1944"
-      },
-      {
-        "title": "Mamba4Cast: Efficient Zero-Shot Time Series Forecasting with State Space Models",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2410.09385"
-      },
-      {
-        "title": "GAMformer: Bridging Tabular Foundation Models and Interpretable Machine Learning",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2410.04560"
-      },
-      {
-        "title": "Compressing Large Language Models with Automated Sub-Network Search",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Aaron Klein",
-        "doi": "https://doi.org/10.48550/arxiv.2410.06479"
-      },
-      {
-        "title": "ARLBench: Flexible and Efficient Benchmarking for Hyperparameter Optimization in Reinforcement Learning",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "David Salinas",
-        "doi": "https://doi.org/10.48550/arxiv.2409.18827"
-      },
-      {
-        "title": "Warmstarting for Scaling Language Models",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Aaron Klein",
-        "doi": "https://doi.org/10.48550/arxiv.2411.07340"
-      }
-    ],
-    "Unit Freiburg": [
-      {
-        "title": "Is Mamba Capable of In-Context Learning?",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Thomas Brox",
-        "doi": "https://doi.org/10.48550/arxiv.2402.03170"
+        "co_author": "Massimiliano Pontil",
+        "doi": "https://doi.org/10.48550/arxiv.2411.12537"
       }
     ],
     "Unit Franconia": [
@@ -9558,13 +10143,6 @@
         "scientist": "Frank Hutter",
         "co_author": "Josif Grabocka",
         "doi": "https://doi.org/10.48550/arxiv.2605.13405"
-      },
-      {
-        "title": "Multi-objective Differentiable Neural Architecture Search",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Josif Grabocka",
-        "doi": "https://doi.org/10.48550/arxiv.2402.18213"
       },
       {
         "title": "Regularized Neural Ensemblers",
@@ -9586,22 +10164,6 @@
         "scientist": "Frank Hutter",
         "co_author": "Josif Grabocka",
         "doi": "https://doi.org/10.48550/arxiv.2411.07340"
-      }
-    ],
-    "Unit Genoa": [
-      {
-        "title": "DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products",
-        "year": 2025,
-        "scientist": "Frank Hutter",
-        "co_author": "Massimiliano Pontil",
-        "doi": "https://doi.org/10.48550/arxiv.2502.10297"
-      },
-      {
-        "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Massimiliano Pontil",
-        "doi": "https://doi.org/10.48550/arxiv.2411.12537"
       }
     ],
     "Unit Haifa": [
@@ -9662,6 +10224,20 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Cordelia Schmid",
         "doi": "https://doi.org/10.48550/arxiv.2401.06035"
+      },
+      {
+        "title": "Let\u2019s focus on AI\u2019s tangible risks rather than speculating about its potential to pose an existential threat",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Florence d'Alch\u00e9-Buc",
+        "doi": "https://doi.org/10.64628/aao.xyrdfdn4x"
+      },
+      {
+        "title": "Inteligencia artificial: riesgos reales frente a amenazas hipot\u00e9ticas",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Florence d'Alch\u00e9-Buc",
+        "doi": "https://doi.org/10.64628/aao.g6dxev5sa"
       }
     ],
     "Unit Delft": [
@@ -9671,15 +10247,6 @@
         "scientist": "Frank Hutter",
         "co_author": "Tom Viering",
         "doi": "https://doi.org/10.48550/arxiv.2606.07134"
-      }
-    ],
-    "Institute Finland": [
-      {
-        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-        "year": 2025,
-        "scientist": "Maksym Andriushchenko",
-        "co_author": "Francesco Croce",
-        "doi": "https://doi.org/10.48550/arxiv.2506.14866"
       }
     ],
     "Unit Darmstadt": [
@@ -9721,6 +10288,27 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Amartya Sanyal",
         "doi": "https://doi.org/10.48550/arxiv.2403.13041"
+      },
+      {
+        "title": "Intelligence artificielle : prendre en compte ses risques concrets, plut\u00f4t que de potentielles menaces existentielles",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Serge Belongie",
+        "doi": "https://doi.org/10.64628/aak.tg33dtvgr"
+      },
+      {
+        "title": "Let\u2019s focus on AI\u2019s tangible risks rather than speculating about its potential to pose an existential threat",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Serge Belongie",
+        "doi": "https://doi.org/10.64628/aao.xyrdfdn4x"
+      },
+      {
+        "title": "Inteligencia artificial: riesgos reales frente a amenazas hipot\u00e9ticas",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Serge Belongie",
+        "doi": "https://doi.org/10.64628/aao.g6dxev5sa"
       }
     ],
     "Unit Denmark": [
@@ -9737,6 +10325,50 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Amartya Sanyal",
         "doi": "https://doi.org/10.48550/arxiv.2403.13041"
+      },
+      {
+        "title": "Intelligence artificielle : prendre en compte ses risques concrets, plut\u00f4t que de potentielles menaces existentielles",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Serge Belongie",
+        "doi": "https://doi.org/10.64628/aak.tg33dtvgr"
+      },
+      {
+        "title": "Let\u2019s focus on AI\u2019s tangible risks rather than speculating about its potential to pose an existential threat",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Serge Belongie",
+        "doi": "https://doi.org/10.64628/aao.xyrdfdn4x"
+      },
+      {
+        "title": "Inteligencia artificial: riesgos reales frente a amenazas hipot\u00e9ticas",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Serge Belongie",
+        "doi": "https://doi.org/10.64628/aao.g6dxev5sa"
+      }
+    ],
+    "Unit Linz": [
+      {
+        "title": "Intelligence artificielle : prendre en compte ses risques concrets, plut\u00f4t que de potentielles menaces existentielles",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Sepp Hochreiter",
+        "doi": "https://doi.org/10.64628/aak.tg33dtvgr"
+      },
+      {
+        "title": "Let\u2019s focus on AI\u2019s tangible risks rather than speculating about its potential to pose an existential threat",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Sepp Hochreiter",
+        "doi": "https://doi.org/10.64628/aao.xyrdfdn4x"
+      },
+      {
+        "title": "Inteligencia artificial: riesgos reales frente a amenazas hipot\u00e9ticas",
+        "year": 2023,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Sepp Hochreiter",
+        "doi": "https://doi.org/10.64628/aao.g6dxev5sa"
       }
     ],
     "Unit Trento": [
@@ -9746,6 +10378,33 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Nicu Sebe",
         "doi": "https://doi.org/10.48550/arxiv.2509.07115"
+      }
+    ],
+    "Unit Amsterdam": [
+      {
+        "title": "TabPFN-3: Technical Report",
+        "year": 2026,
+        "scientist": "David Salinas",
+        "co_author": "Madelon Hulsebos",
+        "doi": "https://doi.org/10.48550/arxiv.2605.13986"
+      }
+    ],
+    "Unit Helsinki": [
+      {
+        "title": "MultiSynt/MT: Trillion-Token Multi-Parallel Pre-Training Data Translated Across 36 Languages",
+        "year": 2026,
+        "scientist": "David Salinas",
+        "co_author": "J\u00f6rg Tiedemann",
+        "doi": "https://doi.org/10.48550/arxiv.2607.00890"
+      }
+    ],
+    "Institute Finland": [
+      {
+        "title": "MultiSynt/MT: Trillion-Token Multi-Parallel Pre-Training Data Translated Across 36 Languages",
+        "year": 2026,
+        "scientist": "David Salinas",
+        "co_author": "J\u00f6rg Tiedemann",
+        "doi": "https://doi.org/10.48550/arxiv.2607.00890"
       }
     ]
   },
@@ -9759,27 +10418,29 @@
     15,
     15,
     17,
+    19,
+    22,
     31,
     37,
     73,
     141
   ],
   "venue_counts": {
-    "ICML": 31,
-    "NeurIPS": 49,
-    "ICLR": 40
+    "ICML": 35,
+    "NeurIPS": 50,
+    "ICLR": 39
   },
   "broader_venue_counts": {
+    "EMNLP": 5,
     "AISTATS": 4,
     "CVPR": 4,
-    "EMNLP": 4,
     "ACL": 3,
+    "ICRA": 3,
+    "UAI": 3,
     "ICCV": 2,
-    "ICRA": 2,
-    "UAI": 2,
     "ECCV": 1,
     "RSS": 1,
     "CoRL": 1
   },
-  "top_tier_total_count": 144
+  "top_tier_total_count": 151
 }
