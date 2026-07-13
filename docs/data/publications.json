@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T09:27:49Z",
+  "generated_at": "2026-07-13T09:45:36Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 389,
   "confirmed_affiliation_count": 21,
@@ -315,7 +315,7 @@
       ],
       "scientist": "Jakob Macke",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -2289,7 +2289,7 @@
       ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": true,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -3443,7 +3443,7 @@
         "Bernhard Sch\u00f6lkopf"
       ],
       "confirmed_ellis_affiliation": true,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -4131,7 +4131,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": true,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -4181,7 +4181,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": true,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -4211,7 +4211,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": true,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -7061,7 +7061,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": true,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -7980,7 +7980,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -8511,7 +8511,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -8548,7 +8548,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": false
     },
     {
@@ -9721,8 +9721,8 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
-    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit Genoa": 1,
+    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit KAUST": 1
   },
   "ellis_member_collaborations": {
@@ -10855,6 +10855,7 @@
     "ICLR": 39
   },
   "broader_venue_counts": {
+    "Nature": 10,
     "EMNLP": 5,
     "AISTATS": 4,
     "CVPR": 4,
@@ -10866,5 +10867,5 @@
     "RSS": 1,
     "CoRL": 1
   },
-  "top_tier_total_count": 151
+  "top_tier_total_count": 161
 }

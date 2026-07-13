@@ -115,6 +115,7 @@ BROADER_VENUE_PATTERNS = {
     "RSS": ["robotics: science and systems"],
     "CoRL": ["conference on robot learning", "corl"],
     "ICRA": ["international conference on robotics and automation", "icra"],
+    "Nature": ["nature"],
 }
 
 ALL_VENUE_PATTERNS = {**CORE_VENUE_PATTERNS, **BROADER_VENUE_PATTERNS}
