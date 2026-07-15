@@ -448,7 +448,9 @@ def process_activities():
     """Reads config/activities.json (manually maintained — no API exists for
     talks/press/awards the way OpenAlex covers publications) and writes a
     sorted, validated copy to docs/data/activities.json for the PR &
-    Activities tab."""
+    Activities tab. Deliberately anonymous — no scientist names are read,
+    stored, or output, since the tab tracks institute-level recognition,
+    not individual attribution."""
     src_path = CONFIG_DIR / "activities.json"
     dest_path = ROOT / "docs" / "data" / "activities.json"
     if not src_path.exists():
@@ -458,7 +460,7 @@ def process_activities():
     raw = json.loads(src_path.read_text())
     entries = raw.get("entries", []) if isinstance(raw, dict) else raw
 
-    valid_types = {"talk", "press", "award", "panel", "podcast", "organizing"}
+    valid_types = {"talk", "press", "media", "award", "grant", "recognition", "panel", "organizing", "podcast", "startup"}
     cleaned = []
     for e in entries:
         if e.get("type") not in valid_types:
@@ -467,7 +469,6 @@ def process_activities():
         cleaned.append({
             "type": e["type"],
             "title": e.get("title", ""),
-            "scientist": e.get("scientist", ""),
             "date": e.get("date", ""),
             "venue": e.get("venue", ""),
             "url": e.get("url", ""),

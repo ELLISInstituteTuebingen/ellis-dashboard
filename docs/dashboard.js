@@ -451,26 +451,19 @@ async function loadActivities() {
 }
 
 const ACTIVITY_TYPE_LABELS = {
-  talk: 'Talk', press: 'Press', award: 'Award',
-  panel: 'Panel', podcast: 'Podcast', organizing: 'Organizing',
+  talk: 'Talk', press: 'Press', media: 'Media', award: 'Award',
+  grant: 'Grant', recognition: 'Recognition', panel: 'Panel',
+  organizing: 'Organizing', podcast: 'Podcast', startup: 'Start-up',
 };
 
 function initActivities(entries) {
   const typeFilter = document.getElementById('activityTypeFilter');
-  const scientistFilter = document.getElementById('activityScientistFilter');
   const listEl = document.getElementById('activityList');
   if (!listEl) return;
 
-  const people = [...new Set(entries.map(e => e.scientist).filter(Boolean))].sort();
-  scientistFilter.innerHTML = '<option value="">All people</option>' +
-    people.map(p => `<option value="${p}">${p}</option>`).join('');
-
   function draw() {
     const type = typeFilter.value;
-    const person = scientistFilter.value;
-    const filtered = entries.filter(e =>
-      (!type || e.type === type) && (!person || e.scientist === person)
-    );
+    const filtered = entries.filter(e => !type || e.type === type);
 
     if (!filtered.length) {
       listEl.innerHTML = `<p style="color:var(--muted); font-size:13.5px; padding:20px 0;">No activities match this filter yet.</p>`;
@@ -489,7 +482,7 @@ function initActivities(entries) {
           <div class="activity-type-badge ${e.type}">${ACTIVITY_TYPE_LABELS[e.type] || e.type}</div>
           <div class="activity-content">
             <div class="activity-title">${titleHtml}</div>
-            <div class="activity-meta">${[dateLabel, e.scientist, e.venue].filter(Boolean).join(' · ')}</div>
+            <div class="activity-meta">${[dateLabel, e.venue].filter(Boolean).join(' · ')}</div>
             ${e.description ? `<div class="activity-description">${e.description}</div>` : ''}
           </div>
         </div>
@@ -498,7 +491,6 @@ function initActivities(entries) {
   }
 
   typeFilter.addEventListener('change', draw);
-  scientistFilter.addEventListener('change', draw);
   draw();
 }
 

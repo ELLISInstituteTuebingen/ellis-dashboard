@@ -184,10 +184,14 @@ a { color: var(--network); }
 
 .activity-type-badge.talk { color: var(--sandstone); border-color: var(--sandstone); }
 .activity-type-badge.press { color: var(--network); border-color: var(--network); }
+.activity-type-badge.media { color: var(--network); border-color: var(--network); }
 .activity-type-badge.award { color: var(--sandstone); border-color: var(--sandstone); }
+.activity-type-badge.grant { color: var(--sandstone); border-color: var(--sandstone); }
+.activity-type-badge.recognition { color: var(--sandstone); border-color: var(--sandstone); }
 .activity-type-badge.panel { color: var(--network); border-color: var(--network); }
 .activity-type-badge.podcast { color: var(--sandstone); border-color: var(--sandstone); }
 .activity-type-badge.organizing { color: var(--network); border-color: var(--network); }
+.activity-type-badge.startup { color: var(--network); border-color: var(--network); }
 
 .activity-content { flex: 1; min-width: 0; }
 .activity-title { color: var(--text); font-weight: 500; font-size: 14px; }
