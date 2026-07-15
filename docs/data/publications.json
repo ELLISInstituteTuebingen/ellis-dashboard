@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T11:24:31Z",
+  "generated_at": "2026-07-15T11:27:30Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 389,
   "confirmed_affiliation_count": 21,
@@ -4712,7 +4712,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "EMNLP",
       "is_oa": true
     },
     {
@@ -4766,7 +4766,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "EMNLP",
       "is_oa": true
     },
     {
@@ -4783,7 +4783,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICML",
       "is_oa": true
     },
     {
@@ -7626,7 +7626,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ACL",
       "is_oa": true
     },
     {
@@ -7643,7 +7643,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -7728,7 +7728,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICML",
       "is_oa": true
     },
     {
@@ -7786,7 +7786,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICML",
       "is_oa": true
     },
     {
@@ -7849,7 +7849,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "UAI",
       "is_oa": true
     },
     {
@@ -7895,7 +7895,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -7935,7 +7935,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -7955,7 +7955,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICML",
       "is_oa": true
     },
     {
@@ -7980,7 +7980,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -8003,7 +8003,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "CoRL",
       "is_oa": true
     },
     {
@@ -8023,7 +8023,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -8041,7 +8041,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -8145,7 +8145,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "EMNLP",
       "is_oa": true
     },
     {
@@ -9512,7 +9512,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "AISTATS",
       "is_oa": true
     },
     {
@@ -9552,7 +9552,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
+      "venue_category": "UAI",
       "is_oa": true
     },
     {
@@ -9721,8 +9721,8 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
-    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit Genoa": 1,
+    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit KAUST": 1
   },
   "ellis_member_collaborations": {
@@ -10850,21 +10850,22 @@
     "2026": "Year in progress \u2014 not yet financially complete"
   },
   "venue_counts": {
-    "ICML": 31,
+    "ICML": 35,
     "NeurIPS": 50,
-    "ICLR": 34
+    "ICLR": 39
   },
   "broader_venue_counts": {
-    "Nature": 9,
+    "Nature": 10,
+    "EMNLP": 5,
+    "AISTATS": 4,
     "CVPR": 4,
-    "AISTATS": 3,
+    "ACL": 3,
     "ICRA": 3,
+    "UAI": 3,
     "ICCV": 2,
-    "ACL": 2,
-    "EMNLP": 2,
     "ECCV": 1,
     "RSS": 1,
-    "UAI": 1
+    "CoRL": 1
   },
-  "top_tier_total_count": 143
+  "top_tier_total_count": 161
 }
