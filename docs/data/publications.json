@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-15T14:01:40Z",
+  "generated_at": "2026-07-15T14:06:36Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 389,
+  "total_publications": 391,
   "confirmed_affiliation_count": 21,
-  "open_access_count": 349,
-  "open_access_percent": 89.7,
+  "open_access_count": 351,
+  "open_access_percent": 89.8,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -1092,6 +1092,50 @@
       "scientist": "Maksym Andriushchenko",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
+      "is_oa": true
+    },
+    {
+      "id": "W7161144191",
+      "title": "Europe and the Geopolitics of AGI: The Need for a Preparedness Plan",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2605.13634",
+      "authors": [
+        "Maximilian Negele",
+        "Daan Juijn",
+        "Afek Shamir",
+        "David Jank\u016f",
+        "Beng\u00fcsu \u00d6zcan",
+        "Lisa Soder",
+        "Lucia Velasco",
+        "Max Reddel",
+        "Michiel Bakker",
+        "Lorenzo Pacchiardi",
+        "Maksym Andriushchenko"
+      ],
+      "institution_ids": [],
+      "scientist": "Maksym Andriushchenko",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7160595189",
+      "title": "Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2605.06490",
+      "authors": [
+        "Jonas Wiedermann-M\u00f6ller",
+        "Leonard Dung",
+        "Maksym Andriushchenko"
+      ],
+      "institution_ids": [],
+      "scientist": "Maksym Andriushchenko",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9696,7 +9740,7 @@
     "Frank Hutter": 85,
     "T. Konstantin Rusch": 11,
     "Shiwei Liu": 1,
-    "Maksym Andriushchenko": 7,
+    "Maksym Andriushchenko": 10,
     "Maximilian Dax": 16,
     "Rediet Abebe": 13,
     "Antonio Orvieto": 41,
@@ -9708,7 +9752,7 @@
     "2023": 72,
     "2024": 158,
     "2025": 146,
-    "2026": 115
+    "2026": 117
   },
   "ellis_site_collaborations": {
     "ELLIS Unit Freiburg": 19,
@@ -9721,8 +9765,8 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
-    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit Genoa": 1,
+    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit KAUST": 1
   },
   "ellis_member_collaborations": {
