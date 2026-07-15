@@ -96,7 +96,7 @@ function renderVenues(data) {
 function renderTrendChart(data) {
   const venuesByYear = data.top_venues_by_year || {};
   const years = Object.keys(venuesByYear).sort();
-  const venueNames = ['NeurIPS', 'ICML', 'ICLR', 'Nature'];
+  const venueNames = ['Nature', 'ICML', 'ICLR', 'NeurIPS'];
   const venueColors = {
     NeurIPS: '#DF7162',
     ICML: '#B2E684',
