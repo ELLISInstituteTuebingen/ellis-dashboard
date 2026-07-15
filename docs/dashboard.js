@@ -430,6 +430,78 @@ function renderHIndex(data) {
   container.innerHTML = svg;
 }
 
+function switchTab(name) {
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.tab === name);
+  });
+  document.querySelectorAll('.tab-panel').forEach(panel => {
+    panel.classList.toggle('active', panel.id === `tab-${name}`);
+  });
+}
+
+async function loadActivities() {
+  try {
+    const res = await fetch('data/activities.json');
+    if (!res.ok) return;
+    const data = await res.json();
+    initActivities(data.entries || []);
+  } catch (err) {
+    console.warn('Could not load activities.json:', err.message);
+  }
+}
+
+const ACTIVITY_TYPE_LABELS = {
+  talk: 'Talk', press: 'Press', award: 'Award',
+  panel: 'Panel', podcast: 'Podcast', organizing: 'Organizing',
+};
+
+function initActivities(entries) {
+  const typeFilter = document.getElementById('activityTypeFilter');
+  const scientistFilter = document.getElementById('activityScientistFilter');
+  const listEl = document.getElementById('activityList');
+  if (!listEl) return;
+
+  const people = [...new Set(entries.map(e => e.scientist).filter(Boolean))].sort();
+  scientistFilter.innerHTML = '<option value="">All people</option>' +
+    people.map(p => `<option value="${p}">${p}</option>`).join('');
+
+  function draw() {
+    const type = typeFilter.value;
+    const person = scientistFilter.value;
+    const filtered = entries.filter(e =>
+      (!type || e.type === type) && (!person || e.scientist === person)
+    );
+
+    if (!filtered.length) {
+      listEl.innerHTML = `<p style="color:var(--muted); font-size:13.5px; padding:20px 0;">No activities match this filter yet.</p>`;
+      return;
+    }
+
+    listEl.innerHTML = filtered.map(e => {
+      const titleHtml = e.url
+        ? `<a href="${e.url}" target="_blank" rel="noopener">${e.title}</a>`
+        : e.title;
+      const dateLabel = e.date
+        ? new Date(e.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
+        : '';
+      return `
+        <div class="activity-row">
+          <div class="activity-type-badge ${e.type}">${ACTIVITY_TYPE_LABELS[e.type] || e.type}</div>
+          <div class="activity-content">
+            <div class="activity-title">${titleHtml}</div>
+            <div class="activity-meta">${[dateLabel, e.scientist, e.venue].filter(Boolean).join(' · ')}</div>
+            ${e.description ? `<div class="activity-description">${e.description}</div>` : ''}
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  typeFilter.addEventListener('change', draw);
+  scientistFilter.addEventListener('change', draw);
+  draw();
+}
+
 let CURRENT_DATA = null;
 
 loadData().then(data => {
@@ -446,6 +518,8 @@ loadData().then(data => {
   document.querySelector('.wrap').innerHTML =
     `<p style="padding:60px 0;color:#E38E48;font-family:monospace;">Could not load data/publications.json — ${err.message}</p>`;
 });
+
+loadActivities();
 
 function openCollabModal(unitName) {
   const details = (CURRENT_DATA && CURRENT_DATA.ellis_member_collaboration_details) || {};

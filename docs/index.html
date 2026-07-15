@@ -26,6 +26,13 @@
     <div class="updated-note" id="updated-note"></div>
   </header>
 
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="research" onclick="switchTab('research')">Research Output</button>
+    <button class="tab-btn" data-tab="activities" onclick="switchTab('activities')">PR &amp; Activities</button>
+  </div>
+
+  <div class="tab-panel active" id="tab-research">
+
   <nav class="section-nav">
     <a href="#trends">Output</a>
     <a href="#network">Collaboration</a>
@@ -123,6 +130,30 @@
       </table>
     </div>
   </section>
+
+  </div>
+
+  <div class="tab-panel" id="tab-activities">
+    <section class="block" id="activities">
+      <div class="block-head">
+        <h2>PR &amp; Activities</h2>
+        <div class="sub">Talks, press mentions, awards, panels, podcasts, and organizing roles — manually curated, since no API tracks this the way OpenAlex tracks publications.</div>
+      </div>
+      <div class="filters" id="activityFilters">
+        <select id="activityTypeFilter">
+          <option value="">All types</option>
+          <option value="talk">Talks</option>
+          <option value="press">Press</option>
+          <option value="award">Awards</option>
+          <option value="panel">Panels</option>
+          <option value="podcast">Podcasts</option>
+          <option value="organizing">Organizing roles</option>
+        </select>
+        <select id="activityScientistFilter"><option value="">All people</option></select>
+      </div>
+      <div id="activityList"></div>
+    </section>
+  </div>
 
   <footer>
     Data source: OpenAlex API · Institute: ELLIS Institute Tübingen · Auto-refreshed weekly via GitHub Actions

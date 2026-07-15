@@ -1,0 +1,23 @@
+{
+  "_comment": "Valid 'type' values: talk, press, award, panel, podcast, organizing. Paste new entries to Claude in chat and they'll be added here — 'scientist' should match a name in team.json exactly, or use 'ELLIS Institute Tübingen' for institute-level items not tied to one person.",
+  "entries": [
+    {
+      "type": "talk",
+      "title": "Example keynote title — replace or delete this entry",
+      "scientist": "Bernhard Schölkopf",
+      "date": "2025-12-01",
+      "venue": "Example Conference 2025",
+      "url": "",
+      "description": ""
+    },
+    {
+      "type": "press",
+      "title": "Example press mention — replace or delete this entry",
+      "scientist": "Frank Hutter",
+      "date": "2025-11-15",
+      "venue": "Example Outlet",
+      "url": "",
+      "description": ""
+    }
+  ]
+}

@@ -444,6 +444,42 @@ def compute_h_index(citation_counts):
     return h
 
 
+def process_activities():
+    """Reads config/activities.json (manually maintained — no API exists for
+    talks/press/awards the way OpenAlex covers publications) and writes a
+    sorted, validated copy to docs/data/activities.json for the PR &
+    Activities tab."""
+    src_path = CONFIG_DIR / "activities.json"
+    dest_path = ROOT / "docs" / "data" / "activities.json"
+    if not src_path.exists():
+        print("    No config/activities.json found — skipping PR & Activities tab data.")
+        return
+
+    raw = json.loads(src_path.read_text())
+    entries = raw.get("entries", []) if isinstance(raw, dict) else raw
+
+    valid_types = {"talk", "press", "award", "panel", "podcast", "organizing"}
+    cleaned = []
+    for e in entries:
+        if e.get("type") not in valid_types:
+            print(f"    [warn] Skipping activity with unrecognized type '{e.get('type')}': {e.get('title')}")
+            continue
+        cleaned.append({
+            "type": e["type"],
+            "title": e.get("title", ""),
+            "scientist": e.get("scientist", ""),
+            "date": e.get("date", ""),
+            "venue": e.get("venue", ""),
+            "url": e.get("url", ""),
+            "description": e.get("description", ""),
+        })
+
+    cleaned.sort(key=lambda e: e.get("date") or "", reverse=True)
+    dest_path.parent.mkdir(parents=True, exist_ok=True)
+    dest_path.write_text(json.dumps({"entries": cleaned}, indent=2, ensure_ascii=False))
+    print(f"    Wrote {dest_path} with {len(cleaned)} PR & Activities entries.")
+
+
 def main():
     team, sites_cfg, known_venues, members, budget_cfg = load_config()
     unit_id_to_name = {
@@ -614,6 +650,9 @@ def main():
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(output, indent=2))
     print(f"Wrote {OUT_PATH} with {output['total_publications']} publications.")
+
+    print("Processing PR & Activities data...")
+    process_activities()
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T10:05:12Z",
+  "generated_at": "2026-07-15T11:24:31Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 389,
   "confirmed_affiliation_count": 21,
@@ -1805,7 +1805,7 @@
       "title": "Performative Prediction: Past and Future",
       "year": 2025,
       "venue": "Statistical Science",
-      "cited_by_count": 5,
+      "cited_by_count": 6,
       "doi": "https://doi.org/10.1214/25-sts986",
       "authors": [
         "Moritz Hardt",
@@ -2267,7 +2267,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 684,
+      "cited_by_count": 689,
       "doi": "https://doi.org/10.1038/s41586-024-08328-6",
       "authors": [
         "Noah Hollmann",
@@ -3451,7 +3451,7 @@
       "title": "Evidence for eccentricity in the population of binary black holes observed by LIGO-Virgo-KAGRA",
       "year": 2025,
       "venue": "Physical review. D/Physical review. D.",
-      "cited_by_count": 24,
+      "cited_by_count": 25,
       "doi": "https://doi.org/10.1103/vpyp-nvfp",
       "authors": [
         "Nihar Gupte",
@@ -3578,7 +3578,7 @@
       "title": "Data-driven machine learning algorithm model for pneumonia prediction and determinant factor stratification among children aged 6\u201323 months in Ethiopia",
       "year": 2025,
       "venue": "BMC Infectious Diseases",
-      "cited_by_count": 7,
+      "cited_by_count": 8,
       "doi": "https://doi.org/10.1186/s12879-025-10916-4",
       "authors": [
         "Addisalem Workie Demsash",
@@ -3793,7 +3793,7 @@
       "id": "W4407574915",
       "title": "An Uncertainty Principle for Linear Recurrent Neural Networks",
       "year": 2025,
-      "venue": "ArXiv.org",
+      "venue": "arXiv (Cornell University)",
       "cited_by_count": 0,
       "doi": "https://doi.org/10.48550/arxiv.2502.09287",
       "authors": [
@@ -4393,7 +4393,7 @@
       "id": "W4406448936",
       "title": "Multi-megabase scale genome interpretation with genetic language models",
       "year": 2025,
-      "venue": "ArXiv.org",
+      "venue": "arXiv (Cornell University)",
       "cited_by_count": 1,
       "doi": "https://doi.org/10.48550/arxiv.2501.07737",
       "authors": [
@@ -4712,7 +4712,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -4766,7 +4766,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -4783,7 +4783,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -5919,7 +5919,7 @@
       "title": "Managing extreme AI risks amid rapid progress",
       "year": 2024,
       "venue": "Science",
-      "cited_by_count": 271,
+      "cited_by_count": 272,
       "doi": "https://doi.org/10.1126/science.adn0117",
       "authors": [
         "Yoshua Bengio",
@@ -7626,7 +7626,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ACL",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7643,7 +7643,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7728,7 +7728,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7786,7 +7786,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7849,7 +7849,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "UAI",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7895,7 +7895,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7935,7 +7935,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7955,7 +7955,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -7980,7 +7980,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "Nature",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -8003,7 +8003,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "CoRL",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -8023,7 +8023,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -8041,7 +8041,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -8145,7 +8145,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "EMNLP",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9512,7 +9512,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "AISTATS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9552,7 +9552,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "UAI",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -10850,22 +10850,21 @@
     "2026": "Year in progress \u2014 not yet financially complete"
   },
   "venue_counts": {
-    "ICML": 35,
+    "ICML": 31,
     "NeurIPS": 50,
-    "ICLR": 39
+    "ICLR": 34
   },
   "broader_venue_counts": {
-    "Nature": 10,
-    "EMNLP": 5,
-    "AISTATS": 4,
+    "Nature": 9,
     "CVPR": 4,
-    "ACL": 3,
+    "AISTATS": 3,
     "ICRA": 3,
-    "UAI": 3,
     "ICCV": 2,
+    "ACL": 2,
+    "EMNLP": 2,
     "ECCV": 1,
     "RSS": 1,
-    "CoRL": 1
+    "UAI": 1
   },
-  "top_tier_total_count": 161
+  "top_tier_total_count": 143
 }
