@@ -98,10 +98,10 @@ function renderTrendChart(data) {
   const years = Object.keys(venuesByYear).sort();
   const venueNames = ['NeurIPS', 'ICML', 'ICLR', 'Nature'];
   const venueColors = {
-    NeurIPS: COLORS.sandstone,
-    ICML: COLORS.network,
-    ICLR: '#B8722E',
-    Nature: '#2E8A85',
+    NeurIPS: '#DF7162',
+    ICML: '#B2E684',
+    ICLR: '#4BC5BE',
+    Nature: '#E38E48',
   };
 
   const datasets = venueNames.map(v => ({
