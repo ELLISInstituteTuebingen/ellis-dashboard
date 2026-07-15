@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-15T14:06:36Z",
+  "generated_at": "2026-07-15T14:14:38Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 391,
+  "total_publications": 407,
   "confirmed_affiliation_count": 21,
-  "open_access_count": 351,
-  "open_access_percent": 89.8,
+  "open_access_count": 364,
+  "open_access_percent": 89.4,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -1139,6 +1139,45 @@
       "is_oa": true
     },
     {
+      "id": "W7130542678",
+      "title": "Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual LLM Agents",
+      "year": 2026,
+      "venue": "Open MIND",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2602.16346",
+      "authors": [
+        "Nivya Talokar",
+        "Tarun, Ayush K",
+        "Murari Mandal",
+        "Maksym Andriushchenko",
+        "Bosselut, Antoine"
+      ],
+      "institution_ids": [],
+      "scientist": "Maksym Andriushchenko",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICML",
+      "is_oa": true
+    },
+    {
+      "id": "W7165630237",
+      "title": "What Shapes Emergent Misalignment? Insights from Training Dynamics, Model Priors, and Data",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2606.20814",
+      "authors": [
+        "Yuchen Zhang",
+        "Anietta Weckauff",
+        "Diego Garc\u00eda-Olano",
+        "Maksym Andriushchenko"
+      ],
+      "institution_ids": [],
+      "scientist": "Maksym Andriushchenko",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
       "id": "W7147014794",
       "title": "Eccentricity constraints disfavor single-single capture in nuclear star clusters as the origin of all LIGO-Virgo-KAGRA binary black holes",
       "year": 2026,
@@ -1193,6 +1232,31 @@
       "is_oa": true
     },
     {
+      "id": "W7141922180",
+      "title": "Cross-selling in key accounts: Role of key account management approaches",
+      "year": 2026,
+      "venue": "Journal of Business Research",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.1016/j.jbusres.2026.116162",
+      "authors": [
+        "Mu Li",
+        "Mahima Hada",
+        "Till Haumann",
+        "Maximilian Dax",
+        "Christian Schmitz"
+      ],
+      "institution_ids": [
+        "I141810926",
+        "I176113532",
+        "I3130920692",
+        "I904495901"
+      ],
+      "scientist": "Maximilian Dax",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": false
+    },
+    {
       "id": "W7153997186",
       "title": "Compliant But Unsatisfactory: The Gap Between Auditing Standards and Practices for Probabilistic Genotyping Software",
       "year": 2026,
@@ -1214,6 +1278,28 @@
         "I95457486"
       ],
       "scientist": "Rediet Abebe",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7161788935",
+      "title": "GRASP: Deterministic argument ranking in interaction graphs",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2605.19141",
+      "authors": [
+        "Diganta Misra",
+        "Antonio Orvieto",
+        "Rediet Abebe",
+        "Volkan Cevher"
+      ],
+      "institution_ids": [],
+      "scientist": [
+        "Rediet Abebe",
+        "Antonio Orvieto"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
       "is_oa": true
@@ -1255,6 +1341,107 @@
       "authors": [
         "Jaisidh Singh",
         "Misra, Diganta",
+        "Antonio Orvieto"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7161937308",
+      "title": "Towards Understanding Self-Pretraining for Sequence Classification",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2605.21070",
+      "authors": [
+        "Omar Coser",
+        "Loredana Zollo",
+        "Paolo Soda",
+        "Antonio Orvieto"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7138861448",
+      "title": "GASP: Guided Asymmetric Self-Play For Coding LLMs",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2603.15957",
+      "authors": [
+        "Swadesh Jana",
+        "Cansu Sancaktar",
+        "Tom\u00e1\u0161 Dani\u0161",
+        "Georg Martius",
+        "Antonio Orvieto",
+        "Pavel Kolev"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7139099463",
+      "title": "Deriving Hyperparameter Scaling Laws via Modern Optimization Theory",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2603.15958",
+      "authors": [
+        "Egor Shulgin",
+        "Dimitri von R\u00fctte",
+        "Tinghua Zhang",
+        "Niccol\u00f2 Ajroldi",
+        "Bernhard Sch\u00f6lkopf",
+        "Antonio Orvieto"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7165815706",
+      "title": "Muown Implicitly Performs Angular Step-size Decay",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Florian H\u00fcbler",
+        "Kai Lion",
+        "Antonio Orvieto",
+        "Niao He"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7164825709",
+      "title": "Beyond a Single Explanation of the Adam--SGD Gap",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2606.14259",
+      "authors": [
+        "Chenxiang Zhang",
+        "Rustem Islamov",
+        "Enea Monzio Compagnoni",
+        "Jun Pang",
+        "Aur\u00e9lien Lucchi",
         "Antonio Orvieto"
       ],
       "institution_ids": [],
@@ -2307,6 +2494,71 @@
       "is_oa": true
     },
     {
+      "id": "W4407248359",
+      "title": "Great Models Think Alike and this Undermines AI Oversight",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2502.04313",
+      "authors": [
+        "Shashwat Goel",
+        "Janet Struber",
+        "Ilze Amanda Auzina",
+        "Karuna K Chandra",
+        "Ponnurangam Kumaraguru",
+        "Douwe Kiela",
+        "Ameya Prabhu",
+        "Matthias Bethge",
+        "Jonas Geiping"
+      ],
+      "institution_ids": [],
+      "scientist": "Jonas Geiping",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICML",
+      "is_oa": true
+    },
+    {
+      "id": "W4416045170",
+      "title": "Can Language Models Falsify? Evaluating Algorithmic Reasoning with Counterexample Creation",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2502.19414",
+      "authors": [
+        "Shiven Sinha",
+        "Shashwat Goel",
+        "Ponnurangam Kumaraguru",
+        "Jonas Geiping",
+        "Matthias Bethge",
+        "Ameya Prabhu"
+      ],
+      "institution_ids": [],
+      "scientist": "Jonas Geiping",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W4417071264",
+      "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2509.09677",
+      "authors": [
+        "Sinha, Akshit",
+        "Arvindh Arun",
+        "Goel, Shashwat",
+        "Steffen Staab",
+        "Jonas Geiping"
+      ],
+      "institution_ids": [],
+      "scientist": "Jonas Geiping",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4406170795",
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
@@ -3052,7 +3304,10 @@
         "Bernhard Sch\u00f6lkopf"
       ],
       "institution_ids": [],
-      "scientist": "Frank Hutter",
+      "scientist": [
+        "Frank Hutter",
+        "Bernhard Sch\u00f6lkopf"
+      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": true
@@ -3616,6 +3871,39 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": true
+    },
+    {
+      "id": "W4414684077",
+      "title": "Zwischen Gestaltungsspielraum und Rechtsunsicherheit \u2013 die Bewertungskommission",
+      "year": 2025,
+      "venue": "Zeitschrift f\u00fcr Vergaberecht",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.33196/rpa202503016201",
+      "authors": [
+        "Stephan Heid",
+        "Maximilian Dax"
+      ],
+      "institution_ids": [],
+      "scientist": "Maximilian Dax",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": false
+    },
+    {
+      "id": "W7139079783",
+      "title": "Zur individuellen Betroffenheit und zum Ausnahmetatbestand der unvorhersehbaren \u00c4nderungen",
+      "year": 2025,
+      "venue": "Zeitschrift f\u00fcr Vergaberecht",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.33196/rpa202506039301",
+      "authors": [
+        "Maximilian Dax"
+      ],
+      "institution_ids": [],
+      "scientist": "Maximilian Dax",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": false
     },
     {
       "id": "W4410034595",
@@ -5131,6 +5419,26 @@
       "is_oa": true
     },
     {
+      "id": "W4417144098",
+      "title": "Intrinsically Interpretable Attention via Sparse Post-Training",
+      "year": 2025,
+      "venue": "ArXiv.org",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2512.05865",
+      "authors": [
+        "Florent Draye",
+        "Anson Lei",
+        "Pan, Hsiao-Ru",
+        "Ingmar Posner",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
       "id": "W7132984276",
       "title": "Distributed Shape Derivatives for Level-Set Topology Optimization and Their Applications to Robust Topology Optimization",
       "year": 2025,
@@ -5957,6 +6265,46 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false
+    },
+    {
+      "id": "W4399251802",
+      "title": "AI Risk Management Should Incorporate Both Safety and Security",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2405.19524",
+      "authors": [
+        "Xiangyu Qi",
+        "Yangsibo Huang",
+        "Yi Zeng",
+        "Edoardo Debenedetti",
+        "Jonas Geiping",
+        "Luxi He",
+        "Kaixuan Huang",
+        "Udari Madhushani",
+        "Vikash Sehwag",
+        "Weijia Shi",
+        "Boyi Wei",
+        "Tinghao Xie",
+        "Danqi Chen",
+        "Pin\u2010Yu Chen",
+        "Jeffrey Ding",
+        "Ruoxi Jia",
+        "Jiaqi Ma",
+        "Arvind Narayanan",
+        "Weijie Su",
+        "Mengdi Wang",
+        "Chaowei Xiao",
+        "\u0411\u043e \u041b\u0438",
+        "Dawn Song",
+        "Peter Henderson",
+        "Prateek Mittal"
+      ],
+      "institution_ids": [],
+      "scientist": "Jonas Geiping",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
     },
     {
       "id": "W4398133596",
@@ -9736,23 +10084,23 @@
     "Sahar Abdelnabi": 26,
     "Jakob Macke": 12,
     "Wieland Brendel": 42,
-    "Jonas Geiping": 36,
+    "Jonas Geiping": 40,
     "Frank Hutter": 85,
-    "T. Konstantin Rusch": 11,
+    "T. Konstantin Rusch": 12,
     "Shiwei Liu": 1,
-    "Maksym Andriushchenko": 10,
-    "Maximilian Dax": 16,
-    "Rediet Abebe": 13,
-    "Antonio Orvieto": 41,
-    "Bernhard Sch\u00f6lkopf": 207,
+    "Maksym Andriushchenko": 15,
+    "Maximilian Dax": 19,
+    "Rediet Abebe": 15,
+    "Antonio Orvieto": 52,
+    "Bernhard Sch\u00f6lkopf": 209,
     "Aaron Klein": 3,
     "David Salinas": 17
   },
   "publications_per_year": {
     "2023": 72,
-    "2024": 158,
-    "2025": 146,
-    "2026": 117
+    "2024": 159,
+    "2025": 152,
+    "2026": 135
   },
   "ellis_site_collaborations": {
     "ELLIS Unit Freiburg": 19,
@@ -9765,23 +10113,23 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
-    "ELLIS Unit Genoa": 1,
     "ELLIS Unit Darmstadt": 1,
+    "ELLIS Unit Genoa": 1,
     "ELLIS Unit KAUST": 1
   },
   "ellis_member_collaborations": {
-    "Unit Zurich": 36,
-    "Unit T\u00fcbingen": 26,
+    "Unit Zurich": 37,
+    "Unit T\u00fcbingen": 27,
     "Unit Paris": 9,
+    "Unit Oxford": 7,
     "Unit Cambridge": 7,
     "Unit Saarbr\u00fccken": 6,
     "Unit Munich": 6,
     "Unit London": 6,
-    "Unit Oxford": 6,
     "Unit NRW": 6,
+    "Unit Lausanne": 5,
     "Unit Copenhagen": 5,
     "Unit Denmark": 5,
-    "Unit Lausanne": 4,
     "Unit Franconia": 4,
     "Unit Leuven": 3,
     "Unit Linz": 3,
@@ -9789,6 +10137,7 @@
     "Unit Darmstadt": 2,
     "Unit Vienna": 1,
     "Unit Berlin": 1,
+    "Unit Stuttgart": 1,
     "Unit Haifa": 1,
     "Unit Delft": 1,
     "Unit Jena": 1,
@@ -9799,6 +10148,13 @@
   },
   "ellis_member_collaboration_details": {
     "Unit T\u00fcbingen": [
+      {
+        "title": "GASP: Guided Asymmetric Self-Play For Coding LLMs",
+        "year": 2026,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Georg Martius",
+        "doi": "https://doi.org/10.48550/arxiv.2603.15957"
+      },
       {
         "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting",
         "year": 2026,
@@ -10162,6 +10518,13 @@
         "doi": "https://doi.org/10.1109/msp.2026.3682808"
       },
       {
+        "title": "GRASP: Deterministic argument ranking in interaction graphs",
+        "year": 2026,
+        "scientist": "Rediet Abebe, Antonio Orvieto",
+        "co_author": "Volkan Cevher",
+        "doi": "https://doi.org/10.48550/arxiv.2605.19141"
+      },
+      {
         "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
         "year": 2025,
         "scientist": "Jonas Geiping, Maksym Andriushchenko",
@@ -10183,6 +10546,13 @@
         "scientist": "T. Konstantin Rusch, Antonio Orvieto",
         "co_author": "Thomas Hofmann",
         "doi": "https://doi.org/10.48550/arxiv.2606.18206"
+      },
+      {
+        "title": "Muown Implicitly Performs Angular Step-size Decay",
+        "year": 2026,
+        "scientist": "Antonio Orvieto",
+        "co_author": "Niao He",
+        "doi": null
       },
       {
         "title": "Test of Time: Rethinking Temporal Signal of Benchmark Contamination",
@@ -10439,6 +10809,15 @@
         "doi": "https://doi.org/10.48550/arxiv.2509.18058"
       }
     ],
+    "Unit Stuttgart": [
+      {
+        "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
+        "year": 2025,
+        "scientist": "Jonas Geiping",
+        "co_author": "Steffen Staab",
+        "doi": "https://doi.org/10.48550/arxiv.2509.09677"
+      }
+    ],
     "Unit Oxford": [
       {
         "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
@@ -10446,6 +10825,13 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Ingmar Posner",
         "doi": "https://doi.org/10.48550/arxiv.2604.09487"
+      },
+      {
+        "title": "Intrinsically Interpretable Attention via Sparse Post-Training",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ingmar Posner",
+        "doi": "https://doi.org/10.48550/arxiv.2512.05865"
       },
       {
         "title": "Managing extreme AI risks amid rapid progress",
@@ -10881,7 +11267,7 @@
     31,
     37,
     73,
-    141
+    142
   ],
   "budget_by_year": {
     "2023": 316627.0,
@@ -10894,9 +11280,9 @@
     "2026": "Year in progress \u2014 not yet financially complete"
   },
   "venue_counts": {
-    "ICML": 35,
+    "ICML": 37,
     "NeurIPS": 50,
-    "ICLR": 39
+    "ICLR": 40
   },
   "broader_venue_counts": {
     "Nature": 10,
@@ -10911,5 +11297,5 @@
     "RSS": 1,
     "CoRL": 1
   },
-  "top_tier_total_count": 161
+  "top_tier_total_count": 164
 }
