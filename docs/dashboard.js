@@ -251,89 +251,6 @@ function renderTable(data) {
   draw();
 }
 
-function renderBudgetChart(data) {
-  const budgetByYear = data.budget_by_year || {};
-  const partialYears = data.budget_partial_years || {};
-  const pubsByYear = data.publications_per_year || {};
-  const headcountByYear = data.pi_headcount_by_year || {};
-
-  const years = Object.keys(budgetByYear).sort();
-  const maxHeadcount = Math.max(1, ...years.map(y => headcountByYear[y] || 0));
-
-  const points = years.map(y => {
-    const headcount = headcountByYear[y] || 0;
-    return {
-      x: budgetByYear[y],
-      y: pubsByYear[y] || 0,
-      r: 8 + (headcount / maxHeadcount) * 22,
-      year: y,
-      headcount,
-      partial: !!partialYears[y],
-    };
-  });
-
-  // Year + headcount labels drawn directly next to each bubble via a small
-  // custom plugin (no datalabels library vendored, so drawn manually).
-  const bubbleLabelPlugin = {
-    id: 'bubbleLabels',
-    afterDatasetsDraw(chart) {
-      const { ctx } = chart;
-      const meta = chart.getDatasetMeta(0);
-      meta.data.forEach((point, i) => {
-        const p = points[i];
-        ctx.save();
-        ctx.font = '11px JetBrains Mono, monospace';
-        ctx.fillStyle = COLORS.muted;
-        ctx.textAlign = 'left';
-        ctx.fillText(`${p.year}${p.partial ? '*' : ''} · ${p.headcount} PIs`, point.x + p.r + 6, point.y + 4);
-        ctx.restore();
-      });
-    },
-  };
-
-  new Chart(document.getElementById('budgetChart'), {
-    type: 'bubble',
-    data: {
-      datasets: [{
-        label: 'Year',
-        data: points,
-        backgroundColor: points.map(p => p.partial ? COLORS.muted + '99' : COLORS.sandstone + '99'),
-        borderColor: points.map(p => p.partial ? COLORS.muted : COLORS.sandstone),
-        borderWidth: 1.5,
-      }],
-    },
-    plugins: [bubbleLabelPlugin],
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: ctx => {
-              const p = points[ctx.dataIndex];
-              return `${p.year}${p.partial ? ' (partial year)' : ''}: €${p.x.toLocaleString()} · ${p.y} papers · ${p.headcount} PIs`;
-            },
-          },
-        },
-      },
-      scales: {
-        x: {
-          title: { display: true, text: 'Budget used (€)', color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } },
-          ticks: { color: COLORS.muted, callback: v => '€' + (v / 1e6).toFixed(1) + 'M' },
-          grid: { color: COLORS.line },
-        },
-        y: {
-          title: { display: true, text: 'Publications', color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } },
-          beginAtZero: true,
-          ticks: { color: COLORS.muted, precision: 0 },
-          grid: { color: COLORS.line },
-        },
-      },
-    },
-  });
-}
-
 function renderGrowthChart(data) {
   const joinDates = (data.scientist_join_dates || []).slice().sort();
   if (!joinDates.length) return;
@@ -509,7 +426,6 @@ loadData().then(data => {
   renderStats(data);
   renderVenues(data);
   renderTrendChart(data);
-  renderBudgetChart(data);
   renderGrowthChart(data);
   renderHIndex(data);
   renderNetwork(data);
