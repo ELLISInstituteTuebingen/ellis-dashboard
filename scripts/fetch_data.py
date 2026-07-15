@@ -56,7 +56,10 @@ def load_config():
 
 
 def fetch_all_works_for_author(author_id, per_page=200):
-    """Page through all works for a given OpenAlex author ID."""
+    """Page through all works for a given OpenAlex author ID. Retries with
+    exponential backoff on 429 (rate limit) or 5xx errors — OpenAlex can
+    rate-limit bursty traffic even from GitHub Actions' shared IP pool, and
+    a single transient 429 shouldn't crash the entire weekly run."""
     works = []
     cursor = "*"
     while cursor:
@@ -66,12 +69,22 @@ def fetch_all_works_for_author(author_id, per_page=200):
             f"&per-page={per_page}"
             f"&cursor={cursor}"
         )
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
+        for attempt in range(5):
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+            if resp.status_code == 429 or resp.status_code >= 500:
+                wait = 2 ** attempt * 5  # 5, 10, 20, 40, 80 seconds
+                print(f"    [warn] OpenAlex returned {resp.status_code}, waiting {wait}s before retry ({attempt + 1}/5)...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            break
+        else:
+            print(f"    [warn] OpenAlex still failing after 5 retries for {author_id}, skipping remaining pages.", file=sys.stderr)
+            break
         data = resp.json()
         works.extend(data["results"])
         cursor = data.get("meta", {}).get("next_cursor")
-        time.sleep(0.1)  # be polite to the API
+        time.sleep(0.15)  # be polite to the API
     return works
 
 
