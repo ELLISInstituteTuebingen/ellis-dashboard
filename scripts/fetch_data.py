@@ -593,6 +593,15 @@ def main():
 
     member_lookup = build_member_lookup(members, team)
     member_collaborations, member_collaboration_details = compute_member_collaborations(all_publications, member_lookup)
+
+    top_venues_of_interest = ["NeurIPS", "ICML", "ICLR", "Nature"]
+    top_venues_by_year = defaultdict(lambda: defaultdict(int))
+    for pub in all_publications.values():
+        cat = pub.get("venue_category")
+        year = pub.get("year")
+        if cat in top_venues_of_interest and year:
+            top_venues_by_year[str(year)][cat] += 1
+    top_venues_by_year = {y: dict(v) for y, v in sorted(top_venues_by_year.items())}
     print(f"    Found real-member collaborations across {len(member_collaborations)} ELLIS Sites "
           f"(checked against {len(member_lookup)} named roster entries)")
 
@@ -633,6 +642,7 @@ def main():
         ),
         "per_scientist_counts": dict(per_scientist_counts),
         "publications_per_year": dict(sorted(year_counts.items())),
+        "top_venues_by_year": top_venues_by_year,
         "ellis_site_collaborations": dict(
             sorted(unit_collab_counts.items(), key=lambda kv: kv[1], reverse=True)
         ),

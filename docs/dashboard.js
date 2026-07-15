@@ -94,25 +94,33 @@ function renderVenues(data) {
 }
 
 function renderTrendChart(data) {
-  const years = Object.keys(data.publications_per_year).sort();
-  const counts = years.map(y => data.publications_per_year[y]);
+  const venuesByYear = data.top_venues_by_year || {};
+  const years = Object.keys(venuesByYear).sort();
+  const venueNames = ['NeurIPS', 'ICML', 'ICLR', 'Nature'];
+  const venueColors = {
+    NeurIPS: COLORS.sandstone,
+    ICML: COLORS.network,
+    ICLR: '#B8722E',
+    Nature: '#2E8A85',
+  };
+
+  const datasets = venueNames.map(v => ({
+    label: v,
+    data: years.map(y => (venuesByYear[y] || {})[v] || 0),
+    backgroundColor: venueColors[v],
+    borderRadius: 2,
+    maxBarThickness: 24,
+  }));
 
   new Chart(document.getElementById('trendChart'), {
     type: 'bar',
-    data: {
-      labels: years,
-      datasets: [{
-        label: 'Publications',
-        data: counts,
-        backgroundColor: COLORS.sandstone,
-        borderRadius: 2,
-        maxBarThickness: 46,
-      }],
-    },
+    data: { labels: years, datasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { labels: { color: COLORS.text, font: { family: 'JetBrains Mono', size: 11 } } },
+      },
       scales: {
         x: { ticks: { color: COLORS.muted, font: { family: 'JetBrains Mono', size: 11 } }, grid: { color: COLORS.line } },
         y: { beginAtZero: true, ticks: { color: COLORS.muted, precision: 0 }, grid: { color: COLORS.line } },

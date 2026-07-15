@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T14:14:38Z",
+  "generated_at": "2026-07-15T14:25:00Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 407,
   "confirmed_affiliation_count": 21,
@@ -10101,6 +10101,31 @@
     "2024": 159,
     "2025": 152,
     "2026": 135
+  },
+  "top_venues_by_year": {
+    "2023": {
+      "NeurIPS": 12,
+      "ICLR": 9,
+      "ICML": 5,
+      "Nature": 2
+    },
+    "2024": {
+      "NeurIPS": 21,
+      "ICML": 11,
+      "ICLR": 13,
+      "Nature": 2
+    },
+    "2025": {
+      "NeurIPS": 17,
+      "ICML": 15,
+      "ICLR": 17,
+      "Nature": 5
+    },
+    "2026": {
+      "ICML": 6,
+      "Nature": 1,
+      "ICLR": 1
+    }
   },
   "ellis_site_collaborations": {
     "ELLIS Unit Freiburg": 19,
