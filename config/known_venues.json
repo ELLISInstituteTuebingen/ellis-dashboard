@@ -107,91 +107,113 @@
     },
     {
       "title": "Diffusion language models know the answer before decoding",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Selective Rotary Position Embedding",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "How does the optimizer implicitly bias the model merging loss landscape?",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Sample Smart, Not Hard: Correctness-First Decoding for Better Reasoning in LLMs",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "RigidSSL: Rigidity-based Geometric Pretraining for Protein Generation",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Proper Velocity Neural Networks",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Learning Nonlinear Causal Reductions to Explain Reinforcement Learning Policies",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Improving LLM-Based Global optimization with Search Space Partitioning",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Capability-Based Scaling Laws for LLM Red-Teaming",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "The Curious Case of In-Training Compression of State Space Models",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Scaling Behavior of Discrete Diffusion Language Models",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Low-Pass Filtering Improves Behavioral Alignment of Vision Models",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Training Dynamics Impact Post-Training Quantization Robustness",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "MATH-Beyond: A Benchmark for RL to Expand Beyond the Base Model",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Neural Sum-of-Squares: Certifying the Nonnegativity of Polynomials with Transformers",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "GPTailor: Large Language Model Pruning Through Layer Cutting and Stitching",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Pitfalls in Evaluating Language Model Forecasters",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Skill learning via policy diversity yields identifiable representations for reinforcement learning",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Strategic Dishonesty Can Undermine AI Safety Evaluations of Frontier LLMs",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Monitoring Decomposition Attacks in LLMs with Lightweight Sequential Monitors",
-      "venue": "ICLR"
+      "venue": "ICLR",
+      "year": 2026
     },
     {
       "title": "Generalized Linear Mode Connectivity for Transformers",

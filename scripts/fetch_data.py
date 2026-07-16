@@ -334,17 +334,33 @@ def apply_known_venue_overrides(all_publications, known_papers):
     since conference program pages are more authoritative than automated
     indexing (which frequently never catches up for ML conferences that
     don't publish traditional indexed proceedings). Uses fuzzy title matching
-    since pasted program titles are sometimes truncated or lightly reworded."""
+    since pasted program titles are sometimes truncated or lightly reworded.
+
+    Also corrects the paper's 'year' field when the config entry specifies
+    the true conference edition (optional 'year' key) — OpenAlex dates a
+    paper by its first arXiv posting, which for ML conferences is typically
+    4-6 months *before* the actual conference, so without this override a
+    paper accepted at e.g. ICLR 2026 often shows up bucketed under 2025 in
+    any year-based chart, understating the most recent year's real output."""
     if not known_papers:
         return 0
-    norm_known = [(entry["title"], _normalize_title(entry["title"]), entry["venue"]) for entry in known_papers]
+    norm_known = [
+        (entry["title"], _normalize_title(entry["title"]), entry["venue"], entry.get("year"))
+        for entry in known_papers
+    ]
     overrides = 0
     for pub in all_publications.values():
         norm_pub_title = _normalize_title(pub["title"] or "")
-        for orig_title, norm_known_title, venue in norm_known:
+        for orig_title, norm_known_title, venue, year in norm_known:
             if norm_pub_title in norm_known_title or norm_known_title in norm_pub_title:
+                changed = False
                 if pub["venue_category"] != venue:
                     pub["venue_category"] = venue
+                    changed = True
+                if year and pub["year"] != year:
+                    pub["year"] = year
+                    changed = True
+                if changed:
                     overrides += 1
                 break
     return overrides
