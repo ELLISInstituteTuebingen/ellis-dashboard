@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T15:13:43Z",
+  "generated_at": "2026-07-16T15:24:41Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 407,
   "confirmed_affiliation_count": 21,
@@ -2782,7 +2782,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 698,
+      "cited_by_count": 703,
       "doi": "https://doi.org/10.1038/s41586-024-08328-6",
       "authors": [
         "Noah Hollmann",
@@ -4666,7 +4666,7 @@
       "title": "Early warning of complex climate risk with integrated artificial intelligence",
       "year": 2025,
       "venue": "Nature Communications",
-      "cited_by_count": 86,
+      "cited_by_count": 87,
       "doi": "https://doi.org/10.1038/s41467-025-57640-w",
       "authors": [
         "Markus Reichstein",
@@ -4746,7 +4746,7 @@
       "title": "Use the 4S (Signal-Safe Speckle Subtraction): Explainable Machine Learning Reveals the Giant Exoplanet AF Lep b in High-contrast Imaging Data from 2011",
       "year": 2025,
       "venue": "The Astronomical Journal",
-      "cited_by_count": 8,
+      "cited_by_count": 9,
       "doi": "https://doi.org/10.3847/1538-3881/adab79",
       "authors": [
         "Markus J. Bonse",
@@ -5112,6 +5112,24 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4404402378",
+      "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2411.06890",
+      "authors": [
+        "Anson Lei",
+        "Bernhard Sch\u00f6lkopf",
+        "Ingmar Posner"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
       "is_oa": true
     },
     {
@@ -8624,24 +8642,6 @@
       "is_oa": true
     },
     {
-      "id": "W4404402378",
-      "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2411.06890",
-      "authors": [
-        "Anson Lei",
-        "Bernhard Sch\u00f6lkopf",
-        "Ingmar Posner"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
-      "is_oa": true
-    },
-    {
       "id": "W4404404057",
       "title": "Causal Responsibility Attribution for Human-AI Collaboration",
       "year": 2024,
@@ -10110,13 +10110,13 @@
       "ICML": 4
     },
     "2024": {
-      "NeurIPS": 21,
+      "NeurIPS": 20,
       "ICLR": 11,
       "ICML": 11,
       "Nature": 2
     },
     "2025": {
-      "NeurIPS": 17,
+      "NeurIPS": 18,
       "ICLR": 16,
       "ICML": 15,
       "Nature": 5
@@ -10852,6 +10852,13 @@
         "doi": "https://doi.org/10.48550/arxiv.2604.09487"
       },
       {
+        "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Ingmar Posner",
+        "doi": "https://doi.org/10.48550/arxiv.2411.06890"
+      },
+      {
         "title": "Intrinsically Interpretable Attention via Sparse Post-Training",
         "year": 2025,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10885,13 +10892,6 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Ingmar Posner",
         "doi": "https://doi.org/10.48550/arxiv.2404.15109"
-      },
-      {
-        "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Ingmar Posner",
-        "doi": "https://doi.org/10.48550/arxiv.2411.06890"
       }
     ],
     "Unit Cambridge": [

@@ -217,107 +217,133 @@
     },
     {
       "title": "Generalized Linear Mode Connectivity for Transformers",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "In Search of Adam's Secret Sauce",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "TabArena: A Living Benchmark for Machine Learning on Tabular Data",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Do-PFN: In-context Learning for Causal Effect Estimation",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Fixed-Point RNNs: Interpolating from Diagonal to Dense",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Direct Alignment with Heterogeneous Preferences",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Quantifying Uncertainty in Error Consistency",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Reparameterized LLM Training via Orthogonal Equivalence Transformation",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "EquiTabPFN: A Target-Permutation Equivariant Prior Fitted Network",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Gompertz Linear Units: Leveraging Asymmetry for Enhanced Learning Dynamics",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Learning in Compact Spaces with Approximately Normalized Transformer",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "The Curse of Depth in Large Language Models",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "AlphaDecay: Module-Wise Weight Decay for Heavy-Tailed Balancing in LLMs",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Collective Reasoning in Performative Prediction",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Performative Validity of Recourse Explanations",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Enhancing Optimizer Stability: Momentum Adaptation of The NGN Step-size",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Counterfactual reasoning: an analysis of in-context emergence",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "SPARTAN: A Sparse Transformer World Model Attending to What Matters",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Cultural Alien Sampler: Open-ended Art Generation Balancing Originality and Coherence",
-      "venue": "NeurIPS"
+      "venue": "NeurIPS",
+      "year": 2025
     },
     {
       "title": "Learning Joint Interventional Effects from Single-Variable Interventions in Additive Models",
