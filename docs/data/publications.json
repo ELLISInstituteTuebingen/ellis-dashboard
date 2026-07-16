@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T13:32:24Z",
+  "generated_at": "2026-07-16T15:13:43Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 407,
   "confirmed_affiliation_count": 21,
@@ -4972,7 +4972,7 @@
       "id": "W4406448936",
       "title": "Multi-megabase scale genome interpretation with genetic language models",
       "year": 2025,
-      "venue": "ArXiv.org",
+      "venue": "arXiv (Cornell University)",
       "cited_by_count": 1,
       "doi": "https://doi.org/10.48550/arxiv.2501.07737",
       "authors": [
@@ -7447,7 +7447,7 @@
       "title": "Low-power scalable multilayer optoelectronic neural networks enabled with incoherent light",
       "year": 2024,
       "venue": "Nature Communications",
-      "cited_by_count": 20,
+      "cited_by_count": 21,
       "doi": "https://doi.org/10.1038/s41467-024-55139-4",
       "authors": [
         "Anran Song",
@@ -8949,7 +8949,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -10080,7 +10080,7 @@
     }
   ],
   "per_scientist_counts": {
-    "Celestine Mendler-D\u00fcnner": 13,
+    "Celestine Mendler-D\u00fcnner": 14,
     "Sahar Abdelnabi": 26,
     "Jakob Macke": 12,
     "Wieland Brendel": 42,
@@ -10097,7 +10097,7 @@
     "David Salinas": 17
   },
   "publications_per_year": {
-    "2023": 72,
+    "2023": 73,
     "2024": 159,
     "2025": 152,
     "2026": 135
@@ -10105,9 +10105,9 @@
   "top_venues_by_year": {
     "2023": {
       "NeurIPS": 12,
-      "ICML": 5,
       "Nature": 2,
-      "ICLR": 1
+      "ICLR": 1,
+      "ICML": 4
     },
     "2024": {
       "NeurIPS": 21,
@@ -11305,7 +11305,7 @@
     "2026": "Year in progress \u2014 not yet financially complete"
   },
   "venue_counts": {
-    "ICML": 37,
+    "ICML": 36,
     "NeurIPS": 50,
     "ICLR": 44
   },
@@ -11322,5 +11322,5 @@
     "RSS": 1,
     "CoRL": 1
   },
-  "top_tier_total_count": 168
+  "top_tier_total_count": 167
 }

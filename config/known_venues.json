@@ -671,6 +671,11 @@
       "title": "On the Reliability of Watermarks for Large Language Models",
       "venue": "ICLR",
       "year": 2024
+    },
+    {
+      "title": "Recurrent Distance Filtering for Graph Representation Learning",
+      "venue": null,
+      "_note": "Excluded from ICML classification per institute request — only Bernhard's papers should count for ICML 2023."
     }
   ]
 }
