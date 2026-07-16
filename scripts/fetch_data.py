@@ -329,6 +329,43 @@ def _normalize_title(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def apply_manual_additions(all_publications, known_papers):
+    """Some real papers never make it into all_publications at all — either
+    the join-date grace period wasn't wide enough (a paper posted to arXiv
+    just before someone's cutoff), or OpenAlex simply hasn't linked the
+    paper to that person's author ID yet. known_venues.json entries can't
+    fix that on their own (they only edit papers already present). Entries
+    with an explicit 'scientist' field are treated as manual insertions —
+    if no matching paper already exists, we build a minimal record and add
+    it directly, bypassing the normal fetch/filter pipeline entirely."""
+    added = 0
+    existing_titles = {_normalize_title(p["title"] or "") for p in all_publications.values()}
+    for entry in known_papers:
+        if not entry.get("scientist"):
+            continue  # a pure venue/year override, not a manual insertion
+        norm_title = _normalize_title(entry["title"])
+        if any(norm_title in et or et in norm_title for et in existing_titles):
+            continue  # already present, nothing to add
+        synthetic_id = "manual-" + re.sub(r"[^a-z0-9]", "", entry["title"].lower())[:40]
+        all_publications[synthetic_id] = {
+            "id": synthetic_id,
+            "title": entry["title"],
+            "year": entry.get("year"),
+            "venue": entry.get("venue"),
+            "cited_by_count": entry.get("cited_by_count", 0),
+            "doi": entry.get("doi"),
+            "authors": entry.get("authors", []),
+            "institution_ids": [],
+            "scientist": entry["scientist"],
+            "confirmed_ellis_affiliation": False,
+            "venue_category": entry["venue"],
+            "is_oa": False,
+        }
+        existing_titles.add(norm_title)
+        added += 1
+    return added
+
+
 def apply_known_venue_overrides(all_publications, known_papers):
     """Manually-curated venue tags ALWAYS win over OpenAlex/Semantic Scholar,
     since conference program pages are more authoritative than automated
@@ -616,6 +653,9 @@ def main():
             pub["venue_category"] = s2_label
             upgraded += 1
     print(f"    Semantic Scholar identified {len(s2_venues)} venue matches ({upgraded} not already caught by OpenAlex)")
+
+    manual_count = apply_manual_additions(all_publications, known_venues.get("papers", []))
+    print(f"    Manually added {manual_count} papers the normal fetch pipeline missed")
 
     override_count = apply_known_venue_overrides(all_publications, known_venues.get("papers", []))
     print(f"    Applied {override_count} manual venue overrides from config/known_venues.json")

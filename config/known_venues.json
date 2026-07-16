@@ -702,6 +702,136 @@
       "title": "Recurrent Distance Filtering for Graph Representation Learning",
       "venue": null,
       "_note": "Excluded from ICML classification per institute request — only Bernhard's papers should count for ICML 2023."
+    },
+    {
+      "title": "In Search of Adam's Secret Sauce",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Antonio Orvieto",
+      "authors": [
+        "Antonio Orvieto",
+        "Robert Gower"
+      ]
+    },
+    {
+      "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Sahar Abdelnabi",
+      "authors": [
+        "Guangchen (Eric) Lan",
+        "Huseyin A. Inan",
+        "Sahar Abdelnabi",
+        "Janardhan Kulkarni",
+        "Lukas Wutschitz",
+        "Reza Shokri",
+        "Christopher Brinton",
+        "Robert Sim"
+      ]
+    },
+    {
+      "title": "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Sahar Abdelnabi",
+      "authors": [
+        "Sahar Abdelnabi",
+        "Ahmed Salem"
+      ]
+    },
+    {
+      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Maksym Andriushchenko",
+      "authors": [
+        "Thomas Kuntz",
+        "Agatha Duzan",
+        "Hao Zhao",
+        "Francesco Croce",
+        "J. Zico Kolter",
+        "Nicolas Flammarion",
+        "Maksym Andriushchenko"
+      ]
+    },
+    {
+      "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Shiwei Liu",
+      "authors": [
+        "Tianhao Chen",
+        "Xin Xu",
+        "Zijing Liu",
+        "Pengxiang Li",
+        "Xinyuan Song",
+        "Ajay Jaiswal",
+        "Fan Zhang",
+        "Jishan Hu",
+        "Yang Wang",
+        "Hao Chen",
+        "Shizhe Diao",
+        "Shiwei Liu",
+        "Yu Li",
+        "Lu Yin",
+        "Can Yang"
+      ]
+    },
+    {
+      "title": "The Curse of Depth in Large Language Models",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Shiwei Liu",
+      "authors": [
+        "Wenfang Sun",
+        "Xinyuan Song",
+        "Pengxiang Li",
+        "Lu Yin",
+        "Yefeng Zheng",
+        "Shiwei Liu"
+      ]
+    },
+    {
+      "title": "AlphaDecay: Module-wise Weight Decay for Heavy-Tailed Balancing in LLMs",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Shiwei Liu",
+      "authors": [
+        "Di He",
+        "Ajay Jaiswal",
+        "Songjun Tu",
+        "Li Shen",
+        "Ganzhao Yuan",
+        "Shiwei Liu",
+        "Lu Yin"
+      ]
+    },
+    {
+      "title": "Collective Reasoning in Performative Prediction",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Celestine Mendler-Dünner",
+      "authors": [
+        "Haiqing Zhu",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner"
+      ]
+    },
+    {
+      "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "scientist": "Bernhard Schölkopf",
+      "authors": [
+        "Andreas Opedal",
+        "Yanick Zengaffinen",
+        "Haruki Shirakami",
+        "Clemente Pasti",
+        "Mrinmaya Sachan",
+        "Abulhair Saparov",
+        "Ryan Cotterell",
+        "Bernhard Schölkopf"
+      ]
     }
   ]
 }

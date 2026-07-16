@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-16T15:24:41Z",
+  "generated_at": "2026-07-16T15:46:44Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 407,
+  "total_publications": 416,
   "confirmed_affiliation_count": 21,
   "open_access_count": 368,
-  "open_access_percent": 90.4,
+  "open_access_percent": 88.5,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -5884,6 +5884,199 @@
       "is_oa": true
     },
     {
+      "id": "manual-insearchofadamssecretsauce",
+      "title": "In Search of Adam's Secret Sauce",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Antonio Orvieto",
+        "Robert Gower"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-contextualintegrityinllmsviareasoningand",
+      "title": "Contextual Integrity in LLMs via Reasoning and Reinforcement Learning",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Guangchen (Eric) Lan",
+        "Huseyin A. Inan",
+        "Sahar Abdelnabi",
+        "Janardhan Kulkarni",
+        "Lukas Wutschitz",
+        "Reza Shokri",
+        "Christopher Brinton",
+        "Robert Sim"
+      ],
+      "institution_ids": [],
+      "scientist": "Sahar Abdelnabi",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-thehawthorneeffectinreasoningmodelsevalu",
+      "title": "The Hawthorne Effect in Reasoning Models: Evaluating and Steering Test Awareness",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Sahar Abdelnabi",
+        "Ahmed Salem"
+      ],
+      "institution_ids": [],
+      "scientist": "Sahar Abdelnabi",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-osharmabenchmarkformeasuringsafetyofcomp",
+      "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Thomas Kuntz",
+        "Agatha Duzan",
+        "Hao Zhao",
+        "Francesco Croce",
+        "J. Zico Kolter",
+        "Nicolas Flammarion",
+        "Maksym Andriushchenko"
+      ],
+      "institution_ids": [],
+      "scientist": "Maksym Andriushchenko",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-gpasacceleratingconvergenceofllmpretrain",
+      "title": "GPAS: Accelerating Convergence of LLM Pretraining via Gradient-Preserving Activation Scaling",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Tianhao Chen",
+        "Xin Xu",
+        "Zijing Liu",
+        "Pengxiang Li",
+        "Xinyuan Song",
+        "Ajay Jaiswal",
+        "Fan Zhang",
+        "Jishan Hu",
+        "Yang Wang",
+        "Hao Chen",
+        "Shizhe Diao",
+        "Shiwei Liu",
+        "Yu Li",
+        "Lu Yin",
+        "Can Yang"
+      ],
+      "institution_ids": [],
+      "scientist": "Shiwei Liu",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-thecurseofdepthinlargelanguagemodels",
+      "title": "The Curse of Depth in Large Language Models",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Wenfang Sun",
+        "Xinyuan Song",
+        "Pengxiang Li",
+        "Lu Yin",
+        "Yefeng Zheng",
+        "Shiwei Liu"
+      ],
+      "institution_ids": [],
+      "scientist": "Shiwei Liu",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-alphadecaymodulewiseweightdecayforheavyt",
+      "title": "AlphaDecay: Module-wise Weight Decay for Heavy-Tailed Balancing in LLMs",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Di He",
+        "Ajay Jaiswal",
+        "Songjun Tu",
+        "Li Shen",
+        "Ganzhao Yuan",
+        "Shiwei Liu",
+        "Lu Yin"
+      ],
+      "institution_ids": [],
+      "scientist": "Shiwei Liu",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-collectivereasoninginperformativepredict",
+      "title": "Collective Reasoning in Performative Prediction",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Haiqing Zhu",
+        "Tijana Zrnic",
+        "Celestine Mendler-D\u00fcnner"
+      ],
+      "institution_ids": [],
+      "scientist": "Celestine Mendler-D\u00fcnner",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
+      "id": "manual-languagemodelsareinefficientreasonersana",
+      "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
+      "year": 2025,
+      "venue": "NeurIPS",
+      "cited_by_count": 0,
+      "doi": null,
+      "authors": [
+        "Andreas Opedal",
+        "Yanick Zengaffinen",
+        "Haruki Shirakami",
+        "Clemente Pasti",
+        "Mrinmaya Sachan",
+        "Abulhair Saparov",
+        "Ryan Cotterell",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": false
+    },
+    {
       "id": "W4415797819",
       "title": "Questioning the Survey Responses of Large Language Models",
       "year": 2024,
@@ -10116,7 +10309,7 @@
       "Nature": 2
     },
     "2025": {
-      "NeurIPS": 18,
+      "NeurIPS": 27,
       "ICLR": 16,
       "ICML": 15,
       "Nature": 5
@@ -10138,12 +10331,12 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
-    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit Genoa": 1,
+    "ELLIS Unit Darmstadt": 1,
     "ELLIS Unit KAUST": 1
   },
   "ellis_member_collaborations": {
-    "Unit Zurich": 37,
+    "Unit Zurich": 38,
     "Unit T\u00fcbingen": 27,
     "Unit Paris": 9,
     "Unit Oxford": 7,
@@ -10151,8 +10344,8 @@
     "Unit Saarbr\u00fccken": 6,
     "Unit Munich": 6,
     "Unit London": 6,
+    "Unit Lausanne": 6,
     "Unit NRW": 6,
-    "Unit Lausanne": 5,
     "Unit Copenhagen": 5,
     "Unit Denmark": 5,
     "Unit Franconia": 4,
@@ -10160,6 +10353,7 @@
     "Unit Linz": 3,
     "Unit Genoa": 2,
     "Unit Darmstadt": 2,
+    "Institute Finland": 2,
     "Unit Vienna": 1,
     "Unit Berlin": 1,
     "Unit Stuttgart": 1,
@@ -10168,8 +10362,7 @@
     "Unit Jena": 1,
     "Unit Trento": 1,
     "Unit Amsterdam": 1,
-    "Unit Helsinki": 1,
-    "Institute Finland": 1
+    "Unit Helsinki": 1
   },
   "ellis_member_collaboration_details": {
     "Unit T\u00fcbingen": [
@@ -10562,6 +10755,13 @@
         "scientist": "Rediet Abebe, Antonio Orvieto",
         "co_author": "Volkan Cevher",
         "doi": "https://doi.org/10.48550/arxiv.2605.19141"
+      },
+      {
+        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "Nicolas Flammarion",
+        "doi": null
       }
     ],
     "Unit Zurich": [
@@ -10669,6 +10869,13 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Mrinmaya Sachan",
         "doi": "https://doi.org/10.48550/arxiv.2506.23276"
+      },
+      {
+        "title": "Language Models Are Inefficient Reasoners: An Analysis on Arithmetic Proof Search",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": null
       },
       {
         "title": "Super Consistency of Neural Network Landscapes and Learning Rate Transfer",
@@ -11274,6 +11481,13 @@
         "scientist": "David Salinas",
         "co_author": "J\u00f6rg Tiedemann",
         "doi": "https://doi.org/10.48550/arxiv.2607.00890"
+      },
+      {
+        "title": "OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents",
+        "year": 2025,
+        "scientist": "Maksym Andriushchenko",
+        "co_author": "Francesco Croce",
+        "doi": null
       }
     ]
   },
@@ -11306,7 +11520,7 @@
   },
   "venue_counts": {
     "ICML": 36,
-    "NeurIPS": 50,
+    "NeurIPS": 59,
     "ICLR": 44
   },
   "broader_venue_counts": {
@@ -11322,5 +11536,5 @@
     "RSS": 1,
     "CoRL": 1
   },
-  "top_tier_total_count": 167
+  "top_tier_total_count": 176
 }
