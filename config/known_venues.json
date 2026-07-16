@@ -486,6 +486,111 @@
     {
       "title": "Rule Extrapolation in Language Modeling",
       "venue": "NeurIPS"
+    },
+    {
+      "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "The Directionality of Optimization Trajectories in Neural Networks",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "MathGAP: Out-of-Distribution Evaluation on Problems with Arbitrarily Complex Proofs",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Language Model Alignment in Multilingual Trolley Problems",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Standardizing Structural Causal Models",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Preference Elicitation for Offline Reinforcement Learning",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Geometric Inductive Biases of Deep Networks: The Role of Data and Architecture",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Adaptive Methods through the Lens of SDEs: Theoretical Insights on the Role of Noise",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "In Search of Forgotten Domain Generalization",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Cross-Entropy Is All You Need To Invert the Data Generating Process",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Interaction Asymmetry: A General Principle for Learning Composable Abstractions",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "The Hidden Cost of Waiting for Accurate Predictions",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Policy Design in Long-run Welfare Dynamics",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Lawma: The Power of Specialization for Legal Annotation",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Multi-objective Differentiable Neural Architecture Search",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Diffusion-based Neural Network Weights Generation",
+      "venue": "ICLR",
+      "year": 2025
+    },
+    {
+      "title": "Beyond Random Augmentations: Pretraining with Hard Views",
+      "venue": "ICLR",
+      "year": 2025
     }
   ]
 }

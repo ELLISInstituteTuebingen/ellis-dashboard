@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T12:54:30Z",
+  "generated_at": "2026-07-16T13:23:56Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 407,
   "confirmed_affiliation_count": 21,
@@ -2394,6 +2394,94 @@
       "is_oa": true
     },
     {
+      "id": "W4403443959",
+      "title": "In Search of Forgotten Domain Generalization",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2410.08258",
+      "authors": [
+        "P. Mayilvahanan",
+        "R. Zimmermann",
+        "Thadd\u00e4us Wiedemer",
+        "Evgenia Rusak",
+        "Attila Juhos",
+        "Matthias Bethge",
+        "Wieland Brendel"
+      ],
+      "institution_ids": [],
+      "scientist": "Wieland Brendel",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4404350086",
+      "title": "Cross-Entropy Is All You Need To Invert the Data Generating Process",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2410.21869",
+      "authors": [
+        "Patrik Reizinger",
+        "Alice Bizeul",
+        "Attila Juhos",
+        "Julia E. Vogt",
+        "Randall Balestriero",
+        "Wieland Brendel",
+        "David Klindt"
+      ],
+      "institution_ids": [],
+      "scientist": "Wieland Brendel",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4399911706",
+      "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2406.14302",
+      "authors": [
+        "Patrik Reizinger",
+        "Siyuan Guo",
+        "Ferenc Husz\u00e1r",
+        "Bernhard Sch\u00f6lkopf",
+        "Wieland Brendel"
+      ],
+      "institution_ids": [],
+      "scientist": [
+        "Wieland Brendel",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4404406434",
+      "title": "Interaction Asymmetry: A General Principle for Learning Composable Abstractions",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2411.07784",
+      "authors": [
+        "Jack Brady",
+        "Julius von K\u00fcgelgen",
+        "S\u00e9bastien Lachapelle",
+        "Simon Buchholz",
+        "Thomas Kipf",
+        "Wieland Brendel"
+      ],
+      "institution_ids": [],
+      "scientist": "Wieland Brendel",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4407759068",
       "title": "LLMs on the Line: Data Determines Loss-to-Loss Scaling Laws",
       "year": 2025,
@@ -2825,6 +2913,27 @@
       "is_oa": true
     },
     {
+      "id": "W4404573957",
+      "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2411.12537",
+      "authors": [
+        "Riccardo Grazzi",
+        "Julien Siems",
+        "Arber Zela",
+        "J\u00f6rg K. H. Franke",
+        "Frank Hutter",
+        "Massimiliano Pontil"
+      ],
+      "institution_ids": [],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4414987631",
       "title": "TabArena: A Living Benchmark for Machine Learning on Tabular Data",
       "year": 2025,
@@ -2854,6 +2963,33 @@
       ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
+      "is_oa": true
+    },
+    {
+      "id": "W4403482143",
+      "title": "KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks",
+      "year": 2025,
+      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.1101/2024.10.15.618378",
+      "authors": [
+        "Dominik Scheuer",
+        "Frederic Runge",
+        "J\u00f6rg K. H. Franke",
+        "Michael T. Wolfinger",
+        "Christoph Flamm",
+        "Frank Hutter"
+      ],
+      "institution_ids": [
+        "I129774422",
+        "I161046081",
+        "I2800645845",
+        "I4210162109",
+        "I8087733"
+      ],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": true,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -4169,6 +4305,45 @@
       "is_oa": true
     },
     {
+      "id": "W4403577262",
+      "title": "Geometric Inductive Biases of Deep Networks: The Role of Data and Architecture",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2410.12025",
+      "authors": [
+        "Sajad Movahedi",
+        "Antonio Orvieto",
+        "Seyed-Mohsen Moosavi-Dezfooli"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4404986981",
+      "title": "Adaptive Methods through the Lens of SDEs: Theoretical Insights on the Role of Noise",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2411.15958",
+      "authors": [
+        "Enea Monzio Compagnoni",
+        "T. Liu",
+        "Rustem Islamov",
+        "Frank Proske",
+        "Antonio Orvieto",
+        "Aur\u00e9lien Lucchi"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4407359552",
       "title": "When, Where and Why to Average Weights?",
       "year": 2025,
@@ -4721,6 +4896,31 @@
       "is_oa": true
     },
     {
+      "id": "W4403321691",
+      "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2408.08313",
+      "authors": [
+        "Zeju Qiu",
+        "Weiyang Liu",
+        "Haiwen Feng",
+        "Han\u2010Xiong Li",
+        "Tim Z. Xiao",
+        "Katherine M. Collins",
+        "Joshua B. Tenenbaum",
+        "Adrian Weller",
+        "Michael J. Black",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4407358712",
       "title": "From Pixels to Components: Eigenvector Masking for Visual Representation Learning",
       "year": 2025,
@@ -4739,6 +4939,33 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W4400374334",
+      "title": "Language Model Alignment in Multilingual Trolley Problems",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2407.02273",
+      "authors": [
+        "Zhijing Jin",
+        "Max Kleiman\u2010Weiner",
+        "Giorgio Piatti",
+        "Sydney Levine",
+        "Jiarui Liu",
+        "Gonzalez, Fernando",
+        "Francesco Ortu",
+        "Andr\u00e1s Strausz",
+        "Mrinmaya Sachan",
+        "Rada Mihalcea",
+        "Yejin Choi",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -4808,6 +5035,83 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W4399795301",
+      "title": "Standardizing Structural Causal Models",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2406.11601",
+      "authors": [
+        "Weronika Ormaniec",
+        "Scott Sussex",
+        "Lars Lorch",
+        "Bernhard Sch\u00f6lkopf",
+        "Andreas Krause"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4400104922",
+      "title": "Preference Elicitation for Offline Reinforcement Learning",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2406.18450",
+      "authors": [
+        "Aliz\u00e9e Pace",
+        "Bernhard Sch\u00f6lkopf",
+        "Gunnar R\u00e4tsch",
+        "Giorgia Ramponi"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4403579784",
+      "title": "MathGAP: Out-of-Distribution Evaluation on Problems with Arbitrarily Complex Proofs",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2410.13502",
+      "authors": [
+        "Andreas Opedal",
+        "Haruki Shirakami",
+        "Bernhard Sch\u00f6lkopf",
+        "Abulhair Saparov",
+        "Mrinmaya Sachan"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4403851999",
+      "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
+      "year": 2025,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2410.01660",
+      "authors": [
+        "Klaus-Rudolf Kladny",
+        "Bernhard Sch\u00f6lkopf",
+        "Michael Muehlebach"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -5744,50 +6048,6 @@
       "is_oa": true
     },
     {
-      "id": "W4403443959",
-      "title": "In Search of Forgotten Domain Generalization",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 2,
-      "doi": "https://doi.org/10.48550/arxiv.2410.08258",
-      "authors": [
-        "P. Mayilvahanan",
-        "R. Zimmermann",
-        "Thadd\u00e4us Wiedemer",
-        "Evgenia Rusak",
-        "Attila Juhos",
-        "Matthias Bethge",
-        "Wieland Brendel"
-      ],
-      "institution_ids": [],
-      "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4404350086",
-      "title": "Cross-Entropy Is All You Need To Invert the Data Generating Process",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2410.21869",
-      "authors": [
-        "Patrik Reizinger",
-        "Alice Bizeul",
-        "Attila Juhos",
-        "Julia E. Vogt",
-        "Randall Balestriero",
-        "Wieland Brendel",
-        "David Klindt"
-      ],
-      "institution_ids": [],
-      "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4390784401",
       "title": "Effective pruning of web-scale datasets based on complexity of concept clusters",
       "year": 2024,
@@ -5804,29 +6064,6 @@
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
-      "id": "W4399911706",
-      "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2406.14302",
-      "authors": [
-        "Patrik Reizinger",
-        "Siyuan Guo",
-        "Ferenc Husz\u00e1r",
-        "Bernhard Sch\u00f6lkopf",
-        "Wieland Brendel"
-      ],
-      "institution_ids": [],
-      "scientist": [
-        "Wieland Brendel",
-        "Bernhard Sch\u00f6lkopf"
-      ],
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICLR",
       "is_oa": true
@@ -5865,27 +6102,6 @@
         "Wieland Brendel",
         "Patrik Reizinger",
         "Ferenc Husz\u00e1r"
-      ],
-      "institution_ids": [],
-      "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4404406434",
-      "title": "Interaction Asymmetry: A General Principle for Learning Composable Abstractions",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2411.07784",
-      "authors": [
-        "Jack Brady",
-        "Julius von K\u00fcgelgen",
-        "S\u00e9bastien Lachapelle",
-        "Simon Buchholz",
-        "Thomas Kipf",
-        "Wieland Brendel"
       ],
       "institution_ids": [],
       "scientist": "Wieland Brendel",
@@ -6633,27 +6849,6 @@
       "is_oa": true
     },
     {
-      "id": "W4404573957",
-      "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2411.12537",
-      "authors": [
-        "Riccardo Grazzi",
-        "Julien Siems",
-        "Arber Zela",
-        "J\u00f6rg K. H. Franke",
-        "Frank Hutter",
-        "Massimiliano Pontil"
-      ],
-      "institution_ids": [],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4392488790",
       "title": "Fast Benchmarking of Asynchronous Multi-Fidelity Optimization on Zero-Cost Benchmarks",
       "year": 2024,
@@ -6752,33 +6947,6 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4403482143",
-      "title": "KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks",
-      "year": 2024,
-      "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.1101/2024.10.15.618378",
-      "authors": [
-        "Dominik Scheuer",
-        "Frederic Runge",
-        "J\u00f6rg K. H. Franke",
-        "Michael T. Wolfinger",
-        "Christoph Flamm",
-        "Frank Hutter"
-      ],
-      "institution_ids": [
-        "I129774422",
-        "I161046081",
-        "I2800645845",
-        "I4210162109",
-        "I8087733"
-      ],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": true,
       "venue_category": null,
       "is_oa": true
     },
@@ -7194,45 +7362,6 @@
       "authors": [
         "Antonio Orvieto",
         "Lin Xiao"
-      ],
-      "institution_ids": [],
-      "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4403577262",
-      "title": "Geometric Inductive Biases of Deep Networks: The Role of Data and Architecture",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2410.12025",
-      "authors": [
-        "Sajad Movahedi",
-        "Antonio Orvieto",
-        "Seyed-Mohsen Moosavi-Dezfooli"
-      ],
-      "institution_ids": [],
-      "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
-      "id": "W4404986981",
-      "title": "Adaptive Methods through the Lens of SDEs: Theoretical Insights on the Role of Noise",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2411.15958",
-      "authors": [
-        "Enea Monzio Compagnoni",
-        "T. Liu",
-        "Rustem Islamov",
-        "Frank Proske",
-        "Antonio Orvieto",
-        "Aur\u00e9lien Lucchi"
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
@@ -7737,31 +7866,6 @@
       "is_oa": true
     },
     {
-      "id": "W4403321691",
-      "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 2,
-      "doi": "https://doi.org/10.48550/arxiv.2408.08313",
-      "authors": [
-        "Zeju Qiu",
-        "Weiyang Liu",
-        "Haiwen Feng",
-        "Han\u2010Xiong Li",
-        "Tim Z. Xiao",
-        "Katherine M. Collins",
-        "Joshua B. Tenenbaum",
-        "Adrian Weller",
-        "Michael J. Black",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4404781723",
       "title": "Implicit Personalization in Language Models: A Systematic Study",
       "year": 2024,
@@ -7885,33 +7989,6 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "AISTATS",
-      "is_oa": true
-    },
-    {
-      "id": "W4400374334",
-      "title": "Language Model Alignment in Multilingual Trolley Problems",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2407.02273",
-      "authors": [
-        "Zhijing Jin",
-        "Max Kleiman\u2010Weiner",
-        "Giorgio Piatti",
-        "Sydney Levine",
-        "Jiarui Liu",
-        "Gonzalez, Fernando",
-        "Francesco Ortu",
-        "Andr\u00e1s Strausz",
-        "Mrinmaya Sachan",
-        "Rada Mihalcea",
-        "Yejin Choi",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -8271,26 +8348,6 @@
       "is_oa": true
     },
     {
-      "id": "W4399795301",
-      "title": "Standardizing Structural Causal Models",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2406.11601",
-      "authors": [
-        "Weronika Ormaniec",
-        "Scott Sussex",
-        "Lars Lorch",
-        "Bernhard Sch\u00f6lkopf",
-        "Andreas Krause"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4400023716",
       "title": "Landscaping Linear Mode Connectivity",
       "year": 2024,
@@ -8309,25 +8366,6 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4400104922",
-      "title": "Preference Elicitation for Offline Reinforcement Learning",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2406.18450",
-      "authors": [
-        "Aliz\u00e9e Pace",
-        "Bernhard Sch\u00f6lkopf",
-        "Gunnar R\u00e4tsch",
-        "Giorgia Ramponi"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -8396,44 +8434,6 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "CoRL",
-      "is_oa": true
-    },
-    {
-      "id": "W4403579784",
-      "title": "MathGAP: Out-of-Distribution Evaluation on Problems with Arbitrarily Complex Proofs",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2410.13502",
-      "authors": [
-        "Andreas Opedal",
-        "Haruki Shirakami",
-        "Bernhard Sch\u00f6lkopf",
-        "Abulhair Saparov",
-        "Mrinmaya Sachan"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
-      "id": "W4403851999",
-      "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
-      "year": 2024,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2410.01660",
-      "authors": [
-        "Klaus-Rudolf Kladny",
-        "Bernhard Sch\u00f6lkopf",
-        "Michael Muehlebach"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -10112,14 +10112,14 @@
     "2024": {
       "NeurIPS": 21,
       "ICML": 11,
-      "ICLR": 13,
+      "ICLR": 3,
       "Nature": 2
     },
     "2025": {
       "NeurIPS": 17,
+      "ICLR": 16,
       "ICML": 15,
-      "Nature": 5,
-      "ICLR": 2
+      "Nature": 5
     },
     "2026": {
       "ICML": 6,
@@ -10138,8 +10138,8 @@
     "ELLIS Unit Lausanne": 2,
     "ELLIS Unit UCL London": 2,
     "ELLIS Unit Berlin": 1,
-    "ELLIS Unit Genoa": 1,
     "ELLIS Unit Darmstadt": 1,
+    "ELLIS Unit Genoa": 1,
     "ELLIS Unit KAUST": 1
   },
   "ellis_member_collaborations": {
@@ -10223,6 +10223,20 @@
         "doi": "https://doi.org/10.48550/arxiv.2503.00632"
       },
       {
+        "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.48550/arxiv.2408.08313"
+      },
+      {
+        "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael Muehlebach",
+        "doi": "https://doi.org/10.48550/arxiv.2410.01660"
+      },
+      {
         "title": "PENEX: AdaBoost-Inspired Neural Network Regularization",
         "year": 2025,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10277,20 +10291,6 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Michael Muehlebach",
         "doi": "https://doi.org/10.15607/rss.2024.xx.099"
-      },
-      {
-        "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Michael J. Black",
-        "doi": "https://doi.org/10.48550/arxiv.2408.08313"
-      },
-      {
-        "title": "Conformal Generative Modeling with Improved Sample Efficiency through Sequential Greedy Filtering",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Michael Muehlebach",
-        "doi": "https://doi.org/10.48550/arxiv.2410.01660"
       },
       {
         "title": "Reinforcement learning with model-based feedforward inputs for robotic table tennis",
@@ -10485,18 +10485,18 @@
     ],
     "Unit London": [
       {
+        "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
+        "year": 2025,
+        "scientist": "Wieland Brendel, Bernhard Sch\u00f6lkopf",
+        "co_author": "Ferenc Husz\u00e1r",
+        "doi": "https://doi.org/10.48550/arxiv.2406.14302"
+      },
+      {
         "title": "Position: Understanding LLMs Requires More Than Statistical Generalization",
         "year": 2024,
         "scientist": "Wieland Brendel",
         "co_author": "Ferenc Husz\u00e1r",
         "doi": "https://doi.org/10.48550/arxiv.2405.01964"
-      },
-      {
-        "title": "Identifiable Exchangeable Mechanisms for Causal Structure and Representation Learning",
-        "year": 2024,
-        "scientist": "Wieland Brendel, Bernhard Sch\u00f6lkopf",
-        "co_author": "Ferenc Husz\u00e1r",
-        "doi": "https://doi.org/10.48550/arxiv.2406.14302"
       },
       {
         "title": "Rule Extrapolation in Language Models: A Study of Compositional Generalization on OOD Prompts",
@@ -10629,6 +10629,34 @@
         "doi": "https://doi.org/10.48550/arxiv.2501.17805"
       },
       {
+        "title": "Language Model Alignment in Multilingual Trolley Problems",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2407.02273"
+      },
+      {
+        "title": "Standardizing Structural Causal Models",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Andreas Krause",
+        "doi": "https://doi.org/10.48550/arxiv.2406.11601"
+      },
+      {
+        "title": "Preference Elicitation for Offline Reinforcement Learning",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Gunnar R\u00e4tsch",
+        "doi": "https://doi.org/10.48550/arxiv.2406.18450"
+      },
+      {
+        "title": "MathGAP: Out-of-Distribution Evaluation on Problems with Arbitrarily Complex Proofs",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2410.13502"
+      },
+      {
         "title": "Improving Large Language Model Safety with Contrastive Representation Learning",
         "year": 2025,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10678,13 +10706,6 @@
         "doi": "https://doi.org/10.48550/arxiv.2402.01399"
       },
       {
-        "title": "Language Model Alignment in Multilingual Trolley Problems",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Mrinmaya Sachan",
-        "doi": "https://doi.org/10.48550/arxiv.2407.02273"
-      },
-      {
         "title": "CausalCite: A Causal Formulation of Paper Citations",
         "year": 2024,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10720,32 +10741,11 @@
         "doi": "https://doi.org/10.48550/arxiv.2406.02329"
       },
       {
-        "title": "Standardizing Structural Causal Models",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Andreas Krause",
-        "doi": "https://doi.org/10.48550/arxiv.2406.11601"
-      },
-      {
         "title": "Landscaping Linear Mode Connectivity",
         "year": 2024,
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Thomas Hofmann",
         "doi": "https://doi.org/10.48550/arxiv.2406.16300"
-      },
-      {
-        "title": "Preference Elicitation for Offline Reinforcement Learning",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Gunnar R\u00e4tsch",
-        "doi": "https://doi.org/10.48550/arxiv.2406.18450"
-      },
-      {
-        "title": "MathGAP: Out-of-Distribution Evaluation on Problems with Arbitrarily Complex Proofs",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Mrinmaya Sachan",
-        "doi": "https://doi.org/10.48550/arxiv.2410.13502"
       },
       {
         "title": "Generative Intervention Models for Causal Perturbation Modeling",
@@ -10896,6 +10896,13 @@
     ],
     "Unit Cambridge": [
       {
+        "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
+        "year": 2025,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.48550/arxiv.2408.08313"
+      },
+      {
         "title": "Orthogonal Finetuning Made Scalable",
         "year": 2025,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10908,13 +10915,6 @@
         "scientist": "Frank Hutter",
         "co_author": "David Krueger",
         "doi": "https://doi.org/10.1126/science.adn0117"
-      },
-      {
-        "title": "Can Large Language Models Understand Symbolic Graphics Programs?",
-        "year": 2024,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Adrian Weller",
-        "doi": "https://doi.org/10.48550/arxiv.2408.08313"
       },
       {
         "title": "Controlling Text-to-Image Diffusion by Orthogonal Finetuning",
@@ -10991,18 +10991,18 @@
     ],
     "Unit Genoa": [
       {
+        "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
+        "year": 2025,
+        "scientist": "Frank Hutter",
+        "co_author": "Massimiliano Pontil",
+        "doi": "https://doi.org/10.48550/arxiv.2411.12537"
+      },
+      {
         "title": "DeltaProduct: Improving State-Tracking in Linear RNNs via Householder Products",
         "year": 2025,
         "scientist": "Frank Hutter",
         "co_author": "Massimiliano Pontil",
         "doi": "https://doi.org/10.48550/arxiv.2502.10297"
-      },
-      {
-        "title": "Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues",
-        "year": 2024,
-        "scientist": "Frank Hutter",
-        "co_author": "Massimiliano Pontil",
-        "doi": "https://doi.org/10.48550/arxiv.2411.12537"
       }
     ],
     "Unit Franconia": [
@@ -11307,7 +11307,7 @@
   "venue_counts": {
     "ICML": 37,
     "NeurIPS": 50,
-    "ICLR": 40
+    "ICLR": 44
   },
   "broader_venue_counts": {
     "Nature": 10,
@@ -11322,5 +11322,5 @@
     "RSS": 1,
     "CoRL": 1
   },
-  "top_tier_total_count": 164
+  "top_tier_total_count": 168
 }
