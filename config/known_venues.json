@@ -591,6 +591,86 @@
       "title": "Beyond Random Augmentations: Pretraining with Hard Views",
       "venue": "ICLR",
       "year": 2025
+    },
+    {
+      "title": "A General Framework for User-Guided Bayesian Optimization",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Quick-Tune: Quickly Learning Which Pretrained Model to Finetune and How",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Skill or Luck? Return Decomposition via Advantage Functions",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Identifying Policy Gradient Subspaces",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Can Large Language Models Infer Causation from Correlation?",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Out-of-Variable Generalisation for Discriminative Models",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Effective Pruning of Web-Scale Datasets Based on Complexity of Concept Clusters",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Provable Compositional Generalization for Object-Centric Learning",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "Universal Guidance for Diffusion Models",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "NEFTune: Noisy Embeddings Improve Instruction Finetuning",
+      "venue": "ICLR",
+      "year": 2024
+    },
+    {
+      "title": "On the Reliability of Watermarks for Large Language Models",
+      "venue": "ICLR",
+      "year": 2024
     }
   ]
 }

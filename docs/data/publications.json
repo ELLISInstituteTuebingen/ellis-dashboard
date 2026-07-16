@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T13:23:56Z",
+  "generated_at": "2026-07-16T13:32:24Z",
   "institute": "ELLIS Institute T\u00fcbingen",
   "total_publications": 407,
   "confirmed_affiliation_count": 21,
@@ -6027,6 +6027,26 @@
       "is_oa": true
     },
     {
+      "id": "W4387723693",
+      "title": "Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.48550/arxiv.2310.09562",
+      "authors": [
+        "P. Mayilvahanan",
+        "Thadd\u00e4us Wiedemer",
+        "Evgenia Rusak",
+        "Matthias Bethge",
+        "Wieland Brendel"
+      ],
+      "institution_ids": [],
+      "scientist": "Wieland Brendel",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4396780921",
       "title": "Position: Understanding LLMs Requires More Than Statistical Generalization",
       "year": 2024,
@@ -6045,6 +6065,27 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
+      "is_oa": true
+    },
+    {
+      "id": "W4387559920",
+      "title": "Provable Compositional Generalization for Object-Centric Learning",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2310.05327",
+      "authors": [
+        "Thadd\u00e4us Wiedemer",
+        "Jack Brady",
+        "Alexander Panfilov",
+        "Attila Juhos",
+        "Matthias Bethge",
+        "Wieland Brendel"
+      ],
+      "institution_ids": [],
+      "scientist": "Wieland Brendel",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -6150,6 +6191,38 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ICML",
+      "is_oa": true
+    },
+    {
+      "id": "W4387560543",
+      "title": "NEFTune: Noisy Embeddings Improve Instruction Finetuning",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 14,
+      "doi": "https://doi.org/10.48550/arxiv.2310.05914",
+      "authors": [
+        "Neel Jain",
+        "Ping-yeh Chiang",
+        "Yuxin Wen",
+        "John Kirchenbauer",
+        "Hongmin Chu",
+        "Gowthami Somepalli",
+        "Brian R. Bartoldson",
+        "Bhavya Kailkhura",
+        "Avi Schwarzschild",
+        "Aniruddha Saha",
+        "Micah Goldblum",
+        "Jonas Geiping",
+        "Tom Goldstein"
+      ],
+      "institution_ids": [
+        "I1282311441",
+        "I57206974",
+        "I66946132"
+      ],
+      "scientist": "Jonas Geiping",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -7611,6 +7684,29 @@
       "is_oa": true
     },
     {
+      "id": "W4380356267",
+      "title": "Can Large Language Models Infer Causation from Correlation?",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 23,
+      "doi": "https://doi.org/10.48550/arxiv.2306.05836",
+      "authors": [
+        "Zhijing Jin",
+        "Jiarui Liu",
+        "Zhiheng Lyu",
+        "Spencer Poff",
+        "Mrinmaya Sachan",
+        "Rada Mihalcea",
+        "Mona Diab",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4391463123",
       "title": "Do Language Models Exhibit the Same Cognitive Biases in Problem Solving as Human Learners?",
       "year": 2024,
@@ -7800,6 +7896,26 @@
       "is_oa": true
     },
     {
+      "id": "W4382766067",
+      "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 3,
+      "doi": "https://doi.org/10.48550/arxiv.2306.16922",
+      "authors": [
+        "Aaron Spieler",
+        "Nasim Rahaman",
+        "Georg Martius",
+        "Bernhard Sch\u00f6lkopf",
+        "Anna Levina"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
       "id": "W4391800301",
       "title": "The Essential Role of Causality in Foundation World Models for Embodied AI",
       "year": 2024,
@@ -7843,6 +7959,55 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W4379469361",
+      "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2306.01157",
+      "authors": [
+        "Aliz\u00e9e Pace",
+        "Hugo Y\u00e8che",
+        "Bernhard Sch\u00f6lkopf",
+        "Gunnar R\u00e4tsch",
+        "Guy Tennenholtz"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
+    },
+    {
+      "id": "W4388651133",
+      "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.48550/arxiv.2311.06243",
+      "authors": [
+        "Weiyang Liu",
+        "Zeju Qiu",
+        "Yao Feng",
+        "Yuliang Xiu",
+        "Yuxuan Xue",
+        "Longhui Yu",
+        "Haiwen Feng",
+        "Zhen Liu",
+        "Juyeon Heo",
+        "Songyou Peng",
+        "Yandong Wen",
+        "Michael J. Black",
+        "Adrian Weller",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -7910,6 +8075,28 @@
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
       "is_oa": false
+    },
+    {
+      "id": "W4387946929",
+      "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes",
+      "year": 2024,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.48550/arxiv.2310.15168",
+      "authors": [
+        "Zhen Liu",
+        "Feng Yao",
+        "Yuliang Xiu",
+        "Weiyang Liu",
+        "Liam Paull",
+        "Michael J. Black",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "ICLR",
+      "is_oa": true
     },
     {
       "id": "W4390897804",
@@ -8598,26 +8785,6 @@
       "is_oa": true
     },
     {
-      "id": "W4387723693",
-      "title": "Does CLIP's Generalization Performance Mainly Stem from High Train-Test Similarity?",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 3,
-      "doi": "https://doi.org/10.48550/arxiv.2310.09562",
-      "authors": [
-        "P. Mayilvahanan",
-        "Thadd\u00e4us Wiedemer",
-        "Evgenia Rusak",
-        "Matthias Bethge",
-        "Wieland Brendel"
-      ],
-      "institution_ids": [],
-      "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4389260677",
       "title": "An Interventional Perspective on Identifiability in Gaussian LTI Systems with Independent Component Analysis",
       "year": 2023,
@@ -8655,27 +8822,6 @@
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4387559920",
-      "title": "Provable Compositional Generalization for Object-Centric Learning",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2310.05327",
-      "authors": [
-        "Thadd\u00e4us Wiedemer",
-        "Jack Brady",
-        "Alexander Panfilov",
-        "Attila Juhos",
-        "Matthias Bethge",
-        "Wieland Brendel"
-      ],
-      "institution_ids": [],
-      "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -8721,38 +8867,6 @@
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4387560543",
-      "title": "NEFTune: Noisy Embeddings Improve Instruction Finetuning",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 14,
-      "doi": "https://doi.org/10.48550/arxiv.2310.05914",
-      "authors": [
-        "Neel Jain",
-        "Ping-yeh Chiang",
-        "Yuxin Wen",
-        "John Kirchenbauer",
-        "Hongmin Chu",
-        "Gowthami Somepalli",
-        "Brian R. Bartoldson",
-        "Bhavya Kailkhura",
-        "Avi Schwarzschild",
-        "Aniruddha Saha",
-        "Micah Goldblum",
-        "Jonas Geiping",
-        "Tom Goldstein"
-      ],
-      "institution_ids": [
-        "I1282311441",
-        "I57206974",
-        "I66946132"
-      ],
-      "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -9207,29 +9321,6 @@
       "is_oa": true
     },
     {
-      "id": "W4380356267",
-      "title": "Can Large Language Models Infer Causation from Correlation?",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 23,
-      "doi": "https://doi.org/10.48550/arxiv.2306.05836",
-      "authors": [
-        "Zhijing Jin",
-        "Jiarui Liu",
-        "Zhiheng Lyu",
-        "Spencer Poff",
-        "Mrinmaya Sachan",
-        "Rada Mihalcea",
-        "Mona Diab",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4380559233",
       "title": "Controlling Text-to-Image Diffusion by Orthogonal Finetuning",
       "year": 2023,
@@ -9371,26 +9462,6 @@
       "is_oa": true
     },
     {
-      "id": "W4382766067",
-      "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 3,
-      "doi": "https://doi.org/10.48550/arxiv.2306.16922",
-      "authors": [
-        "Aaron Spieler",
-        "Nasim Rahaman",
-        "Georg Martius",
-        "Bernhard Sch\u00f6lkopf",
-        "Anna Levina"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4386081322",
       "title": "SE(3) Equivariant Augmented Coupling Flows",
       "year": 2023,
@@ -9457,26 +9528,6 @@
       "is_oa": true
     },
     {
-      "id": "W4379469361",
-      "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 2,
-      "doi": "https://doi.org/10.48550/arxiv.2306.01157",
-      "authors": [
-        "Aliz\u00e9e Pace",
-        "Hugo Y\u00e8che",
-        "Bernhard Sch\u00f6lkopf",
-        "Gunnar R\u00e4tsch",
-        "Guy Tennenholtz"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
-      "is_oa": true
-    },
-    {
       "id": "W4379539357",
       "title": "Learning Linear Causal Representations from Interventions under General Nonlinear Mixing",
       "year": 2023,
@@ -9516,35 +9567,6 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
-      "is_oa": true
-    },
-    {
-      "id": "W4388651133",
-      "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 2,
-      "doi": "https://doi.org/10.48550/arxiv.2311.06243",
-      "authors": [
-        "Weiyang Liu",
-        "Zeju Qiu",
-        "Yao Feng",
-        "Yuliang Xiu",
-        "Yuxuan Xue",
-        "Longhui Yu",
-        "Haiwen Feng",
-        "Zhen Liu",
-        "Juyeon Heo",
-        "Songyou Peng",
-        "Yandong Wen",
-        "Michael J. Black",
-        "Adrian Weller",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -9686,28 +9708,6 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4387946929",
-      "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes",
-      "year": 2023,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2310.15168",
-      "authors": [
-        "Zhen Liu",
-        "Feng Yao",
-        "Yuliang Xiu",
-        "Weiyang Liu",
-        "Liam Paull",
-        "Michael J. Black",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
       "is_oa": true
     },
     {
@@ -10105,14 +10105,14 @@
   "top_venues_by_year": {
     "2023": {
       "NeurIPS": 12,
-      "ICLR": 9,
       "ICML": 5,
-      "Nature": 2
+      "Nature": 2,
+      "ICLR": 1
     },
     "2024": {
       "NeurIPS": 21,
+      "ICLR": 11,
       "ICML": 11,
-      "ICLR": 3,
       "Nature": 2
     },
     "2025": {
@@ -10293,6 +10293,27 @@
         "doi": "https://doi.org/10.15607/rss.2024.xx.099"
       },
       {
+        "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Georg Martius",
+        "doi": "https://doi.org/10.48550/arxiv.2306.16922"
+      },
+      {
+        "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.48550/arxiv.2311.06243"
+      },
+      {
+        "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Michael J. Black",
+        "doi": "https://doi.org/10.48550/arxiv.2310.15168"
+      },
+      {
         "title": "Reinforcement learning with model-based feedforward inputs for robotic table tennis",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10314,20 +10335,6 @@
         "doi": "https://doi.org/10.1109/iccv51070.2023.00489"
       },
       {
-        "title": "The Expressive Leaky Memory Neuron: an Efficient and Expressive Phenomenological Neuron Model Can Solve Long-Horizon Tasks",
-        "year": 2023,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Georg Martius",
-        "doi": "https://doi.org/10.48550/arxiv.2306.16922"
-      },
-      {
-        "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
-        "year": 2023,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Michael J. Black",
-        "doi": "https://doi.org/10.48550/arxiv.2311.06243"
-      },
-      {
         "title": "Data-Efficient Online Learning of Ball Placement in Robot Table Tennis",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10347,13 +10354,6 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Michael Muehlebach",
         "doi": "https://doi.org/10.48550/arxiv.2310.07665"
-      },
-      {
-        "title": "Ghost on the Shell: An Expressive Representation of General 3D Shapes",
-        "year": 2023,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Michael J. Black",
-        "doi": "https://doi.org/10.48550/arxiv.2310.15168"
       },
       {
         "title": "Causal Effect Estimation from Observational and Interventional Data Through Matrix Weighted Linear Estimators",
@@ -10678,6 +10678,13 @@
         "doi": "https://doi.org/10.48550/arxiv.2402.17457"
       },
       {
+        "title": "Can Large Language Models Infer Causation from Correlation?",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Mrinmaya Sachan",
+        "doi": "https://doi.org/10.48550/arxiv.2306.05836"
+      },
+      {
         "title": "Do Language Models Exhibit the Same Cognitive Biases in Problem Solving as Human Learners?",
         "year": 2024,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10690,6 +10697,13 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Mrinmaya Sachan",
         "doi": "https://doi.org/10.48550/arxiv.2404.16698"
+      },
+      {
+        "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Gunnar R\u00e4tsch",
+        "doi": "https://doi.org/10.48550/arxiv.2306.01157"
       },
       {
         "title": "Implicit Personalization in Language Models: A Systematic Study",
@@ -10769,25 +10783,11 @@
         "doi": "https://doi.org/10.48550/arxiv.2312.01538"
       },
       {
-        "title": "Can Large Language Models Infer Causation from Correlation?",
-        "year": 2023,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Mrinmaya Sachan",
-        "doi": "https://doi.org/10.48550/arxiv.2306.05836"
-      },
-      {
         "title": "Membership Inference Attacks against Language Models via Neighbourhood Comparison",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Mrinmaya Sachan",
         "doi": "https://doi.org/10.3929/ethz-b-000653508"
-      },
-      {
-        "title": "Delphic Offline Reinforcement Learning under Nonidentifiable Hidden Confounding",
-        "year": 2023,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Gunnar R\u00e4tsch",
-        "doi": "https://doi.org/10.48550/arxiv.2306.01157"
       },
       {
         "title": "The Hessian perspective into the Nature of Convolutional Neural Networks",
@@ -10917,6 +10917,13 @@
         "doi": "https://doi.org/10.1126/science.adn0117"
       },
       {
+        "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+        "year": 2024,
+        "scientist": "Bernhard Sch\u00f6lkopf",
+        "co_author": "Adrian Weller",
+        "doi": "https://doi.org/10.48550/arxiv.2311.06243"
+      },
+      {
         "title": "Controlling Text-to-Image Diffusion by Orthogonal Finetuning",
         "year": 2023,
         "scientist": "Bernhard Sch\u00f6lkopf",
@@ -10929,13 +10936,6 @@
         "scientist": "Bernhard Sch\u00f6lkopf",
         "co_author": "Adrian Weller",
         "doi": "https://doi.org/10.1109/iccv51070.2023.00489"
-      },
-      {
-        "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
-        "year": 2023,
-        "scientist": "Bernhard Sch\u00f6lkopf",
-        "co_author": "Adrian Weller",
-        "doi": "https://doi.org/10.48550/arxiv.2311.06243"
       },
       {
         "title": "Machine Learning for Science: Mathematics at the Interface of Data-driven and Mechanistic Modelling",
