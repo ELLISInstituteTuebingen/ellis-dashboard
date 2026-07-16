@@ -107,6 +107,11 @@ a { color: var(--network); }
 .stat {
   background: var(--surface);
   padding: 22px 20px;
+  transition: background 0.15s ease;
+}
+
+.stat[onclick]:hover, .stat[onclick]:focus-visible {
+  background: var(--surface-2);
 }
 
 .stat .num {

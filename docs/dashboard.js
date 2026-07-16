@@ -62,20 +62,30 @@ function renderMemberCollaborations(data) {
   }).join('');
 }
 
+let VENUE_PAPERS_CACHE = {};
+
 function renderVenues(data) {
   const row = document.getElementById('venue-stat-row');
   const venues = data.venue_counts || {};
   const order = ['NeurIPS', 'ICML', 'ICLR'];
+
+  const papersForVenue = name =>
+    (data.publications || []).filter(p => p.venue_category === name);
+
+  order.forEach(name => { VENUE_PAPERS_CACHE[name] = papersForVenue(name); });
+
   const cards = order.map(name => `
-    <div class="stat">
+    <div class="stat" style="cursor:pointer;" onclick="openPapersModal('${name}', VENUE_PAPERS_CACHE['${name}'])">
       <div class="num">${(venues[name] || 0).toLocaleString()}</div>
       <div class="label">${name}</div>
     </div>
   `).join('');
 
   const broaderTotal = data.top_tier_total_count || 0;
+  const allTopTierNames = [...order, ...Object.keys(data.broader_venue_counts || {})];
+  VENUE_PAPERS_CACHE['__all_top_tier__'] = (data.publications || []).filter(p => allTopTierNames.includes(p.venue_category));
   const broaderCard = `
-    <div class="stat">
+    <div class="stat" style="cursor:pointer;" onclick="openPapersModal('All top-tier venues', VENUE_PAPERS_CACHE['__all_top_tier__'])">
       <div class="num">${broaderTotal.toLocaleString()}</div>
       <div class="label">All top-tier venues combined</div>
     </div>
@@ -85,10 +95,13 @@ function renderVenues(data) {
 
   const breakdown = data.broader_venue_counts || {};
   const breakdownEntries = Object.entries(breakdown);
+  breakdownEntries.forEach(([name]) => { VENUE_PAPERS_CACHE[name] = papersForVenue(name); });
   const breakdownEl = document.getElementById('venue-breakdown');
   if (breakdownEl) {
     breakdownEl.innerHTML = breakdownEntries.length
-      ? 'Also includes: ' + breakdownEntries.map(([name, count]) => `${name} (${count})`).join(', ')
+      ? 'Also includes: ' + breakdownEntries.map(([name, count]) =>
+          `<span style="cursor:pointer; text-decoration:underline; text-decoration-color:var(--line);" onclick="openPapersModal('${name}', VENUE_PAPERS_CACHE['${name}'])">${name} (${count})</span>`
+        ).join(', ')
       : '';
   }
 }
@@ -118,6 +131,19 @@ function renderTrendChart(data) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      onClick: (evt, elements, chart) => {
+        if (!elements.length) return;
+        const { datasetIndex, index } = elements[0];
+        const venue = chart.data.datasets[datasetIndex].label;
+        const year = chart.data.labels[index];
+        const papers = (CURRENT_DATA.publications || []).filter(
+          p => p.venue_category === venue && String(p.year) === String(year)
+        );
+        openPapersModal(`${venue} · ${year}`, papers);
+      },
+      onHover: (evt, elements) => {
+        evt.native.target.style.cursor = elements.length ? 'pointer' : 'default';
+      },
       plugins: {
         legend: { labels: { color: COLORS.text, font: { family: 'JetBrains Mono', size: 11 } } },
       },
@@ -436,6 +462,33 @@ loadData().then(data => {
 });
 
 loadActivities();
+
+function openPapersModal(title, papers) {
+  document.getElementById('collabModalTitle').textContent = `${title} — ${papers.length} paper${papers.length === 1 ? '' : 's'}`;
+
+  const body = document.getElementById('collabModalBody');
+  body.innerHTML = papers.length
+    ? papers
+        .slice()
+        .sort((a, b) => (b.year || 0) - (a.year || 0))
+        .map(p => {
+          const scientistStr = Array.isArray(p.scientist) ? p.scientist.join(', ') : p.scientist;
+          return `
+            <div class="modal-pub-row">
+              <div class="pub-title">${p.title}</div>
+              <div class="pub-meta">
+                <span class="highlight">${p.year || '—'}</span> ·
+                ${scientistStr} ·
+                ${p.venue || p.venue_category || '—'}
+              </div>
+            </div>
+          `;
+        })
+        .join('')
+    : `<p style="color:var(--muted); font-size:13.5px;">No papers found.</p>`;
+
+  document.getElementById('collabModalOverlay').classList.add('open');
+}
 
 function openCollabModal(unitName) {
   const details = (CURRENT_DATA && CURRENT_DATA.ellis_member_collaboration_details) || {};
