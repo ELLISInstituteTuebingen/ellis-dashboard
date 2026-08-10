@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-03T14:02:25Z",
+  "generated_at": "2026-08-10T10:03:16Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 440,
-  "confirmed_affiliation_count": 24,
-  "open_access_count": 386,
-  "open_access_percent": 87.7,
+  "total_publications": 443,
+  "confirmed_affiliation_count": 33,
+  "open_access_count": 389,
+  "open_access_percent": 87.8,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -1428,36 +1428,6 @@
       "is_oa": true
     },
     {
-      "id": "W4415312077",
-      "title": "<tt>AlphaDecay</tt> : Module-Wise Weight Decay for Heavy-Tailed Balancing in LLMs",
-      "year": 2026,
-      "venue": "International Journal of Artificial Intelligence and Robotics Research",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.1142/s297233532650002x",
-      "authors": [
-        "Di He",
-        "Songjun Tu",
-        "Ajay Jaiswal",
-        "Yulong Pei",
-        "Li Shen",
-        "Shiwei Liu",
-        "Lu Yin"
-      ],
-      "institution_ids": [
-        "I157773358",
-        "I28290843",
-        "I40120149",
-        "I4210136793",
-        "I4210145761",
-        "I83019370",
-        "I86519309"
-      ],
-      "scientist": "Shiwei Liu",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true
-    },
-    {
       "id": "W7134992153",
       "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
       "year": 2026,
@@ -1567,7 +1537,7 @@
       "title": "GWTC-4.0: Updating the Gravitational-wave Transient Catalog with Observations from the First Part of the Fourth LIGO\u2013Virgo\u2013KAGRA Observing Run",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters",
-      "cited_by_count": 18,
+      "cited_by_count": 22,
       "doi": "https://doi.org/10.3847/2041-8213/ae2c74",
       "authors": [
         "Adrian Abac",
@@ -1747,7 +1717,7 @@
       "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
       "year": 2026,
       "venue": "The Astrophysical Journal",
-      "cited_by_count": 5,
+      "cited_by_count": 7,
       "doi": "https://doi.org/10.3847/1538-4357/ae211e",
       "authors": [
         "Adrian Abac",
@@ -1930,11 +1900,193 @@
       "is_oa": true
     },
     {
+      "id": "W7168158497",
+      "title": "GWTC-4.0: Population Properties of Merging Compact Binaries",
+      "year": 2026,
+      "venue": "The Astrophysical Journal Letters",
+      "cited_by_count": 4,
+      "doi": "https://doi.org/10.3847/2041-8213/ae771e",
+      "authors": [
+        "Adrian Abac",
+        "I. Abouelfettouh",
+        "F. Acernese",
+        "K. Ackley",
+        "Christian Adamcewicz",
+        "S. Adhicary",
+        "D. Adhikari",
+        "N. Adhikari",
+        "R. X. Adhikari",
+        "V. K. Adkins",
+        "Samsuzzaman Afroz",
+        "D. Agarwal",
+        "M. Agathos",
+        "Maryam Aghaei Abchouyeh",
+        "Odylio D. Aguiar",
+        "S. Ahmadzadeh",
+        "L. Aiello",
+        "A. Ain",
+        "P. Ajith",
+        "T. Akutsu",
+        "Simone Albanesi",
+        "R. A. Alfaidi",
+        "Ammar Al-Jodah",
+        "C. All\u00e9n\u00e9",
+        "A. Allocca",
+        "S. Al-Shammari",
+        "P. A. Altin",
+        "S. \u00c1lvarez-L\u00f3pez",
+        "O. Amarasinghe",
+        "A. Amato",
+        "C. Amra",
+        "A. Ananyeva",
+        "S. B. Anderson",
+        "W. G. Anderson",
+        "M. Andia",
+        "M. Ando",
+        "T Andrade",
+        "M. Andr\u00e9s\u2010Carcasona",
+        "T. Andri\u0107",
+        "J. Anglin",
+        "Stefano Ansoldi",
+        "Javier M. Antelis",
+        "S. Antier",
+        "M. Aoumi",
+        "E. Z. Appavuravther",
+        "S. Appert",
+        "S. K. Apple",
+        "K. Arai",
+        "A. Araya",
+        "M. C. Araya",
+        "M. Arca Sedda",
+        "J. S. Areeda",
+        "L. Argianas",
+        "N. Aritomi",
+        "F. Armato",
+        "S. Armstrong",
+        "N. Arnaud",
+        "M. Arogeti",
+        "Scott Aronson",
+        "K. G. Arun",
+        "G. Ashton",
+        "Y. Aso",
+        "M Assiduo",
+        "S. Assis de Souza Melo",
+        "S. M. Aston",
+        "P. Astone",
+        "F. Attadio",
+        "F. Aubin",
+        "K. AultONeal",
+        "Guerino Avallone",
+        "S. Babak",
+        "F. Badaracco",
+        "C. Badger",
+        "S. Bae",
+        "S. Bagnasco",
+        "E. Bagui",
+        "Luca Baiotti",
+        "R. Bajpai",
+        "T Baka",
+        "Tessa Baker",
+        "M. Ball",
+        "G Ballardin",
+        "S. W. Ballmer",
+        "S. Banagiri",
+        "B. Banerjee",
+        "D. Bankar",
+        "T. M. Baptiste",
+        "Pratyusava Baral",
+        "J. C. Barayoga",
+        "B. C. Barish",
+        "D. Barker",
+        "N. Barman",
+        "P. Barneo",
+        "F. Barone",
+        "B. Barr",
+        "L. Barsotti",
+        "M. Barsuglia",
+        "D. Barta",
+        "A. M. Bartoletti",
+        "M. A. Barton"
+      ],
+      "institution_ids": [
+        "I105925353",
+        "I112859197",
+        "I114112103",
+        "I116067653",
+        "I118347636",
+        "I11947397",
+        "I121820613",
+        "I122411786",
+        "I129043915",
+        "I130701444",
+        "I130769515",
+        "I131729948",
+        "I132053463",
+        "I142934699",
+        "I149213910",
+        "I166337079",
+        "I177877127",
+        "I181647926",
+        "I190397597",
+        "I19149307",
+        "I193662353",
+        "I200475212",
+        "I201448701",
+        "I201841394",
+        "I204730241",
+        "I21491767",
+        "I277688954",
+        "I2800369878",
+        "I2801239119",
+        "I28777354",
+        "I33213144",
+        "I34352273",
+        "I39555362",
+        "I4210093566",
+        "I4210099850",
+        "I4210126225",
+        "I4210126779",
+        "I4210127646",
+        "I4210132884",
+        "I4210150763",
+        "I4210160447",
+        "I4210163613",
+        "I43579087",
+        "I4399598377",
+        "I56590836",
+        "I59781447",
+        "I63072094",
+        "I63966007",
+        "I68947357",
+        "I70900168",
+        "I70983195",
+        "I71267560",
+        "I71999127",
+        "I74801974",
+        "I76198965",
+        "I7863295",
+        "I7882870",
+        "I79510175",
+        "I80849659",
+        "I83816512",
+        "I861853513",
+        "I868834043",
+        "I878022262",
+        "I95674353",
+        "I98285908",
+        "I98461037"
+      ],
+      "scientist": "Maximilian Dax",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
       "id": "W4416065814",
       "title": "GW230814: Investigation of a Loud Gravitational-wave Signal Observed with a Single Detector",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters",
-      "cited_by_count": 1,
+      "cited_by_count": 3,
       "doi": "https://doi.org/10.3847/2041-8213/ae2ad3",
       "authors": [
         "Adrian Abac",
@@ -3211,12 +3363,30 @@
       "is_oa": true
     },
     {
-      "id": "W7168158497",
-      "title": "GWTC-4.0: Population Properties of Merging Compact Binaries",
+      "id": "W7171430400",
+      "title": "An Introduction to Bayesian and Frequentist Simulation-Based Inference with Machine Learning",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2607.21702",
+      "authors": [
+        "Maximilian Dax",
+        "Theo Heimel",
+        "Gilles Louppe"
+      ],
+      "institution_ids": [],
+      "scientist": "Maximilian Dax",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7172494905",
+      "title": "GWTC-4.0: Constraints on the Cosmic Expansion Rate and Modified Gravitational-wave Propagation",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters",
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.3847/2041-8213/ae771e",
+      "doi": "https://doi.org/10.3847/2041-8213/ae69dd",
       "authors": [
         "Adrian Abac",
         "I. Abouelfettouh",
@@ -3229,32 +3399,35 @@
         "R. X. Adhikari",
         "V. K. Adkins",
         "Samsuzzaman Afroz",
+        "A. Agapito",
         "D. Agarwal",
         "M. Agathos",
-        "Maryam Aghaei Abchouyeh",
+        "N. Aggarwal",
+        "S. Aggarwal",
         "Odylio D. Aguiar",
-        "S. Ahmadzadeh",
+        "I.-L. Ahrend",
         "L. Aiello",
         "A. Ain",
         "P. Ajith",
         "T. Akutsu",
         "Simone Albanesi",
-        "R. A. Alfaidi",
-        "Ammar Al-Jodah",
+        "W. Ali",
+        "S. Al-Kershi",
         "C. All\u00e9n\u00e9",
         "A. Allocca",
         "S. Al-Shammari",
         "P. A. Altin",
         "S. \u00c1lvarez-L\u00f3pez",
+        "W. Amar",
         "O. Amarasinghe",
         "A. Amato",
+        "F. Amicucci",
         "C. Amra",
         "A. Ananyeva",
         "S. B. Anderson",
         "W. G. Anderson",
         "M. Andia",
         "M. Ando",
-        "T Andrade",
         "M. Andr\u00e9s\u2010Carcasona",
         "T. Andri\u0107",
         "J. Anglin",
@@ -3268,9 +3441,8 @@
         "K. Arai",
         "A. Araya",
         "M. C. Araya",
-        "M. Arca Sedda",
+        "Manuel Arca Sedda",
         "J. S. Areeda",
-        "L. Argianas",
         "N. Aritomi",
         "F. Armato",
         "S. Armstrong",
@@ -3280,7 +3452,8 @@
         "K. G. Arun",
         "G. Ashton",
         "Y. Aso",
-        "M Assiduo",
+        "L. Asprea",
+        "M. Assiduo",
         "S. Assis de Souza Melo",
         "S. M. Aston",
         "P. Astone",
@@ -3288,39 +3461,37 @@
         "F. Aubin",
         "K. AultONeal",
         "Guerino Avallone",
+        "E. A. Avila",
         "S. Babak",
-        "F. Badaracco",
         "C. Badger",
         "S. Bae",
         "S. Bagnasco",
-        "E. Bagui",
         "Luca Baiotti",
         "R. Bajpai",
-        "T Baka",
+        "T. Baka",
+        "A. M. Baker",
+        "K. A. Baker",
         "Tessa Baker",
+        "G. Baldi",
+        "N. Baldicchi",
         "M. Ball",
-        "G Ballardin",
+        "G. Ballardin",
         "S. W. Ballmer",
         "S. Banagiri",
         "B. Banerjee",
         "D. Bankar",
         "T. M. Baptiste",
         "Pratyusava Baral",
+        "M. Baratti",
         "J. C. Barayoga",
         "B. C. Barish",
         "D. Barker",
         "N. Barman",
-        "P. Barneo",
-        "F. Barone",
-        "B. Barr",
-        "L. Barsotti",
-        "M. Barsuglia",
-        "D. Barta",
-        "A. M. Bartoletti",
-        "M. A. Barton"
+        "P. Barneo"
       ],
       "institution_ids": [
-        "I105925353",
+        "I100532134",
+        "I108290504",
         "I112859197",
         "I114112103",
         "I116067653",
@@ -3332,7 +3503,7 @@
         "I130701444",
         "I130769515",
         "I131729948",
-        "I132053463",
+        "I138728355",
         "I142934699",
         "I149213910",
         "I166337079",
@@ -3340,26 +3511,29 @@
         "I181647926",
         "I190397597",
         "I19149307",
+        "I193223587",
         "I193662353",
         "I200475212",
         "I201448701",
-        "I201841394",
         "I204730241",
         "I21491767",
+        "I27483092",
         "I277688954",
         "I2800369878",
+        "I2800403580",
         "I2801239119",
-        "I28777354",
+        "I2803209242",
         "I33213144",
         "I34352273",
         "I39555362",
+        "I4210092024",
+        "I4210093299",
         "I4210093566",
         "I4210099850",
-        "I4210126225",
-        "I4210126779",
         "I4210127646",
         "I4210132884",
         "I4210150763",
+        "I4210159940",
         "I4210160447",
         "I4210163613",
         "I43579087",
@@ -3375,36 +3549,14 @@
         "I71999127",
         "I74801974",
         "I76198965",
-        "I7863295",
-        "I7882870",
         "I79510175",
         "I80849659",
         "I83816512",
         "I861853513",
-        "I868834043",
         "I878022262",
         "I95674353",
-        "I98285908",
-        "I98461037"
+        "I98285908"
       ],
-      "scientist": "Maximilian Dax",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W7171430400",
-      "title": "An Introduction to Bayesian and Frequentist Simulation-Based Inference with Machine Learning",
-      "year": 2026,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2607.21702",
-      "authors": [
-        "Maximilian Dax",
-        "Theo Heimel",
-        "Gilles Louppe"
-      ],
-      "institution_ids": [],
       "scientist": "Maximilian Dax",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
@@ -3566,6 +3718,25 @@
         "Jaisidh Singh",
         "Misra, Diganta",
         "Antonio Orvieto"
+      ],
+      "institution_ids": [],
+      "scientist": "Antonio Orvieto",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W7201880472",
+      "title": "Is Self-Pretraining really useful to improve diagnosis in medical Time Series?",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2608.06122",
+      "authors": [
+        "Omar Coser",
+        "Antonio Orvieto",
+        "Paolo Soda",
+        "Loredana Zollo"
       ],
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
@@ -4276,6 +4447,28 @@
       "is_oa": true
     },
     {
+      "id": "W7172494924",
+      "title": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.48550/arxiv.2608.02620",
+      "authors": [
+        "Erlis Lushtaku",
+        "Bora Kargi",
+        "Ali Elganzory",
+        "Fabio Ferreira",
+        "Alejandro Salamanca",
+        "Julia Kreutzer",
+        "David Salinas"
+      ],
+      "institution_ids": [],
+      "scientist": "David Salinas",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
       "id": "W4414298153",
       "title": "Performative Prediction: Past and Future",
       "year": 2025,
@@ -4298,9 +4491,9 @@
       "id": "W4416120121",
       "title": "Performative Validity of Recourse Explanations",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.15366",
+      "doi": "https://doi.org/10.52202/085713-4652",
       "authors": [
         "Gunnar K\u00f6nig",
         "Hidde Fokkema",
@@ -4308,9 +4501,13 @@
         "Celestine Mendler-D\u00fcnner",
         "Ulrike von Luxburg"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I8087733",
+        "I8204097",
+        "I887064364"
+      ],
       "scientist": "Celestine Mendler-D\u00fcnner",
-      "confirmed_ellis_affiliation": false,
+      "confirmed_ellis_affiliation": true,
       "venue_category": "NeurIPS",
       "is_oa": true
     },
@@ -4482,7 +4679,7 @@
       ],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICCV",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -4508,9 +4705,9 @@
       "id": "W4416102687",
       "title": "Quantifying Uncertainty in Error Consistency: Towards Reliable Behavioral Comparison of Classifiers",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2507.06645",
+      "doi": "https://doi.org/10.52202/085713-1702",
       "authors": [
         "Thomas Klein",
         "Sascha Meyen",
@@ -4518,9 +4715,12 @@
         "Felix A. Wichmann",
         "Kristof Meding"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I4210135521",
+        "I8087733"
+      ],
       "scientist": "Wieland Brendel",
-      "confirmed_ellis_affiliation": false,
+      "confirmed_ellis_affiliation": true,
       "venue_category": "NeurIPS",
       "is_oa": true
     },
@@ -4589,6 +4789,34 @@
       "is_oa": true
     },
     {
+      "id": "W4407310640",
+      "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+      "year": 2025,
+      "venue": null,
+      "cited_by_count": 2,
+      "doi": "https://doi.org/10.52202/085713-1380",
+      "authors": [
+        "Jonas Geiping",
+        "Sean McLeish",
+        "Neel Jain",
+        "John Kirchenbauer",
+        "Siddharth Singh",
+        "Brian R. Bartoldson",
+        "Bhavya Kailkhura",
+        "Abhinav Bhatel\u00e9",
+        "Tom Goldstein"
+      ],
+      "institution_ids": [
+        "I1282311441",
+        "I4210135521",
+        "I66946132"
+      ],
+      "scientist": "Jonas Geiping",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": true
+    },
+    {
       "id": "W4411119908",
       "title": "LLM-Generated Passphrases That Are Secure and Easy to Remember",
       "year": 2025,
@@ -4600,30 +4828,6 @@
         "Jonas Geiping",
         "Micah Goldblum",
         "Aniruddha Saha",
-        "Tom Goldstein"
-      ],
-      "institution_ids": [],
-      "scientist": "Jonas Geiping",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "ACL",
-      "is_oa": true
-    },
-    {
-      "id": "W4407310640",
-      "title": "Latent Iteration as Renormalization: Inference-Time Recurrence in a Depth-Recurrent Transformer Flows Attention Geometry Toward the SYK Conformal Fixed Point",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2502.05171",
-      "authors": [
-        "Jonas Geiping",
-        "Sean McLeish",
-        "Neel Jain",
-        "John Kirchenbauer",
-        "Siddharth Singh",
-        "Brian R. Bartoldson",
-        "Bhavya Kailkhura",
-        "Abhinav Bhatel\u00e9",
         "Tom Goldstein"
       ],
       "institution_ids": [],
@@ -4674,7 +4878,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -4703,7 +4907,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 738,
+      "cited_by_count": 776,
       "doi": "https://doi.org/10.1038/s41586-024-08328-6",
       "authors": [
         "Noah Hollmann",
@@ -4767,15 +4971,47 @@
       ],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": true,
-      "venue_category": "CVPR",
+      "venue_category": null,
       "is_oa": false
+    },
+    {
+      "id": "W4414987631",
+      "title": "TabArena: A Living Benchmark for Machine Learning on Tabular Data",
+      "year": 2025,
+      "venue": null,
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.52202/085713-0519",
+      "authors": [
+        "Nick Erickson",
+        "Lennart Purucker",
+        "Andrej Tschalzev",
+        "David Holzm\u00fcller",
+        "P. Desai",
+        "David Salinas",
+        "Frank Hutter"
+      ],
+      "institution_ids": [
+        "I1311688040",
+        "I1326498283",
+        "I142476485",
+        "I161046081",
+        "I177802217",
+        "I4210089985",
+        "I4210133934",
+        "I4210134004",
+        "I8087733"
+      ],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": true,
+      "venue_category": "NeurIPS",
+      "is_oa": true
     },
     {
       "id": "W4406123282",
       "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
       "year": 2025,
       "venue": "arXiv (Cornell University)",
-      "cited_by_count": 4,
+      "cited_by_count": 5,
       "doi": "https://doi.org/10.48550/arxiv.2501.02945",
       "authors": [
         "Shi Bin Hoo",
@@ -4855,38 +5091,6 @@
       "is_oa": true
     },
     {
-      "id": "W4414987631",
-      "title": "TabArena: A Living Benchmark for Machine Learning on Tabular Data",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2506.16791",
-      "authors": [
-        "Nick Erickson",
-        "Lennart Purucker",
-        "Andrej Tschalzev",
-        "David Holzm\u00fcller",
-        "P. Desai",
-        "David Salinas",
-        "Frank Hutter"
-      ],
-      "institution_ids": [
-        "I1311688040",
-        "I142476485",
-        "I161046081",
-        "I177802217",
-        "I4210133934",
-        "I4210134004"
-      ],
-      "scientist": [
-        "Frank Hutter",
-        "David Salinas"
-      ],
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
-      "is_oa": true
-    },
-    {
       "id": "W4403482143",
       "title": "KinPFN: Bayesian Approximation of RNA Folding Kinetics using Prior-Data Fitted Networks",
       "year": 2025,
@@ -4959,18 +5163,21 @@
       "id": "W4407244625",
       "title": "Gompertz Linear Units: Leveraging Asymmetry for Enhanced Learning Dynamics",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2502.03654",
+      "doi": "https://doi.org/10.52202/085713-2139",
       "authors": [
-        "Das, Indrashis",
+        "Indrashis Das",
         "Mahmoud Safari",
         "Steven Adri\u00e6nsen",
         "Frank Hutter"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I154338468",
+        "I161046081"
+      ],
       "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
+      "confirmed_ellis_affiliation": true,
       "venue_category": "NeurIPS",
       "is_oa": true
     },
@@ -5433,9 +5640,9 @@
       "id": "W4417097682",
       "title": "Do-PFN: In-Context Learning for Causal Effect Estimation",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.06039",
+      "doi": "https://doi.org/10.52202/085713-5814",
       "authors": [
         "Jake Robertson",
         "Arik Reuter",
@@ -5444,12 +5651,18 @@
         "Frank Hutter",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I161046081",
+        "I241749",
+        "I4210135521",
+        "I7877124",
+        "I8087733"
+      ],
       "scientist": [
         "Frank Hutter",
         "Bernhard Sch\u00f6lkopf"
       ],
-      "confirmed_ellis_affiliation": false,
+      "confirmed_ellis_affiliation": true,
       "venue_category": "NeurIPS",
       "is_oa": true
     },
@@ -5517,6 +5730,28 @@
       "confirmed_ellis_affiliation": true,
       "venue_category": null,
       "is_oa": true
+    },
+    {
+      "id": "W7196950934",
+      "title": "EquiTabPFN: A Target-Permutation Equivariant Prior Fitted Network",
+      "year": 2025,
+      "venue": null,
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.52202/085713-2097",
+      "authors": [
+        "Michael Arbel",
+        "David Salinas",
+        "Frank Hutter"
+      ],
+      "institution_ids": [
+        "I1326498283",
+        "I161046081",
+        "I8087733"
+      ],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": true,
+      "venue_category": "NeurIPS",
+      "is_oa": false
     },
     {
       "id": "W4414942761",
@@ -5858,7 +6093,7 @@
       "title": "GW231123: A Binary Black Hole Merger with Total Mass 190\u2013265 <i>M</i> <sub>\u2299</sub>",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters",
-      "cited_by_count": 100,
+      "cited_by_count": 105,
       "doi": "https://doi.org/10.3847/2041-8213/ae0c9c",
       "authors": [
         "Adrian Abac",
@@ -5973,7 +6208,7 @@
       "title": "GW250114: Testing Hawking\u2019s Area Law and the Kerr Nature of Black Holes",
       "year": 2025,
       "venue": "Physical Review Letters",
-      "cited_by_count": 86,
+      "cited_by_count": 89,
       "doi": "https://doi.org/10.1103/kw5g-d732",
       "authors": [
         "Adrian Abac",
@@ -6180,7 +6415,7 @@
       "title": "Real-time inference for binary neutron star mergers using machine learning",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 42,
+      "cited_by_count": 43,
       "doi": "https://doi.org/10.1038/s41586-025-08593-z",
       "authors": [
         "Maximilian Dax",
@@ -6219,7 +6454,7 @@
       "title": "Evidence for eccentricity in the population of binary black holes observed by LIGO-Virgo-KAGRA",
       "year": 2025,
       "venue": "Physical review. D/Physical review. D.",
-      "cited_by_count": 30,
+      "cited_by_count": 32,
       "doi": "https://doi.org/10.1103/vpyp-nvfp",
       "authors": [
         "Nihar Gupte",
@@ -6258,7 +6493,7 @@
       "title": "GW241011 and GW241110: Exploring Binary Formation and Fundamental Physics with Asymmetric, High-spin Black Hole Coalescences",
       "year": 2025,
       "venue": "The Astrophysical Journal Letters",
-      "cited_by_count": 26,
+      "cited_by_count": 28,
       "doi": "https://doi.org/10.3847/2041-8213/ae0d54",
       "authors": [
         "Adrian Abac",
@@ -6798,18 +7033,21 @@
       "id": "W4417136564",
       "title": "Reparameterized LLM Training via Orthogonal Equivalence Transformation",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.08001",
+      "doi": "https://doi.org/10.52202/085713-4704",
       "authors": [
-        "Qiu, Zeju",
+        "Zeju Qiu",
         "Simon Buchholz",
         "Te Xiao",
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf",
         "Weiyang Liu"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I4210135521",
+        "I889458895"
+      ],
       "scientist": [
         "Maximilian Dax",
         "Bernhard Sch\u00f6lkopf"
@@ -6914,6 +7152,35 @@
       "is_oa": true
     },
     {
+      "id": "W4414839083",
+      "title": "Direct Alignment with Heterogeneous Preferences",
+      "year": 2025,
+      "venue": null,
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.52202/085713-2350",
+      "authors": [
+        "Ali Shirali",
+        "Arash Nasr-Esfahany",
+        "Abdullah Alomar",
+        "Parsa Mirtaheri",
+        "Rediet Abebe",
+        "Ariel Procaccia"
+      ],
+      "institution_ids": [
+        "I2800935791",
+        "I2801851002",
+        "I4210109586",
+        "I4210133934",
+        "I4401726832",
+        "I63966007",
+        "I95457486"
+      ],
+      "scientist": "Rediet Abebe",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": "NeurIPS",
+      "is_oa": true
+    },
+    {
       "id": "W4411669733",
       "title": "Correction: Data-driven machine learning algorithm model for pneumonia prediction and determinant factor stratification among children aged 6\u201323 months in Ethiopia",
       "year": 2025,
@@ -6947,27 +7214,6 @@
       "scientist": "Rediet Abebe",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
-      "is_oa": true
-    },
-    {
-      "id": "W4414839083",
-      "title": "Direct Alignment with Heterogeneous Preferences",
-      "year": 2025,
-      "venue": "arXiv (Cornell University)",
-      "cited_by_count": 1,
-      "doi": "https://doi.org/10.48550/arxiv.2502.16320",
-      "authors": [
-        "Ali Shirali",
-        "Arash Nasr-Esfahany",
-        "Abdullah Alomar",
-        "Parsa Mirtaheri",
-        "Rediet Abebe",
-        "Ariel Procaccia"
-      ],
-      "institution_ids": [],
-      "scientist": "Rediet Abebe",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
       "is_oa": true
     },
     {
@@ -7110,7 +7356,7 @@
       "id": "W4407574915",
       "title": "An Uncertainty Principle for Linear Recurrent Neural Networks",
       "year": 2025,
-      "venue": "ArXiv.org",
+      "venue": "arXiv (Cornell University)",
       "cited_by_count": 0,
       "doi": "https://doi.org/10.48550/arxiv.2502.09287",
       "authors": [
@@ -7185,18 +7431,21 @@
       "id": "W4416050532",
       "title": "Enhancing Optimizer Stability: Momentum Adaptation of The NGN Step-size",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2508.15071",
+      "doi": "https://doi.org/10.52202/085713-0465",
       "authors": [
         "Rustem Islamov",
         "Niccol\u00f2 Ajroldi",
         "Antonio Orvieto",
         "Aur\u00e9lien Lucchi"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I1850255",
+        "I8087733"
+      ],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false,
+      "confirmed_ellis_affiliation": true,
       "venue_category": "NeurIPS",
       "is_oa": true
     },
@@ -7228,9 +7477,9 @@
       "id": "W4416506220",
       "title": "Generalized Linear Mode Connectivity for Transformers",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.22712",
+      "doi": "https://doi.org/10.52202/085713-4546",
       "authors": [
         "Alexander Theus",
         "Alessandro Cabodi",
@@ -7239,9 +7488,13 @@
         "Sidak Pal Singh",
         "Valentina Boeva"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I1291425158",
+        "I35440088",
+        "I8087733"
+      ],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false,
+      "confirmed_ellis_affiliation": true,
       "venue_category": "NeurIPS",
       "is_oa": true
     },
@@ -7304,18 +7557,23 @@
       "id": "W4417262081",
       "title": "Fixed-Point RNNs: Interpolating from Diagonal to Dense",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2503.10799",
+      "doi": "https://doi.org/10.52202/085713-1495",
       "authors": [
         "Sajad Movahedi",
         "Felix Sarnthein",
         "Nicola Muca Cirone",
         "Antonio Orvieto"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I4210135521",
+        "I4210165766",
+        "I47508984",
+        "I8087733"
+      ],
       "scientist": "Antonio Orvieto",
-      "confirmed_ellis_affiliation": false,
+      "confirmed_ellis_affiliation": true,
       "venue_category": "NeurIPS",
       "is_oa": true
     },
@@ -7324,7 +7582,7 @@
       "title": "Artificial intelligence for modelling infectious disease epidemics",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 143,
+      "cited_by_count": 148,
       "doi": "https://doi.org/10.1038/s41586-024-08564-w",
       "authors": [
         "Moritz U. G. Kraemer",
@@ -7411,7 +7669,7 @@
       "title": "Early warning of complex climate risk with integrated artificial intelligence",
       "year": 2025,
       "venue": "Nature Communications",
-      "cited_by_count": 94,
+      "cited_by_count": 100,
       "doi": "https://doi.org/10.1038/s41467-025-57640-w",
       "authors": [
         "Markus Reichstein",
@@ -8230,15 +8488,18 @@
       "id": "W4416054568",
       "title": "Counterfactual reasoning: an analysis of in-context emergence",
       "year": 2025,
-      "venue": "arXiv (Cornell University)",
+      "venue": null,
       "cited_by_count": 0,
-      "doi": "https://doi.org/10.48550/arxiv.2506.05188",
+      "doi": "https://doi.org/10.52202/085713-2926",
       "authors": [
         "Moritz Miller",
         "Bernhard Sch\u00f6lkopf",
         "Siyuan Guo"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I241749",
+        "I4210135521"
+      ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "NeurIPS",
@@ -8980,7 +9241,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "AISTATS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9021,7 +9282,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9151,7 +9412,7 @@
       ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ECCV",
+      "venue_category": null,
       "is_oa": false
     },
     {
@@ -9208,7 +9469,7 @@
       ],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "CVPR",
+      "venue_category": null,
       "is_oa": false
     },
     {
@@ -9304,7 +9565,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9488,7 +9749,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "CVPR",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9606,7 +9867,7 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": true,
       "venue_category": null,
-      "is_oa": false
+      "is_oa": true
     },
     {
       "id": "W4400140719",
@@ -9731,7 +9992,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9752,7 +10013,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -9918,7 +10179,7 @@
       "institution_ids": [],
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -10723,7 +10984,7 @@
       "institution_ids": [],
       "scientist": "Antonio Orvieto",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "AISTATS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -10822,7 +11083,7 @@
       "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models : Open X-Embodiment Collaboration<sup>0</sup>",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 131,
+      "cited_by_count": 132,
       "doi": "https://doi.org/10.1109/icra57147.2024.10611477",
       "authors": [
         "A. O'Neill",
@@ -10962,7 +11223,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICRA",
+      "venue_category": null,
       "is_oa": false
     },
     {
@@ -10985,7 +11246,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "CVPR",
+      "venue_category": null,
       "is_oa": false
     },
     {
@@ -10993,7 +11254,7 @@
       "title": "Mo\u00fbsai: Efficient Text-to-Music Diffusion Models",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 24,
+      "cited_by_count": 25,
       "doi": "https://doi.org/10.18653/v1/2024.acl-long.437",
       "authors": [
         "Flavio Schneider",
@@ -11004,7 +11265,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ACL",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -11151,7 +11412,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "RSS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -11391,7 +11652,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICML",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12119,7 +12380,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12138,7 +12399,7 @@
       "institution_ids": [],
       "scientist": "Wieland Brendel",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12246,7 +12507,7 @@
       "institution_ids": [],
       "scientist": "Jonas Geiping",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12486,7 +12747,7 @@
       ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICCV",
+      "venue_category": null,
       "is_oa": false
     },
     {
@@ -12558,7 +12819,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICRA",
+      "venue_category": null,
       "is_oa": false
     },
     {
@@ -12588,7 +12849,7 @@
       "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
       "year": 2023,
       "venue": "arXiv (Cornell University)",
-      "cited_by_count": 101,
+      "cited_by_count": 102,
       "doi": "https://doi.org/10.48550/arxiv.2310.08864",
       "authors": [
         "Embodiment Collaboration",
@@ -12695,7 +12956,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICRA",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12773,7 +13034,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12796,7 +13057,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "ICLR",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12817,7 +13078,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12859,7 +13120,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12881,7 +13142,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12904,7 +13165,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12925,7 +13186,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -12946,7 +13207,7 @@
       "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
-      "venue_category": "NeurIPS",
+      "venue_category": null,
       "is_oa": true
     },
     {
@@ -13443,40 +13704,39 @@
     "Jakob Macke": 15,
     "Wieland Brendel": 44,
     "Jonas Geiping": 40,
-    "Frank Hutter": 87,
+    "Frank Hutter": 90,
     "T. Konstantin Rusch": 12,
-    "Shiwei Liu": 1,
+    "Shiwei Liu": 0,
     "Maksym Andriushchenko": 15,
-    "Maximilian Dax": 39,
+    "Maximilian Dax": 41,
     "Rediet Abebe": 15,
-    "Antonio Orvieto": 52,
+    "Antonio Orvieto": 54,
     "Bernhard Sch\u00f6lkopf": 209,
     "Aaron Klein": 3,
-    "David Salinas": 17
+    "David Salinas": 18
   },
   "publications_per_year": {
     "2023": 73,
     "2024": 162,
-    "2025": 160,
-    "2026": 151
+    "2025": 163,
+    "2026": 155
   },
   "top_venues_by_year": {
     "2023": {
-      "NeurIPS": 12,
       "Nature": 2,
-      "ICLR": 1,
-      "ICML": 4
+      "ICML": 4,
+      "NeurIPS": 2
     },
     "2024": {
       "NeurIPS": 20,
       "ICLR": 11,
-      "ICML": 11,
+      "ICML": 5,
       "Nature": 2
     },
     "2025": {
-      "NeurIPS": 26,
+      "NeurIPS": 28,
       "ICLR": 16,
-      "ICML": 15,
+      "ICML": 14,
       "Nature": 5
     },
     "2026": {
@@ -13486,16 +13746,17 @@
     }
   },
   "ellis_site_collaborations": {
-    "ELLIS Unit Freiburg": 22,
-    "ELLIS Unit Cambridge": 14,
-    "ELLIS Unit ETH Zurich": 14,
-    "ELLIS Unit Oxford": 12,
+    "ELLIS Unit Freiburg": 28,
+    "ELLIS Unit Cambridge": 17,
+    "ELLIS Unit ETH Zurich": 15,
+    "ELLIS Unit Oxford": 11,
     "ELLIS Unit Munich": 5,
     "ELLIS Unit Copenhagen": 4,
     "ELLIS Unit UCL London": 3,
     "ELLIS Unit Linz": 3,
     "ELLIS Unit Berlin": 2,
     "ELLIS Unit Lausanne": 2,
+    "ELLIS Unit Amsterdam": 1,
     "ELLIS Unit Turin": 1,
     "ELLIS Unit Genoa": 1,
     "ELLIS Unit Darmstadt": 1,
@@ -13565,7 +13826,7 @@
         "year": 2025,
         "scientist": "Celestine Mendler-D\u00fcnner",
         "co_author": "Ulrike von Luxburg",
-        "doi": "https://doi.org/10.48550/arxiv.2506.15366"
+        "doi": "https://doi.org/10.52202/085713-4652"
       },
       {
         "title": "Difficult Lessons on Social Prediction from Wisconsin Public Schools",
@@ -13999,7 +14260,7 @@
         "year": 2025,
         "scientist": "Antonio Orvieto",
         "co_author": "Valentina Boeva",
-        "doi": "https://doi.org/10.48550/arxiv.2506.22712"
+        "doi": "https://doi.org/10.52202/085713-4546"
       },
       {
         "title": "International AI Safety Report",
@@ -14699,22 +14960,17 @@
     "2026": "Year in progress \u2014 not yet financially complete"
   },
   "venue_counts": {
-    "ICML": 36,
-    "NeurIPS": 58,
-    "ICLR": 44
+    "ICML": 29,
+    "NeurIPS": 50,
+    "ICLR": 43
   },
   "broader_venue_counts": {
     "Nature": 10,
     "EMNLP": 5,
-    "AISTATS": 4,
-    "CVPR": 4,
-    "ACL": 3,
-    "ICRA": 3,
     "UAI": 3,
-    "ICCV": 2,
-    "ECCV": 1,
-    "RSS": 1,
+    "AISTATS": 2,
+    "ACL": 1,
     "CoRL": 1
   },
-  "top_tier_total_count": 175
+  "top_tier_total_count": 144
 }
