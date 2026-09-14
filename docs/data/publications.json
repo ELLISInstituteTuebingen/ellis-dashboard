@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-07T09:58:07Z",
+  "generated_at": "2026-09-14T10:21:08Z",
   "institute": "ELLIS Institute T\u00fcbingen",
-  "total_publications": 452,
+  "total_publications": 453,
   "confirmed_affiliation_count": 39,
   "open_access_count": 397,
-  "open_access_percent": 87.8,
+  "open_access_percent": 87.6,
   "scientist_join_dates": [
     "2023-07-01",
     "2023-09-01",
@@ -1631,6 +1631,31 @@
       "is_oa": true
     },
     {
+      "id": "W7212052930",
+      "title": "Towards Benchmarking Agentic Data Scientists",
+      "year": 2026,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "cited_by_count": 0,
+      "doi": "https://doi.org/10.5281/zenodo.22678813",
+      "authors": [
+        "Kartik Nayak",
+        "Nitishkumar Solpure",
+        "Niladri Mitra",
+        "Tom Zehle",
+        "Alexander Tobias Pfefferle",
+        "Omar Swelam",
+        "Frank Hutter"
+      ],
+      "institution_ids": [
+        "I161046081",
+        "I8087733"
+      ],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
+    },
+    {
       "id": "W4415981675",
       "title": "The Curious Case of In-Training Compression of State Space Models",
       "year": 2026,
@@ -1841,7 +1866,7 @@
       "title": "GWTC-4.0: Updating the Gravitational-wave Transient Catalog with Observations from the First Part of the Fourth LIGO\u2013Virgo\u2013KAGRA Observing Run",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters",
-      "cited_by_count": 54,
+      "cited_by_count": 64,
       "doi": "https://doi.org/10.3847/2041-8213/ae2c74",
       "authors": [
         "Adrian Abac",
@@ -2021,7 +2046,7 @@
       "title": "GWTC-4.0: Population Properties of Merging Compact Binaries",
       "year": 2026,
       "venue": "The Astrophysical Journal Letters",
-      "cited_by_count": 26,
+      "cited_by_count": 32,
       "doi": "https://doi.org/10.3847/2041-8213/ae771e",
       "authors": [
         "Adrian Abac",
@@ -2203,7 +2228,7 @@
       "title": "Open Data from LIGO, Virgo, and KAGRA through the First Part of the Fourth Observing Run",
       "year": 2026,
       "venue": "The Astrophysical Journal",
-      "cited_by_count": 12,
+      "cited_by_count": 13,
       "doi": "https://doi.org/10.3847/1538-4357/ae211e",
       "authors": [
         "Adrian Abac",
@@ -4693,7 +4718,7 @@
       "id": "W7165790128",
       "title": "Direct Imaging Discovery of Giant Exoplanet $\u03b2$ Pictoris d: A Decade-Long Game of Hide-and-Seek",
       "year": 2026,
-      "venue": "Open Repository and Bibliography (University of Li\u00e8ge)",
+      "venue": "arXiv (Cornell University)",
       "cited_by_count": 0,
       "doi": "https://doi.org/10.48550/arxiv.2606.23801",
       "authors": [
@@ -5500,7 +5525,7 @@
       "title": "Accurate predictions on small data with a tabular foundation model",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 871,
+      "cited_by_count": 894,
       "doi": "https://doi.org/10.1038/s41586-024-08328-6",
       "authors": [
         "Noah Hollmann",
@@ -5598,6 +5623,38 @@
       "confirmed_ellis_affiliation": true,
       "venue_category": "CVPR",
       "is_oa": false
+    },
+    {
+      "id": "W4411628101",
+      "title": "Practitioner Motives to Use Different Hyperparameter Optimization Methods",
+      "year": 2025,
+      "venue": "ACM Transactions on Computer-Human Interaction",
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.1145/3745771",
+      "authors": [
+        "Niclas Kannengie\u00dfer",
+        "Niklas Hasebrook",
+        "Felix Morsbach",
+        "Marc-Andr\u00e9 Z\u00f6ller",
+        "J\u00f6rg K. H. Franke",
+        "Marius Lindauer",
+        "Frank Hutter",
+        "Ali Sunyaev"
+      ],
+      "institution_ids": [
+        "I100066346",
+        "I102335020",
+        "I114112103",
+        "I161046081",
+        "I41121874",
+        "I4210089142",
+        "I4210163139",
+        "I62916508"
+      ],
+      "scientist": "Frank Hutter",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": true
     },
     {
       "id": "W4406123282",
@@ -5858,38 +5915,6 @@
       "is_oa": true
     },
     {
-      "id": "W4411628101",
-      "title": "Practitioner Motives to Use Different Hyperparameter Optimization Methods",
-      "year": 2025,
-      "venue": "ACM Transactions on Computer-Human Interaction",
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.1145/3745771",
-      "authors": [
-        "Niclas Kannengie\u00dfer",
-        "Niklas Hasebrook",
-        "Felix Morsbach",
-        "Marc-Andr\u00e9 Z\u00f6ller",
-        "J\u00f6rg K. H. Franke",
-        "Marius Lindauer",
-        "Frank Hutter",
-        "Ali Sunyaev"
-      ],
-      "institution_ids": [
-        "I100066346",
-        "I102335020",
-        "I114112103",
-        "I161046081",
-        "I41121874",
-        "I4210089142",
-        "I4210163139",
-        "I62916508"
-      ],
-      "scientist": "Frank Hutter",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": true
-    },
-    {
       "id": "W4414563227",
       "title": "How Usable is Automated Feature Engineering for Tabular Data?",
       "year": 2025,
@@ -5935,7 +5960,7 @@
       "id": "W4415101792",
       "title": "Unreflected Use of Tabular Data Repositories Can Undermine Research Quality",
       "year": 2025,
-      "venue": "MADOC (University of Mannheim)",
+      "venue": "arXiv (Cornell University)",
       "cited_by_count": 0,
       "doi": "https://doi.org/10.48550/arxiv.2503.09159",
       "authors": [
@@ -7005,7 +7030,7 @@
       "title": "Real-time inference for binary neutron star mergers using machine learning",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 48,
+      "cited_by_count": 49,
       "doi": "https://doi.org/10.1038/s41586-025-08593-z",
       "authors": [
         "Maximilian Dax",
@@ -7044,7 +7069,7 @@
       "title": "Evidence for eccentricity in the population of binary black holes observed by LIGO-Virgo-KAGRA",
       "year": 2025,
       "venue": "Physical review. D/Physical review. D.",
-      "cited_by_count": 38,
+      "cited_by_count": 41,
       "doi": "https://doi.org/10.1103/vpyp-nvfp",
       "authors": [
         "Nihar Gupte",
@@ -8176,7 +8201,7 @@
       "title": "Artificial intelligence for modelling infectious disease epidemics",
       "year": 2025,
       "venue": "Nature",
-      "cited_by_count": 155,
+      "cited_by_count": 158,
       "doi": "https://doi.org/10.1038/s41586-024-08564-w",
       "authors": [
         "Moritz U. G. Kraemer",
@@ -8260,61 +8285,11 @@
       "is_oa": true
     },
     {
-      "id": "W4408503131",
-      "title": "Early warning of complex climate risk with integrated artificial intelligence",
-      "year": 2025,
-      "venue": "Nature Communications",
-      "cited_by_count": 116,
-      "doi": "https://doi.org/10.1038/s41467-025-57640-w",
-      "authors": [
-        "Markus Reichstein",
-        "Vitus Benson",
-        "Jan Blunk",
-        "Gustau Camps\u2010Valls",
-        "Felix Creutzig",
-        "Carina J. Fearnley",
-        "Boran Han",
-        "Kai Kornhuber",
-        "Nasim Rahaman",
-        "Bernhard Sch\u00f6lkopf",
-        "Jos\u00e9 Mar\u00eda T\u00e1rraga",
-        "Ricardo Vinuesa",
-        "Karen Dall",
-        "Joachim Denzler",
-        "Dorothea Frank",
-        "Giulia Martini",
-        "Naomi Nganga",
-        "Danielle C. Maddix",
-        "Kommy Weldemariam"
-      ],
-      "institution_ids": [
-        "I1295768896",
-        "I1311688040",
-        "I1317774081",
-        "I152304114",
-        "I16097986",
-        "I162608824",
-        "I2801931480",
-        "I35440088",
-        "I4210134900",
-        "I4210135521",
-        "I4210154168",
-        "I45129253",
-        "I60200437",
-        "I78577930",
-        "I86987016"
-      ],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true,
-      "venue_category": "Nature",
-      "is_oa": true
-    },
-    {
       "id": "W4415208962",
       "title": "In silico biological discovery with large perturbation models",
       "year": 2025,
       "venue": "Nature Computational Science",
-      "cited_by_count": 13,
+      "cited_by_count": 15,
       "doi": "https://doi.org/10.1038/s43588-025-00870-1",
       "authors": [
         "Djordje Miladinovic",
@@ -8403,6 +8378,56 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
+      "is_oa": true
+    },
+    {
+      "id": "W4408503131",
+      "title": "Early warning of complex climate risk with integrated artificial intelligence",
+      "year": 2025,
+      "venue": "Nature Communications",
+      "cited_by_count": 124,
+      "doi": "https://doi.org/10.1038/s41467-025-57640-w",
+      "authors": [
+        "Markus Reichstein",
+        "Vitus Benson",
+        "Jan Blunk",
+        "Gustau Camps\u2010Valls",
+        "Felix Creutzig",
+        "Carina J. Fearnley",
+        "Boran Han",
+        "Kai Kornhuber",
+        "Nasim Rahaman",
+        "Bernhard Sch\u00f6lkopf",
+        "Jos\u00e9 Mar\u00eda T\u00e1rraga",
+        "Ricardo Vinuesa",
+        "Karen Dall",
+        "Joachim Denzler",
+        "Dorothea Frank",
+        "Giulia Martini",
+        "Naomi Nganga",
+        "Danielle C. Maddix",
+        "Kommy Weldemariam"
+      ],
+      "institution_ids": [
+        "I1295768896",
+        "I1311688040",
+        "I1317774081",
+        "I152304114",
+        "I16097986",
+        "I162608824",
+        "I2801931480",
+        "I35440088",
+        "I4210134900",
+        "I4210135521",
+        "I4210154168",
+        "I45129253",
+        "I60200437",
+        "I78577930",
+        "I86987016"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": true,
+      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -9693,7 +9718,7 @@
       "title": "Questioning the Survey Responses of Large Language Models",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 18,
+      "cited_by_count": 19,
       "doi": "https://doi.org/10.52202/079017-1458",
       "authors": [
         "Ricardo Dominguez-Olmedo",
@@ -10423,7 +10448,7 @@
       "title": "Managing extreme AI risks amid rapid progress",
       "year": 2024,
       "venue": "Science",
-      "cited_by_count": 302,
+      "cited_by_count": 305,
       "doi": "https://doi.org/10.1126/science.adn0117",
       "authors": [
         "Yoshua Bengio",
@@ -10472,7 +10497,7 @@
       "scientist": "Frank Hutter",
       "confirmed_ellis_affiliation": true,
       "venue_category": null,
-      "is_oa": true
+      "is_oa": false
     },
     {
       "id": "W4400140719",
@@ -11046,7 +11071,7 @@
       "title": "Search for Eccentric Black Hole Coalescences during the Third Observing Run of LIGO and Virgo",
       "year": 2024,
       "venue": "The Astrophysical Journal",
-      "cited_by_count": 40,
+      "cited_by_count": 41,
       "doi": "https://doi.org/10.3847/1538-4357/ad65ce",
       "authors": [
         "Adrian Abac",
@@ -11493,7 +11518,7 @@
       "title": "Recurrent neural networks: vanishing and exploding gradients are not the end of the story",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 15,
+      "cited_by_count": 16,
       "doi": "https://doi.org/10.52202/079017-4425",
       "authors": [
         "Nicolas Zucchet",
@@ -11510,7 +11535,7 @@
       "title": "Theoretical Foundations of Deep Selective State-Space Models",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 7,
+      "cited_by_count": 8,
       "doi": "https://doi.org/10.52202/079017-4041",
       "authors": [
         "Nicola Muca Cirone",
@@ -11698,7 +11723,7 @@
       "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models : Open X-Embodiment Collaboration 0",
       "year": 2024,
       "venue": null,
-      "cited_by_count": 159,
+      "cited_by_count": 163,
       "doi": "https://doi.org/10.1109/icra57147.2024.10611477",
       "authors": [
         "A. O'Neill",
@@ -11865,6 +11890,32 @@
       "is_oa": false
     },
     {
+      "id": "W4405533111",
+      "title": "Low-power scalable multilayer optoelectronic neural networks enabled with incoherent light",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "cited_by_count": 26,
+      "doi": "https://doi.org/10.1038/s41467-024-55139-4",
+      "authors": [
+        "Anran Song",
+        "S. Nikhilesh Kottapalli",
+        "Rahul Goyal",
+        "Bernhard Sch\u00f6lkopf",
+        "Peer Fischer"
+      ],
+      "institution_ids": [
+        "I193775966",
+        "I223822909",
+        "I4210087042",
+        "I4210104335",
+        "I4210135521"
+      ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": true,
+      "venue_category": "Nature",
+      "is_oa": true
+    },
+    {
       "id": "W4402671601",
       "title": "Mo\u00fbsai: Efficient Text-to-Music Diffusion Models",
       "year": 2024,
@@ -11885,32 +11936,6 @@
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": "ACL",
-      "is_oa": true
-    },
-    {
-      "id": "W4405533111",
-      "title": "Low-power scalable multilayer optoelectronic neural networks enabled with incoherent light",
-      "year": 2024,
-      "venue": "Nature Communications",
-      "cited_by_count": 24,
-      "doi": "https://doi.org/10.1038/s41467-024-55139-4",
-      "authors": [
-        "Anran Song",
-        "S. Nikhilesh Kottapalli",
-        "Rahul Goyal",
-        "Bernhard Sch\u00f6lkopf",
-        "Peer Fischer"
-      ],
-      "institution_ids": [
-        "I193775966",
-        "I223822909",
-        "I4210087042",
-        "I4210104335",
-        "I4210135521"
-      ],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": true,
-      "venue_category": "Nature",
       "is_oa": true
     },
     {
@@ -13212,7 +13237,7 @@
       "title": "normflows: A PyTorch Package for Normalizing Flows",
       "year": 2023,
       "venue": "The Journal of Open Source Software",
-      "cited_by_count": 41,
+      "cited_by_count": 42,
       "doi": "https://doi.org/10.21105/joss.05361",
       "authors": [
         "Vincent Stimper",
@@ -13223,7 +13248,10 @@
         "Bernhard Sch\u00f6lkopf",
         "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato"
       ],
-      "institution_ids": [],
+      "institution_ids": [
+        "I241749",
+        "I4210135521"
+      ],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
@@ -13478,6 +13506,26 @@
       "institution_ids": [
         "I4210135521"
       ],
+      "scientist": "Bernhard Sch\u00f6lkopf",
+      "confirmed_ellis_affiliation": false,
+      "venue_category": null,
+      "is_oa": false
+    },
+    {
+      "id": "W4386426778",
+      "title": "Glare Removal for Astronomical Images with High Local Dynamic Range",
+      "year": 2023,
+      "venue": null,
+      "cited_by_count": 1,
+      "doi": "https://doi.org/10.1109/iccp56744.2023.10233804",
+      "authors": [
+        "Max-Olivier Van Bastelaer",
+        "Heiner Kremer",
+        "Valentin Volchkov",
+        "Jean-Claude Passy",
+        "Bernhard Sch\u00f6lkopf"
+      ],
+      "institution_ids": [],
       "scientist": "Bernhard Sch\u00f6lkopf",
       "confirmed_ellis_affiliation": false,
       "venue_category": null,
@@ -14108,26 +14156,6 @@
       "is_oa": true
     },
     {
-      "id": "W4386426778",
-      "title": "Glare Removal for Astronomical Images with High Local Dynamic Range",
-      "year": 2023,
-      "venue": null,
-      "cited_by_count": 0,
-      "doi": "https://doi.org/10.1109/iccp56744.2023.10233804",
-      "authors": [
-        "Max-Olivier Van Bastelaer",
-        "Heiner Kremer",
-        "Valentin Volchkov",
-        "Jean-Claude Passy",
-        "Bernhard Sch\u00f6lkopf"
-      ],
-      "institution_ids": [],
-      "scientist": "Bernhard Sch\u00f6lkopf",
-      "confirmed_ellis_affiliation": false,
-      "venue_category": null,
-      "is_oa": false
-    },
-    {
       "id": "W4386755387",
       "title": "Investigating the Impact of Action Representations in Policy Gradient Algorithms",
       "year": 2023,
@@ -14343,7 +14371,7 @@
     "Jakob Macke": 18,
     "Wieland Brendel": 46,
     "Jonas Geiping": 40,
-    "Frank Hutter": 93,
+    "Frank Hutter": 95,
     "T. Konstantin Rusch": 12,
     "Shiwei Liu": 0,
     "Maksym Andriushchenko": 15,
@@ -14358,7 +14386,7 @@
     "2023": 73,
     "2024": 162,
     "2025": 163,
-    "2026": 168
+    "2026": 170
   },
   "top_venues_by_year": {
     "2023": {
@@ -14386,9 +14414,9 @@
     }
   },
   "ellis_site_collaborations": {
-    "ELLIS Unit Freiburg": 39,
+    "ELLIS Unit Freiburg": 41,
     "ELLIS Unit ETH Zurich": 36,
-    "ELLIS Unit Cambridge": 20,
+    "ELLIS Unit Cambridge": 21,
     "ELLIS Unit Oxford": 14,
     "ELLIS Unit Lausanne": 7,
     "ELLIS Unit Copenhagen": 6,
@@ -15718,7 +15746,7 @@
   "h_index_distribution": [
     7,
     7,
-    8,
+    7,
     9,
     13,
     15,
@@ -15729,8 +15757,8 @@
     22,
     31,
     37,
-    73,
-    144
+    72,
+    142
   ],
   "budget_by_year": {
     "2023": 316627.0,
